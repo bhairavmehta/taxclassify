@@ -1,0 +1,380 @@
+{
+ "_note": "Combined from data, data_sample_b. Reports are SYNTHETIC (written or template-generated for the trial), not real events.",
+ "definitions": [
+  {
+   "id": "IND-01",
+   "source": "ICAO Doc 9870, Manual on the Prevention of Runway Incursions",
+   "term": "Runway incursion",
+   "parents": [
+    "RI"
+   ],
+   "text": "Any occurrence at an aerodrome involving the incorrect presence of an aircraft, vehicle or person on the protected area of a surface designated for the landing and takeoff of aircraft."
+  },
+  {
+   "id": "IND-02",
+   "source": "FAA Runway Safety programme",
+   "term": "Runway incursion types",
+   "parents": [
+    "RI"
+   ],
+   "text": "Runway incursions are classified by cause as pilot deviations, operational incidents (controller actions) or vehicle and pedestrian deviations, and by severity from A to D."
+  },
+  {
+   "id": "IND-03",
+   "source": "FAA Runway Safety programme",
+   "term": "Wrong-surface event",
+   "parents": [
+    "RI"
+   ],
+   "text": "A landing, attempted landing, line-up or takeoff on a surface other than the one assigned: a wrong runway, a taxiway, a closed runway or the wrong airport."
+  },
+  {
+   "id": "IND-04",
+   "source": "NASA ASRS coding taxonomy",
+   "term": "Anomaly: Ground Incursion – Runway or Taxiway",
+   "parents": [
+    "RI"
+   ],
+   "text": "An aircraft, vehicle or person entering a runway or taxiway without authorization, or an aircraft using a taxiway or the wrong runway for landing or takeoff."
+  },
+  {
+   "id": "IND-05",
+   "source": "SKYbrary – Runway Excursion",
+   "term": "Runway excursion (veer-off and overrun)",
+   "parents": [
+    "RE"
+   ],
+   "text": "An aircraft leaves the runway surface during takeoff or landing, either by veering off the side or by overrunning the end."
+  },
+  {
+   "id": "IND-06",
+   "source": "ICAO Global Reporting Format (GRF) for runway surface conditions",
+   "term": "Runway condition code (RWYCC)",
+   "parents": [
+    "RE"
+   ],
+   "text": "A runway condition code from 6 (dry) down to 0 reports braking performance on wet or contaminated runways (water, slush, snow, ice), so crews can recompute landing distance."
+  },
+  {
+   "id": "IND-07",
+   "source": "NASA ASRS coding taxonomy",
+   "term": "Anomaly: Ground Excursion – Runway",
+   "parents": [
+    "RE"
+   ],
+   "text": "An aircraft departs the runway surface during the takeoff or landing roll, including overruns after a long or fast landing."
+  },
+  {
+   "id": "IND-08",
+   "source": "IATA – Loss of Control In-flight (LOC-I)",
+   "term": "Loss of control in-flight",
+   "parents": [
+    "LOC-I"
+   ],
+   "text": "A significant, unintended departure of the aircraft from controlled flight, such as a stall, spin or upset, often following a system malfunction or crew response to erroneous indications."
+  },
+  {
+   "id": "IND-09",
+   "source": "SKYbrary – Unreliable Airspeed",
+   "term": "Unreliable airspeed",
+   "parents": [
+    "LOC-I",
+    "SCF-NP"
+   ],
+   "text": "Erroneous or disagreeing airspeed indications, for example from pitot icing, ice crystals or a blocked pitot tube, which can lead to an upset if the crew follows the wrong indication."
+  },
+  {
+   "id": "IND-10",
+   "source": "ICAO Annex 10 – Airborne Collision Avoidance System (ACAS)",
+   "term": "Resolution advisory (RA)",
+   "parents": [
+    "MAC"
+   ],
+   "text": "An ACAS or TCAS indication to the flight crew recommending a vertical manoeuvre to increase separation from conflicting traffic."
+  },
+  {
+   "id": "IND-11",
+   "source": "EUROCONTROL – Level bust",
+   "term": "Level bust (altitude deviation)",
+   "parents": [
+    "MAC",
+    "NAV"
+   ],
+   "text": "An unauthorised vertical deviation of more than 300 feet from the cleared flight level or altitude, a common cause of loss of separation and TCAS resolution advisories."
+  },
+  {
+   "id": "IND-12",
+   "source": "NASA ASRS coding taxonomy",
+   "term": "Conflict: Airborne Conflict / NMAC",
+   "parents": [
+    "MAC"
+   ],
+   "text": "Two aircraft in flight come into conflict or lose separation, including near midair collisions and TCAS events."
+  },
+  {
+   "id": "IND-13",
+   "source": "SKYbrary – Clear Air Turbulence",
+   "term": "Clear-air turbulence (CAT)",
+   "parents": [
+    "TURB"
+   ],
+   "text": "Turbulence in cloud-free air, often near jet streams or over mountains, with no visual cue and often not shown on weather radar."
+  },
+  {
+   "id": "IND-14",
+   "source": "FAA Advisory Circular 120-88A – Preventing Injuries Caused by Turbulence",
+   "term": "Turbulence-related injuries",
+   "parents": [
+    "TURB",
+    "CABIN"
+   ],
+   "text": "Passengers and flight attendants are injured in turbulence mainly when standing or not wearing seat belts, and by unsecured carts and galley equipment."
+  },
+  {
+   "id": "IND-15",
+   "source": "FAA National Wildlife Strike Database",
+   "term": "Wildlife strike",
+   "parents": [
+    "BIRD"
+   ],
+   "text": "A collision between an aircraft and a bird or other wildlife, including ingestion into an engine, reported with damage and phase of flight."
+  },
+  {
+   "id": "IND-16",
+   "source": "14 CFR 33.76 – Bird ingestion (engine certification)",
+   "term": "Engine bird ingestion",
+   "parents": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "text": "Engines must be shown to withstand the ingestion of birds of defined sizes; large or multiple bird ingestion can damage fan blades and cause surge, loss of thrust, shutdown or fire."
+  },
+  {
+   "id": "IND-17",
+   "source": "FAA holdover time guidelines (ground de-icing and anti-icing)",
+   "term": "Holdover time",
+   "parents": [
+    "ICE"
+   ],
+   "text": "The estimated time a de-icing or anti-icing fluid protects aircraft surfaces from frost or ice; if it is exceeded before takeoff, the aircraft must be checked or de-iced again."
+  },
+  {
+   "id": "IND-18",
+   "source": "SKYbrary – Hard Landing and Tail Strike",
+   "term": "Hard landing, tail strike",
+   "parents": [
+    "ARC"
+   ],
+   "text": "A touchdown with a vertical load above limits, a bounced landing, or contact of the tail with the runway during takeoff rotation or landing flare."
+  },
+  {
+   "id": "IND-19",
+   "source": "FAA Runway Safety programme",
+   "term": "Vehicle or pedestrian deviation",
+   "parents": [
+    "RI"
+   ],
+   "text": "A runway incursion caused by a ground vehicle or a person, such as a driver or pedestrian entering a runway without ATC authorization."
+  },
+  {
+   "id": "IND-20",
+   "source": "SKYbrary – Crosswind Landings",
+   "term": "Crosswind landing",
+   "parents": [
+    "RE"
+   ],
+   "text": "Landing with a wind component across the runway; strong or gusty crosswinds near the aircraft limit increase the risk of lateral runway excursion (veer-off)."
+  },
+  {
+   "id": "IND-21",
+   "source": "FAA Advisory Circular 120-109A – Stall Prevention and Recovery Training",
+   "term": "Stall prevention and recovery",
+   "parents": [
+    "LOC-I"
+   ],
+   "text": "Training to recognise and recover from approaches to stall and full stalls, including during go-arounds with high thrust and pitch."
+  },
+  {
+   "id": "IND-22",
+   "source": "FAA Advisory Circular 90-23G – Aircraft Wake Turbulence",
+   "term": "Wake turbulence",
+   "parents": [
+    "TURB"
+   ],
+   "text": "Vortices from a preceding aircraft, strongest behind heavy aircraft at slow speed, can cause sudden rolls on approach or departure; spacing reduces the risk."
+  },
+  {
+   "id": "IND-23",
+   "source": "ICAO Doc 4444 – PANS-ATM (separation minima)",
+   "term": "Loss of separation",
+   "parents": [
+    "MAC",
+    "ATM"
+   ],
+   "text": "Two aircraft come closer than the prescribed separation minima, often after an ATC clearance or instruction puts them in conflict."
+  },
+  {
+   "id": "IND-24",
+   "source": "SKYbrary – Hydraulic System Failure",
+   "term": "Hydraulic system failure",
+   "parents": [
+    "SCF-NP"
+   ],
+   "text": "Loss of hydraulic fluid or pressure that degrades flight controls, brakes, steering or landing gear, handled with non-normal checklists."
+  },
+  {
+   "id": "IND-25",
+   "source": "SKYbrary – Landing Gear Malfunction",
+   "term": "Landing gear malfunction",
+   "parents": [
+    "SCF-NP"
+   ],
+   "text": "Failure of a landing gear leg to extend, retract or lock, requiring alternate extension or a landing with gear not fully down."
+  },
+  {
+   "id": "IND-26",
+   "source": "14 CFR 121.354 – Terrain awareness and warning system",
+   "term": "Terrain awareness and warning system (TAWS)",
+   "parents": [
+    "CFIT"
+   ],
+   "text": "Airliners must carry a system that warns the crew of terrain, obstacles and excessive descent so they can climb away before impact."
+  },
+  {
+   "id": "IND-27",
+   "source": "EASA Safety Information Bulletin 2022-02 – GNSS outages and alterations",
+   "term": "GNSS jamming and spoofing",
+   "parents": [
+    "NAV"
+   ],
+   "text": "Interference with satellite navigation signals, by jamming or spoofing, causes loss of GPS position, false positions or false terrain warnings, especially near conflict zones."
+  },
+  {
+   "id": "IND-28",
+   "source": "SKYbrary – In-Flight Shutdown",
+   "term": "In-flight engine shutdown (IFSD)",
+   "parents": [
+    "SCF-PP"
+   ],
+   "text": "An engine is shut down in flight because of a failure or a precautionary indication such as low oil pressure, high vibration or fire."
+  },
+  {
+   "id": "IND-29",
+   "source": "FAA Advisory Circular 120-60B – Ground Deicing and Anti-icing Program",
+   "term": "Clean aircraft concept",
+   "parents": [
+    "ICE"
+   ],
+   "text": "No takeoff may be made with frost, ice or snow adhering to wings or control surfaces; contamination must be removed before departure."
+  },
+  {
+   "id": "IND-30",
+   "source": "ICAO Doc 10117 – Manual on the Legal Aspects of Unruly and Disruptive Passengers",
+   "term": "Unruly or disruptive passenger",
+   "parents": [
+    "CABIN"
+   ],
+   "text": "A passenger who fails to respect rules of conduct or to follow crew instructions, disturbing good order and discipline on board."
+  },
+  {
+   "id": "IND-31",
+   "source": "FAA SAFO – Fire risks from lithium batteries in the cabin",
+   "term": "Lithium battery fire",
+   "parents": [
+    "F-NI",
+    "CABIN"
+   ],
+   "text": "Portable electronic devices and power banks can overheat in thermal runaway, producing smoke and fire in the cabin; crew cool the device with water or non-alcoholic liquid."
+  },
+  {
+   "id": "IND-32",
+   "source": "SKYbrary – Smoke and Fumes",
+   "term": "Smoke or fumes in flight",
+   "parents": [
+    "F-NI"
+   ],
+   "text": "Smoke, fumes or burning smells in the flight deck or cabin, often electrical in origin, handled with oxygen masks and the smoke checklist."
+  },
+  {
+   "id": "IND-33",
+   "source": "ICAO Annex 6 – Fuel planning and in-flight fuel management",
+   "term": "Minimum fuel and fuel emergency",
+   "parents": [
+    "FUEL"
+   ],
+   "text": "The crew declares MINIMUM FUEL when any change may land them below final reserve, and MAYDAY FUEL when the landing fuel is expected to be below final reserve."
+  },
+  {
+   "id": "IND-34",
+   "source": "IATA Ground Operations Manual – Pushback and towing",
+   "term": "Pushback and towing",
+   "parents": [
+    "RAMP"
+   ],
+   "text": "Moving an aircraft with a tug or towbar, with wing walkers and headset communication, to prevent collisions with aircraft, vehicles and objects."
+  },
+  {
+   "id": "IND-35",
+   "source": "SKYbrary – Tailstrike",
+   "term": "Tail strike",
+   "parents": [
+    "ARC"
+   ],
+   "text": "The aft fuselage contacts the runway during takeoff rotation or landing, often after early rotation, wrong takeoff speeds or excessive pitch."
+  },
+  {
+   "id": "IND-36",
+   "source": "FAA Advisory Circular 00-54 – Pilot Windshear Guide",
+   "term": "Low-level windshear",
+   "parents": [
+    "WSTRW"
+   ],
+   "text": "Sudden changes in wind speed or direction near the ground, such as microbursts from thunderstorms, causing airspeed loss; crews fly the windshear escape manoeuvre."
+  },
+  {
+   "id": "IND-37",
+   "source": "SKYbrary – Landing Short (Undershoot)",
+   "term": "Undershoot",
+   "parents": [
+    "USOS"
+   ],
+   "text": "The aircraft touches down before the runway threshold, often after an unstable or low approach or a visual illusion."
+  },
+  {
+   "id": "IND-38",
+   "source": "FAA Advisory Circular 91-74B – Pilot Guide: Flight in Icing Conditions",
+   "term": "In-flight airframe icing",
+   "parents": [
+    "ICE"
+   ],
+   "text": "Ice accumulates on wings, tail and windshield in supercooled cloud or freezing drizzle, increasing drag and stall speed."
+  },
+  {
+   "id": "IND-39",
+   "source": "FAA National Wildlife Strike Database – strike reporting",
+   "term": "Damaging bird strike",
+   "parents": [
+    "BIRD"
+   ],
+   "text": "A collision with birds that damages the aircraft, such as a cracked windshield, dented radome or ingested engine, reported to the wildlife strike database."
+  },
+  {
+   "id": "IND-40",
+   "source": "FAA Runway Safety programme – Pilot deviation",
+   "term": "Pilot deviation (runway incursion)",
+   "parents": [
+    "RI"
+   ],
+   "text": "A runway incursion caused by a pilot, such as crossing a hold-short line or entering a runway without an ATC clearance."
+  },
+  {
+   "id": "IND-41",
+   "source": "SKYbrary – Lateral Navigation Error",
+   "term": "Lateral navigation error",
+   "parents": [
+    "NAV"
+   ],
+   "text": "The aircraft leaves its cleared route because of a wrong route, waypoint or procedure loaded in the flight management system."
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "_note": "Combined from data, data_sample_b. Reports are SYNTHETIC (written or template-generated for the trial), not real events.",
+ "categories": [
+  {
+   "code": "RI",
+   "name": "Runway Incursion",
+   "in_scope": true,
+   "definition": "Incorrect presence of an aircraft, vehicle or person on the protected area of a surface designated for the landing and takeoff of aircraft. Includes entering or crossing a runway without clearance.",
+   "team_note": "In the SEWG pilot, landing or takeoff on an unintended surface (taxiway, closed or wrong runway, wrong airport) is decomposed under RI (US 311617)."
+  },
+  {
+   "code": "RE",
+   "name": "Runway Excursion",
+   "in_scope": true,
+   "definition": "An aircraft veers off the side of the runway or overruns the end of the runway during takeoff or landing."
+  },
+  {
+   "code": "ARC",
+   "name": "Abnormal Runway Contact",
+   "in_scope": true,
+   "definition": "Any landing or takeoff involving abnormal contact with the runway or landing surface, such as hard landings, bounced landings, tail strikes and wing or nacelle strikes."
+  },
+  {
+   "code": "LOC-I",
+   "name": "Loss of Control – Inflight",
+   "in_scope": true,
+   "definition": "Loss of aircraft control or an extreme deviation from the intended flight path while in flight, including stalls and upsets."
+  },
+  {
+   "code": "MAC",
+   "name": "Airprox / ACAS alert / loss of separation / near midair / midair collision",
+   "in_scope": true,
+   "definition": "Airprox, ACAS or TCAS alerts, loss of separation, and near or actual midair collisions between aircraft in flight."
+  },
+  {
+   "code": "TURB",
+   "name": "Turbulence Encounter",
+   "in_scope": true,
+   "definition": "In-flight encounter with turbulence, including clear-air, mountain wave, convective and wake turbulence."
+  },
+  {
+   "code": "SCF-PP",
+   "name": "System/Component Failure – Powerplant",
+   "in_scope": true,
+   "definition": "Failure or malfunction of an aircraft system or component related to the powerplant, including engine shutdown, surge, loss of thrust and engine fire."
+  },
+  {
+   "code": "SCF-NP",
+   "name": "System/Component Failure – Non-Powerplant",
+   "in_scope": true,
+   "definition": "Failure or malfunction of an aircraft system or component other than the powerplant, such as flight instruments, pitot-static and air data systems."
+  },
+  {
+   "code": "BIRD",
+   "name": "Bird",
+   "in_scope": true,
+   "definition": "Occurrence involving a collision or near collision with birds, including bird ingestion into engines."
+  },
+  {
+   "code": "ICE",
+   "name": "Icing",
+   "in_scope": true,
+   "definition": "Accumulation of snow, ice, freezing rain or frost on aircraft surfaces or sensors that adversely affects control, performance or instrument indications, including ground de-icing issues."
+  },
+  {
+   "code": "CFIT",
+   "name": "Controlled Flight Into or Toward Terrain",
+   "in_scope": true,
+   "definition": "In-flight collision or near collision with terrain, water or an obstacle without indication of loss of control, including terrain warnings."
+  },
+  {
+   "code": "CABIN",
+   "name": "Cabin Safety Events",
+   "in_scope": true,
+   "definition": "Occurrences in the passenger cabin of transport aircraft, including injuries to passengers or cabin crew and unsecured carts or galley equipment."
+  },
+  {
+   "code": "NAV",
+   "name": "Navigation Error",
+   "in_scope": true,
+   "definition": "Navigating the aircraft incorrectly, including deviations from the cleared route or altitude and landing at the wrong airport."
+  },
+  {
+   "code": "ATM",
+   "name": "ATM/CNS",
+   "in_scope": true,
+   "co_code_only": true,
+   "definition": "Occurrences involving air traffic management or communication, navigation and surveillance services, such as controller errors or clearance misunderstandings."
+  },
+  {
+   "code": "RAMP",
+   "name": "Ground Handling",
+   "in_scope": true,
+   "definition": "Occurrences during ground handling operations, such as servicing, loading and towing, including damage from ground equipment."
+  },
+  {
+   "code": "F-NI",
+   "name": "Fire/Smoke (Non-Impact)",
+   "in_scope": true,
+   "definition": "Fire or smoke in or on the aircraft, in flight or on the ground, not resulting from an impact."
+  },
+  {
+   "code": "FUEL",
+   "name": "Fuel Related",
+   "in_scope": true,
+   "definition": "Occurrences related to fuel quantity, imbalance, contamination or fuel system management."
+  },
+  {
+   "code": "WSTRW",
+   "name": "Windshear or Thunderstorm",
+   "in_scope": true,
+   "definition": "Flight into windshear or thunderstorm, including microbursts, sudden wind changes and associated loss of airspeed or altitude."
+  },
+  {
+   "code": "USOS",
+   "name": "Undershoot/Overshoot",
+   "in_scope": true,
+   "definition": "A touchdown off the runway surface before the threshold (undershoot) or a landing beyond the runway end that is not an excursion during the roll."
+  },
+  {
+   "code": "OTHR",
+   "name": "Other",
+   "in_scope": false,
+   "definition": "Occurrences that do not fit any other category; a holding pool for emerging issues."
+  }
+ ]
+}

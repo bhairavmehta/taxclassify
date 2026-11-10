@@ -1,0 +1,3672 @@
+{
+ "taxonomy_version": "combined-draft-a75aa638d3",
+ "run_id": "run-combined-20261109T200055880",
+ "base_release": null,
+ "levels": [
+  "CICTT L1 (ICAO parent)",
+  "L2 bucket"
+ ],
+ "parents": [
+  {
+   "code": "ARC",
+   "name": "Abnormal Runway Contact",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B22",
+     "name": "Tail strike on takeoff",
+     "level": "L2",
+     "definition": "The tail strikes the runway during takeoff rotation, often after early or fast rotation or a wrong takeoff speed or weight.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-35",
+      "IND-18"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT ARC (Abnormal Runway Contact) definition.",
+       "cite": "parent:ARC",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The tail strikes the runway during takeoff rotation, often after early or fast rotation or a wrong takeoff speed or weight.",
+       "cite": "candidate:B22",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Tail strike' (SKYbrary \u2013 Tailstrike): The aft fuselage contacts the runway during takeoff rotation or landing, often after early rotation, wrong takeoff speeds or excessive pitch.",
+       "cite": "definition:IND-35",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Hard landing, tail strike' (SKYbrary \u2013 Hard Landing and Tail Strike): A touchdown with a vertical load above limits, a bounced landing, or contact of the tail with the runway during takeoff rotation or landing flare.",
+       "cite": "definition:IND-18",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'rotation' (3 of 6 supporting reports).",
+       "cite": "report:SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      },
+      {
+       "text": "Narrative describes 'tail' (3 of 6 supporting reports).",
+       "cite": "report:SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      },
+      {
+       "text": "Narrative describes 'weight' (3 of 6 supporting reports).",
+       "cite": "report:SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling C9 'Hard landing or tail strike' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SYNB-170",
+       "quote": "During rotation on Runway 16 the tail of the CRJ900 struck the runway."
+      },
+      {
+       "text": "Coded RI (Runway Incursion) rather than ARC: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-002",
+       "quote": "Cleared for takeoff on Runway 4L, the crew taxied onto Runway 4R, which was closed for construction."
+      },
+      {
+       "text": "Not 'Wrong-surface event' \u2014 that definition is crosswalked to RI, not ARC.",
+       "cite": "definition:IND-03",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not ARC.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not ARC.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RI (Runway Incursion) (runner-up parent, margin 0.74).",
+       "cite": "parent:RI",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      },
+      {
+       "report_key": "SYNB-173",
+       "quote": "During rotation on Runway 34L the tail of the B737-800 struck the runway."
+      },
+      {
+       "report_key": "SYNB-174",
+       "quote": "During rotation on Runway 36 the tail of the A320 struck the runway."
+      },
+      {
+       "report_key": "SYNB-167",
+       "quote": "The takeoff speeds had been computed with the wrong weight."
+      },
+      {
+       "report_key": "SYNB-172",
+       "quote": "The takeoff speeds had been computed with the wrong weight."
+      },
+      {
+       "report_key": "SYNB-168",
+       "quote": "The pilot flying rotated early and fast."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "C9",
+     "name": "Hard landing or tail strike",
+     "level": "L2",
+     "definition": "A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare.",
+     "status": "needs_review",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-18",
+      "IND-35"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT ARC (Abnormal Runway Contact) definition.",
+       "cite": "parent:ARC",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare.",
+       "cite": "candidate:C9",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Hard landing, tail strike' (SKYbrary \u2013 Hard Landing and Tail Strike): A touchdown with a vertical load above limits, a bounced landing, or contact of the tail with the runway during takeoff rotation or landing flare.",
+       "cite": "definition:IND-18",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Tail strike' (SKYbrary \u2013 Tailstrike): The aft fuselage contacts the runway during takeoff rotation or landing, often after early rotation, wrong takeoff speeds or excessive pitch.",
+       "cite": "definition:IND-35",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'hard' (5 of 7 supporting reports).",
+       "cite": "report:SAMPLE-034",
+       "quote": "A late flare in gusty winds led to a hard landing and a tail strike."
+      },
+      {
+       "text": "Narrative describes 'landing' (5 of 7 supporting reports).",
+       "cite": "report:SAMPLE-034",
+       "quote": "A late flare in gusty winds led to a hard landing and a tail strike."
+      },
+      {
+       "text": "Narrative describes 'carried' (3 of 7 supporting reports).",
+       "cite": "report:SYNB-240",
+       "quote": "A hard landing inspection was carried out."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B22 'Tail strike on takeoff' when it matches that bucket better (5 report(s) assigned there).",
+       "cite": "report:SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      },
+      {
+       "text": "Not 'Damaging bird strike' \u2014 that definition is crosswalked to BIRD, not ARC.",
+       "cite": "definition:IND-39",
+       "quote": null
+      },
+      {
+       "text": "Not 'Landing gear malfunction' \u2014 that definition is crosswalked to SCF-NP, not ARC.",
+       "cite": "definition:IND-25",
+       "quote": null
+      },
+      {
+       "text": "Not 'Runway condition code (RWYCC)' \u2014 that definition is crosswalked to RE, not ARC.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT USOS (Undershoot/Overshoot) (runner-up parent, margin 0.87).",
+       "cite": "parent:USOS",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-034",
+       "quote": "A late flare in gusty winds led to a hard landing and a tail strike."
+      },
+      {
+       "report_key": "SAMPLE-036",
+       "quote": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+      },
+      {
+       "report_key": "SYNB-170",
+       "quote": "During rotation on Runway 16 the tail of the CRJ900 struck the runway."
+      },
+      {
+       "report_key": "SYNB-240",
+       "quote": "A hard landing inspection was carried out."
+      },
+      {
+       "report_key": "SYNB-260",
+       "quote": "A hard landing inspection was carried out."
+      },
+      {
+       "report_key": "SYNB-220",
+       "quote": "A hard landing inspection was carried out."
+      },
+      {
+       "report_key": "SYNB-169",
+       "quote": "During rotation on Runway 09L the tail of the B777-300ER struck the runway."
+      }
+     ],
+     "failed_checks": [
+      "G8"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BIRD",
+   "name": "Bird",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B15",
+     "name": "Bird ingestion damaging an engine on takeoff or climb",
+     "level": "L2",
+     "definition": "One or more birds are ingested into an engine during takeoff or initial climb, causing vibration, surging or loss of thrust.",
+     "status": "needs_review",
+     "publishable": false,
+     "merged_from": [
+      "C7"
+     ],
+     "industry_definitions": [
+      "IND-16",
+      "IND-39",
+      "IND-15"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT BIRD (Bird) definition.",
+       "cite": "parent:BIRD",
+       "quote": null
+      },
+      {
+       "text": "Core definition: One or more birds are ingested into an engine during takeoff or initial climb, causing vibration, surging or loss of thrust.",
+       "cite": "candidate:B15",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Engine bird ingestion' (14 CFR 33.76 \u2013 Bird ingestion (engine certification)): Engines must be shown to withstand the ingestion of birds of defined sizes; large or multiple bird ingestion can damage fan blades and cause surge, loss of thrust, shutdown or fire.",
+       "cite": "definition:IND-16",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Damaging bird strike' (FAA National Wildlife Strike Database \u2013 strike reporting): A collision with birds that damages the aircraft, such as a cracked windshield, dented radome or ingested engine, reported to the wildlife strike database.",
+       "cite": "definition:IND-39",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Wildlife strike' (FAA National Wildlife Strike Database): A collision between an aircraft and a bird or other wildlife, including ingestion into an engine, reported with damage and phase of flight.",
+       "cite": "definition:IND-15",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'engine' (11 of 11 supporting reports).",
+       "cite": "report:SAMPLE-031",
+       "quote": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+      },
+      {
+       "text": "Narrative describes 'bird' (10 of 11 supporting reports).",
+       "cite": "report:SAMPLE-031",
+       "quote": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+      },
+      {
+       "text": "Narrative describes 'ingesting' (9 of 11 supporting reports).",
+       "cite": "report:SAMPLE-031",
+       "quote": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B16 'Bird strike damaging the windshield or nose on approach' under the same parent.",
+       "cite": "sibling:B16",
+       "quote": null
+      },
+      {
+       "text": "Not 'In-flight engine shutdown (IFSD)' \u2014 that definition is crosswalked to SCF-PP, not BIRD.",
+       "cite": "definition:IND-28",
+       "quote": null
+      },
+      {
+       "text": "Not 'Stall prevention and recovery' \u2014 that definition is crosswalked to LOC-I, not BIRD.",
+       "cite": "definition:IND-21",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT SCF-PP (System/Component Failure \u2013 Powerplant) (runner-up parent, margin 0.02).",
+       "cite": "parent:SCF-PP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-031",
+       "quote": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+      },
+      {
+       "report_key": "SAMPLE-029",
+       "quote": "Multiple bird strikes during the takeoff roll caused the right engine to surge, and the crew rejected the takeoff."
+      },
+      {
+       "report_key": "SAMPLE-028",
+       "quote": "The engine vibrated and lost thrust, and the crew shut it down and returned."
+      },
+      {
+       "report_key": "SYNB-113",
+       "quote": "The right engine showed high vibration after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-117",
+       "quote": "The right engine showed high vibration after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-114",
+       "quote": "The number 1 engine showed high vibration after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-111",
+       "quote": "The number 1 engine surged with loud bangs after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-115",
+       "quote": "The left engine lost thrust after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-118",
+       "quote": "The left engine showed high vibration after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-116",
+       "quote": "The number 1 engine surged with loud bangs after ingesting birds."
+      },
+      {
+       "report_key": "SYNB-112",
+       "quote": "The right engine surged with loud bangs after ingesting birds."
+      }
+     ],
+     "failed_checks": [
+      "G7"
+     ]
+    },
+    {
+     "bucket_id": "B16",
+     "name": "Bird strike damaging the windshield or nose on approach",
+     "level": "L2",
+     "definition": "A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-39",
+      "IND-16",
+      "IND-15"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT BIRD (Bird) definition.",
+       "cite": "parent:BIRD",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage.",
+       "cite": "candidate:B16",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Damaging bird strike' (FAA National Wildlife Strike Database \u2013 strike reporting): A collision with birds that damages the aircraft, such as a cracked windshield, dented radome or ingested engine, reported to the wildlife strike database.",
+       "cite": "definition:IND-39",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Engine bird ingestion' (14 CFR 33.76 \u2013 Bird ingestion (engine certification)): Engines must be shown to withstand the ingestion of birds of defined sizes; large or multiple bird ingestion can damage fan blades and cause surge, loss of thrust, shutdown or fire.",
+       "cite": "definition:IND-16",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Wildlife strike' (FAA National Wildlife Strike Database): A collision between an aircraft and a bird or other wildlife, including ingestion into an engine, reported with damage and phase of flight.",
+       "cite": "definition:IND-15",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'struck' (10 of 11 supporting reports).",
+       "cite": "report:SYNB-214",
+       "quote": "A bird struck the radome during the approach."
+      },
+      {
+       "text": "Narrative describes 'descent' (7 of 11 supporting reports).",
+       "cite": "report:SYNB-120",
+       "quote": "On descent through 5,000 ft a large pelican struck the radome."
+      },
+      {
+       "text": "Narrative describes 'large' (7 of 11 supporting reports).",
+       "cite": "report:SYNB-120",
+       "quote": "On descent through 5,000 ft a large pelican struck the radome."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B15 'Bird ingestion damaging an engine on takeoff or climb' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-031",
+       "quote": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+      },
+      {
+       "text": "Not 'Hard landing, tail strike' \u2014 that definition is crosswalked to ARC, not BIRD.",
+       "cite": "definition:IND-18",
+       "quote": null
+      },
+      {
+       "text": "Not 'Tail strike' \u2014 that definition is crosswalked to ARC, not BIRD.",
+       "cite": "definition:IND-35",
+       "quote": null
+      },
+      {
+       "text": "Not 'Terrain awareness and warning system (TAWS)' \u2014 that definition is crosswalked to CFIT, not BIRD.",
+       "cite": "definition:IND-26",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RAMP (Ground Handling) (runner-up parent, margin 0.75).",
+       "cite": "parent:RAMP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-030",
+       "quote": "A bird strike on approach was found on the post-flight inspection, with dents on the radome."
+      },
+      {
+       "report_key": "SYNB-214",
+       "quote": "A bird struck the radome during the approach."
+      },
+      {
+       "report_key": "SYNB-254",
+       "quote": "A bird struck the windshield during the approach."
+      },
+      {
+       "report_key": "SYNB-120",
+       "quote": "On descent through 5,000 ft a large pelican struck the radome."
+      },
+      {
+       "report_key": "SYNB-121",
+       "quote": "On descent through 5,000 feet a large eagle struck the radome."
+      },
+      {
+       "report_key": "SYNB-126",
+       "quote": "On descent through 3,000 feet a large goose struck the windshield."
+      },
+      {
+       "report_key": "SYNB-123",
+       "quote": "On descent through 3,000 ft a large pelican struck the radome."
+      },
+      {
+       "report_key": "SYNB-124",
+       "quote": "On descent through 5,000 ft a large goose struck the nose."
+      },
+      {
+       "report_key": "SYNB-119",
+       "quote": "On descent through 3,000 ft a large goose struck the windshield."
+      },
+      {
+       "report_key": "SYNB-125",
+       "quote": "On descent through 3,000 feet a large pelican struck the radome."
+      },
+      {
+       "report_key": "SYNB-234",
+       "quote": "A bird struck the left wing leading edge during the approach."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "CABIN",
+   "name": "Cabin Safety Events",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B21",
+     "name": "Disruptive or unruly passenger",
+     "level": "L2",
+     "definition": "A passenger is aggressive, intoxicated or refuses crew instructions, interfering with the crew or other passengers.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-30"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT CABIN (Cabin Safety Events) definition.",
+       "cite": "parent:CABIN",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A passenger is aggressive, intoxicated or refuses crew instructions, interfering with the crew or other passengers.",
+       "cite": "candidate:B21",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Unruly or disruptive passenger' (ICAO Doc 10117 \u2013 Manual on the Legal Aspects of Unruly and Disruptive Passengers): A passenger who fails to respect rules of conduct or to follow crew instructions, disturbing good order and discipline on board.",
+       "cite": "definition:IND-30",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'passenger' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-160",
+       "quote": "A intoxicated passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "text": "Narrative describes 'follow' (5 of 8 supporting reports).",
+       "cite": "report:SYNB-160",
+       "quote": "A intoxicated passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "text": "Narrative describes 'instructions' (5 of 8 supporting reports).",
+       "cite": "report:SYNB-160",
+       "quote": "A intoxicated passenger refused to follow crew instructions during the flight."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling C6 'Clear-air turbulence with cabin injuries' when it matches that bucket better (2 report(s) assigned there).",
+       "cite": "report:SAMPLE-024",
+       "quote": "A passenger standing in the aisle broke an ankle."
+      },
+      {
+       "text": "Events better described by CICTT TURB (Turbulence Encounter) (runner-up parent, margin 0.80).",
+       "cite": "parent:TURB",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-160",
+       "quote": "A intoxicated passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "report_key": "SYNB-159",
+       "quote": "A aggressive passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "report_key": "SYNB-163",
+       "quote": "A agitated passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "report_key": "SYNB-161",
+       "quote": "A aggressive passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "report_key": "SYNB-166",
+       "quote": "A aggressive passenger refused to follow crew instructions during the flight."
+      },
+      {
+       "report_key": "SYNB-164",
+       "quote": "A aggressive passenger shouted at cabin crew during the flight."
+      },
+      {
+       "report_key": "SYNB-165",
+       "quote": "Cabin crew restrained the passenger with help from others."
+      },
+      {
+       "report_key": "SYNB-162",
+       "quote": "Cabin crew restrained the passenger with help from others."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "C6",
+     "name": "Clear-air turbulence with cabin injuries",
+     "level": "L2",
+     "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+     "status": "needs_review",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-14"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT CABIN (Cabin Safety Events) definition.",
+       "cite": "parent:CABIN",
+       "quote": null
+      },
+      {
+       "text": "Core definition: An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+       "cite": "candidate:C6",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Turbulence-related injuries' (FAA Advisory Circular 120-88A \u2013 Preventing Injuries Caused by Turbulence): Passengers and flight attendants are injured in turbulence mainly when standing or not wearing seat belts, and by unsecured carts and galley equipment.",
+       "cite": "definition:IND-14",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'cabin' (4 of 8 supporting reports).",
+       "cite": "report:SAMPLE-025",
+       "quote": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+      },
+      {
+       "text": "Narrative describes 'oderate' (4 of 8 supporting reports).",
+       "cite": "report:SAMPLE-025",
+       "quote": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B21 'Disruptive or unruly passenger' when it matches that bucket better (4 report(s) assigned there).",
+       "cite": "report:SYNB-164",
+       "quote": "Cabin crew moved the passenger to another seat."
+      },
+      {
+       "text": "Coded TURB (Turbulence Encounter) rather than CABIN: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-027",
+       "quote": "The crew recovered and there were no injuries."
+      },
+      {
+       "text": "Not 'Clear-air turbulence (CAT)' \u2014 that definition is crosswalked to TURB, not CABIN.",
+       "cite": "definition:IND-13",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT TURB (Turbulence Encounter) (runner-up parent, margin 0.12).",
+       "cite": "parent:TURB",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-025",
+       "quote": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+      },
+      {
+       "report_key": "SAMPLE-023",
+       "quote": "The aircraft encountered severe clear-air turbulence at FL350 with no weather shown on radar."
+      },
+      {
+       "report_key": "SAMPLE-026",
+       "quote": "Only light chop was expected, but the aircraft met sudden severe turbulence in clear air."
+      },
+      {
+       "report_key": "SAMPLE-024",
+       "quote": "Unforecast turbulence near the jet stream occurred just after the seat belt sign was turned off."
+      },
+      {
+       "report_key": "SYNB-243",
+       "quote": "Moderate turbulence at FL310 spilled drinks in the cabin."
+      },
+      {
+       "report_key": "SYNB-223",
+       "quote": "Moderate turbulence at FL240 spilled drinks in the cabin."
+      },
+      {
+       "report_key": "SYNB-263",
+       "quote": "Moderate turbulence at FL180 spilled drinks in the cabin."
+      },
+      {
+       "report_key": "SYNB-129",
+       "quote": "Cabin crew cooled the device with water."
+      }
+     ],
+     "failed_checks": [
+      "G8"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CFIT",
+   "name": "Controlled Flight Into or Toward Terrain",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B11",
+     "name": "Terrain warning on a non-precision approach",
+     "level": "L2",
+     "definition": "During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-26"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT CFIT (Controlled Flight Into or Toward Terrain) definition.",
+       "cite": "parent:CFIT",
+       "quote": null
+      },
+      {
+       "text": "Core definition: During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles.",
+       "cite": "candidate:B11",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Terrain awareness and warning system (TAWS)' (14 CFR 121.354 \u2013 Terrain awareness and warning system): Airliners must carry a system that warns the crew of terrain, obstacles and excessive descent so they can climb away before impact.",
+       "cite": "definition:IND-26",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'climbed' (8 of 9 supporting reports).",
+       "cite": "report:SAMPLE-033",
+       "quote": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+      },
+      {
+       "text": "Narrative describes 'terrain' (8 of 9 supporting reports).",
+       "cite": "report:SAMPLE-033",
+       "quote": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+      },
+      {
+       "text": "Narrative describes 'awareness' (7 of 9 supporting reports).",
+       "cite": "report:SYNB-089",
+       "quote": "The terrain awareness system called TOO LOW TERRAIN and the crew climbed away."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded USOS (Undershoot/Overshoot) rather than CFIT: similar wording, different occurrence category.",
+       "cite": "report:SYNB-184",
+       "quote": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L."
+      },
+      {
+       "text": "Not 'Undershoot' \u2014 that definition is crosswalked to USOS, not CFIT.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wake turbulence' \u2014 that definition is crosswalked to TURB, not CFIT.",
+       "cite": "definition:IND-22",
+       "quote": null
+      },
+      {
+       "text": "Not 'GNSS jamming and spoofing' \u2014 that definition is crosswalked to NAV, not CFIT.",
+       "cite": "definition:IND-27",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT F-NI (Fire/Smoke (Non-Impact)) (runner-up parent, margin 0.61).",
+       "cite": "parent:F-NI",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-033",
+       "quote": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+      },
+      {
+       "report_key": "SYNB-089",
+       "quote": "The terrain awareness system called TOO LOW TERRAIN and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-091",
+       "quote": "Flying a visual approach late in the evening with gusty winds, the aircraft descended below the minimum altitude."
+      },
+      {
+       "report_key": "SYNB-093",
+       "quote": "The terrain awareness system called TERRAIN, PULL UP and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-087",
+       "quote": "The terrain awareness system called TERRAIN, PULL UP and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-092",
+       "quote": "The terrain awareness system called SINK RATE and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-088",
+       "quote": "The terrain awareness system called SINK RATE and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-090",
+       "quote": "The terrain awareness system called SINK RATE and the crew climbed away."
+      },
+      {
+       "report_key": "SYNB-094",
+       "quote": "The terrain awareness system called SINK RATE and the crew climbed away."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "F-NI",
+   "name": "Fire/Smoke (Non-Impact)",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B17",
+     "name": "Lithium battery fire from a passenger device",
+     "level": "L2",
+     "definition": "A phone, laptop, power bank or other lithium battery device overheats, smokes or catches fire in the cabin.",
+     "status": "needs_review",
+     "publishable": false,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-31"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT F-NI (Fire/Smoke (Non-Impact)) definition.",
+       "cite": "parent:F-NI",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A phone, laptop, power bank or other lithium battery device overheats, smokes or catches fire in the cabin.",
+       "cite": "candidate:B17",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Lithium battery fire' (FAA SAFO \u2013 Fire risks from lithium batteries in the cabin): Portable electronic devices and power banks can overheat in thermal runaway, producing smoke and fire in the cabin; crew cool the device with water or non-alcoholic liquid.",
+       "cite": "definition:IND-31",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'bank' (4 of 8 supporting reports).",
+       "cite": "report:SYNB-127",
+       "quote": "A passenger's power bank began smoking after being crushed in a seat mechanism."
+      },
+      {
+       "text": "Narrative describes 'began' (4 of 8 supporting reports).",
+       "cite": "report:SYNB-127",
+       "quote": "A passenger's power bank began smoking after being crushed in a seat mechanism."
+      },
+      {
+       "text": "Narrative describes 'being' (4 of 8 supporting reports).",
+       "cite": "report:SYNB-127",
+       "quote": "A passenger's power bank began smoking after being crushed in a seat mechanism."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B18 'Electrical smoke or burning smell in the flight deck' under the same parent.",
+       "cite": "sibling:B18",
+       "quote": null
+      },
+      {
+       "text": "Coded CABIN (Cabin Safety Events) rather than F-NI: similar wording, different occurrence category.",
+       "cite": "report:SYNB-164",
+       "quote": "Cabin crew moved the passenger to another seat."
+      },
+      {
+       "text": "Not 'Unruly or disruptive passenger' \u2014 that definition is crosswalked to CABIN, not F-NI.",
+       "cite": "definition:IND-30",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT CABIN (Cabin Safety Events) (runner-up parent, margin -0.09).",
+       "cite": "parent:CABIN",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-127",
+       "quote": "A passenger's power bank began smoking after being crushed in a seat mechanism."
+      },
+      {
+       "report_key": "SYNB-129",
+       "quote": "A passenger's power bank overheated after being crushed in a seat mechanism."
+      },
+      {
+       "report_key": "SYNB-131",
+       "quote": "A passenger's power bank caught fire in a seat pocket."
+      },
+      {
+       "report_key": "SYNB-130",
+       "quote": "A passenger's laptop caught fire after being crushed in a seat mechanism."
+      },
+      {
+       "report_key": "SYNB-128",
+       "quote": "A passenger's power bank caught fire in a seat pocket."
+      },
+      {
+       "report_key": "SYNB-133",
+       "quote": "A passenger's laptop began smoking in the overhead bin."
+      },
+      {
+       "report_key": "SYNB-134",
+       "quote": "A passenger's phone began smoking after being crushed in a seat mechanism."
+      },
+      {
+       "report_key": "SYNB-132",
+       "quote": "A passenger's phone began smoking in the overhead bin."
+      }
+     ],
+     "failed_checks": [
+      "G7"
+     ]
+    },
+    {
+     "bucket_id": "B18",
+     "name": "Electrical smoke or burning smell in the flight deck",
+     "level": "L2",
+     "definition": "Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-32"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT F-NI (Fire/Smoke (Non-Impact)) definition.",
+       "cite": "parent:F-NI",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater.",
+       "cite": "candidate:B18",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Smoke or fumes in flight' (SKYbrary \u2013 Smoke and Fumes): Smoke, fumes or burning smells in the flight deck or cabin, often electrical in origin, handled with oxygen masks and the smoke checklist.",
+       "cite": "definition:IND-32",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'deck' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-138",
+       "quote": "During descent at FL210 we noticed an electrical burning smell in the flight deck."
+      },
+      {
+       "text": "Narrative describes 'noticed' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-138",
+       "quote": "During descent at FL210 we noticed an electrical burning smell in the flight deck."
+      },
+      {
+       "text": "Narrative describes 'uring' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-138",
+       "quote": "During descent at FL210 we noticed an electrical burning smell in the flight deck."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B17 'Lithium battery fire from a passenger device' under the same parent.",
+       "cite": "sibling:B17",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not F-NI.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT SCF-NP (System/Component Failure \u2013 Non-Powerplant) (runner-up parent, margin 0.18).",
+       "cite": "parent:SCF-NP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-138",
+       "quote": "During descent at FL210 we noticed an electrical burning smell in the flight deck."
+      },
+      {
+       "report_key": "SYNB-137",
+       "quote": "During descent at FL330 the captain and first officer noticed an electrical burning smell in the flight deck."
+      },
+      {
+       "report_key": "SYNB-139",
+       "quote": "During cruise at FL310 the flight crew noticed smoke in the flight deck."
+      },
+      {
+       "report_key": "SYNB-141",
+       "quote": "During descent at FL240 the captain and first officer noticed smoke in the flight deck."
+      },
+      {
+       "report_key": "SYNB-135",
+       "quote": "During climb at FL310 the crew noticed smoke in the flight deck."
+      },
+      {
+       "report_key": "SYNB-142",
+       "quote": "During descent at FL330 the crew noticed smoke in the flight deck."
+      },
+      {
+       "report_key": "SYNB-140",
+       "quote": "During climb at FL350 the crew noticed haze in the flight deck."
+      },
+      {
+       "report_key": "SYNB-136",
+       "quote": "During cruise at FL310 we noticed haze in the flight deck."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "FUEL",
+   "name": "Fuel Related",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B19",
+     "name": "Low fuel after holding or a diversion",
+     "level": "L2",
+     "definition": "Extended holding, a missed approach or a diversion leaves the aircraft close to or below final reserve fuel, and the crew declares minimum fuel or a fuel emergency.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-33"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT FUEL (Fuel Related) definition.",
+       "cite": "parent:FUEL",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Extended holding, a missed approach or a diversion leaves the aircraft close to or below final reserve fuel, and the crew declares minimum fuel or a fuel emergency.",
+       "cite": "candidate:B19",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Minimum fuel and fuel emergency' (ICAO Annex 6 \u2013 Fuel planning and in-flight fuel management): The crew declares MINIMUM FUEL when any change may land them below final reserve, and MAYDAY FUEL when the landing fuel is expected to be below final reserve.",
+       "cite": "definition:IND-33",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'dropped' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-146",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      },
+      {
+       "text": "Narrative describes 'final' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-146",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      },
+      {
+       "text": "Narrative describes 'fter' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-146",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Not 'Undershoot' \u2014 that definition is crosswalked to USOS, not FUEL.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wake turbulence' \u2014 that definition is crosswalked to TURB, not FUEL.",
+       "cite": "definition:IND-22",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT USOS (Undershoot/Overshoot) (runner-up parent, margin 0.82).",
+       "cite": "parent:USOS",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-146",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-145",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-150",
+       "quote": "After two missed approaches with a low overcast, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-144",
+       "quote": "After two missed approaches in clear conditions, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-148",
+       "quote": "After two missed approaches with gusty winds, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-149",
+       "quote": "After 40 minutes of holding in low visibility, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-143",
+       "quote": "After a diversion to a busy alternate in light snow, fuel dropped toward final reserve."
+      },
+      {
+       "report_key": "SYNB-147",
+       "quote": "After a diversion to a busy alternate in clear conditions, fuel dropped toward final reserve."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "ICE",
+   "name": "Icing",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B14",
+     "name": "Takeoff with frost or ice not removed",
+     "level": "L2",
+     "definition": "The aircraft departs or begins to depart with frost, snow or ice on its wings because it was not removed or the fluid failed.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-29",
+      "IND-17",
+      "IND-38"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT ICE (Icing) definition.",
+       "cite": "parent:ICE",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The aircraft departs or begins to depart with frost, snow or ice on its wings because it was not removed or the fluid failed.",
+       "cite": "candidate:B14",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Clean aircraft concept' (FAA Advisory Circular 120-60B \u2013 Ground Deicing and Anti-icing Program): No takeoff may be made with frost, ice or snow adhering to wings or control surfaces; contamination must be removed before departure.",
+       "cite": "definition:IND-29",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Holdover time' (FAA holdover time guidelines (ground de-icing and anti-icing)): The estimated time a de-icing or anti-icing fluid protects aircraft surfaces from frost or ice; if it is exceeded before takeoff, the aircraft must be checked or de-iced again.",
+       "cite": "definition:IND-17",
+       "quote": null
+      },
+      {
+       "text": "Matches 'In-flight airframe icing' (FAA Advisory Circular 91-74B \u2013 Pilot Guide: Flight in Icing Conditions): Ice accumulates on wings, tail and windshield in supercooled cloud or freezing drizzle, increasing drag and stall speed.",
+       "cite": "definition:IND-38",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'airspeed' (2 of 4 supporting reports).",
+       "cite": "report:SAMPLE-015",
+       "quote": "Climbing through FL280 in icing conditions, the captain and first officer airspeed indications disagreed."
+      },
+      {
+       "text": "Narrative describes 'fter' (2 of 4 supporting reports).",
+       "cite": "report:SYNB-110",
+       "quote": "After a long taxi in light snow, a passenger reported ice on the wing."
+      },
+      {
+       "text": "Narrative describes 'ice' (2 of 4 supporting reports).",
+       "cite": "report:SYNB-110",
+       "quote": "After a long taxi in light snow, a passenger reported ice on the wing."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B25 'Airframe icing in flight' when it matches that bucket better (4 report(s) assigned there).",
+       "cite": "report:SYNB-194",
+       "quote": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected."
+      },
+      {
+       "text": "Belongs to sibling C8 'Takeoff after de-icing holdover time exceeded' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-032",
+       "quote": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+      },
+      {
+       "text": "Coded RAMP (Ground Handling) rather than ICE: similar wording, different occurrence category.",
+       "cite": "report:SYNB-151",
+       "quote": "During pushback from the gate the A320 wing tip struck a parked aircraft."
+      },
+      {
+       "text": "Not 'Runway condition code (RWYCC)' \u2014 that definition is crosswalked to RE, not ICE.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Not 'Pushback and towing' \u2014 that definition is crosswalked to RAMP, not ICE.",
+       "cite": "definition:IND-34",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not ICE.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RAMP (Ground Handling) (runner-up parent, margin 0.70).",
+       "cite": "parent:RAMP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-110",
+       "quote": "After a long taxi in light snow, a passenger reported ice on the wing."
+      },
+      {
+       "report_key": "SYNB-109",
+       "quote": "After a long taxi in light snow, a passenger reported ice on the wing."
+      },
+      {
+       "report_key": "SAMPLE-015",
+       "quote": "Climbing through FL280 in icing conditions, the captain and first officer airspeed indications disagreed."
+      },
+      {
+       "report_key": "SAMPLE-018",
+       "quote": "Ice crystals caused unreliable airspeed indications."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B25",
+     "name": "Airframe icing in flight",
+     "level": "L2",
+     "definition": "Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-38",
+      "IND-17",
+      "IND-29"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT ICE (Icing) definition.",
+       "cite": "parent:ICE",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling.",
+       "cite": "candidate:B25",
+       "quote": null
+      },
+      {
+       "text": "Matches 'In-flight airframe icing' (FAA Advisory Circular 91-74B \u2013 Pilot Guide: Flight in Icing Conditions): Ice accumulates on wings, tail and windshield in supercooled cloud or freezing drizzle, increasing drag and stall speed.",
+       "cite": "definition:IND-38",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Holdover time' (FAA holdover time guidelines (ground de-icing and anti-icing)): The estimated time a de-icing or anti-icing fluid protects aircraft surfaces from frost or ice; if it is exceeded before takeoff, the aircraft must be checked or de-iced again.",
+       "cite": "definition:IND-17",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Clean aircraft concept' (FAA Advisory Circular 120-60B \u2013 Ground Deicing and Anti-icing Program): No takeoff may be made with frost, ice or snow adhering to wings or control surfaces; contamination must be removed before departure.",
+       "cite": "definition:IND-29",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'built' (4 of 6 supporting reports).",
+       "cite": "report:SYNB-194",
+       "quote": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected."
+      },
+      {
+       "text": "Narrative describes 'expected' (4 of 6 supporting reports).",
+       "cite": "report:SYNB-194",
+       "quote": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected."
+      },
+      {
+       "text": "Narrative describes 'faster' (4 of 6 supporting reports).",
+       "cite": "report:SYNB-194",
+       "quote": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B14 'Takeoff with frost or ice not removed' when it matches that bucket better (2 report(s) assigned there).",
+       "cite": "report:SYNB-110",
+       "quote": "After a long taxi in light snow, a passenger reported ice on the wing."
+      },
+      {
+       "text": "Belongs to sibling C8 'Takeoff after de-icing holdover time exceeded' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-032",
+       "quote": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+      },
+      {
+       "text": "Coded ARC (Abnormal Runway Contact) rather than ICE: similar wording, different occurrence category.",
+       "cite": "report:SYNB-170",
+       "quote": "The flight crew continued after the tail strike light went out."
+      },
+      {
+       "text": "Coded BIRD (Bird) rather than ICE: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-030",
+       "quote": "There was no indication in flight."
+      },
+      {
+       "text": "Not 'Runway condition code (RWYCC)' \u2014 that definition is crosswalked to RE, not ICE.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not ICE.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Hydraulic system failure' \u2014 that definition is crosswalked to SCF-NP, not ICE.",
+       "cite": "definition:IND-24",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RAMP (Ground Handling) (runner-up parent, margin 0.63).",
+       "cite": "parent:RAMP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-194",
+       "quote": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected."
+      },
+      {
+       "report_key": "SYNB-190",
+       "quote": "Holding at 8,000 feet in icing conditions, ice built up on the wings faster than expected."
+      },
+      {
+       "report_key": "SYNB-193",
+       "quote": "The windshield iced over."
+      },
+      {
+       "report_key": "SYNB-189",
+       "quote": "The windshield iced over."
+      },
+      {
+       "report_key": "SYNB-191",
+       "quote": "Holding at 10,000 ft in supercooled cloud, ice built up on the wings faster than expected."
+      },
+      {
+       "report_key": "SYNB-192",
+       "quote": "Holding at 10,000 feet in supercooled cloud, ice built up on the wings faster than expected."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "C8",
+     "name": "Takeoff after de-icing holdover time exceeded",
+     "level": "L2",
+     "definition": "The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-17",
+      "IND-29"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT ICE (Icing) definition.",
+       "cite": "parent:ICE",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff.",
+       "cite": "candidate:C8",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Holdover time' (FAA holdover time guidelines (ground de-icing and anti-icing)): The estimated time a de-icing or anti-icing fluid protects aircraft surfaces from frost or ice; if it is exceeded before takeoff, the aircraft must be checked or de-iced again.",
+       "cite": "definition:IND-17",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Clean aircraft concept' (FAA Advisory Circular 120-60B \u2013 Ground Deicing and Anti-icing Program): No takeoff may be made with frost, ice or snow adhering to wings or control surfaces; contamination must be removed before departure.",
+       "cite": "definition:IND-29",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'holdover' (4 of 4 supporting reports).",
+       "cite": "report:SAMPLE-032",
+       "quote": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+      },
+      {
+       "text": "Narrative describes 'time' (4 of 4 supporting reports).",
+       "cite": "report:SAMPLE-032",
+       "quote": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+      },
+      {
+       "text": "Narrative describes 'again' (3 of 4 supporting reports).",
+       "cite": "report:SYNB-230",
+       "quote": "The holdover time was checked again before departure."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B14 'Takeoff with frost or ice not removed' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SYNB-109",
+       "quote": "The crew had already started the takeoff roll and rejected the takeoff."
+      },
+      {
+       "text": "Distinguish from sibling B25 'Airframe icing in flight' under the same parent.",
+       "cite": "sibling:B25",
+       "quote": null
+      },
+      {
+       "text": "Coded RI (Runway Incursion) rather than ICE: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-002",
+       "quote": "The takeoff roll began before the first officer noticed the closure markings, and the takeoff was rejected at 40 knots."
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not ICE.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not ICE.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Not 'Runway incursion' \u2014 that definition is crosswalked to RI, not ICE.",
+       "cite": "definition:IND-01",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RI (Runway Incursion) (runner-up parent, margin 0.68).",
+       "cite": "parent:RI",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-032",
+       "quote": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+      },
+      {
+       "report_key": "SYNB-230",
+       "quote": "The holdover time was checked again before departure."
+      },
+      {
+       "report_key": "SYNB-250",
+       "quote": "The holdover time was checked again before departure."
+      },
+      {
+       "report_key": "SYNB-270",
+       "quote": "The holdover time was checked again before departure."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "LOC-I",
+   "name": "Loss of Control \u2013 Inflight",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B05",
+     "name": "Stall warning or upset during a go-around",
+     "level": "L2",
+     "definition": "During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows.",
+     "status": "needs_review",
+     "publishable": false,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-21",
+      "IND-08",
+      "IND-09"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT LOC-I (Loss of Control \u2013 Inflight) definition.",
+       "cite": "parent:LOC-I",
+       "quote": null
+      },
+      {
+       "text": "Core definition: During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows.",
+       "cite": "candidate:B05",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Stall prevention and recovery' (FAA Advisory Circular 120-109A \u2013 Stall Prevention and Recovery Training): Training to recognise and recover from approaches to stall and full stalls, including during go-arounds with high thrust and pitch.",
+       "cite": "definition:IND-21",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Loss of control in-flight' (IATA \u2013 Loss of Control In-flight (LOC-I)): A significant, unintended departure of the aircraft from controlled flight, such as a stall, spin or upset, often following a system malfunction or crew response to erroneous indications.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Unreliable airspeed' (SKYbrary \u2013 Unreliable Airspeed): Erroneous or disagreeing airspeed indications, for example from pitot icing, ice crystals or a blocked pitot tube, which can lead to an upset if the crew follows the wrong indication.",
+       "cite": "definition:IND-09",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'pitch' (9 of 10 supporting reports).",
+       "cite": "report:SYNB-196",
+       "quote": "The stall warning sounded falsely and the crew flew pitch and power."
+      },
+      {
+       "text": "Narrative describes 'activated' (8 of 10 supporting reports).",
+       "cite": "report:SYNB-037",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "text": "Narrative describes 'decayed' (8 of 10 supporting reports).",
+       "cite": "report:SYNB-037",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded CFIT (Controlled Flight Into or Toward Terrain) rather than LOC-I: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-033",
+       "quote": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+      },
+      {
+       "text": "Coded USOS (Undershoot/Overshoot) rather than LOC-I: similar wording, different occurrence category.",
+       "cite": "report:SYNB-184",
+       "quote": "A black-hole illusion made the approach look high."
+      },
+      {
+       "text": "Coded RE (Runway Excursion) rather than LOC-I: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-011",
+       "quote": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+      },
+      {
+       "text": "Not 'Wake turbulence' \u2014 that definition is crosswalked to TURB, not LOC-I.",
+       "cite": "definition:IND-22",
+       "quote": null
+      },
+      {
+       "text": "Not 'Terrain awareness and warning system (TAWS)' \u2014 that definition is crosswalked to CFIT, not LOC-I.",
+       "cite": "definition:IND-26",
+       "quote": null
+      },
+      {
+       "text": "Not 'Undershoot' \u2014 that definition is crosswalked to USOS, not LOC-I.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT ICE (Icing) (runner-up parent, margin 0.12).",
+       "cite": "parent:ICE",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-196",
+       "quote": "The stall warning sounded falsely and the crew flew pitch and power."
+      },
+      {
+       "report_key": "SYNB-037",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-040",
+       "quote": "With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-042",
+       "quote": "With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-039",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-043",
+       "quote": "With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-038",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-041",
+       "quote": "With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated."
+      },
+      {
+       "report_key": "SYNB-049",
+       "quote": "On final approach 6 miles behind a B747, the A320 encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-044",
+       "quote": "With full thrust the pitch rose to 28 degrees and the speed decayed until the stick shaker activated."
+      }
+     ],
+     "failed_checks": [
+      "G6"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "MAC",
+   "name": "Airprox / ACAS alert / loss of separation / near midair / midair collision",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B07",
+     "name": "Loss of separation caused by an ATC clearance",
+     "level": "L2",
+     "definition": "A controller clearance or instruction puts two aircraft into conflict, leading to loss of separation or a TCAS alert.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-23",
+      "IND-12",
+      "IND-11"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT MAC (Airprox / ACAS alert / loss of separation / near midair / midair collision) definition.",
+       "cite": "parent:MAC",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A controller clearance or instruction puts two aircraft into conflict, leading to loss of separation or a TCAS alert.",
+       "cite": "candidate:B07",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Loss of separation' (ICAO Doc 4444 \u2013 PANS-ATM (separation minima)): Two aircraft come closer than the prescribed separation minima, often after an ATC clearance or instruction puts them in conflict.",
+       "cite": "definition:IND-23",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Conflict: Airborne Conflict / NMAC' (NASA ASRS coding taxonomy): Two aircraft in flight come into conflict or lose separation, including near midair collisions and TCAS events.",
+       "cite": "definition:IND-12",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Level bust (altitude deviation)' (EUROCONTROL \u2013 Level bust): An unauthorised vertical deviation of more than 300 feet from the cleared flight level or altitude, a common cause of loss of separation and TCAS resolution advisories.",
+       "cite": "definition:IND-11",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'conflicting' (4 of 6 supporting reports).",
+       "cite": "report:SAMPLE-022",
+       "quote": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+      },
+      {
+       "text": "Narrative describes 'controller' (4 of 6 supporting reports).",
+       "cite": "report:SAMPLE-022",
+       "quote": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+      },
+      {
+       "text": "Narrative describes 'traffic' (4 of 6 supporting reports).",
+       "cite": "report:SAMPLE-022",
+       "quote": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B08 'TCAS resolution advisory after a level bust' when it matches that bucket better (3 report(s) assigned there).",
+       "cite": "report:SAMPLE-021",
+       "quote": "The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+      },
+      {
+       "text": "Coded LOC-I (Loss of Control \u2013 Inflight) rather than MAC: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-018",
+       "quote": "The stick shaker activated and the aircraft descended 3,000 feet during the upset before control was regained."
+      },
+      {
+       "text": "Coded RI (Runway Incursion) rather than MAC: similar wording, different occurrence category.",
+       "cite": "report:SYNB-010",
+       "quote": "The driver misunderstood a hold-short instruction."
+      },
+      {
+       "text": "Not 'GNSS jamming and spoofing' \u2014 that definition is crosswalked to NAV, not MAC.",
+       "cite": "definition:IND-27",
+       "quote": null
+      },
+      {
+       "text": "Not 'Low-level windshear' \u2014 that definition is crosswalked to WSTRW, not MAC.",
+       "cite": "definition:IND-36",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not MAC.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT LOC-I (Loss of Control \u2013 Inflight) (runner-up parent, margin 0.54).",
+       "cite": "parent:LOC-I",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-022",
+       "quote": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+      },
+      {
+       "report_key": "SYNB-060",
+       "quote": "Separation was lost."
+      },
+      {
+       "report_key": "SYNB-059",
+       "quote": "Separation was lost."
+      },
+      {
+       "report_key": "SYNB-056",
+       "quote": "The controller cleared the B777-300ER to turn left into conflicting traffic at FL310."
+      },
+      {
+       "report_key": "SYNB-058",
+       "quote": "The controller cleared the A320 to turn left into conflicting traffic at FL280."
+      },
+      {
+       "report_key": "SYNB-054",
+       "quote": "The controller cleared the A320 to descend into conflicting traffic at FL210."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B08",
+     "name": "TCAS resolution advisory after a level bust",
+     "level": "L2",
+     "definition": "The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [
+      "C5"
+     ],
+     "industry_definitions": [
+      "IND-11",
+      "IND-10"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT MAC (Airprox / ACAS alert / loss of separation / near midair / midair collision) definition.",
+       "cite": "parent:MAC",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows.",
+       "cite": "candidate:B08",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Level bust (altitude deviation)' (EUROCONTROL \u2013 Level bust): An unauthorised vertical deviation of more than 300 feet from the cleared flight level or altitude, a common cause of loss of separation and TCAS resolution advisories.",
+       "cite": "definition:IND-11",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Resolution advisory (RA)' (ICAO Annex 10 \u2013 Airborne Collision Avoidance System (ACAS)): An ACAS or TCAS indication to the flight crew recommending a vertical manoeuvre to increase separation from conflicting traffic.",
+       "cite": "definition:IND-10",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'advisory' (11 of 11 supporting reports).",
+       "cite": "report:SAMPLE-019",
+       "quote": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+      },
+      {
+       "text": "Narrative describes 'resolution' (11 of 11 supporting reports).",
+       "cite": "report:SAMPLE-019",
+       "quote": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+      },
+      {
+       "text": "Narrative describes 'triggered' (9 of 11 supporting reports).",
+       "cite": "report:SAMPLE-021",
+       "quote": "The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B07 'Loss of separation caused by an ATC clearance' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-022",
+       "quote": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+      },
+      {
+       "text": "Not 'Wake turbulence' \u2014 that definition is crosswalked to TURB, not MAC.",
+       "cite": "definition:IND-22",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT LOC-I (Loss of Control \u2013 Inflight) (runner-up parent, margin 0.75).",
+       "cite": "parent:LOC-I",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-019",
+       "quote": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+      },
+      {
+       "report_key": "SAMPLE-021",
+       "quote": "The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+      },
+      {
+       "report_key": "SAMPLE-020",
+       "quote": "Autopilot mode confusion caused an altitude deviation, and the crew received a TCAS resolution advisory for traffic 600 feet below."
+      },
+      {
+       "report_key": "SYNB-061",
+       "quote": "Traffic above triggered a TCAS resolution advisory to level off."
+      },
+      {
+       "report_key": "SYNB-062",
+       "quote": "Traffic above triggered a TCAS resolution advisory to climb."
+      },
+      {
+       "report_key": "SYNB-066",
+       "quote": "Traffic above triggered a TCAS resolution advisory to level off."
+      },
+      {
+       "report_key": "SYNB-064",
+       "quote": "Traffic crossing triggered a TCAS resolution advisory to level off."
+      },
+      {
+       "report_key": "SYNB-067",
+       "quote": "Traffic ahead triggered a TCAS resolution advisory to climb."
+      },
+      {
+       "report_key": "SYNB-065",
+       "quote": "Traffic crossing triggered a TCAS resolution advisory to level off."
+      },
+      {
+       "report_key": "SYNB-063",
+       "quote": "Traffic ahead triggered a TCAS resolution advisory to descend."
+      },
+      {
+       "report_key": "SYNB-068",
+       "quote": "Traffic ahead triggered a TCAS resolution advisory to descend."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "NAV",
+   "name": "Navigation Error",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B12",
+     "name": "GNSS interference or spoofing",
+     "level": "L2",
+     "definition": "Satellite navigation signals are jammed or spoofed, giving false position, lost RNP capability or incorrect time, often near conflict zones.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-27"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT NAV (Navigation Error) definition.",
+       "cite": "parent:NAV",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Satellite navigation signals are jammed or spoofed, giving false position, lost RNP capability or incorrect time, often near conflict zones.",
+       "cite": "candidate:B12",
+       "quote": null
+      },
+      {
+       "text": "Matches 'GNSS jamming and spoofing' (EASA Safety Information Bulletin 2022-02 \u2013 GNSS outages and alterations): Interference with satellite navigation signals, by jamming or spoofing, causes loss of GPS position, false positions or false terrain warnings, especially near conflict zones.",
+       "cite": "definition:IND-27",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'both' (5 of 6 supporting reports).",
+       "cite": "report:SYNB-095",
+       "quote": "Near the Black Sea both GPS receivers showed a position 40 miles in error."
+      },
+      {
+       "text": "Narrative describes 'receivers' (5 of 6 supporting reports).",
+       "cite": "report:SYNB-095",
+       "quote": "Near the Black Sea both GPS receivers showed a position 40 miles in error."
+      },
+      {
+       "text": "Narrative describes 'error' (4 of 6 supporting reports).",
+       "cite": "report:SYNB-095",
+       "quote": "Near the Black Sea both GPS receivers showed a position 40 miles in error."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B28 'Wrong route or waypoint loaded in the FMS' under the same parent.",
+       "cite": "sibling:B28",
+       "quote": null
+      },
+      {
+       "text": "Coded MAC (Airprox / ACAS alert / loss of separation / near midair / midair collision) rather than NAV: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-021",
+       "quote": "The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+      },
+      {
+       "text": "Not 'Conflict: Airborne Conflict / NMAC' \u2014 that definition is crosswalked to MAC, not NAV.",
+       "cite": "definition:IND-12",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of separation' \u2014 that definition is crosswalked to MAC, ATM, not NAV.",
+       "cite": "definition:IND-23",
+       "quote": null
+      },
+      {
+       "text": "Not 'Low-level windshear' \u2014 that definition is crosswalked to WSTRW, not NAV.",
+       "cite": "definition:IND-36",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT MAC (Airprox / ACAS alert / loss of separation / near midair / midair collision) (runner-up parent, margin 0.47).",
+       "cite": "parent:MAC",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-095",
+       "quote": "Near the Black Sea both GPS receivers showed a position 40 miles in error."
+      },
+      {
+       "report_key": "SYNB-101",
+       "quote": "Near the Black Sea both GPS receivers showed a position 40 miles in error."
+      },
+      {
+       "report_key": "SYNB-100",
+       "quote": "Approaching the region both GPS receivers lost signal."
+      },
+      {
+       "report_key": "SYNB-102",
+       "quote": "On a route near a conflict area both GPS receivers reported a different time."
+      },
+      {
+       "report_key": "SYNB-098",
+       "quote": "Over the eastern Mediterranean both GPS receivers showed a position 40 miles in error."
+      },
+      {
+       "report_key": "SYNB-096",
+       "quote": "The position errors stopped after 20 minutes."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B28",
+     "name": "Wrong route or waypoint loaded in the FMS",
+     "level": "L2",
+     "definition": "The flight management system is loaded with the wrong route, waypoint or departure, and the aircraft deviates from its cleared route.",
+     "status": "not_grounded",
+     "publishable": false,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-41"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT NAV (Navigation Error) definition.",
+       "cite": "parent:NAV",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The flight management system is loaded with the wrong route, waypoint or departure, and the aircraft deviates from its cleared route.",
+       "cite": "candidate:B28",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Lateral navigation error' (SKYbrary \u2013 Lateral Navigation Error): The aircraft leaves its cleared route because of a wrong route, waypoint or procedure loaded in the flight management system.",
+       "cite": "definition:IND-41",
+       "quote": null
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B12 'GNSS interference or spoofing' under the same parent.",
+       "cite": "sibling:B12",
+       "quote": null
+      },
+      {
+       "text": "Coded OTHR (Other) rather than NAV: similar wording, different occurrence category.",
+       "cite": "report:SYNB-213",
+       "quote": "After departure the aircraft turned toward the wrong waypoint because the wrong departure procedure was entered."
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not NAV.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wrong-surface event' \u2014 that definition is crosswalked to RI, not NAV.",
+       "cite": "definition:IND-03",
+       "quote": null
+      },
+      {
+       "text": "Not 'Clean aircraft concept' \u2014 that definition is crosswalked to ICE, not NAV.",
+       "cite": "definition:IND-29",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT LOC-I (Loss of Control \u2013 Inflight) (runner-up parent, margin 0.55).",
+       "cite": "parent:LOC-I",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-211",
+       "quote": "After departure the aircraft turned toward the wrong waypoint because a similar-named waypoint was selected."
+      },
+      {
+       "report_key": "SYNB-212",
+       "quote": "After departure the aircraft turned toward the wrong waypoint because an old route was loaded."
+      }
+     ],
+     "failed_checks": [
+      "G5",
+      "G6"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "RAMP",
+   "name": "Ground Handling",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B20",
+     "name": "Pushback or towing collision",
+     "level": "L2",
+     "definition": "During pushback or towing the tug, towbar or aircraft strikes another aircraft, a vehicle or a fixed object.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-34"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RAMP (Ground Handling) definition.",
+       "cite": "parent:RAMP",
+       "quote": null
+      },
+      {
+       "text": "Core definition: During pushback or towing the tug, towbar or aircraft strikes another aircraft, a vehicle or a fixed object.",
+       "cite": "candidate:B20",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Pushback and towing' (IATA Ground Operations Manual \u2013 Pushback and towing): Moving an aircraft with a tug or towbar, with wing walkers and headset communication, to prevent collisions with aircraft, vehicles and objects.",
+       "cite": "definition:IND-34",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'gate' (5 of 8 supporting reports).",
+       "cite": "report:SYNB-151",
+       "quote": "During pushback from the gate the A320 wing tip struck a parked aircraft."
+      },
+      {
+       "text": "Narrative describes 'pushback' (5 of 8 supporting reports).",
+       "cite": "report:SYNB-151",
+       "quote": "During pushback from the gate the A320 wing tip struck a parked aircraft."
+      },
+      {
+       "text": "Narrative describes 'struck' (5 of 8 supporting reports).",
+       "cite": "report:SYNB-151",
+       "quote": "During pushback from the gate the A320 wing tip struck a parked aircraft."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded RI (Runway Incursion) rather than RAMP: similar wording, different occurrence category.",
+       "cite": "report:SYNB-001",
+       "quote": "A tug towing an aircraft entered Rwy 16 without a clearance shortly after sunrise."
+      },
+      {
+       "text": "Coded ARC (Abnormal Runway Contact) rather than RAMP: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-035",
+       "quote": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+      },
+      {
+       "text": "Not 'Runway incursion' \u2014 that definition is crosswalked to RI, not RAMP.",
+       "cite": "definition:IND-01",
+       "quote": null
+      },
+      {
+       "text": "Not 'Damaging bird strike' \u2014 that definition is crosswalked to BIRD, not RAMP.",
+       "cite": "definition:IND-39",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not RAMP.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RI (Runway Incursion) (runner-up parent, margin 0.50).",
+       "cite": "parent:RI",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-151",
+       "quote": "During pushback from the gate the A320 wing tip struck a parked aircraft."
+      },
+      {
+       "report_key": "SYNB-153",
+       "quote": "The tug driver could not see the wing tip."
+      },
+      {
+       "report_key": "SYNB-156",
+       "quote": "The tug driver could not see the wing tip."
+      },
+      {
+       "report_key": "SYNB-158",
+       "quote": "The towbar shear pin failed."
+      },
+      {
+       "report_key": "SYNB-152",
+       "quote": "During pushback from the gate the B737 MAX 8 wing tip struck a parked aircraft."
+      },
+      {
+       "report_key": "SYNB-155",
+       "quote": "During pushback from the gate the A320 struck a baggage cart."
+      },
+      {
+       "report_key": "SYNB-154",
+       "quote": "During pushback from the gate the B787-9 tail struck a light pole."
+      },
+      {
+       "report_key": "SYNB-157",
+       "quote": "During pushback from the gate the B777-300ER tail struck a light pole."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "RE",
+   "name": "Runway Excursion",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B03",
+     "name": "Veer-off during landing in a strong or gusty crosswind",
+     "level": "L2",
+     "definition": "In a strong or gusty crosswind the aircraft drifts and veers off the side of the runway during the landing roll.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-20",
+      "IND-05",
+      "IND-07"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RE (Runway Excursion) definition.",
+       "cite": "parent:RE",
+       "quote": null
+      },
+      {
+       "text": "Core definition: In a strong or gusty crosswind the aircraft drifts and veers off the side of the runway during the landing roll.",
+       "cite": "candidate:B03",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Crosswind landing' (SKYbrary \u2013 Crosswind Landings): Landing with a wind component across the runway; strong or gusty crosswinds near the aircraft limit increase the risk of lateral runway excursion (veer-off).",
+       "cite": "definition:IND-20",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Runway excursion (veer-off and overrun)' (SKYbrary \u2013 Runway Excursion): An aircraft leaves the runway surface during takeoff or landing, either by veering off the side or by overrunning the end.",
+       "cite": "definition:IND-05",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Anomaly: Ground Excursion \u2013 Runway' (NASA ASRS coding taxonomy): An aircraft departs the runway surface during the takeoff or landing roll, including overruns after a long or fast landing.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'edge' (8 of 11 supporting reports).",
+       "cite": "report:SYNB-025",
+       "quote": "Landing on Runway 18R with a crosswind near the limit, the A330-300 drifted toward the edge."
+      },
+      {
+       "text": "Narrative describes 'anding' (7 of 11 supporting reports).",
+       "cite": "report:SYNB-025",
+       "quote": "Landing on Runway 18R with a crosswind near the limit, the A330-300 drifted toward the edge."
+      },
+      {
+       "text": "Narrative describes 'drifted' (7 of 11 supporting reports).",
+       "cite": "report:SYNB-025",
+       "quote": "Landing on Runway 18R with a crosswind near the limit, the A330-300 drifted toward the edge."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B04 'Overrun on a contaminated runway' under the same parent.",
+       "cite": "sibling:B04",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not RE.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wrong-surface event' \u2014 that definition is crosswalked to RI, not RE.",
+       "cite": "definition:IND-03",
+       "quote": null
+      },
+      {
+       "text": "Not 'Hard landing, tail strike' \u2014 that definition is crosswalked to ARC, not RE.",
+       "cite": "definition:IND-18",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT ARC (Abnormal Runway Contact) (runner-up parent, margin 0.71).",
+       "cite": "parent:ARC",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-014",
+       "quote": "In a strong, gusty crosswind the aircraft veered off the left side of the runway during the landing roll."
+      },
+      {
+       "report_key": "SYNB-028",
+       "quote": "The aircraft veered off the left side of the runway and stopped on the grass."
+      },
+      {
+       "report_key": "SYNB-025",
+       "quote": "Landing on Runway 18R with a crosswind near the limit, the A330-300 drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-026",
+       "quote": "Landing on Runway 36 in strong gusts from the left, the B737-800 drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-023",
+       "quote": "The aircraft veered off the left side of the rwy and stopped on the grass."
+      },
+      {
+       "report_key": "SYNB-019",
+       "quote": "The aircraft veered off the left side of the rwy and struck an edge light."
+      },
+      {
+       "report_key": "SYNB-021",
+       "quote": "Landing on Runway 31L with a crosswind near the limit, the B767-300F drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-022",
+       "quote": "Landing on Runway 04R in strong gusts from the left, the E175 drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-024",
+       "quote": "Landing on Rwy 31L in strong gusts from the left, the B787-9 drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-020",
+       "quote": "Landing on Rwy 04R with a 30-knot gusting crosswind, the B777-300ER drifted toward the edge."
+      },
+      {
+       "report_key": "SYNB-027",
+       "quote": "Landing on Rwy 13 with a crosswind near the limit, the B737 MAX 8 drifted toward the edge."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B04",
+     "name": "Overrun on a contaminated runway",
+     "level": "L2",
+     "definition": "On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [
+      "C3"
+     ],
+     "industry_definitions": [
+      "IND-07",
+      "IND-05",
+      "IND-06"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RE (Runway Excursion) definition.",
+       "cite": "parent:RE",
+       "quote": null
+      },
+      {
+       "text": "Core definition: On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway.",
+       "cite": "candidate:B04",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Anomaly: Ground Excursion \u2013 Runway' (NASA ASRS coding taxonomy): An aircraft departs the runway surface during the takeoff or landing roll, including overruns after a long or fast landing.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Runway excursion (veer-off and overrun)' (SKYbrary \u2013 Runway Excursion): An aircraft leaves the runway surface during takeoff or landing, either by veering off the side or by overrunning the end.",
+       "cite": "definition:IND-05",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Runway condition code (RWYCC)' (ICAO Global Reporting Format (GRF) for runway surface conditions): A runway condition code from 6 (dry) down to 0 reports braking performance on wet or contaminated runways (water, slush, snow, ice), so crews can recompute landing distance.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'end' (9 of 10 supporting reports).",
+       "cite": "report:SAMPLE-010",
+       "quote": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+      },
+      {
+       "text": "Narrative describes 'overran' (8 of 10 supporting reports).",
+       "cite": "report:SAMPLE-010",
+       "quote": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+      },
+      {
+       "text": "Narrative describes 'action' (7 of 10 supporting reports).",
+       "cite": "report:SAMPLE-010",
+       "quote": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B03 'Veer-off during landing in a strong or gusty crosswind' when it matches that bucket better (2 report(s) assigned there).",
+       "cite": "report:SYNB-026",
+       "quote": "Landing on Runway 36 in strong gusts from the left, the B737-800 drifted toward the edge."
+      },
+      {
+       "text": "Coded RI (Runway Incursion) rather than RE: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-003",
+       "quote": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+      },
+      {
+       "text": "Not 'Undershoot' \u2014 that definition is crosswalked to USOS, not RE.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not RE.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Not 'Pilot deviation (runway incursion)' \u2014 that definition is crosswalked to RI, not RE.",
+       "cite": "definition:IND-40",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT USOS (Undershoot/Overshoot) (runner-up parent, margin 0.63).",
+       "cite": "parent:USOS",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-010",
+       "quote": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+      },
+      {
+       "report_key": "SAMPLE-013",
+       "quote": "With one thrust reverser unavailable, a long landing on a contaminated runway ended in a low-speed overrun past the runway end."
+      },
+      {
+       "report_key": "SAMPLE-011",
+       "quote": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+      },
+      {
+       "report_key": "SAMPLE-012",
+       "quote": "The crew did not recompute the landing distance and the aircraft overran onto the grass beyond the runway end."
+      },
+      {
+       "report_key": "SYNB-036",
+       "quote": "Braking action was poor and the B777-300ER overran the end of Runway 36 by 40 metres."
+      },
+      {
+       "report_key": "SYNB-035",
+       "quote": "Braking action was poor and the A320 overran the end of Runway 18R into the safety area."
+      },
+      {
+       "report_key": "SYNB-033",
+       "quote": "Braking action was poor and the A320 overran the end of Runway 31L onto the grass."
+      },
+      {
+       "report_key": "SYNB-029",
+       "quote": "Braking action was poor and the A330-300 overran the end of Runway 16 onto the grass."
+      },
+      {
+       "report_key": "SYNB-034",
+       "quote": "Braking action was poor and the B787-9 overran the end of Rwy 18R by 40 metres."
+      },
+      {
+       "report_key": "SYNB-032",
+       "quote": "Braking action was poor and the CRJ900 overran the end of Rwy 31L into the safety area."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "RI",
+   "name": "Runway Incursion",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B01",
+     "name": "Vehicle or pedestrian on the runway without clearance",
+     "level": "L2",
+     "definition": "A ground vehicle, tug or person enters an active runway or its protected area without an ATC clearance.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-19",
+      "IND-40",
+      "IND-02"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RI (Runway Incursion) definition.",
+       "cite": "parent:RI",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A ground vehicle, tug or person enters an active runway or its protected area without an ATC clearance.",
+       "cite": "candidate:B01",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Vehicle or pedestrian deviation' (FAA Runway Safety programme): A runway incursion caused by a ground vehicle or a person, such as a driver or pedestrian entering a runway without ATC authorization.",
+       "cite": "definition:IND-19",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Pilot deviation (runway incursion)' (FAA Runway Safety programme \u2013 Pilot deviation): A runway incursion caused by a pilot, such as crossing a hold-short line or entering a runway without an ATC clearance.",
+       "cite": "definition:IND-40",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Runway incursion types' (FAA Runway Safety programme): Runway incursions are classified by cause as pilot deviations, operational incidents (controller actions) or vehicle and pedestrian deviations, and by severity from A to D.",
+       "cite": "definition:IND-02",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'clearance' (8 of 8 supporting reports).",
+       "cite": "report:SAMPLE-008",
+       "quote": "A snow removal vehicle entered the active runway without a clearance during clearing operations."
+      },
+      {
+       "text": "Narrative describes 'entered' (8 of 8 supporting reports).",
+       "cite": "report:SAMPLE-008",
+       "quote": "A snow removal vehicle entered the active runway without a clearance during clearing operations."
+      },
+      {
+       "text": "Narrative describes 'truck' (4 of 8 supporting reports).",
+       "cite": "report:SYNB-006",
+       "quote": "A fuel truck entered Runway 09L without a clearance late in the evening."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B02 'Landing on a taxiway or the wrong runway at night' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-003",
+       "quote": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+      },
+      {
+       "text": "Belongs to sibling B27 'Crew crossed a hold-short line without clearance' when it matches that bucket better (3 report(s) assigned there).",
+       "cite": "report:SAMPLE-007",
+       "quote": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+      },
+      {
+       "text": "Coded RE (Runway Excursion) rather than RI: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-010",
+       "quote": "Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+      },
+      {
+       "text": "Not 'Pushback and towing' \u2014 that definition is crosswalked to RAMP, not RI.",
+       "cite": "definition:IND-34",
+       "quote": null
+      },
+      {
+       "text": "Not 'Runway condition code (RWYCC)' \u2014 that definition is crosswalked to RE, not RI.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not RI.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RAMP (Ground Handling) (runner-up parent, margin 0.78).",
+       "cite": "parent:RAMP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-008",
+       "quote": "A snow removal vehicle entered the active runway without a clearance during clearing operations."
+      },
+      {
+       "report_key": "SYNB-010",
+       "quote": "A airport operations vehicle entered Runway 18R without a clearance shortly after sunrise."
+      },
+      {
+       "report_key": "SYNB-006",
+       "quote": "A fuel truck entered Runway 09L without a clearance late in the evening."
+      },
+      {
+       "report_key": "SYNB-007",
+       "quote": "A maintenance worker on foot entered Runway 27R without a clearance late in the evening."
+      },
+      {
+       "report_key": "SYNB-005",
+       "quote": "A fuel truck entered Runway 36 without a clearance at night."
+      },
+      {
+       "report_key": "SYNB-009",
+       "quote": "A snow removal truck entered Runway 18R without a clearance at night."
+      },
+      {
+       "report_key": "SYNB-001",
+       "quote": "A tug towing an aircraft entered Rwy 16 without a clearance shortly after sunrise."
+      },
+      {
+       "report_key": "SYNB-004",
+       "quote": "A snow removal truck entered Rwy 18R without a clearance shortly after sunrise."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B02",
+     "name": "Landing on a taxiway or the wrong runway at night",
+     "level": "L2",
+     "definition": "At night or in low light the crew lines up on and lands, or nearly lands, on a taxiway or a runway other than the one assigned.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [
+      "C1"
+     ],
+     "industry_definitions": [
+      "IND-03",
+      "IND-04"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RI (Runway Incursion) definition.",
+       "cite": "parent:RI",
+       "quote": null
+      },
+      {
+       "text": "Core definition: At night or in low light the crew lines up on and lands, or nearly lands, on a taxiway or a runway other than the one assigned.",
+       "cite": "candidate:B02",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Wrong-surface event' (FAA Runway Safety programme): A landing, attempted landing, line-up or takeoff on a surface other than the one assigned: a wrong runway, a taxiway, a closed runway or the wrong airport.",
+       "cite": "definition:IND-03",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' (NASA ASRS coding taxonomy): An aircraft, vehicle or person entering a runway or taxiway without authorization, or an aircraft using a taxiway or the wrong runway for landing or takeoff.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'taxiway' (7 of 10 supporting reports).",
+       "cite": "report:SAMPLE-004",
+       "quote": "In low visibility the crew began a takeoff from taxiway Bravo, believing it was the runway."
+      },
+      {
+       "text": "Narrative describes 'lights' (6 of 10 supporting reports).",
+       "cite": "report:SAMPLE-001",
+       "quote": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights."
+      },
+      {
+       "text": "Narrative describes 'lined' (6 of 10 supporting reports).",
+       "cite": "report:SAMPLE-001",
+       "quote": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B27 'Crew crossed a hold-short line without clearance' when it matches that bucket better (2 report(s) assigned there).",
+       "cite": "report:SYNB-206",
+       "quote": "Taxiing on taxiway Kilo at night, the flight crew crossed the hold-short line for Runway 18R without a clearance."
+      },
+      {
+       "text": "Distinguish from sibling B01 'Vehicle or pedestrian on the runway without clearance' under the same parent.",
+       "cite": "sibling:B01",
+       "quote": null
+      },
+      {
+       "text": "Not 'Runway excursion (veer-off and overrun)' \u2014 that definition is crosswalked to RE, not RI.",
+       "cite": "definition:IND-05",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not RI.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Not 'Tail strike' \u2014 that definition is crosswalked to ARC, not RI.",
+       "cite": "definition:IND-35",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT NAV (Navigation Error) (runner-up parent, margin 0.53).",
+       "cite": "parent:NAV",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-004",
+       "quote": "In low visibility the crew began a takeoff from taxiway Bravo, believing it was the runway."
+      },
+      {
+       "report_key": "SAMPLE-001",
+       "quote": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights."
+      },
+      {
+       "report_key": "SYNB-012",
+       "quote": "The crew lined up on taxiway Echo in darkness, mistaking its lights for Runway 18R."
+      },
+      {
+       "report_key": "SYNB-015",
+       "quote": "The flight crew lined up on taxiway Charlie at dusk, mistaking its lights for Runway 22."
+      },
+      {
+       "report_key": "SYNB-016",
+       "quote": "The captain and first officer lined up on taxiway Alpha at night, mistaking its lights for Runway 04R."
+      },
+      {
+       "report_key": "SYNB-017",
+       "quote": "The crew lined up on taxiway Kilo at dusk, mistaking its lights for Runway 04R."
+      },
+      {
+       "report_key": "SAMPLE-005",
+       "quote": "The crew landed at a nearby general aviation airport with a similar runway alignment instead of the destination airport."
+      },
+      {
+       "report_key": "SAMPLE-003",
+       "quote": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+      },
+      {
+       "report_key": "SAMPLE-002",
+       "quote": "Cleared for takeoff on Runway 4L, the crew taxied onto Runway 4R, which was closed for construction."
+      },
+      {
+       "report_key": "SYNB-011",
+       "quote": "The captain and first officer lined up on taxiway Charlie in darkness, mistaking its lights for Runway 34L."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B27",
+     "name": "Crew crossed a hold-short line without clearance",
+     "level": "L2",
+     "definition": "The flight crew taxis past a runway hold-short line without a clearance to enter or cross the runway (pilot deviation).",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [
+      "C2"
+     ],
+     "industry_definitions": [
+      "IND-40",
+      "IND-02",
+      "IND-19"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT RI (Runway Incursion) definition.",
+       "cite": "parent:RI",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The flight crew taxis past a runway hold-short line without a clearance to enter or cross the runway (pilot deviation).",
+       "cite": "candidate:B27",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Pilot deviation (runway incursion)' (FAA Runway Safety programme \u2013 Pilot deviation): A runway incursion caused by a pilot, such as crossing a hold-short line or entering a runway without an ATC clearance.",
+       "cite": "definition:IND-40",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Runway incursion types' (FAA Runway Safety programme): Runway incursions are classified by cause as pilot deviations, operational incidents (controller actions) or vehicle and pedestrian deviations, and by severity from A to D.",
+       "cite": "definition:IND-02",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Vehicle or pedestrian deviation' (FAA Runway Safety programme): A runway incursion caused by a ground vehicle or a person, such as a driver or pedestrian entering a runway without ATC authorization.",
+       "cite": "definition:IND-19",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'clearance' (11 of 11 supporting reports).",
+       "cite": "report:SAMPLE-007",
+       "quote": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+      },
+      {
+       "text": "Narrative describes 'crossed' (10 of 11 supporting reports).",
+       "cite": "report:SYNB-204",
+       "quote": "Taxiing on taxiway Delta at dusk, the flight crew crossed the hold-short line for Runway 22 without a clearance."
+      },
+      {
+       "text": "Narrative describes 'axiing' (9 of 11 supporting reports).",
+       "cite": "report:SYNB-204",
+       "quote": "Taxiing on taxiway Delta at dusk, the flight crew crossed the hold-short line for Runway 22 without a clearance."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B01 'Vehicle or pedestrian on the runway without clearance' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-008",
+       "quote": "A snow removal vehicle entered the active runway without a clearance during clearing operations."
+      },
+      {
+       "text": "Distinguish from sibling B02 'Landing on a taxiway or the wrong runway at night' under the same parent.",
+       "cite": "sibling:B02",
+       "quote": null
+      },
+      {
+       "text": "Not 'Runway condition code (RWYCC)' \u2014 that definition is crosswalked to RE, not RI.",
+       "cite": "definition:IND-06",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not RI.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Undershoot' \u2014 that definition is crosswalked to USOS, not RI.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT USOS (Undershoot/Overshoot) (runner-up parent, margin 0.77).",
+       "cite": "parent:USOS",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-007",
+       "quote": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+      },
+      {
+       "report_key": "SYNB-204",
+       "quote": "Taxiing on taxiway Delta at dusk, the flight crew crossed the hold-short line for Runway 22 without a clearance."
+      },
+      {
+       "report_key": "SAMPLE-006",
+       "quote": "Taxiing to Runway 16, the crew crossed the hold-short line for Runway 22 without a clearance while another aircraft was on its takeoff roll."
+      },
+      {
+       "report_key": "SYNB-205",
+       "quote": "Taxiing on taxiway Charlie at night, the crew crossed the hold-short line for Runway 22 without a clearance."
+      },
+      {
+       "report_key": "SYNB-206",
+       "quote": "Taxiing on taxiway Kilo at night, the flight crew crossed the hold-short line for Runway 18R without a clearance."
+      },
+      {
+       "report_key": "SAMPLE-009",
+       "quote": "The stop bar lights were on, but the crew continued past the holding point onto the runway after mistaking a frequency change for a crossing clearance."
+      },
+      {
+       "report_key": "SYNB-210",
+       "quote": "Taxiing on taxiway Charlie at night, the crew crossed the hold-short line for Runway 34L without a clearance."
+      },
+      {
+       "report_key": "SYNB-203",
+       "quote": "Taxiing on twy Echo late in the evening, we crossed the hold-short line for Rwy 22 without a clearance."
+      },
+      {
+       "report_key": "SYNB-209",
+       "quote": "Taxiing on taxiway Charlie late in the evening, the flight crew crossed the hold-short line for Runway 04R without a clearance."
+      },
+      {
+       "report_key": "SYNB-207",
+       "quote": "Taxiing on taxiway Charlie in daylight, the captain and first officer crossed the hold-short line for Runway 22 without a clearance."
+      },
+      {
+       "report_key": "SYNB-208",
+       "quote": "Taxiing on taxiway Alpha shortly after sunrise, we crossed the hold-short line for Runway 16 without a clearance."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "SCF-NP",
+   "name": "System/Component Failure \u2013 Non-Powerplant",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B09",
+     "name": "Hydraulic system failure in flight",
+     "level": "L2",
+     "definition": "Loss of fluid or pressure in a hydraulic system in flight degrades flight controls, brakes or landing gear.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-24",
+      "IND-25"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT SCF-NP (System/Component Failure \u2013 Non-Powerplant) definition.",
+       "cite": "parent:SCF-NP",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Loss of fluid or pressure in a hydraulic system in flight degrades flight controls, brakes or landing gear.",
+       "cite": "candidate:B09",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Hydraulic system failure' (SKYbrary \u2013 Hydraulic System Failure): Loss of hydraulic fluid or pressure that degrades flight controls, brakes, steering or landing gear, handled with non-normal checklists.",
+       "cite": "definition:IND-24",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Landing gear malfunction' (SKYbrary \u2013 Landing Gear Malfunction): Failure of a landing gear leg to extend, retract or lock, requiring alternate extension or a landing with gear not fully down.",
+       "cite": "definition:IND-25",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'hydraulic' (10 of 10 supporting reports).",
+       "cite": "report:SYNB-074",
+       "quote": "The flight crew ran the hydraulic loss checklist and diverted."
+      },
+      {
+       "text": "Narrative describes 'dropped' (8 of 10 supporting reports).",
+       "cite": "report:SYNB-076",
+       "quote": "At FL350 the left hydraulic system quantity dropped to zero."
+      },
+      {
+       "text": "Narrative describes 'quantity' (8 of 10 supporting reports).",
+       "cite": "report:SYNB-076",
+       "quote": "At FL350 the left hydraulic system quantity dropped to zero."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B10 'Landing gear did not extend' when it matches that bucket better (2 report(s) assigned there).",
+       "cite": "report:SYNB-083",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "text": "Distinguish from sibling B26 'Unreliable airspeed from blocked pitot probes' under the same parent.",
+       "cite": "sibling:B26",
+       "quote": null
+      },
+      {
+       "text": "Coded ARC (Abnormal Runway Contact) rather than SCF-NP: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-036",
+       "quote": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+      },
+      {
+       "text": "Not 'In-flight engine shutdown (IFSD)' \u2014 that definition is crosswalked to SCF-PP, not SCF-NP.",
+       "cite": "definition:IND-28",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not SCF-NP.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Smoke or fumes in flight' \u2014 that definition is crosswalked to F-NI, not SCF-NP.",
+       "cite": "definition:IND-32",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT SCF-PP (System/Component Failure \u2013 Powerplant) (runner-up parent, margin 0.66).",
+       "cite": "parent:SCF-PP",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-074",
+       "quote": "The flight crew ran the hydraulic loss checklist and diverted."
+      },
+      {
+       "report_key": "SYNB-071",
+       "quote": "The flight crew ran the hydraulic loss checklist and continued to the destination."
+      },
+      {
+       "report_key": "SYNB-076",
+       "quote": "At FL350 the left hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-075",
+       "quote": "At FL180 the B hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-073",
+       "quote": "At FL310 the green hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-078",
+       "quote": "At FL350 the green hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-069",
+       "quote": "At FL210 the green hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-072",
+       "quote": "At FL280 the A hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-070",
+       "quote": "At FL210 the B hydraulic system quantity dropped to zero."
+      },
+      {
+       "report_key": "SYNB-077",
+       "quote": "At FL280 the green hydraulic system quantity dropped to zero."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B10",
+     "name": "Landing gear did not extend",
+     "level": "L2",
+     "definition": "One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-25",
+      "IND-24"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT SCF-NP (System/Component Failure \u2013 Non-Powerplant) definition.",
+       "cite": "parent:SCF-NP",
+       "quote": null
+      },
+      {
+       "text": "Core definition: One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing.",
+       "cite": "candidate:B10",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Landing gear malfunction' (SKYbrary \u2013 Landing Gear Malfunction): Failure of a landing gear leg to extend, retract or lock, requiring alternate extension or a landing with gear not fully down.",
+       "cite": "definition:IND-25",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Hydraulic system failure' (SKYbrary \u2013 Hydraulic System Failure): Loss of hydraulic fluid or pressure that degrades flight controls, brakes, steering or landing gear, handled with non-normal checklists.",
+       "cite": "definition:IND-24",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'alternate' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-083",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "text": "Narrative describes 'extension' (8 of 8 supporting reports).",
+       "cite": "report:SYNB-083",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "text": "Narrative describes 'lock' (6 of 8 supporting reports).",
+       "cite": "report:SYNB-083",
+       "quote": "The alternate gear extension did not lock the gear."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Belongs to sibling B26 'Unreliable airspeed from blocked pitot probes' when it matches that bucket better (1 report(s) assigned there).",
+       "cite": "report:SAMPLE-017",
+       "quote": "A pitot heat failure at cruise produced a falling airspeed indication."
+      },
+      {
+       "text": "Distinguish from sibling B09 'Hydraulic system failure in flight' under the same parent.",
+       "cite": "sibling:B09",
+       "quote": null
+      },
+      {
+       "text": "Coded ARC (Abnormal Runway Contact) rather than SCF-NP: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-036",
+       "quote": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+      },
+      {
+       "text": "Not 'Hard landing, tail strike' \u2014 that definition is crosswalked to ARC, not SCF-NP.",
+       "cite": "definition:IND-18",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wrong-surface event' \u2014 that definition is crosswalked to RI, not SCF-NP.",
+       "cite": "definition:IND-03",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT ARC (Abnormal Runway Contact) (runner-up parent, margin 0.57).",
+       "cite": "parent:ARC",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-083",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "report_key": "SYNB-085",
+       "quote": "The alternate gear extension was used and the gear locked down."
+      },
+      {
+       "report_key": "SYNB-079",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "report_key": "SYNB-081",
+       "quote": "The alternate gear extension did not lock the gear."
+      },
+      {
+       "report_key": "SYNB-080",
+       "quote": "The alternate gear extension was used and the gear locked down."
+      },
+      {
+       "report_key": "SYNB-084",
+       "quote": "The alternate gear extension was used and the gear locked down."
+      },
+      {
+       "report_key": "SYNB-086",
+       "quote": "The alternate gear extension worked on the second attempt."
+      },
+      {
+       "report_key": "SYNB-082",
+       "quote": "The alternate gear extension worked on the second attempt."
+      }
+     ],
+     "failed_checks": []
+    },
+    {
+     "bucket_id": "B26",
+     "name": "Unreliable airspeed from blocked pitot probes",
+     "level": "L2",
+     "definition": "Pitot probes blocked by ice, insects or covers give wrong airspeed indications, leading to warnings and autopilot disconnection.",
+     "status": "needs_review",
+     "publishable": false,
+     "merged_from": [
+      "C4"
+     ],
+     "industry_definitions": [
+      "IND-09"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT SCF-NP (System/Component Failure \u2013 Non-Powerplant) definition.",
+       "cite": "parent:SCF-NP",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Pitot probes blocked by ice, insects or covers give wrong airspeed indications, leading to warnings and autopilot disconnection.",
+       "cite": "candidate:B26",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Unreliable airspeed' (SKYbrary \u2013 Unreliable Airspeed): Erroneous or disagreeing airspeed indications, for example from pitot icing, ice crystals or a blocked pitot tube, which can lead to an upset if the crew follows the wrong indication.",
+       "cite": "definition:IND-09",
+       "quote": null
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Distinguish from sibling B09 'Hydraulic system failure in flight' under the same parent.",
+       "cite": "sibling:B09",
+       "quote": null
+      },
+      {
+       "text": "Distinguish from sibling B10 'Landing gear did not extend' under the same parent.",
+       "cite": "sibling:B10",
+       "quote": null
+      },
+      {
+       "text": "Coded LOC-I (Loss of Control \u2013 Inflight) rather than SCF-NP: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-015",
+       "quote": "The autopilot disconnected and the aircraft reached a stall warning before the crew recovered."
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not SCF-NP.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Stall prevention and recovery' \u2014 that definition is crosswalked to LOC-I, not SCF-NP.",
+       "cite": "definition:IND-21",
+       "quote": null
+      },
+      {
+       "text": "Not 'In-flight airframe icing' \u2014 that definition is crosswalked to ICE, not SCF-NP.",
+       "cite": "definition:IND-38",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT LOC-I (Loss of Control \u2013 Inflight) (runner-up parent, margin 0.03).",
+       "cite": "parent:LOC-I",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-017",
+       "quote": "A pitot heat failure at cruise produced a falling airspeed indication."
+      },
+      {
+       "report_key": "SYNB-201",
+       "quote": "Ice crystals had blocked the probes."
+      },
+      {
+       "report_key": "SAMPLE-016",
+       "quote": "The crew used the unreliable airspeed checklist, flew pitch and power, and returned to the departure airport without further problems."
+      },
+      {
+       "report_key": "SYNB-199",
+       "quote": "The autopilot disconnected and we flew pitch and power."
+      },
+      {
+       "report_key": "SYNB-200",
+       "quote": "The autopilot disconnected and we flew pitch and power."
+      },
+      {
+       "report_key": "SYNB-198",
+       "quote": "The autopilot disconnected and the crew flew pitch and power."
+      },
+      {
+       "report_key": "SYNB-195",
+       "quote": "A wasp nest was found in a pitot probe."
+      }
+     ],
+     "failed_checks": [
+      "G6",
+      "G7"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SCF-PP",
+   "name": "System/Component Failure \u2013 Powerplant",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B13",
+     "name": "Engine shutdown after loss of oil pressure",
+     "level": "L2",
+     "definition": "Low oil pressure or oil loss in flight leads the crew to shut an engine down as a precaution.",
+     "status": "needs_review",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-28",
+      "IND-16"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT SCF-PP (System/Component Failure \u2013 Powerplant) definition.",
+       "cite": "parent:SCF-PP",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Low oil pressure or oil loss in flight leads the crew to shut an engine down as a precaution.",
+       "cite": "candidate:B13",
+       "quote": null
+      },
+      {
+       "text": "Matches 'In-flight engine shutdown (IFSD)' (SKYbrary \u2013 In-Flight Shutdown): An engine is shut down in flight because of a failure or a precautionary indication such as low oil pressure, high vibration or fire.",
+       "cite": "definition:IND-28",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Engine bird ingestion' (14 CFR 33.76 \u2013 Bird ingestion (engine certification)): Engines must be shown to withstand the ingestion of birds of defined sizes; large or multiple bird ingestion can damage fan blades and cause surge, loss of thrust, shutdown or fire.",
+       "cite": "definition:IND-16",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'engine' (9 of 9 supporting reports).",
+       "cite": "report:SYNB-104",
+       "quote": "The flight crew shut the engine down and declared an emergency."
+      },
+      {
+       "text": "Narrative describes 'shut' (6 of 9 supporting reports).",
+       "cite": "report:SYNB-104",
+       "quote": "The flight crew shut the engine down and declared an emergency."
+      },
+      {
+       "text": "Narrative describes 'returned' (4 of 9 supporting reports).",
+       "cite": "report:SYNB-103",
+       "quote": "The flight crew shut the engine down and returned."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Not 'Hydraulic system failure' \u2014 that definition is crosswalked to SCF-NP, not SCF-PP.",
+       "cite": "definition:IND-24",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not SCF-PP.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Wildlife strike' \u2014 that definition is crosswalked to BIRD, not SCF-PP.",
+       "cite": "definition:IND-15",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT BIRD (Bird) (runner-up parent, margin 0.59).",
+       "cite": "parent:BIRD",
+       "quote": null
+      },
+      {
+       "text": "Engine damage or shutdown caused by bird ingestion belongs to B15 (bird ingestion damaging an engine).",
+       "cite": "sme:D-75847280c4",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-104",
+       "quote": "The flight crew shut the engine down and declared an emergency."
+      },
+      {
+       "report_key": "SYNB-103",
+       "quote": "The flight crew shut the engine down and returned."
+      },
+      {
+       "report_key": "SYNB-108",
+       "quote": "The flight crew shut the engine down and declared an emergency."
+      },
+      {
+       "report_key": "SYNB-105",
+       "quote": "At FL210 the number 2 engine oil pressure fell below the limit."
+      },
+      {
+       "report_key": "SYNB-106",
+       "quote": "At FL180 the right engine oil pressure fell below the limit."
+      },
+      {
+       "report_key": "SYNB-107",
+       "quote": "At FL370 the right engine oil pressure fell below the limit."
+      },
+      {
+       "report_key": "SYNB-117",
+       "quote": "The flight crew shut the engine down and returned."
+      },
+      {
+       "report_key": "SYNB-113",
+       "quote": "The crew shut the engine down and returned."
+      },
+      {
+       "report_key": "SYNB-116",
+       "quote": "The flight crew shut the engine down and returned."
+      }
+     ],
+     "failed_checks": [
+      "G8"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "TURB",
+   "name": "Turbulence Encounter",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B06",
+     "name": "Wake turbulence upset on approach",
+     "level": "L2",
+     "definition": "Wake vortices from a preceding heavier aircraft cause a sudden roll or pitch upset on approach or departure.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-22"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT TURB (Turbulence Encounter) definition.",
+       "cite": "parent:TURB",
+       "quote": null
+      },
+      {
+       "text": "Core definition: Wake vortices from a preceding heavier aircraft cause a sudden roll or pitch upset on approach or departure.",
+       "cite": "candidate:B06",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Wake turbulence' (FAA Advisory Circular 90-23G \u2013 Aircraft Wake Turbulence): Vortices from a preceding aircraft, strongest behind heavy aircraft at slow speed, can cause sudden rolls on approach or departure; spacing reduces the risk.",
+       "cite": "definition:IND-22",
+       "quote": null
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded LOC-I (Loss of Control \u2013 Inflight) rather than TURB: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-018",
+       "quote": "The stick shaker activated and the aircraft descended 3,000 feet during the upset before control was regained."
+      },
+      {
+       "text": "Not 'Loss of control in-flight' \u2014 that definition is crosswalked to LOC-I, not TURB.",
+       "cite": "definition:IND-08",
+       "quote": null
+      },
+      {
+       "text": "Not 'Unreliable airspeed' \u2014 that definition is crosswalked to LOC-I, SCF-NP, not TURB.",
+       "cite": "definition:IND-09",
+       "quote": null
+      },
+      {
+       "text": "Not 'Stall prevention and recovery' \u2014 that definition is crosswalked to LOC-I, not TURB.",
+       "cite": "definition:IND-21",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT LOC-I (Loss of Control \u2013 Inflight) (runner-up parent, margin 0.57).",
+       "cite": "parent:LOC-I",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SAMPLE-027",
+       "quote": "Wake turbulence from a heavy aircraft on final approach caused a sudden 30-degree roll."
+      },
+      {
+       "report_key": "SYNB-046",
+       "quote": "On final approach 6 miles behind a heavy aircraft, the A321neo encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-045",
+       "quote": "On final approach 3 miles behind a B777, the B787-9 encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-050",
+       "quote": "On final approach 6 miles behind a B747, the CRJ900 encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-052",
+       "quote": "On final approach 5 miles behind a B777, the B767-300F encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-048",
+       "quote": "On final approach 3 miles behind a A380, the B737-800 encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-051",
+       "quote": "On final approach 3 miles behind a B777, the CRJ900 encountered wake turbulence."
+      },
+      {
+       "report_key": "SYNB-047",
+       "quote": "On final approach 6 miles behind a B777, the B767-300F encountered wake turbulence."
+      },
+      {
+       "report_key": "SAMPLE-026",
+       "quote": "Only light chop was expected, but the aircraft met sudden severe turbulence in clear air."
+      },
+      {
+       "report_key": "SAMPLE-023",
+       "quote": "The aircraft encountered severe clear-air turbulence at FL350 with no weather shown on radar."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "USOS",
+   "name": "Undershoot/Overshoot",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B24",
+     "name": "Landing short of the runway",
+     "level": "L2",
+     "definition": "The aircraft touches down before the runway threshold, on the approach lights or in the undershoot area.",
+     "status": "grounded",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-37"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT USOS (Undershoot/Overshoot) definition.",
+       "cite": "parent:USOS",
+       "quote": null
+      },
+      {
+       "text": "Core definition: The aircraft touches down before the runway threshold, on the approach lights or in the undershoot area.",
+       "cite": "candidate:B24",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Undershoot' (SKYbrary \u2013 Landing Short (Undershoot)): The aircraft touches down before the runway threshold, often after an unstable or low approach or a visual illusion.",
+       "cite": "definition:IND-37",
+       "quote": null
+      },
+      {
+       "text": "Narrative describes 'short' (6 of 6 supporting reports).",
+       "cite": "report:SYNB-184",
+       "quote": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L."
+      },
+      {
+       "text": "Narrative describes 'threshold' (6 of 6 supporting reports).",
+       "cite": "report:SYNB-184",
+       "quote": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L."
+      },
+      {
+       "text": "Narrative describes 'touched' (6 of 6 supporting reports).",
+       "cite": "report:SYNB-184",
+       "quote": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L."
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded RE (Runway Excursion) rather than USOS: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-011",
+       "quote": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+      },
+      {
+       "text": "Coded RI (Runway Incursion) rather than USOS: similar wording, different occurrence category.",
+       "cite": "report:SAMPLE-007",
+       "quote": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+      },
+      {
+       "text": "Not 'Runway excursion (veer-off and overrun)' \u2014 that definition is crosswalked to RE, not USOS.",
+       "cite": "definition:IND-05",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Excursion \u2013 Runway' \u2014 that definition is crosswalked to RE, not USOS.",
+       "cite": "definition:IND-07",
+       "quote": null
+      },
+      {
+       "text": "Not 'Anomaly: Ground Incursion \u2013 Runway or Taxiway' \u2014 that definition is crosswalked to RI, not USOS.",
+       "cite": "definition:IND-04",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT RE (Runway Excursion) (runner-up parent, margin 0.32).",
+       "cite": "parent:RE",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-184",
+       "quote": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L."
+      },
+      {
+       "report_key": "SYNB-187",
+       "quote": "On a visual approach shortly after sunrise the B787-9 touched down 50 metres short of the threshold of Runway 34L."
+      },
+      {
+       "report_key": "SYNB-186",
+       "quote": "On a non-precision approach late in the evening the B787-9 touched down 50 metres short of the threshold of Runway 34L."
+      },
+      {
+       "report_key": "SYNB-183",
+       "quote": "On a RNAV approach late in the evening the B787-9 touched down in the grass short of the threshold of Runway 22."
+      },
+      {
+       "report_key": "SYNB-188",
+       "quote": "On a visual approach shortly after sunrise the A321neo touched down in the grass short of the threshold of Runway 16."
+      },
+      {
+       "report_key": "SYNB-185",
+       "quote": "On a visual approach shortly after sunrise the A321neo touched down in the grass short of the threshold of Rwy 36."
+      }
+     ],
+     "failed_checks": []
+    }
+   ]
+  },
+  {
+   "code": "WSTRW",
+   "name": "Windshear or Thunderstorm",
+   "level": "CICTT L1",
+   "buckets": [
+    {
+     "bucket_id": "B23",
+     "name": "Windshear on final approach",
+     "level": "L2",
+     "definition": "A sudden change in wind speed or direction on approach, often near a thunderstorm or microburst, causes loss of airspeed and a windshear warning.",
+     "status": "needs_review",
+     "publishable": true,
+     "merged_from": [],
+     "industry_definitions": [
+      "IND-36"
+     ],
+     "include": [
+      {
+       "text": "The occurrence meets the CICTT WSTRW (Windshear or Thunderstorm) definition.",
+       "cite": "parent:WSTRW",
+       "quote": null
+      },
+      {
+       "text": "Core definition: A sudden change in wind speed or direction on approach, often near a thunderstorm or microburst, causes loss of airspeed and a windshear warning.",
+       "cite": "candidate:B23",
+       "quote": null
+      },
+      {
+       "text": "Matches 'Low-level windshear' (FAA Advisory Circular 00-54 \u2013 Pilot Windshear Guide): Sudden changes in wind speed or direction near the ground, such as microbursts from thunderstorms, causing airspeed loss; crews fly the windshear escape manoeuvre.",
+       "cite": "definition:IND-36",
+       "quote": null
+      }
+     ],
+     "exclude": [
+      {
+       "text": "Coded TURB (Turbulence Encounter) rather than WSTRW: similar wording, different occurrence category.",
+       "cite": "report:SYNB-177",
+       "quote": "The reactive windshear warning sounded and the flight crew flew the windshear escape manoeuvre."
+      },
+      {
+       "text": "Not 'Wake turbulence' \u2014 that definition is crosswalked to TURB, not WSTRW.",
+       "cite": "definition:IND-22",
+       "quote": null
+      },
+      {
+       "text": "Not 'GNSS jamming and spoofing' \u2014 that definition is crosswalked to NAV, not WSTRW.",
+       "cite": "definition:IND-27",
+       "quote": null
+      },
+      {
+       "text": "Not 'Loss of separation' \u2014 that definition is crosswalked to MAC, ATM, not WSTRW.",
+       "cite": "definition:IND-23",
+       "quote": null
+      },
+      {
+       "text": "Events better described by CICTT MAC (Airprox / ACAS alert / loss of separation / near midair / midair collision) (runner-up parent, margin 0.77).",
+       "cite": "parent:MAC",
+       "quote": null
+      }
+     ],
+     "examples": [
+      {
+       "report_key": "SYNB-179",
+       "quote": "The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre."
+      },
+      {
+       "report_key": "SYNB-182",
+       "quote": "On short final near a thunderstorm the airspeed dropped by 30 knots."
+      },
+      {
+       "report_key": "SYNB-180",
+       "quote": "On short final near a thunderstorm the airspeed dropped by 25 knots."
+      },
+      {
+       "report_key": "SYNB-178",
+       "quote": "On short final near a thunderstorm the airspeed dropped by 25 knots."
+      },
+      {
+       "report_key": "SYNB-176",
+       "quote": "The predictive windshear warning sounded and the crew flew the windshear escape manoeuvre."
+      },
+      {
+       "report_key": "SYNB-181",
+       "quote": "The reactive windshear warning sounded and the CAPT and FO flew the windshear escape manoeuvre."
+      },
+      {
+       "report_key": "SYNB-175",
+       "quote": "The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre."
+      },
+      {
+       "report_key": "SYNB-252",
+       "quote": "The approach was flown with extra speed but no windshear was met."
+      },
+      {
+       "report_key": "SYNB-232",
+       "quote": "The approach was flown normally with no windshear encountered."
+      },
+      {
+       "report_key": "SYNB-272",
+       "quote": "The approach was flown to the other rwy without problems."
+      }
+     ],
+     "failed_checks": [
+      "G8"
+     ]
+    }
+   ]
+  }
+ ],
+ "not_in_hierarchy": [
+  {
+   "bucket_id": "C1",
+   "status": "merged",
+   "merged_into": "B02"
+  },
+  {
+   "bucket_id": "C2",
+   "status": "merged",
+   "merged_into": "B27"
+  },
+  {
+   "bucket_id": "C3",
+   "status": "merged",
+   "merged_into": "B04"
+  },
+  {
+   "bucket_id": "C4",
+   "status": "merged",
+   "merged_into": "B26"
+  },
+  {
+   "bucket_id": "C5",
+   "status": "merged",
+   "merged_into": "B08"
+  },
+  {
+   "bucket_id": "C7",
+   "status": "merged",
+   "merged_into": "B15"
+  }
+ ]
+}

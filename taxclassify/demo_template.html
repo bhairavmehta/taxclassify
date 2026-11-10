@@ -1,0 +1,479 @@
+<title>Bucket Classifier Walkthrough</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky step rail on the left (top strip on phones); each step = a numbered section with a lead, a figure and the numbers behind it. */
+:root{
+  --bg:#F2F4F7; --panel:#FFFFFF; --sunk:#E8ECF2; --ink:#121826; --body:#3B4556; --muted:#667085; --line:#D6DCE5;
+  --accent:#2F55D4; --accent-soft:#E3E9FB; --warm:#D9771E; --warm-soft:#FBEBDD;
+  --assign:#1E8A5A; --review:#C8860F; --none:#7A55E8; --oos:#8792A3;
+  --assign-soft:#DDF2E8; --review-soft:#F8EBCF; --none-soft:#ECE6FD; --oos-soft:#E7EAEF;
+  --mark:#FFE08A; --mark-ink:#121826;
+  --f-head:'Manrope',system-ui,Arial,sans-serif; --f-body:'Inter',system-ui,Arial,sans-serif; --f-mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E131B; --panel:#151C27; --sunk:#1C2533; --ink:#E7ECF3; --body:#B6C1D1; --muted:#8B97A9; --line:#2A3546;
+  --accent:#7C9CF5; --accent-soft:#1F2C4D; --warm:#F0A55C; --warm-soft:#3A2814;
+  --assign:#4CC48D; --review:#E9B44C; --none:#A68BFA; --oos:#8E99AB;
+  --assign-soft:#173527; --review-soft:#3A2D12; --none-soft:#2A2148; --oos-soft:#232B37;
+  --mark:#6B5514; --mark-ink:#F5EBD0; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E131B; --panel:#151C27; --sunk:#1C2533; --ink:#E7ECF3; --body:#B6C1D1; --muted:#8B97A9; --line:#2A3546;
+  --accent:#7C9CF5; --accent-soft:#1F2C4D; --warm:#F0A55C; --warm-soft:#3A2814;
+  --assign:#4CC48D; --review:#E9B44C; --none:#A68BFA; --oos:#8E99AB;
+  --assign-soft:#173527; --review-soft:#3A2D12; --none-soft:#2A2148; --oos-soft:#232B37;
+  --mark:#6B5514; --mark-ink:#F5EBD0; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{margin:0;font:15px/1.55 var(--f-body)}
+h1,h2,h3{font-family:var(--f-head);margin:0;text-wrap:balance;letter-spacing:-.2px}
+h1{font-size:34px;font-weight:800;line-height:1.1}
+h2{font-size:26px;font-weight:700;line-height:1.15}
+h3{font-size:17px;font-weight:700}
+p{margin:0}
+code,.mono{font-family:var(--f-mono);font-size:12.5px}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{padding-block:28px 18px;display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:16.5px;color:var(--body);max-width:78ch}
+.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;align-items:start;padding-bottom:80px}
+@media (max-width:960px){.layout{grid-template-columns:minmax(0,1fr)}}
+nav.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:flex;flex-direction:column;gap:2px;font-size:13.5px}
+nav.rail a{display:grid;grid-template-columns:26px minmax(0,1fr);gap:6px;padding:6px 8px;border-radius:7px;color:var(--body);text-decoration:none}
+nav.rail a:hover{background:var(--sunk)}
+nav.rail a.on{background:var(--accent-soft);color:var(--ink);font-weight:600}
+nav.rail a span:first-child{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);padding-top:2px}
+@media (max-width:960px){nav.rail{position:static;flex-direction:row;overflow-x:auto;gap:4px;padding-bottom:6px}nav.rail a{white-space:nowrap;grid-template-columns:auto auto}}
+main{display:flex;flex-direction:column;gap:28px;min-width:0}
+section.step{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px 24px 26px;display:flex;flex-direction:column;gap:16px;min-width:0;scroll-margin-top:16px}
+section.step>header{display:flex;flex-direction:column;gap:6px}
+.num{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:1px}
+.g2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.g2,.g3{grid-template-columns:minmax(0,1fr)}.g4{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.fig{display:flex;flex-direction:column;gap:8px;min-width:0}
+.fig h3{font-size:15px}
+.cap{font-size:13px;color:var(--muted)}
+.scroll{overflow-x:auto}
+svg.chart{width:100%;height:auto;display:block;overflow:visible}
+svg.chart text{font-family:var(--f-body);font-size:11px;fill:var(--muted)}
+svg.chart .ink{fill:var(--ink)} svg.chart .b{font-weight:600}
+svg.chart .mono{font-family:var(--f-mono);font-size:10.5px}
+svg.chart .grid{stroke:var(--line);stroke-width:1}
+svg.dia text{font-family:var(--f-body);font-size:12px;fill:var(--ink)}
+svg.dia .sub{font-size:10.5px;fill:var(--muted)}
+svg.dia .mono{font-family:var(--f-mono);font-size:10.5px;fill:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.kpis>div{background:var(--panel);padding:14px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.kpis .v{font-family:var(--f-head);font-size:26px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpis .l{font-size:11.5px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.kpis .s{font-size:12px;color:var(--muted)}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.formula{font-family:var(--f-mono);font-size:13px;background:var(--sunk);border-radius:8px;padding:12px 16px;line-height:1.7;white-space:pre;overflow-x:auto;color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);background:var(--sunk);font-weight:600}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+.pill{display:inline-block;padding:1px 9px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.d-assign{background:var(--assign-soft);color:var(--assign)} .d-review{background:var(--review-soft);color:var(--review)}
+.d-none_of_these{background:var(--none-soft);color:var(--none)} .d-out_of_scope{background:var(--oos-soft);color:var(--oos)}
+.code{font-family:var(--f-mono);font-size:11.5px;padding:0 6px;border-radius:4px;background:var(--sunk);white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-family:var(--f-mono);font-size:11px;padding:2px 8px;border-radius:6px;background:var(--sunk);color:var(--body)}
+.chip.finding{background:var(--warm-soft);color:var(--warm)} .chip.phase{background:var(--accent-soft);color:var(--accent)}
+.chip.cictt{background:var(--assign-soft);color:var(--assign)} .chip.category{background:var(--none-soft);color:var(--none)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--body)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+select,input[type=search]{font:14px var(--f-body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 12px;font:600 13px var(--f-body);cursor:pointer}
+.btn[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.report{font-size:14px;line-height:1.65;background:var(--sunk);border-radius:10px;padding:14px 16px;max-height:340px;overflow:auto;white-space:pre-wrap;color:var(--body)}
+mark{background:var(--mark);color:var(--mark-ink);border-radius:3px;padding:0 2px}
+tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)} tr.sel td{background:var(--accent-soft)}
+.note{font-size:13px;color:var(--muted)}
+.callout{border-left:3px solid var(--warm);background:var(--warm-soft);padding:10px 14px;border-radius:0 8px 8px 0;font-size:13.5px;color:var(--ink)}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap top">
+  <span class="eyebrow">OBJ-3 · taxclassify · stage 1</span>
+  <h1>How the bucket classifier works, step by step</h1>
+  <p class="lead" id="lead">Loading the model…</p>
+</div>
+<div class="wrap layout">
+  <nav class="rail" id="rail" aria-label="Steps"></nav>
+  <main id="main"></main>
+</div>
+
+<script>const DATA=/*__DATA__*/null;</script>
+<script>
+(() => {
+const D = DATA, $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+if (!D) { $('#lead').textContent = 'No data embedded: build this page with python3 -m taxclassify report.'; return; }
+const fmt = (v, d = 2) => v == null || v === '' || Number.isNaN(+v) ? '—' : (+v).toFixed(d);
+const pct = v => v == null ? '—' : Math.round(100 * v) + '%';
+const N = v => (+v).toLocaleString();
+const DEC = {assign:'Assign', review:'Review', none_of_these:'None of these', out_of_scope:'Out of scope'};
+const DCOL = {assign:'var(--assign)', review:'var(--review)', none_of_these:'var(--none)', out_of_scope:'var(--oos)'};
+const ORIG = {positive:['Positive (support link)','var(--assign)'], hard_negative:['Hard negative (sibling rule)','var(--warm)'], sibling_neg:['Sibling support','var(--review)'], sampled_neg:['Sampled same-parent','var(--oos)']};
+const HUES = {'LOC-I':4,'LOC-G':28,'CFIT':120,'RE':200,'ARC':262,'SCF-PP':12,'SCF-NP':340,'FUEL':45,'MAC':300,'RI':185,'ICE':205,'TURB':160,'BIRD':90,'F-NI':0,'UIMC':230,'LALT':140,'GCOL':315,'CTOL':55,'CABIN':330,'NAV':275,'USOS':215,'RAMP':35};
+const hue = c => HUES[c] ?? ([...String(c)].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 360, 7));
+const pcol = c => `hsl(${hue(c)} 58% 52%)`;
+const B = Object.fromEntries(D.buckets.map(b => [b.id, b]));
+const S = D.meta.settings, thr = D.meta.conformal.threshold;
+const pill = d => `<span class="pill d-${d}">${DEC[d] || d}</span>`;
+
+/* ---------- small svg helpers (one scale per chart; labels from the same scale) */
+function axisTicks(max, n = 4) { const step = max / n; return Array.from({length: n + 1}, (_, i) => i * step); }
+function hbars(items, o = {}) {      // horizontal bars, one row per item; items: {label, v, color, tag}
+  const W = 760, L = o.left || 190, R = 70, rh = o.rh || 22, H = items.length * rh + 28, max = o.max || Math.max(...items.map(i => i.v), 1e-9);
+  const X = v => L + (W - L - R) * v / max;
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.label || 'bar chart')}">
+   ${axisTicks(max).map(t => `<line class="grid" x1="${X(t)}" x2="${X(t)}" y1="0" y2="${H - 22}"/><text x="${X(t)}" y="${H - 6}" text-anchor="middle">${o.pct ? Math.round(100 * t) + '%' : fmt(t, max < 2 ? 2 : 0)}</text>`).join('')}
+   ${o.line != null ? `<line x1="${X(o.line)}" x2="${X(o.line)}" y1="0" y2="${H - 22}" style="stroke:var(--warm);stroke-width:2;stroke-dasharray:4 3"/><text x="${X(o.line) + 4}" y="10" style="fill:var(--warm)" class="b">${esc(o.lineLabel || '')}</text>` : ''}
+   ${items.map((it, i) => `<g><title>${esc(it.label)}: ${o.pct ? pct(it.v) : fmt(it.v, 3)}</title>
+     <text x="${L - 8}" y="${i * rh + 15}" text-anchor="end" class="${it.bold ? 'ink b' : 'ink'}">${esc(it.label)}</text>
+     <rect x="${L}" y="${i * rh + 4}" width="${Math.max(0, X(it.v) - L)}" height="${rh - 8}" rx="3" style="fill:${it.color || 'var(--accent)'}"/>
+     <text x="${X(it.v) + 6}" y="${i * rh + 15}" class="mono">${o.pct ? pct(it.v) : fmt(it.v, o.dec ?? 3)}${it.tag ? ' · ' + esc(it.tag) : ''}</text></g>`).join('')}
+  </svg>`;
+}
+function stacked(rows, keys, colors, o = {}) {   // horizontal stacked bars; rows: {label, parts:{k:v}}
+  const W = 760, L = o.left || 120, R = 60, rh = 20, H = rows.length * rh + 28;
+  const tot = r => keys.reduce((s, k) => s + (r.parts[k] || 0), 0), max = o.max || Math.max(...rows.map(tot), 1);
+  const X = v => L + (W - L - R) * v / max;
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.label || 'stacked bars')}">
+   ${axisTicks(max).map(t => `<line class="grid" x1="${X(t)}" x2="${X(t)}" y1="0" y2="${H - 22}"/><text x="${X(t)}" y="${H - 6}" text-anchor="middle">${fmt(t, 0)}</text>`).join('')}
+   ${rows.map((r, i) => { let x = L; return `<g><text x="${L - 8}" y="${i * rh + 14}" text-anchor="end" class="ink">${esc(r.label)}</text>
+     ${keys.map(k => { const w = X(r.parts[k] || 0) - L, el = w > 0 ? `<rect x="${x}" y="${i * rh + 4}" width="${w}" height="${rh - 8}" style="fill:${colors[k]}"><title>${esc(r.label)} · ${esc(k)}: ${r.parts[k]}</title></rect>` : ''; x += w; return el; }).join('')}
+     <text x="${x + 6}" y="${i * rh + 14}" class="mono">${tot(r)}</text></g>`; }).join('')}
+  </svg>`;
+}
+function xy(series, o = {}) {        // line/scatter plot in [0,1]×[0,1] unless o.xmax/ymax
+  const W = 420, H = 320, L = 46, Bm = 40, T = 12, R = 14, xm = o.xmax || 1, ym = o.ymax || 1;
+  const X = v => L + (W - L - R) * v / xm, Y = v => T + (H - T - Bm) * (1 - v / ym);
+  const ticks = [0, .25, .5, .75, 1];
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.label || 'plot')}">
+   ${ticks.map(t => `<line class="grid" x1="${X(t * xm)}" x2="${X(t * xm)}" y1="${T}" y2="${H - Bm}"/><line class="grid" x1="${L}" x2="${W - R}" y1="${Y(t * ym)}" y2="${Y(t * ym)}"/>
+     <text x="${X(t * xm)}" y="${H - Bm + 16}" text-anchor="middle">${fmt(t * xm, xm < 2 ? 2 : 0)}</text>${o.noy ? '' : `<text x="${L - 6}" y="${Y(t * ym) + 4}" text-anchor="end">${fmt(t * ym, 2)}</text>`}`).join('')}
+   <text x="${(L + W - R) / 2}" y="${H - 6}" text-anchor="middle" class="ink">${esc(o.xlab || '')}</text>
+   <text x="12" y="${(T + H - Bm) / 2}" text-anchor="middle" class="ink" transform="rotate(-90 12 ${(T + H - Bm) / 2})">${esc(o.ylab || '')}</text>
+   ${o.diag ? `<line x1="${X(0)}" y1="${Y(0)}" x2="${X(xm)}" y2="${Y(ym)}" style="stroke:var(--muted);stroke-dasharray:4 4"/>` : ''}
+   ${o.hline != null ? `<line x1="${L}" x2="${W - R}" y1="${Y(o.hline)}" y2="${Y(o.hline)}" style="stroke:var(--warm);stroke-dasharray:4 3;stroke-width:1.5"/><text x="${W - R}" y="${Y(o.hline) - 5}" text-anchor="end" style="fill:var(--warm)">${esc(o.hlab || '')}</text>` : ''}
+   ${series.map(s => `${s.line ? `<path d="${s.pts.map((p, i) => `${i ? 'L' : 'M'}${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(' ')}" style="fill:none;stroke:${s.color};stroke-width:2.2"/>` : ''}
+      ${(s.dots ? s.pts : []).map(p => `<circle cx="${X(p[0])}" cy="${Y(p[1])}" r="${p[2] || 4}" style="fill:${s.color};fill-opacity:.8;stroke:var(--panel)"><title>${esc(s.tip ? s.tip(p) : '')}</title></circle>`).join('')}`).join('')}
+  </svg>`;
+}
+function hist(values, o = {}) {
+  const W = 760, H = 230, L = 46, Bm = 36, T = 16, R = 14, lo = o.lo ?? 0, hi = o.hi ?? 1, bins = o.bins || 20, w = (hi - lo) / bins;
+  const c = Array(bins).fill(0); values.forEach(v => { c[Math.min(bins - 1, Math.max(0, Math.floor((v - lo) / w)))]++; });
+  const max = Math.max(...c, 1), X = v => L + (W - L - R) * (v - lo) / (hi - lo), Y = v => T + (H - T - Bm) * (1 - v / max);
+  return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.label || 'histogram')}">
+   ${axisTicks(max).map(t => `<line class="grid" x1="${L}" x2="${W - R}" y1="${Y(t)}" y2="${Y(t)}"/><text x="${L - 6}" y="${Y(t) + 4}" text-anchor="end">${Math.round(t)}</text>`).join('')}
+   ${c.map((n, i) => `<rect x="${X(lo + i * w) + 1}" y="${Y(n)}" width="${X(lo + w) - X(lo) - 2}" height="${Y(0) - Y(n)}" style="fill:${o.color || 'var(--accent)'}"><title>${fmt(lo + i * w)}–${fmt(lo + (i + 1) * w)}: ${n}</title></rect>`).join('')}
+   ${[0, .25, .5, .75, 1].map(f => `<text x="${X(lo + f * (hi - lo))}" y="${H - Bm + 16}" text-anchor="middle">${fmt(lo + f * (hi - lo))}</text>`).join('')}
+   <text x="${(L + W - R) / 2}" y="${H - 4}" text-anchor="middle" class="ink">${esc(o.xlab || '')}</text>
+   ${(o.lines || []).map(l => `<line x1="${X(l.v)}" x2="${X(l.v)}" y1="${T - 6}" y2="${H - Bm}" style="stroke:var(--warm);stroke-width:2;stroke-dasharray:5 3"/><text x="${X(l.v) + (l.anchor === 'end' ? -6 : 6)}" y="${T + 6}" text-anchor="${l.anchor || 'start'}" style="fill:var(--warm);paint-order:stroke;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round" class="b">${esc(l.label)}</text>`).join('')}
+  </svg>`;
+}
+
+/* ---------- diagrams */
+function box(x, y, w, h, t, sub, o = {}) {
+  return `<g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="9" style="fill:${o.fill || 'var(--panel)'};stroke:${o.stroke || 'var(--line)'};stroke-width:${o.sw || 1.5}"/>
+   <text x="${x + w / 2}" y="${y + 21}" text-anchor="middle" style="font-weight:700${o.ink ? ';fill:' + o.ink : ''}">${t}</text>
+   ${(sub || []).map((s, i) => `<text x="${x + w / 2}" y="${y + 38 + i * 14}" text-anchor="middle" class="sub"${o.subInk ? ` style="fill:${o.subInk}"` : ''}>${s}</text>`).join('')}</g>`;
+}
+const arr = (x1, y1, x2, y2, c = 'var(--muted)', dash) => `<path d="M${x1},${y1} L${x2},${y2}" style="fill:none;stroke:${c};stroke-width:1.6${dash ? ';stroke-dasharray:5 4' : ''}" marker-end="url(#ah)"/>`;
+const path = (d, c = 'var(--muted)', dash) => `<path d="${d}" style="fill:none;stroke:${c};stroke-width:1.6${dash ? ';stroke-dasharray:5 4' : ''}" marker-end="url(#ah)"/>`;
+const defs = `<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10z" style="fill:var(--muted)"/></marker></defs>`;
+function flowSVG() {
+  const c = D.training, a = 'var(--accent)', w = 'var(--warm)';
+  return `<svg class="dia" viewBox="0 0 1000 430" role="img" aria-label="Classifier pipeline flow">${defs}
+   <text x="10" y="18" class="mono">TRAIN (offline, per grounding run)</text>
+   ${box(10, 30, 165, 74, 'Grounding run', ['grounding_results.json', `${N(Object.keys(D.meta.sources).length)} source files, sha256`])}
+   ${box(205, 30, 165, 74, 'Silver labels', [`${N(c.rows)} rows · ${D.buckets.length} buckets`, 'positive / hard / sampled'], {stroke: a})}
+   ${box(400, 30, 165, 74, 'Featurizer', [`${N(D.features.text_terms)} text terms`, `+ ${N(D.features.struct_tokens)} NTSB tokens`], {stroke: a})}
+   ${box(595, 30, 175, 74, 'Logistic regression', ['one per bucket, vs siblings', `${S.folds}-fold out-of-fold scores`], {stroke: a})}
+   ${box(800, 30, 190, 74, 'Calibrate + conformal', ['Platt: p = σ(a·z + b)', `q̂ → threshold p ≥ ${fmt(thr, 3)}`], {stroke: w})}
+   ${arr(175, 67, 203, 67)}${arr(370, 67, 398, 67)}${arr(565, 67, 593, 67)}${arr(770, 67, 798, 67)}
+   <text x="10" y="150" class="mono">PREDICT (per report)</text>
+   ${box(10, 162, 165, 74, 'New report', ['narrative + findings', 'CICTT codes from NTSB'])}
+   ${box(205, 162, 165, 74, 'Candidate buckets', ['trained buckets under', "the report's codes"])}
+   ${box(400, 162, 165, 74, 'Score siblings', ['calibrated p per bucket', 'conformal set {p ≥ thr}'], {stroke: a})}
+   ${box(595, 162, 175, 74, 'Decide', [`1 in set & p ≥ ${S.min_prob} → assign`, '≥2 → review · 0 → none'], {stroke: w})}
+   ${box(800, 162, 190, 74, 'Explain + check', ['verbatim evidence sentence', 'top features · C1–C5'], {stroke: 'var(--assign)'})}
+   ${arr(175, 199, 203, 199)}${arr(370, 199, 398, 199)}${arr(565, 199, 593, 199)}${arr(770, 199, 798, 199)}
+   ${path('M895,104 L895,130 L482,130 L482,160', w, true)}
+   ${box(205, 290, 165, 60, 'out_of_scope', ['no trained bucket under codes'], {fill: 'var(--oos-soft)', stroke: 'var(--oos)'})}
+   ${box(400, 290, 165, 60, 'none_of_these', ['empty conformal set'], {fill: 'var(--none-soft)', stroke: 'var(--none)'})}
+   ${box(595, 290, 175, 60, 'review', ['set of 2+, or p < min_prob'], {fill: 'var(--review-soft)', stroke: 'var(--review)'})}
+   ${box(800, 290, 190, 60, 'assign', ['one bucket, labelled'], {fill: 'var(--assign-soft)', stroke: 'var(--assign)'})}
+   ${path('M288,236 L288,288')}${path('M682,236 L682,262 L482,262 L482,288')}${arr(682, 236, 682, 288)}${path('M682,236 L682,262 L895,262 L895,288')}
+   ${box(10, 370, 360, 48, 'SME review queue → revision_prompts.csv', [], {fill: 'var(--sunk)'})}
+   ${path('M288,350 L288,368')}${path('M482,350 L482,394 L372,394')}${path('M682,350 L682,394 L372,394')}
+   ${box(600, 370, 390, 48, 'SME gold labels → evaluate, then retrain', [], {fill: 'var(--sunk)'})}
+   ${path('M600,394 L560,394 L560,420 L10,420 L10,90 L8,90', 'var(--muted)', true)}
+  </svg>`;
+}
+function blockSVG() {
+  const m = (x, y, w, h, t, lines, col) => `<g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" style="fill:var(--panel);stroke:${col};stroke-width:1.6"/>
+    <text x="${x + 12}" y="${y + 20}" style="font-weight:700">${t}</text>${lines.map((l, i) => `<text x="${x + 12}" y="${y + 38 + i * 15}" class="mono">${l}</text>`).join('')}</g>`;
+  const f = (x, y, w, t, col) => `<g><rect x="${x}" y="${y}" width="${w}" height="26" rx="5" style="fill:var(--sunk);stroke:${col || 'var(--line)'}"/><text x="${x + 10}" y="${y + 17}" class="mono" style="fill:var(--ink)">${t}</text></g>`;
+  return `<svg class="dia" viewBox="0 0 1000 470" role="img" aria-label="Block diagram of taxclassify modules and files">${defs}
+   <text x="10" y="18" class="mono">INPUT FILES (classifier_input/)</text>
+   ${f(10, 30, 230, 'ntsb_run/grounding_results.json')}${f(10, 62, 230, 'ntsb_run/inputs/sample_reports.json')}${f(10, 94, 230, 'ntsb_run/taxonomy.json')}${f(10, 126, 230, 'ntsb_test_reports.json')}${f(10, 158, 230, 'gold labels (CSV, optional)')}
+   ${m(300, 30, 200, 92, 'data.py', ['Run · load_reports', 'silver_labels (lineage)', 'gold_labels'], 'var(--accent)')}
+   ${m(300, 140, 200, 78, 'features.py', ['Featurizer: TF-IDF 1–2g', 'structured_tokens'], 'var(--accent)')}
+   ${m(300, 236, 200, 92, 'model.py', ['BucketModel: LR + Platt', 'conformal_threshold', 'evidence (sentence)'], 'var(--warm)')}
+   ${m(300, 346, 200, 62, 'checks.py', ['C1–C5 · fault_tests'], 'var(--assign)')}
+   ${m(560, 120, 190, 132, 'cli.py', ['train', 'predict', 'evaluate', 'report', '(python3 -m taxclassify)'], 'var(--ink)')}
+   ${m(560, 290, 190, 62, 'report.py', ['data → demo_template', '→ this page'], 'var(--none)')}
+   ${arr(240, 43, 298, 60)}${arr(240, 75, 298, 76)}${arr(240, 107, 298, 92)}${arr(240, 139, 298, 104)}${arr(240, 171, 298, 114)}
+   ${arr(500, 76, 558, 150)}${arr(500, 179, 558, 186)}${arr(500, 282, 558, 220)}${arr(500, 377, 558, 240)}${arr(655, 252, 655, 288)}
+   <text x="800" y="18" class="mono">OUTPUT FILES</text>
+   ${f(790, 30, 205, 'models/clf-&lt;id&gt;/model.joblib', 'var(--warm)')}${f(790, 62, 205, 'model_card.md · model.json')}${f(790, 94, 205, 'training_rows.csv')}${f(790, 126, 205, 'cv_metrics.csv')}
+   ${f(790, 178, 205, 'classifications.csv', 'var(--assign)')}${f(790, 210, 205, 'revision_prompts.csv')}${f(790, 242, 205, 'fault_tests.csv · summary.json')}
+   ${f(790, 294, 205, 'metrics.json · per_bucket.csv', 'var(--none)')}${f(790, 346, 205, 'classifier_demo.html', 'var(--none)')}
+   ${arr(750, 150, 788, 60)}${arr(750, 186, 788, 191)}${arr(750, 230, 788, 307)}${arr(750, 321, 788, 359)}
+   <text x="10" y="450" class="mono">No database: everything is read from files and written to files; model id = sha256(training rows + settings + code + run hash)[:12]</text>
+  </svg>`;
+}
+function decisionSVG() {
+  const dia = (cx, cy, t1, t2) => `<g><polygon points="${cx - 92},${cy} ${cx},${cy - 34} ${cx + 92},${cy} ${cx},${cy + 34}" style="fill:var(--sunk);stroke:var(--muted);stroke-width:1.4"/><text x="${cx}" y="${cy - 2}" text-anchor="middle" style="font-weight:600">${t1}</text><text x="${cx}" y="${cy + 13}" text-anchor="middle" class="sub">${t2}</text></g>`;
+  const end = (x, y, d, t) => box(x, y, 150, 46, DEC[d], [t], {fill: `var(--${d === 'none_of_these' ? 'none' : d === 'out_of_scope' ? 'oos' : d}-soft)`, stroke: DCOL[d]});
+  const lab = (x, y, t) => `<text x="${x}" y="${y}" class="sub">${t}</text>`;
+  return `<svg class="dia" viewBox="0 0 1000 300" role="img" aria-label="Decision rule flowchart">${defs}
+   ${dia(110, 70, 'Any trained bucket', "under report's codes?")}
+   ${dia(360, 70, 'How many buckets', `with p ≥ ${fmt(thr, 3)}?`)}
+   ${dia(640, 70, 'Top bucket p', `≥ ${S.min_prob}?`)}
+   ${arr(202, 70, 266, 70)}${lab(216, 62, 'yes')}${arr(452, 70, 546, 70)}${lab(470, 62, 'exactly 1')}
+   ${end(35, 200, 'out_of_scope', 'propose a bucket')}${path('M110,104 L110,198')}${lab(118, 160, 'no')}
+   ${end(285, 200, 'none_of_these', 'new bucket / widen')}${path('M360,104 L360,198')}${lab(368, 160, '0')}
+   ${end(510, 200, 'review', 'SME picks')}${path('M420,95 L520,180 L560,198')}${lab(492, 128, '2 or more')}${path('M640,104 L640,150 L600,150 L600,198')}${lab(606, 140, 'no')}
+   ${end(800, 47, 'assign', 'label written')}${arr(732, 70, 798, 70)}${lab(752, 62, 'yes')}
+   <text x="800" y="130" class="sub">then: evidence sentence (verbatim),</text><text x="800" y="145" class="sub">top-5 feature contributions,</text><text x="800" y="160" class="sub">checks C1–C5 on every row</text>
+  </svg>`;
+}
+function featureSVG() {
+  const t = D.features.text_terms, s = D.features.struct_tokens, W = 1000, x0 = 20, w = 960, ws = Math.max(70, w * s / (t + s) * 40);
+  return `<svg class="dia" viewBox="0 0 1000 170" role="img" aria-label="Feature vector layout">
+   <rect x="${x0}" y="40" width="${w - ws}" height="44" rx="6" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+   <text x="${x0 + (w - ws) / 2}" y="60" text-anchor="middle" style="font-weight:700">TF-IDF text block · ${N(t)} terms (words + word pairs)</text>
+   <text x="${x0 + (w - ws) / 2}" y="76" text-anchor="middle" class="sub">sublinear tf, English stop words removed, min_df 2, narrative + verbalized findings</text>
+   <rect x="${x0 + w - ws}" y="40" width="${ws}" height="44" rx="6" style="fill:var(--warm-soft);stroke:var(--warm)"/>
+   <text x="${x0 + w - ws / 2}" y="60" text-anchor="middle" style="font-weight:700">NTSB tokens</text>
+   <text x="${x0 + w - ws / 2}" y="76" text-anchor="middle" class="sub">${N(s)} × ${D.features.struct_weight}</text>
+   <text x="${x0}" y="28" class="mono">x ∈ ℝ^${N(D.features.total)} (sparse; L2-normalised per block)</text>
+   <text x="${x0}" y="112" class="mono">F:Cause:Aircraft/Aircraft systems/…   F:Contr:Environmental issues/…   PH:Landing   CAT:AIR   L1:SCF-PP</text>
+   <text x="${x0}" y="132" class="sub">Coded findings at depth 2 and 3 with their role (Cause, Contributing factor, Finding), flight phase, aircraft category and CICTT codes.</text>
+   <text x="${x0}" y="150" class="sub">The text block is not to scale: it holds ${Math.round(t / s)}× as many columns as the token block.</text>
+  </svg>`;
+}
+
+/* ---------- sections */
+const P = D.predictions, dec = D.decisions, tot = P.length;
+const steps = [
+ ['overview', '00', 'At a glance'], ['flow', '01', 'Pipeline flow'], ['blocks', '02', 'Block diagram'], ['labels', '03', 'Training labels'],
+ ['features', '04', 'Features'], ['model', '05', 'Per-bucket model'], ['calib', '06', 'Calibration'], ['conformal', '07', 'Conformal sets'],
+ ['decide', '08', 'Decisions'], ['example', '09', 'Worked example'], ['checks', '10', 'Checks & faults'], ['eval', '11', 'Evaluation'],
+ ['explorer', '12', 'Predictions explorer'], ['repro', '13', 'Provenance & limits']];
+$('#rail').innerHTML = steps.map(([id, n, t]) => `<a href="#${id}" data-id="${id}"><span>${n}</span><span>${t}</span></a>`).join('');
+$('#lead').innerHTML = `Model <span class="code">clf-${esc(D.meta.model_id)}</span> trained on grounding run <span class="code">${esc(D.meta.run_id)}</span> (hash ${esc((D.meta.run_hash || '').slice(0, 12))}): ${D.buckets.length} buckets, ${N(D.training.rows)} labelled rows. It classified ${N(tot)} NTSB reports that were kept out of training. Every chart below is computed from the saved model and its output files.`;
+const apMean = D.buckets.reduce((s, b) => s + (b.ap || 0), 0) / D.buckets.length;
+
+const html = [];
+html.push(`<section class="step" id="overview"><header><span class="num">00 · AT A GLANCE</span><h2>${D.buckets.length} calibrated bucket models, a conformal abstain rule, and ${N(tot)} reports classified</h2></header>
+ <div class="kpis">
+  <div><span class="l">Buckets</span><span class="v">${D.buckets.length}</span><span class="s">${Object.keys(D.meta.skipped || {}).length} skipped</span></div>
+  <div><span class="l">Training rows</span><span class="v">${N(D.training.rows)}</span><span class="s">${N(D.training.by_origin.positive)} positive</span></div>
+  <div><span class="l">Features</span><span class="v">${N(D.features.total)}</span><span class="s">text + NTSB tokens</span></div>
+  <div><span class="l">Mean OOF AP</span><span class="v">${fmt(apMean)}</span><span class="s">silver labels</span></div>
+  <div><span class="l">Calibration error</span><span class="v">${fmt(D.reliability.ece, 3)}</span><span class="s">ECE, out-of-fold</span></div>
+  <div><span class="l">Set threshold</span><span class="v">${fmt(thr, 3)}</span><span class="s">α = ${S.alpha}</span></div>
+ </div>
+ <div class="fig"><h3>Outcome on ${N(tot)} held-out reports</h3>
+  <svg class="chart" viewBox="0 0 760 46" role="img" aria-label="Decision shares">${(() => { let x = 0; return Object.keys(DEC).map(k => { const w = 760 * (dec[k] || 0) / tot, el = w ? `<rect x="${x}" y="0" width="${w}" height="26" style="fill:${DCOL[k]}"><title>${DEC[k]}: ${dec[k] || 0}</title></rect>` : ''; x += w; return el; }).join(''); })()}</svg>
+  <div class="legend">${Object.keys(DEC).map(k => `<span><i style="background:${DCOL[k]}"></i><b>${dec[k] || 0}</b> ${DEC[k].toLowerCase()}</span>`).join('')}</div>
+  <p class="cap">With 12 positive examples per bucket the model is cautious by design: it assigns only when one bucket clears the conformal threshold with p ≥ ${S.min_prob}, and routes the rest to SMEs or back to discovery.</p></div>
+</section>`);
+html.push(`<section class="step" id="flow"><header><span class="num">01 · PIPELINE FLOW</span><h2>Train once per grounding run; every report then takes the same five steps</h2>
+ <p class="lead">Training reads only the grounding run's files. Prediction scores a report against the buckets of its own CICTT parents, decides, explains and checks. SME gold labels close the loop.</p></header>
+ <div class="scroll">${flowSVG()}</div></section>`);
+html.push(`<section class="step" id="blocks"><header><span class="num">02 · BLOCK DIAGRAM</span><h2>Six modules, files in and files out, no database</h2></header>
+ <div class="scroll">${blockSVG()}</div>
+ <div class="tw"><table><tr><th>Command</th><th>Reads</th><th>Writes</th></tr>
+  <tr><td><code>train --run R [--taxonomy T] [--exclude F…]</code></td><td>grounding_results.json, inputs/sample_reports.json</td><td>models/clf-&lt;id&gt;/ (model.joblib, model_card.md, model.json, training_rows.csv, cv_metrics.csv)</td></tr>
+  <tr><td><code>predict --model M --reports F</code></td><td>model, reports JSON</td><td>classifications.csv, revision_prompts.csv, fault_tests.csv, summary.json</td></tr>
+  <tr><td><code>evaluate --model M --reports F --gold G</code></td><td>model, reports, gold CSV/JSON</td><td>the above + metrics.json, per_bucket.csv</td></tr>
+  <tr><td><code>report --model M --reports F [--predict P --eval E --gold G]</code></td><td>all of the above</td><td>classifier_demo.html (this page) and its JSON</td></tr></table></div></section>`);
+
+const comp = D.buckets.map(b => ({label: `${b.id} · ${b.parent}`, parts: b.comp})).sort((a, b) => a.label.localeCompare(b.label));
+html.push(`<section class="step" id="labels"><header><span class="num">03 · TRAINING LABELS</span><h2>${N(D.training.rows)} rows from the grounding run, each traceable to its source record</h2>
+ <p class="lead">No one has labelled NTSB reports for these buckets yet, so the labels are silver: they come from the grounding run's verified links. Each row in <span class="code">training_rows.csv</span> names its origin and its locator in <span class="code">grounding_results.json</span>.</p></header>
+ <div class="g4">${Object.entries(D.training.by_origin).map(([k, v]) => `<div class="fig" style="border-left:4px solid ${ORIG[k][1]};padding-left:12px"><span class="cap">${ORIG[k][0]}</span><span style="font:800 24px var(--f-head)">${N(v)}</span></div>`).join('')}</div>
+ <div class="g2"><div class="fig"><h3>Rows per bucket by origin</h3>${stacked(comp, Object.keys(ORIG), Object.fromEntries(Object.entries(ORIG).map(([k, v]) => [k, v[1]])), {label: 'training rows per bucket', left: 110})}
+  <div class="legend">${Object.entries(ORIG).map(([k, v]) => `<span><i style="background:${v[1]}"></i>${v[0]}</span>`).join('')}</div></div>
+  <div class="fig"><h3>How each row is made</h3><div class="tw"><table><tr><th>Origin</th><th>y</th><th>Rule</th><th>Source locator</th></tr>
+   <tr><td>${ORIG.positive[0]}</td><td>1</td><td>verified support link (quote checked by G4)</td><td class="mono">results[i].diag.support[j]</td></tr>
+   <tr><td>${ORIG.hard_negative[0]}</td><td>0</td><td>report the sibling rule gave to a better-matching bucket</td><td class="mono">results[i].diag.moved_to_sibling[j]</td></tr>
+   <tr><td>${ORIG.sibling_neg[0]}</td><td>0</td><td>another bucket's support under the same parent</td><td class="mono">support of &lt;sibling&gt;</td></tr>
+   <tr><td>${ORIG.sampled_neg[0]}</td><td>0</td><td>${S.neg_per_pos} random reports per positive, same parent, cited by no bucket (seed ${S.seed})</td><td class="mono">reports coded &lt;parent&gt;</td></tr></table></div>
+   <p class="callout">Sampled negatives are unlabelled reports treated as negatives (positive-unlabelled bias): some are true positives. Calibration absorbs part of it; only gold labels measure it. ${N(D.meta.excluded)} reports to be classified were excluded from training.</p></div></div></section>`);
+
+const ex0 = P.find(p => p.decision === 'assign') || P.find(p => p.decision === 'review') || P[0];
+html.push(`<section class="step" id="features"><header><span class="num">04 · FEATURES</span><h2>The report's words plus NTSB's own coding, in one sparse vector</h2></header>
+ <div class="scroll">${featureSVG()}</div>
+ <div class="g2"><div class="fig"><h3>Most common NTSB tokens in the corpus</h3><div class="chips">${D.features.struct_common.map(t => `<span class="chip ${t.startsWith('F:') ? 'finding' : t.startsWith('PH:') ? 'phase' : t.startsWith('L1:') ? 'cictt' : 'category'}">${esc(t)}</span>`).join('')}</div>
+   <p class="cap">Lowest inverse document frequency first. Colour = token family: coded finding, phase, CICTT code, aircraft category.</p></div>
+  <div class="fig"><h3>Tokens of report ${esc(ex0.key)}</h3><div class="chips">${ex0.struct.map(t => `<span class="chip ${t.startsWith('F:') ? 'finding' : t.startsWith('PH:') ? 'phase' : t.startsWith('L1:') ? 'cictt' : 'category'}">${esc(t)}</span>`).join('')}</div>
+   <div class="formula">x = [ tfidf(narrative + findings) ‖ ${D.features.struct_weight} · tfidf(NTSB tokens) ]</div></div></div></section>`);
+
+const apSorted = [...D.buckets].sort((a, b) => b.ap - a.ap);
+html.push(`<section class="step" id="model"><header><span class="num">05 · PER-BUCKET MODEL</span><h2>One logistic regression per bucket, trained only against its siblings</h2>
+ <p class="lead">Comparing a bucket with reports from other CICTT parents would be too easy and teach nothing useful. Each model sees its positives against negatives under the same parent, so it learns what separates siblings.</p></header>
+ <div class="formula">z_b(x) = w_b · x + c_b          liblinear, L2, C = ${S.C}, class_weight = balanced, seed ${S.seed}
+out-of-fold z from ${S.folds}-fold stratified CV  →  Platt fit  →  p_b(x) = σ(a_b · z_b(x) + b_b)
+average precision (AP) = area under the out-of-fold precision–recall curve; base rate = positives / rows</div>
+ <div class="fig"><h3>Out-of-fold average precision per bucket (silver labels)</h3>
+  ${hbars(apSorted.map(b => ({label: `${b.id} ${b.name.slice(0, 26)}`, v: b.ap, color: pcol(b.parent), tag: b.parent})), {max: 1, dec: 2, left: 230, label: 'average precision per bucket'})}
+  <p class="cap">Colour = CICTT parent. A random ranker scores the base rate (about ${pct(D.buckets[0].base_rate)}); 1.0 is perfect.</p></div>
+ <div class="row"><label for="bsel"><b>Inspect a bucket</b></label><select id="bsel">${apSorted.map(b => `<option value="${b.id}">${b.id} · ${esc(b.name)} (${b.parent})</option>`).join('')}</select></div>
+ <div class="g2" id="bdetail"></div></section>`);
+
+html.push(`<section class="step" id="calib"><header><span class="num">06 · CALIBRATION</span><h2>Platt scaling turns scores into probabilities you can threshold</h2></header>
+ <div class="g2"><div class="fig"><h3>Reliability diagram, all buckets pooled</h3>
+   ${xy([{color: 'var(--accent)', line: true, dots: true, pts: D.reliability.bins.map(b => [b.pred, b.obs, 3 + Math.sqrt(b.n) / 3]), tip: p => `predicted ${fmt(p[0])}, observed ${fmt(p[1])}`}], {diag: true, xlab: 'mean predicted probability', ylab: 'observed share positive', label: 'reliability diagram'})}
+   <p class="cap">Dot area ∝ number of out-of-fold predictions in the bin (n = ${N(D.reliability.n)}). The dashed diagonal is perfect calibration. Expected calibration error ${fmt(D.reliability.ece, 3)}.</p></div>
+  <div class="fig"><h3>Bins</h3><div class="tw"><table><tr><th>p bin</th><th class="n">n</th><th class="n">mean p</th><th class="n">observed</th><th class="n">gap</th></tr>
+   ${D.reliability.bins.map(b => `<tr><td class="mono">${fmt(b.lo, 1)}–${fmt(b.lo + .1, 1)}</td><td class="n">${N(b.n)}</td><td class="n">${fmt(b.pred, 3)}</td><td class="n">${fmt(b.obs, 3)}</td><td class="n" style="color:${Math.abs(b.pred - b.obs) > .1 ? 'var(--warm)' : 'var(--muted)'}">${(b.obs - b.pred >= 0 ? '+' : '') + fmt(b.obs - b.pred, 3)}</td></tr>`).join('')}</table></div>
+   <div class="formula">ECE = Σ_bins (n_bin / n) · |mean p − observed|</div>
+   <p class="cap">Most mass sits below 0.1: most same-parent reports are not in the bucket. Gaps above 0.1 (amber) mark bins where probabilities over- or under-state the rate.</p></div></div></section>`);
+
+const qh = D.meta.conformal.qhat;
+html.push(`<section class="step" id="conformal"><header><span class="num">07 · CONFORMAL PREDICTION SETS</span><h2>A bucket enters the set when p ≥ ${fmt(thr, 3)}, aiming to contain the right bucket ${pct(1 - S.alpha)} of the time</h2></header>
+ <div class="formula">s_i = 1 − p_true(x_i)        for each of ${D.meta.conformal.calibration_positives} positives, out-of-fold
+q̂ = s_(k),  k = ⌈(n + 1)(1 − α)⌉ = ⌈${D.meta.conformal.calibration_positives + 1} × ${1 - S.alpha}⌉        q̂ = ${fmt(qh, 4)}
+C(x) = { b : p_b(x) ≥ 1 − q̂ = ${fmt(thr, 4)} }</div>
+ <div class="fig"><h3>Nonconformity of the true bucket, out-of-fold</h3>
+  ${hist(D.nonconf, {bins: 25, xlab: 'nonconformity s = 1 − p(true bucket)', color: 'var(--accent)', lines: [{v: qh, label: `q̂ = ${fmt(qh, 3)}`, anchor: 'end'}], label: 'nonconformity histogram'})}
+  <p class="cap">${pct(1 - S.alpha)} of positives fall left of q̂. Many true buckets get low probabilities (s near 1), which pushes q̂ high and the threshold low: a sign of how little 12 examples per bucket can teach. Coverage is a target here because the labels are silver.</p></div>
+ <div class="g2"><div class="fig"><h3>Prediction-set sizes on ${N(tot)} reports</h3>${hbars(Object.entries(D.set_sizes).sort().map(([k, v]) => ({label: `${k} bucket${k === '1' ? '' : 's'}`, v, color: k === '1' ? 'var(--assign)' : k === '0' ? 'var(--none)' : 'var(--review)'})), {dec: 0, left: 90, label: 'set sizes'})}</div>
+  <div class="fig"><h3>Why sets, not a single guess</h3><p class="lead" style="font-size:14.5px">A set of one is a confident answer. A set of two is an honest tie that an SME resolves. An empty set says the report resembles none of the version's buckets, which is itself a discovery signal.</p></div></div></section>`);
+
+const parents = Object.entries(D.by_parent).map(([k, v]) => ({label: k, parts: v})).sort((a, b) => Object.values(b.parts).reduce((s, x) => s + x, 0) - Object.values(a.parts).reduce((s, x) => s + x, 0));
+const probBy = Object.keys(DEC).map(k => ({k, v: P.filter(p => p.decision === k && p.p != null).map(p => +p.p)}));
+html.push(`<section class="step" id="decide"><header><span class="num">08 · DECISIONS</span><h2>The rule, and what it did to ${N(tot)} reports</h2></header>
+ <div class="scroll">${decisionSVG()}</div>
+ <div class="g2"><div class="fig"><h3>Decisions by first CICTT code of the report</h3>${stacked(parents, Object.keys(DEC), DCOL, {label: 'decisions by parent', left: 70})}
+   <div class="legend">${Object.keys(DEC).map(k => `<span><i style="background:${DCOL[k]}"></i>${DEC[k]}</span>`).join('')}</div>
+   <p class="cap">Out of scope means no trained bucket exists under the report's codes (for example UNK, OTHR, ATM): a gap in the taxonomy, not in the model.</p></div>
+  <div class="fig"><h3>Top-bucket probability by decision</h3>
+   ${xy(probBy.flatMap((s, i) => s.v.length ? [{color: DCOL[s.k], dots: true, pts: s.v.map((v, j) => [v, (i + 0.5) / 4 + ((j * 37) % 17 - 8) / 200, 3]), tip: p => `${DEC[s.k]} · p = ${fmt(p[0], 3)}`}] : []), {xlab: 'top-bucket probability', ylab: '', noy: true, label: 'probability by decision'})}
+   <div class="legend">${probBy.filter(s => s.v.length).map(s => `<span><i style="background:${DCOL[s.k]}"></i>${DEC[s.k]} (${s.v.length})</span>`).join('')}</div>
+   <p class="cap">Each dot is a report, jittered vertically by decision. The threshold ${fmt(thr, 3)} separates none-of-these from the rest; ${S.min_prob} separates assign from single-bucket review.</p></div></div></section>`);
+
+const ex = ex0, exB = B[ex.primary];
+const hl = (t, q) => { const i = q ? t.indexOf(q) : -1; return i < 0 ? esc(t) : esc(t.slice(0, i)) + '<mark>' + esc(q) + '</mark>' + esc(t.slice(i + q.length)); };
+html.push(`<section class="step" id="example"><header><span class="num">09 · WORKED EXAMPLE</span><h2>${esc(ex.key)} → ${pill(ex.decision)} ${esc(ex.primary)} · ${esc(exB?.name || '')}</h2>
+ <p class="lead">${esc(ex.date)} · ${esc(ex.make)} · codes <span class="code">${esc(ex.codes)}</span>. ${esc(ex.reason || `Only ${ex.primary} entered the conformal set, with p = ${fmt(ex.p, 3)} ≥ ${S.min_prob}: assigned.`)}</p></header>
+ <div class="g2"><div class="fig"><h3>The report, with the evidence sentence the bucket's model scores highest</h3><div class="report">${hl(ex.text, ex.evidence)}</div>
+   <p class="cap">C3 checks the highlighted sentence appears in the report word for word.</p></div>
+  <div class="fig"><h3>Calibrated probability for every sibling bucket</h3>${hbars(ex.scores.map(([b, p]) => ({label: `${b} ${(B[b]?.name || '').slice(0, 22)}`, v: p, color: p >= thr ? (b === ex.primary ? 'var(--assign)' : 'var(--review)') : 'var(--oos)', bold: b === ex.primary})), {max: 1, left: 200, line: thr, lineLabel: 'set threshold', label: 'sibling probabilities'})}
+   <h3>Why: top feature contributions (coefficient × value)</h3>${ex.feats.length ? hbars(ex.feats.map(([n, c]) => ({label: n.length > 30 ? n.slice(0, 29) + '…' : n, v: c, color: n.startsWith('F:') ? 'var(--warm)' : n.startsWith('PH:') || n.startsWith('L1:') || n.startsWith('CAT:') ? 'var(--none)' : 'var(--accent)'})), {left: 220, label: 'feature contributions'}) : '<p class="note">No positive contributions.</p>'}</div></div></section>`);
+
+const ps = D.predict_summary || {}, faults = D.faults || [];
+html.push(`<section class="step" id="checks"><header><span class="num">10 · CHECKS AND FAULT TESTS</span><h2>Five deterministic checks on every row; five injected faults, ${faults.filter(f => f.blocked === 'True' || f.blocked === true).length} blocked</h2></header>
+ <div class="g2"><div class="fig"><h3>Checks on ${N(tot)} classifications</h3><div class="tw"><table><tr><th>Id</th><th>Check</th><th class="n">Failures</th></tr>
+   ${D.checks.map(c => `<tr><td class="mono">${c.id}</td><td>${esc(c.name)}</td><td class="n">${ps.check_failures === 0 ? '0' : '—'}</td></tr>`).join('')}</table></div>
+   <p class="cap">${ps.check_failures === 0 ? 'No row failed any check.' : `${ps.check_failures ?? '—'} check failures recorded in classifications.csv.`}</p></div>
+  <div class="fig"><h3>Faults injected into a valid row</h3><div class="tw"><table><tr><th>Fault</th><th>Must fail</th><th>Result</th></tr>
+   ${faults.map(f => `<tr><td>${esc(f.test)}</td><td class="mono">${esc(f.check)}</td><td>${(f.blocked === 'True' || f.blocked === true) ? '<span class="pill d-assign">blocked</span>' : '<span class="pill d-review">not blocked</span>'}</td></tr>`).join('')}</table></div>
+   <p class="cap">The same pattern as grounding's guardrails: a check is trusted only after it has caught a planted error.</p></div></div></section>`);
+
+const E = D.evaluation;
+html.push(`<section class="step" id="eval"><header><span class="num">11 · EVALUATION</span><h2>${E ? `Answer-key evaluation on ${E.metrics.reports} labelled reports` : 'Evaluation waits for gold labels'}</h2>
+ <p class="lead">${E ? `Model <span class="code">clf-${esc(E.metrics.model_id)}</span>, gold file <span class="code">${esc(E.metrics.gold_file)}</span>. ${E.metrics.model_id !== D.meta.model_id ? 'This is a separate model trained on the synthetic run, because only the synthetic set has an answer key; the NTSB model above is evaluated once SMEs fill classifier_input/ntsb_gold_labels_TEMPLATE.csv.' : ''}` : 'Fill classifier_input/ntsb_gold_labels_TEMPLATE.csv and run with GOLD=.'}</p></header>
+ ${E ? `<div class="kpis">
+  <div><span class="l">Top-1 accuracy</span><span class="v">${pct(E.metrics.top1_accuracy)}</span><span class="s">primary = gold, or abstained on NONE</span></div>
+  <div><span class="l">Assigned precision</span><span class="v">${pct(E.metrics.assigned_precision)}</span><span class="s">${E.metrics.assigned} assigned</span></div>
+  <div><span class="l">Coverage</span><span class="v">${pct(E.metrics.coverage)}</span><span class="s">share assigned</span></div>
+  <div><span class="l">Set coverage</span><span class="v">${pct(E.metrics.set_coverage)}</span><span class="s">target ${pct(E.metrics.conformal_target)}</span></div>
+  <div><span class="l">Macro-F1</span><span class="v">${fmt(E.metrics.macro_f1)}</span><span class="s">assigned labels</span></div>
+  <div><span class="l">ECE</span><span class="v">${fmt(E.metrics.ece, 3)}</span><span class="s">top-1 probability</span></div></div>
+ <div class="tw"><table><tr><th>Report</th><th>Codes</th><th>Gold</th><th>Decision</th><th>Primary</th><th class="n">p</th><th>Set</th><th>Result</th></tr>
+  ${E.rows.map(r => { const ok = r.gold.length ? r.gold.includes(r.primary) && r.decision === 'assign' : ['none_of_these', 'out_of_scope'].includes(r.decision); const abst = r.decision !== 'assign' && r.gold.length;
+    return `<tr><td class="mono">${esc(r.key)}</td><td class="mono">${esc(r.codes)}</td><td class="mono">${esc(r.gold.join(', ') || 'NONE')}</td><td>${pill(r.decision)}</td><td class="mono">${esc(r.primary)}</td><td class="n">${fmt(r.p, 3)}</td><td class="mono">${esc(r.set)}</td><td>${ok ? '<span class="pill d-assign">correct</span>' : abst ? '<span class="pill d-review">abstained</span>' : '<span class="pill d-out_of_scope">wrong</span>'}</td></tr>`; }).join('')}</table></div>` : '<div class="empty">No evaluation embedded.</div>'}
+</section>`);
+
+html.push(`<section class="step" id="explorer"><header><span class="num">12 · PREDICTIONS EXPLORER</span><h2>All ${N(tot)} classifications, with evidence and reasons</h2></header>
+ <div class="row"><div class="row" id="dfilt">${['all', ...Object.keys(DEC)].map(k => `<button class="btn" data-d="${k}" aria-pressed="${k === 'all'}">${k === 'all' ? 'All' : DEC[k]} · ${k === 'all' ? tot : (dec[k] || 0)}</button>`).join('')}</div>
+  <input type="search" id="q" placeholder="Search report, bucket, code or words" aria-label="Search predictions"></div>
+ <div class="g2"><div class="tw" style="max-height:620px;overflow:auto"><table id="ptab"></table></div><div class="fig" id="pdetail"><div class="empty">Select a report.</div></div></div></section>`);
+
+html.push(`<section class="step" id="repro"><header><span class="num">13 · PROVENANCE AND LIMITS</span><h2>Rebuild this page from the same files and you get the same model id</h2></header>
+ <div class="g2"><div class="fig"><h3>Identity</h3><div class="tw"><table>
+  <tr><td>Model</td><td class="mono">clf-${esc(D.meta.model_id)} · built ${esc(D.meta.built)}</td></tr>
+  <tr><td>Code</td><td class="mono">taxclassify ${esc(D.meta.version)} · ${esc(D.meta.code_hash)}</td></tr>
+  <tr><td>Grounding run</td><td class="mono">${esc(D.meta.run_id)} · ${esc(D.meta.run_hash)}</td></tr>
+  <tr><td>Taxonomy</td><td class="mono">${esc(D.meta.taxonomy)}</td></tr>
+  ${Object.entries(D.meta.sources).map(([k, v]) => `<tr><td>Source</td><td class="mono">${esc(k.split('/').slice(-3).join('/'))}<br>sha256 ${esc(v.slice(0, 16))}…</td></tr>`).join('')}
+  <tr><td>Settings</td><td class="mono">${Object.entries(S).map(([k, v]) => `${k}=${v}`).join(' · ')}</td></tr></table></div>
+  <div class="formula">./run_classifier.sh                       # all six steps from classifier_input/
+python3 -m taxclassify train --run classifier_input/ntsb_run --exclude classifier_input/ntsb_test_reports.json
+python3 -m taxclassify predict --model models/clf-${esc(D.meta.model_id)} --reports classifier_input/ntsb_test_reports.json
+python3 -m taxclassify report  --model models/clf-${esc(D.meta.model_id)} --reports … --out classifier_demo.html</div></div>
+  <div class="fig"><h3>Limits</h3><div class="tw"><table>
+   <tr><td><b>Silver labels</b></td><td>Training labels come from the retrieval that grounded the buckets; out-of-fold scores flatter the model. Only SME gold labels on a true hold-out measure it.</td></tr>
+   <tr><td><b>12 positives per bucket</b></td><td>Probabilities are low and most reports abstain. Expect SetFit on an approved embedder to do better once SMEs label ~30 reports per bucket.</td></tr>
+   <tr><td><b>PU bias</b></td><td>Sampled negatives include unlabelled true positives.</td></tr>
+   <tr><td><b>Conformal target</b></td><td>Coverage ${pct(1 - S.alpha)} holds on exchangeable data with true labels; here it is a target.</td></tr>
+   <tr><td><b>Test reports</b></td><td>The ${N(tot)} NTSB reports were held out of classifier training but were in the grounding corpus; set HOLDOUT_FROM in build_all.sh for a fully unseen set.</td></tr>
+   <tr><td><b>Stand-in embedder</b></td><td>Features are TF-IDF; DG-2 (approved embedder) and DG-3 (approved LLM) unlock stages 2 and 3.</td></tr></table></div></div></div></section>`);
+$('#main').innerHTML = html.join('');
+
+/* ---------- interactive parts */
+function bucketDetail(id) {
+  const b = B[id];
+  const prSeries = [{color: pcol(b.parent), line: true, pts: b.pr.map(([r, p]) => [r, p])}];
+  $('#bdetail').innerHTML = `<div class="fig"><h3>${esc(b.id)} · ${esc(b.name)}</h3><p class="cap">${esc(b.definition)}</p>
+    ${xy(prSeries, {xlab: 'recall', ylab: 'precision', hline: b.base_rate, hlab: `base rate ${pct(b.base_rate)}`, label: 'precision-recall curve'})}
+    <p class="cap">Out-of-fold precision–recall · AP ${fmt(b.ap, 3)} · Brier ${fmt(b.brier, 3)} · ${b.pos} positives / ${b.neg} negatives · Platt a = ${b.platt[0]}, b = ${b.platt[1]}</p></div>
+   <div class="fig"><h3>Strongest positive features</h3>${hbars(b.top.map(([n, c, k]) => ({label: n.length > 34 ? n.slice(0, 33) + '…' : n, v: c, color: k === 'text' ? 'var(--accent)' : k === 'finding' ? 'var(--warm)' : 'var(--none)'})), {left: 250, label: 'positive coefficients'})}
+    <h3>Strongest negative features</h3>${hbars(b.negf.map(([n, c, k]) => ({label: n.length > 34 ? n.slice(0, 33) + '…' : n, v: -c, color: 'var(--oos)', tag: 'pushes away'})), {left: 250, label: 'negative coefficients (magnitude)'})}
+    <div class="legend"><span><i style="background:var(--accent)"></i>text term</span><span><i style="background:var(--warm)"></i>coded finding</span><span><i style="background:var(--none)"></i>phase / code / category</span></div></div>`;
+}
+$('#bsel').onchange = e => bucketDetail(e.target.value);
+bucketDetail($('#bsel').value);
+
+let dsel = 'all', sel = null;
+function table() {
+  const q = $('#q').value.toLowerCase().trim();
+  const rows = P.filter(p => (dsel === 'all' || p.decision === dsel) && (!q || [p.key, p.primary, p.codes, p.text, B[p.primary]?.name].join(' ').toLowerCase().includes(q)));
+  $('#ptab').innerHTML = `<tr><th>Report</th><th>Decision</th><th>Primary</th><th class="n">p</th></tr>` + rows.map(p => `<tr class="click${p.key === sel ? ' sel' : ''}" data-k="${esc(p.key)}"><td class="mono">${esc(p.key)}<br><span class="note">${esc(p.codes)}</span></td><td>${pill(p.decision)}</td><td><span class="mono">${esc(p.primary)}</span> <span class="note">${esc((B[p.primary]?.name || '').slice(0, 28))}</span></td><td class="n">${fmt(p.p, 3)}</td></tr>`).join('') + (rows.length ? '' : '<tr><td colspan="4" class="note">No report matches.</td></tr>');
+}
+function detail(k) {
+  sel = k; table();
+  const p = P.find(x => x.key === k);
+  $('#pdetail').innerHTML = `<h3>${esc(p.key)} ${pill(p.decision)}</h3><p class="cap">${esc(p.date)} · ${esc(p.make)} · codes ${esc(p.codes)}</p>
+   <p style="font-size:13.5px">${esc(p.reason || 'Assigned.')}</p>
+   ${p.scores.length ? hbars(p.scores.map(([b, v]) => ({label: `${b} ${(B[b]?.name || '').slice(0, 20)}`, v, color: v >= thr ? (b === p.primary ? 'var(--assign)' : 'var(--review)') : 'var(--oos)'})), {max: 1, left: 190, line: thr, lineLabel: 'threshold', label: 'probabilities'}) : '<p class="note">No trained bucket under these codes.</p>'}
+   ${p.feats.length ? `<div class="chips">${p.feats.map(([n, c]) => `<span class="chip ${n.startsWith('F:') ? 'finding' : ''}">${esc(n)} +${fmt(c, 3)}</span>`).join('')}</div>` : ''}
+   <div class="report">${hl(p.text, p.evidence)}</div>`;
+}
+$('#dfilt').onclick = e => { const b = e.target.closest('[data-d]'); if (!b) return; dsel = b.dataset.d; document.querySelectorAll('#dfilt .btn').forEach(x => x.setAttribute('aria-pressed', x === b)); table(); };
+$('#q').oninput = table;
+$('#ptab').onclick = e => { const r = e.target.closest('[data-k]'); if (r) detail(r.dataset.k); };
+table(); detail(ex.key);
+
+/* rail highlight */
+const links = [...document.querySelectorAll('#rail a')];
+const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) links.forEach(a => a.classList.toggle('on', a.dataset.id === en.target.id)); }), {rootMargin: '-30% 0px -60% 0px'});
+document.querySelectorAll('section.step').forEach(s => io.observe(s));
+})();
+</script>

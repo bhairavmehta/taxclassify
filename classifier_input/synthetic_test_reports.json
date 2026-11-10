@@ -1,0 +1,29 @@
+{
+ "_note": "SYNTHETIC test reports written for this demonstration, not real events. '_expected_bucket' is an evaluation label only; the pipeline never reads fields that start with '_'.",
+ "reports": [
+  {"report_key": "TEST-001", "source_id": "SYNTHETIC-T", "phase": "Landing", "l1_codes": ["RI"],
+   "narrative": "On a night arrival the crew aligned with the lit parallel taxiway instead of Runway 16L. The tower controller noticed and instructed a go-around at 300 feet. The taxiway was clear of traffic.",
+   "_expected_bucket": "B02"},
+  {"report_key": "TEST-002", "source_id": "SYNTHETIC-T", "phase": "Taxi", "l1_codes": ["RI"],
+   "narrative": "Taxiing to Runway 9 via Bravo the first officer read back hold short of Runway 4 but the captain continued across the hold-short line. A regional jet on takeoff roll on Runway 4 rejected the takeoff.",
+   "_expected_bucket": "B27"},
+  {"report_key": "TEST-003", "source_id": "SYNTHETIC-T", "phase": "Climb", "l1_codes": ["BIRD", "SCF-PP"],
+   "narrative": "Shortly after rotation the aircraft hit a flock of geese. The left engine ingested several birds, vibration rose sharply and the crew shut the engine down and returned. Inspection found bent fan blades.",
+   "_expected_bucket": "B15"},
+  {"report_key": "TEST-004", "source_id": "SYNTHETIC-T", "phase": "Cruise", "l1_codes": ["CABIN"],
+   "narrative": "A passenger's power bank in an overhead bin began to smoke and then caught fire. Cabin crew used a halon extinguisher and placed the device in a containment bag. The flight diverted.",
+   "_expected_bucket": "B17"},
+  {"report_key": "TEST-005", "source_id": "SYNTHETIC-T", "phase": "Approach", "l1_codes": ["OTHR"],
+   "narrative": "On final approach at 1,500 feet a green laser illuminated the flight deck from the ground for several seconds. The first officer was briefly dazzled and the captain took control and landed. Police were notified.",
+   "_expected_bucket": null},
+  {"report_key": "TEST-006", "source_id": "SYNTHETIC-T", "phase": "Approach", "l1_codes": ["NAV"],
+   "narrative": "Approaching the coast the GPS position jumped by several miles and the FMS showed a map shift. Both GNSS receivers reported integrity alerts and the crew reverted to VOR navigation with radar vectors.",
+   "_expected_bucket": "B12"},
+  {"report_key": "TEST-007", "source_id": "SYNTHETIC-T", "phase": "Landing", "l1_codes": ["RE"],
+   "narrative": "Landing on a runway reported wet with standing water the aircraft touched down fast and long, beyond the touchdown zone. Braking was poor and the aircraft stopped in the runway end safety area.",
+   "_expected_bucket": "B04"},
+  {"report_key": "TEST-008", "source_id": "SYNTHETIC-T", "phase": "Approach", "l1_codes": ["SCF-NP"],
+   "narrative": "During descent in light drizzle the cabin pressurization controller failed and the cabin altitude climbed slowly. The crew followed the checklist, controlled the outflow valve manually and continued to the destination.",
+   "_expected_bucket": null}
+ ]
+}

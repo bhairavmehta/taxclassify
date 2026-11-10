@@ -1,0 +1,323 @@
+{
+ "_note": "NTSB CAROL avall.mdb, events 2008 onward. Real reports. L1 codes via ntsb-occ-cictt-0.1 (draft, pending SME validation). Definitions are paraphrases; candidates are the 37 discovery candidates from the trial package. Batch D: discovery candidates drafted by Claude from clusters of real NTSB reports inside each CICTT parent (tools/discover_clusters.py: k-means on report vectors, class TF-IDF terms, most common coded findings). Drafts for SME review, not approved categories. They target general-aviation patterns the 37 package candidates (transport-oriented) do not cover.",
+ "candidates": [
+  {
+   "candidate_id": "C1",
+   "proposed_parent": "RI",
+   "name": "Landing or takeoff on an unintended surface",
+   "definition": "The aircraft lands, lines up to land, or starts a takeoff on a surface other than the assigned runway: a taxiway, a closed or wrong runway, or the wrong airport."
+  },
+  {
+   "candidate_id": "C2",
+   "proposed_parent": "RI",
+   "name": "Runway entry or crossing without clearance",
+   "definition": "An aircraft or vehicle crosses a hold-short line, stop bar or holding point and enters an active runway without a clearance."
+  },
+  {
+   "candidate_id": "C3",
+   "proposed_parent": "RE",
+   "name": "Overrun after a long or fast landing on a wet or contaminated runway",
+   "definition": "The aircraft touches down long or fast on a wet or contaminated runway, braking is poor, and it overruns the runway end."
+  },
+  {
+   "candidate_id": "C4",
+   "proposed_parent": "LOC-I",
+   "name": "Upset or stall after unreliable airspeed",
+   "definition": "Disagreeing or erroneous airspeed indications, for example from icing or pitot failure, lead to a stall warning, overspeed or upset in flight."
+  },
+  {
+   "candidate_id": "C5",
+   "proposed_parent": "MAC",
+   "name": "TCAS resolution advisory after an altitude deviation",
+   "definition": "The aircraft deviates from its cleared altitude (level bust) and traffic receives a TCAS resolution advisory or separation is lost."
+  },
+  {
+   "candidate_id": "C6",
+   "proposed_parent": "TURB",
+   "name": "Clear-air turbulence with cabin injuries",
+   "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts."
+  },
+  {
+   "candidate_id": "C7",
+   "proposed_parent": "SCF-PP",
+   "name": "Engine damage or shutdown after bird ingestion",
+   "definition": "Birds ingested into an engine cause vibration, surge, loss of thrust, fire warning or shutdown."
+  },
+  {
+   "candidate_id": "C8",
+   "proposed_parent": "ICE",
+   "name": "Takeoff after de-icing holdover time exceeded",
+   "definition": "The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff."
+  },
+  {
+   "candidate_id": "C9",
+   "proposed_parent": "RE",
+   "name": "Hard landing or tail strike",
+   "definition": "A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare."
+  },
+  {
+   "candidate_id": "B01",
+   "proposed_parent": "RI",
+   "name": "Vehicle or pedestrian on the runway without clearance",
+   "definition": "A ground vehicle, tug or person enters an active runway or its protected area without an ATC clearance."
+  },
+  {
+   "candidate_id": "B02",
+   "proposed_parent": "RI",
+   "name": "Landing on a taxiway or the wrong runway at night",
+   "definition": "At night or in low light the crew lines up on and lands, or nearly lands, on a taxiway or a runway other than the one assigned."
+  },
+  {
+   "candidate_id": "B03",
+   "proposed_parent": "RE",
+   "name": "Veer-off during landing in a strong or gusty crosswind",
+   "definition": "In a strong or gusty crosswind the aircraft drifts and veers off the side of the runway during the landing roll."
+  },
+  {
+   "candidate_id": "B04",
+   "proposed_parent": "RE",
+   "name": "Overrun on a contaminated runway",
+   "definition": "On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway."
+  },
+  {
+   "candidate_id": "B05",
+   "proposed_parent": "LOC-I",
+   "name": "Stall warning or upset during a go-around",
+   "definition": "During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows."
+  },
+  {
+   "candidate_id": "B06",
+   "proposed_parent": "TURB",
+   "name": "Wake turbulence upset on approach",
+   "definition": "Wake vortices from a preceding heavier aircraft cause a sudden roll or pitch upset on approach or departure."
+  },
+  {
+   "candidate_id": "B07",
+   "proposed_parent": "MAC",
+   "name": "Loss of separation caused by an ATC clearance",
+   "definition": "A controller clearance or instruction puts two aircraft into conflict, leading to loss of separation or a TCAS alert."
+  },
+  {
+   "candidate_id": "B08",
+   "proposed_parent": "MAC",
+   "name": "TCAS resolution advisory after a level bust",
+   "definition": "The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows."
+  },
+  {
+   "candidate_id": "B09",
+   "proposed_parent": "SCF-NP",
+   "name": "Hydraulic system failure in flight",
+   "definition": "Loss of fluid or pressure in a hydraulic system in flight degrades flight controls, brakes or landing gear."
+  },
+  {
+   "candidate_id": "B10",
+   "proposed_parent": "SCF-NP",
+   "name": "Landing gear did not extend",
+   "definition": "One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing."
+  },
+  {
+   "candidate_id": "B11",
+   "proposed_parent": "CFIT",
+   "name": "Terrain warning on a non-precision approach",
+   "definition": "During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles."
+  },
+  {
+   "candidate_id": "B12",
+   "proposed_parent": "NAV",
+   "name": "GNSS interference or spoofing",
+   "definition": "Satellite navigation signals are jammed or spoofed, giving false position, lost RNP capability or incorrect time, often near conflict zones."
+  },
+  {
+   "candidate_id": "B13",
+   "proposed_parent": "SCF-NP",
+   "name": "Engine shutdown after loss of oil pressure",
+   "definition": "Low oil pressure or oil loss in flight leads the crew to shut an engine down as a precaution."
+  },
+  {
+   "candidate_id": "B14",
+   "proposed_parent": "ICE",
+   "name": "Takeoff with frost or ice not removed",
+   "definition": "The aircraft departs or begins to depart with frost, snow or ice on its wings because it was not removed or the fluid failed."
+  },
+  {
+   "candidate_id": "B15",
+   "proposed_parent": "BIRD",
+   "name": "Bird ingestion damaging an engine on takeoff or climb",
+   "definition": "One or more birds are ingested into an engine during takeoff or initial climb, causing vibration, surging or loss of thrust."
+  },
+  {
+   "candidate_id": "B16",
+   "proposed_parent": "BIRD",
+   "name": "Bird strike damaging the windshield or nose on approach",
+   "definition": "A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage."
+  },
+  {
+   "candidate_id": "B17",
+   "proposed_parent": "F-NI",
+   "name": "Lithium battery fire from a passenger device",
+   "definition": "A phone, laptop, power bank or other lithium battery device overheats, smokes or catches fire in the cabin."
+  },
+  {
+   "candidate_id": "B18",
+   "proposed_parent": "F-NI",
+   "name": "Electrical smoke or burning smell in the flight deck",
+   "definition": "Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater."
+  },
+  {
+   "candidate_id": "B19",
+   "proposed_parent": "FUEL",
+   "name": "Low fuel after holding or a diversion",
+   "definition": "Extended holding, a missed approach or a diversion leaves the aircraft close to or below final reserve fuel, and the crew declares minimum fuel or a fuel emergency."
+  },
+  {
+   "candidate_id": "B20",
+   "proposed_parent": "RAMP",
+   "name": "Pushback or towing collision",
+   "definition": "During pushback or towing the tug, towbar or aircraft strikes another aircraft, a vehicle or a fixed object."
+  },
+  {
+   "candidate_id": "B21",
+   "proposed_parent": "CABIN",
+   "name": "Disruptive or unruly passenger",
+   "definition": "A passenger is aggressive, intoxicated or refuses crew instructions, interfering with the crew or other passengers."
+  },
+  {
+   "candidate_id": "B22",
+   "proposed_parent": "ARC",
+   "name": "Tail strike on takeoff",
+   "definition": "The tail strikes the runway during takeoff rotation, often after early or fast rotation or a wrong takeoff speed or weight."
+  },
+  {
+   "candidate_id": "B23",
+   "proposed_parent": "TURB",
+   "name": "Windshear on final approach",
+   "definition": "A sudden change in wind speed or direction on approach, often near a thunderstorm or microburst, causes loss of airspeed and a windshear warning."
+  },
+  {
+   "candidate_id": "B24",
+   "proposed_parent": "USOS",
+   "name": "Landing short of the runway",
+   "definition": "The aircraft touches down before the runway threshold, on the approach lights or in the undershoot area."
+  },
+  {
+   "candidate_id": "B25",
+   "proposed_parent": "ICE",
+   "name": "Airframe icing in flight",
+   "definition": "Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling."
+  },
+  {
+   "candidate_id": "B26",
+   "proposed_parent": "SCF-NP",
+   "name": "Unreliable airspeed from blocked pitot probes",
+   "definition": "Pitot probes blocked by ice, insects or covers give wrong airspeed indications, leading to warnings and autopilot disconnection."
+  },
+  {
+   "candidate_id": "B27",
+   "proposed_parent": "RI",
+   "name": "Crew crossed a hold-short line without clearance",
+   "definition": "The flight crew taxis past a runway hold-short line without a clearance to enter or cross the runway (pilot deviation)."
+  },
+  {
+   "candidate_id": "B28",
+   "proposed_parent": "NAV",
+   "name": "Wrong route or waypoint loaded in the FMS",
+   "definition": "The flight management system is loaded with the wrong route, waypoint or departure, and the aircraft deviates from its cleared route."
+  },
+  {
+   "candidate_id": "D01",
+   "proposed_parent": "SCF-PP",
+   "name": "Carburetor icing leading to loss of engine power",
+   "definition": "Ice forms in the carburetor in conditions conducive to carburetor icing, often at reduced power, and the engine loses partial or total power because carburetor heat was not applied or was applied too late."
+  },
+  {
+   "candidate_id": "D02",
+   "proposed_parent": "FUEL",
+   "name": "Fuel exhaustion from inadequate fuel planning",
+   "definition": "The engine stops because all usable fuel on board was used up: the pilot did not plan enough fuel for the flight, did not verify the quantity before departure, or continued past the point where a fuel stop was needed."
+  },
+  {
+   "candidate_id": "D03",
+   "proposed_parent": "FUEL",
+   "name": "Fuel starvation from fuel selector or tank mismanagement",
+   "definition": "Fuel remains on board but does not reach the engine because the pilot selected an empty tank, positioned the fuel selector incorrectly, or did not switch tanks, and the engine loses power."
+  },
+  {
+   "candidate_id": "D04",
+   "proposed_parent": "LOC-G",
+   "name": "Loss of directional control in a crosswind on landing",
+   "definition": "During the landing roll in a crosswind or gusting wind the pilot does not maintain directional control and the airplane veers off the runway, ground loops or strikes objects beside the runway."
+  },
+  {
+   "candidate_id": "D05",
+   "proposed_parent": "LOC-G",
+   "name": "Ground loop in a tailwheel airplane",
+   "definition": "A tailwheel (conventional gear) airplane swerves and ground loops during takeoff or landing because the pilot does not maintain directional control with rudder and brakes."
+  },
+  {
+   "candidate_id": "D06",
+   "proposed_parent": "ARC",
+   "name": "Bounced landing and improper recovery",
+   "definition": "The airplane touches down hard or at the wrong pitch attitude, bounces, and the pilot's recovery from the bounce or improper flare leads to a hard landing, porpoising, or damage to the nose gear, firewall or propeller."
+  },
+  {
+   "candidate_id": "D07",
+   "proposed_parent": "ARC",
+   "name": "Gear-up landing with the landing gear not extended",
+   "definition": "The pilot lands a retractable-gear airplane with the landing gear retracted because gear extension was forgotten, the before-landing checklist was not completed, or the gear warning was missed."
+  },
+  {
+   "candidate_id": "D08",
+   "proposed_parent": "LOC-I",
+   "name": "Aerodynamic stall in the traffic pattern or on approach",
+   "definition": "While maneuvering at low altitude in the traffic pattern, on the turn to final or on approach, the pilot lets the airspeed decay or the angle of attack exceed the critical value, and the airplane stalls and loses height before recovery is possible."
+  },
+  {
+   "candidate_id": "D09",
+   "proposed_parent": "LOC-I",
+   "name": "Stall after takeoff at high density altitude",
+   "definition": "The airplane cannot climb as expected after takeoff because of high density altitude, heavy weight or a short or rising field, and the pilot pulls the nose up until the airplane stalls or settles into terrain."
+  },
+  {
+   "candidate_id": "D10",
+   "proposed_parent": "LALT",
+   "name": "Wire strike during low-altitude flight",
+   "definition": "During low-altitude flight, such as agricultural application, maneuvering or a low pass, the aircraft collides with power lines or other wires the pilot did not see or did not keep clear of."
+  },
+  {
+   "candidate_id": "D11",
+   "proposed_parent": "UIMC",
+   "name": "Spatial disorientation after VFR flight into instrument conditions",
+   "definition": "A pilot flying under visual flight rules continues into clouds, darkness or low visibility, becomes spatially disoriented, and loses control of the aircraft or flies into terrain."
+  },
+  {
+   "candidate_id": "D12",
+   "proposed_parent": "SCF-PP",
+   "name": "Reciprocating engine failure from a connecting rod or crankshaft fracture",
+   "definition": "A piston engine fails in flight because a connecting rod, rod bearing, crankshaft or cylinder fractures, often after oil starvation or a maintenance error, and the engine loses all power."
+  },
+  {
+   "candidate_id": "D13",
+   "proposed_parent": "LOC-I",
+   "name": "Loss of tail rotor effectiveness in a helicopter",
+   "definition": "A helicopter experiences an uncommanded yaw, such as loss of tail rotor effectiveness in a crosswind or tailwind at low airspeed, or a tail rotor drive failure, and the pilot cannot regain yaw control."
+  },
+  {
+   "candidate_id": "D14",
+   "proposed_parent": "LOC-I",
+   "name": "Low rotor RPM in a helicopter",
+   "definition": "The helicopter's main rotor speed decays below the normal range because of high power demand, a mishandled throttle or collective, or a late autorotation entry, and the helicopter descends uncontrollably."
+  },
+  {
+   "candidate_id": "D15",
+   "proposed_parent": "ARC",
+   "name": "Balloon hard landing in high wind",
+   "definition": "A hot-air balloon lands in strong or gusty surface wind, the basket strikes the ground hard, tips or is dragged, and occupants are injured."
+  },
+  {
+   "candidate_id": "D16",
+   "proposed_parent": "GCOL",
+   "name": "Taxi collision from inadequate visual lookout",
+   "definition": "While taxiing, the pilot does not maintain an adequate visual lookout and the aircraft strikes another aircraft, a vehicle, a hangar or another object on the ramp or taxiway."
+  }
+ ]
+}

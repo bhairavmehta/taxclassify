@@ -1,0 +1,12 @@
+{
+ "model_id": "3b065a184604",
+ "reports": 8,
+ "decisions": {
+  "assign": 5,
+  "none_of_these": 2,
+  "out_of_scope": 1
+ },
+ "check_failures": 0,
+ "faults_blocked": "5/5",
+ "written": "2026-11-10T22:15:07+00:00"
+}

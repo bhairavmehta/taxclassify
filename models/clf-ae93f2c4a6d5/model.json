@@ -1,0 +1,212 @@
+{
+ "model_id": "ae93f2c4a6d5",
+ "built": "2026-11-10T22:18:27+00:00",
+ "taxclassify_version": "0.1.0",
+ "code_hash": "96cc8f7396c9",
+ "run_id": "run-ntsb-20261110T192033918",
+ "run_output_hash": "45231e0fc8a9c3742a21230ab2d6356de85aa1da0e880d7dc53584bc61be6213",
+ "taxonomy": "/tmp/claude-0/-home-claude/87bfed0b-0f8b-56ee-90ca-c97b355370f0/scratchpad/taxclassify_package/classifier_input/ntsb_run/taxonomy.json",
+ "settings": {
+  "C": 1.0,
+  "folds": 3,
+  "alpha": 0.1,
+  "min_positives": 4,
+  "min_prob": 0.5,
+  "neg_per_pos": 8,
+  "seed": 7,
+  "max_features": 200000,
+  "struct_weight": 0.5
+ },
+ "buckets": {
+  "B04": {
+   "parent": "RE",
+   "name": "Overrun on a contaminated runway",
+   "definition": "On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway.",
+   "status": "grounded"
+  },
+  "B05": {
+   "parent": "LOC-I",
+   "name": "Stall warning or upset during a go-around",
+   "definition": "During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows.",
+   "status": "grounded"
+  },
+  "B08": {
+   "parent": "MAC",
+   "name": "TCAS resolution advisory after a level bust",
+   "definition": "The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows.",
+   "status": "grounded"
+  },
+  "B10": {
+   "parent": "SCF-NP",
+   "name": "Landing gear did not extend",
+   "definition": "One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing.",
+   "status": "grounded"
+  },
+  "B11": {
+   "parent": "CFIT",
+   "name": "Terrain warning on a non-precision approach",
+   "definition": "During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles.",
+   "status": "grounded"
+  },
+  "B16": {
+   "parent": "BIRD",
+   "name": "Bird strike damaging the windshield or nose on approach",
+   "definition": "A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage.",
+   "status": "grounded"
+  },
+  "B18": {
+   "parent": "F-NI",
+   "name": "Electrical smoke or burning smell in the flight deck",
+   "definition": "Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater.",
+   "status": "grounded"
+  },
+  "B25": {
+   "parent": "ICE",
+   "name": "Airframe icing in flight",
+   "definition": "Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling.",
+   "status": "grounded"
+  },
+  "C1": {
+   "parent": "RI",
+   "name": "Landing or takeoff on an unintended surface",
+   "definition": "The aircraft lands, lines up to land, or starts a takeoff on a surface other than the assigned runway: a taxiway, a closed or wrong runway, or the wrong airport.",
+   "status": "grounded"
+  },
+  "C4": {
+   "parent": "LOC-I",
+   "name": "Upset or stall after unreliable airspeed",
+   "definition": "Disagreeing or erroneous airspeed indications, for example from icing or pitot failure, lead to a stall warning, overspeed or upset in flight.",
+   "status": "grounded"
+  },
+  "C6": {
+   "parent": "TURB",
+   "name": "Clear-air turbulence with cabin injuries",
+   "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+   "status": "grounded"
+  },
+  "D01": {
+   "parent": "SCF-PP",
+   "name": "Carburetor icing leading to loss of engine power",
+   "definition": "Ice forms in the carburetor in conditions conducive to carburetor icing, often at reduced power, and the engine loses partial or total power because carburetor heat was not applied or was applied too late.",
+   "status": "grounded"
+  },
+  "D02": {
+   "parent": "FUEL",
+   "name": "Fuel exhaustion from inadequate fuel planning",
+   "definition": "The engine stops because all usable fuel on board was used up: the pilot did not plan enough fuel for the flight, did not verify the quantity before departure, or continued past the point where a fuel stop was needed.",
+   "status": "grounded"
+  },
+  "D03": {
+   "parent": "FUEL",
+   "name": "Fuel starvation from fuel selector or tank mismanagement",
+   "definition": "Fuel remains on board but does not reach the engine because the pilot selected an empty tank, positioned the fuel selector incorrectly, or did not switch tanks, and the engine loses power.",
+   "status": "grounded"
+  },
+  "D04": {
+   "parent": "LOC-G",
+   "name": "Loss of directional control in a crosswind on landing",
+   "definition": "During the landing roll in a crosswind or gusting wind the pilot does not maintain directional control and the airplane veers off the runway, ground loops or strikes objects beside the runway.",
+   "status": "grounded"
+  },
+  "D05": {
+   "parent": "LOC-G",
+   "name": "Ground loop in a tailwheel airplane",
+   "definition": "A tailwheel (conventional gear) airplane swerves and ground loops during takeoff or landing because the pilot does not maintain directional control with rudder and brakes.",
+   "status": "grounded"
+  },
+  "D06": {
+   "parent": "ARC",
+   "name": "Bounced landing and improper recovery",
+   "definition": "The airplane touches down hard or at the wrong pitch attitude, bounces, and the pilot's recovery from the bounce or improper flare leads to a hard landing, porpoising, or damage to the nose gear, firewall or propeller.",
+   "status": "grounded"
+  },
+  "D07": {
+   "parent": "ARC",
+   "name": "Gear-up landing with the landing gear not extended",
+   "definition": "The pilot lands a retractable-gear airplane with the landing gear retracted because gear extension was forgotten, the before-landing checklist was not completed, or the gear warning was missed.",
+   "status": "grounded"
+  },
+  "D08": {
+   "parent": "LOC-I",
+   "name": "Aerodynamic stall in the traffic pattern or on approach",
+   "definition": "While maneuvering at low altitude in the traffic pattern, on the turn to final or on approach, the pilot lets the airspeed decay or the angle of attack exceed the critical value, and the airplane stalls and loses height before recovery is possible.",
+   "status": "grounded"
+  },
+  "D10": {
+   "parent": "LALT",
+   "name": "Wire strike during low-altitude flight",
+   "definition": "During low-altitude flight, such as agricultural application, maneuvering or a low pass, the aircraft collides with power lines or other wires the pilot did not see or did not keep clear of.",
+   "status": "grounded"
+  },
+  "D11": {
+   "parent": "UIMC",
+   "name": "Spatial disorientation after VFR flight into instrument conditions",
+   "definition": "A pilot flying under visual flight rules continues into clouds, darkness or low visibility, becomes spatially disoriented, and loses control of the aircraft or flies into terrain.",
+   "status": "grounded"
+  },
+  "D12": {
+   "parent": "SCF-PP",
+   "name": "Reciprocating engine failure from a connecting rod or crankshaft fracture",
+   "definition": "A piston engine fails in flight because a connecting rod, rod bearing, crankshaft or cylinder fractures, often after oil starvation or a maintenance error, and the engine loses all power.",
+   "status": "grounded"
+  },
+  "D13": {
+   "parent": "LOC-I",
+   "name": "Loss of tail rotor effectiveness in a helicopter",
+   "definition": "A helicopter experiences an uncommanded yaw, such as loss of tail rotor effectiveness in a crosswind or tailwind at low airspeed, or a tail rotor drive failure, and the pilot cannot regain yaw control.",
+   "status": "grounded"
+  },
+  "D15": {
+   "parent": "ARC",
+   "name": "Balloon hard landing in high wind",
+   "definition": "A hot-air balloon lands in strong or gusty surface wind, the basket strikes the ground hard, tips or is dragged, and occupants are injured.",
+   "status": "grounded"
+  },
+  "D16": {
+   "parent": "GCOL",
+   "name": "Taxi collision from inadequate visual lookout",
+   "definition": "While taxiing, the pilot does not maintain an adequate visual lookout and the aircraft strikes another aircraft, a vehicle, a hangar or another object on the ramp or taxiway.",
+   "status": "grounded"
+  }
+ },
+ "trained": [
+  "B04",
+  "B05",
+  "B08",
+  "B10",
+  "B11",
+  "B16",
+  "B18",
+  "B25",
+  "C1",
+  "C4",
+  "C6",
+  "D01",
+  "D02",
+  "D03",
+  "D04",
+  "D05",
+  "D06",
+  "D07",
+  "D08",
+  "D10",
+  "D11",
+  "D12",
+  "D13",
+  "D15",
+  "D16"
+ ],
+ "skipped": {},
+ "conformal": {
+  "alpha": 0.1,
+  "qhat": 0.9193326088741439,
+  "threshold": 0.08066739112585608,
+  "calibration_positives": 300,
+  "labels": "silver (grounding support links)"
+ },
+ "sources": {
+  "/tmp/claude-0/-home-claude/87bfed0b-0f8b-56ee-90ca-c97b355370f0/scratchpad/taxclassify_package/classifier_input/ntsb_run/grounding_results.json": "dc09649b3091e7747de8a37c571c6cdef410446f8a4b55fa60dcad85e7a6e2ea",
+  "/tmp/claude-0/-home-claude/87bfed0b-0f8b-56ee-90ca-c97b355370f0/scratchpad/taxclassify_package/classifier_input/ntsb_run/inputs/sample_reports.json": "d4d63e0f83d00e5ae517ed3fe6dabf6b0e5aa754a80b0db595b9d3562bd74a61"
+ },
+ "excluded_reports": 200
+}

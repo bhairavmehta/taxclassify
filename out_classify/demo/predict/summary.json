@@ -1,0 +1,13 @@
+{
+ "model_id": "ae93f2c4a6d5",
+ "reports": 200,
+ "decisions": {
+  "out_of_scope": 36,
+  "none_of_these": 140,
+  "review": 23,
+  "assign": 1
+ },
+ "check_failures": 0,
+ "faults_blocked": "5/5",
+ "written": "2026-11-10T22:15:36+00:00"
+}

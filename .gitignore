@@ -1,0 +1,5 @@
+# Exceeds GitHub's 100 MB file limit
+classifier_input/ntsb_run/inputs/sample_reports.json
+__pycache__/
+*.pyc
+.DS_Store

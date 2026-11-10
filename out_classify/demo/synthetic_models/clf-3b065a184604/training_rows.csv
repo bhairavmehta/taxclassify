@@ -1,0 +1,663 @@
+bucket,report_key,y,weight,origin,source
+B01,SAMPLE-008,1,1.0,positive,grounding_results.json#results[0].diag.support[0]
+B01,SYNB-010,1,1.0,positive,grounding_results.json#results[0].diag.support[1]
+B01,SYNB-006,1,1.0,positive,grounding_results.json#results[0].diag.support[2]
+B01,SYNB-007,1,1.0,positive,grounding_results.json#results[0].diag.support[3]
+B01,SYNB-005,1,1.0,positive,grounding_results.json#results[0].diag.support[4]
+B01,SYNB-009,1,1.0,positive,grounding_results.json#results[0].diag.support[5]
+B01,SYNB-001,1,1.0,positive,grounding_results.json#results[0].diag.support[6]
+B01,SYNB-004,1,1.0,positive,grounding_results.json#results[0].diag.support[7]
+B01,SAMPLE-007,0,1.0,hard_negative,grounding_results.json#results[0].diag.moved_to_sibling[0]
+B01,SAMPLE-009,0,1.0,hard_negative,grounding_results.json#results[0].diag.moved_to_sibling[1]
+B01,SAMPLE-003,0,1.0,hard_negative,grounding_results.json#results[0].diag.moved_to_sibling[2]
+B01,SAMPLE-006,0,1.0,hard_negative,grounding_results.json#results[0].diag.moved_to_sibling[3]
+B01,SAMPLE-004,0,1.0,sibling_neg,support of B02
+B01,SAMPLE-001,0,1.0,sibling_neg,support of B02
+B01,SYNB-012,0,1.0,sibling_neg,support of B02
+B01,SYNB-015,0,1.0,sibling_neg,support of B02
+B01,SYNB-016,0,1.0,sibling_neg,support of B02
+B01,SYNB-017,0,1.0,sibling_neg,support of B02
+B01,SAMPLE-005,0,1.0,sibling_neg,support of B02
+B01,SAMPLE-002,0,1.0,sibling_neg,support of B02
+B01,SYNB-011,0,1.0,sibling_neg,support of B02
+B01,SYNB-204,0,1.0,sibling_neg,support of B27
+B01,SYNB-205,0,1.0,sibling_neg,support of B27
+B01,SYNB-206,0,1.0,sibling_neg,support of B27
+B01,SYNB-210,0,1.0,sibling_neg,support of B27
+B01,SYNB-203,0,1.0,sibling_neg,support of B27
+B01,SYNB-209,0,1.0,sibling_neg,support of B27
+B01,SYNB-207,0,1.0,sibling_neg,support of B27
+B01,SYNB-208,0,1.0,sibling_neg,support of B27
+B01,SYNB-003,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-222,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-242,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-014,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-002,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-262,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-013,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-008,0,1.0,sampled_neg,"reports coded RI, not cited"
+B01,SYNB-018,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SAMPLE-004,1,1.0,positive,grounding_results.json#results[1].diag.support[0]
+B02,SAMPLE-001,1,1.0,positive,grounding_results.json#results[1].diag.support[1]
+B02,SYNB-012,1,1.0,positive,grounding_results.json#results[1].diag.support[2]
+B02,SYNB-015,1,1.0,positive,grounding_results.json#results[1].diag.support[3]
+B02,SYNB-016,1,1.0,positive,grounding_results.json#results[1].diag.support[4]
+B02,SYNB-017,1,1.0,positive,grounding_results.json#results[1].diag.support[5]
+B02,SAMPLE-005,1,1.0,positive,grounding_results.json#results[1].diag.support[6]
+B02,SAMPLE-003,1,1.0,positive,grounding_results.json#results[1].diag.support[7]
+B02,SAMPLE-002,1,1.0,positive,grounding_results.json#results[1].diag.support[8]
+B02,SYNB-011,1,1.0,positive,grounding_results.json#results[1].diag.support[9]
+B02,SYNB-206,0,1.0,hard_negative,grounding_results.json#results[1].diag.moved_to_sibling[0]
+B02,SAMPLE-006,0,1.0,hard_negative,grounding_results.json#results[1].diag.moved_to_sibling[1]
+B02,SAMPLE-008,0,1.0,sibling_neg,support of B01
+B02,SYNB-010,0,1.0,sibling_neg,support of B01
+B02,SYNB-006,0,1.0,sibling_neg,support of B01
+B02,SYNB-007,0,1.0,sibling_neg,support of B01
+B02,SYNB-005,0,1.0,sibling_neg,support of B01
+B02,SYNB-009,0,1.0,sibling_neg,support of B01
+B02,SYNB-001,0,1.0,sibling_neg,support of B01
+B02,SYNB-004,0,1.0,sibling_neg,support of B01
+B02,SAMPLE-007,0,1.0,sibling_neg,support of B27
+B02,SYNB-204,0,1.0,sibling_neg,support of B27
+B02,SYNB-205,0,1.0,sibling_neg,support of B27
+B02,SAMPLE-009,0,1.0,sibling_neg,support of B27
+B02,SYNB-210,0,1.0,sibling_neg,support of B27
+B02,SYNB-203,0,1.0,sibling_neg,support of B27
+B02,SYNB-209,0,1.0,sibling_neg,support of B27
+B02,SYNB-207,0,1.0,sibling_neg,support of B27
+B02,SYNB-208,0,1.0,sibling_neg,support of B27
+B02,SYNB-013,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-008,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-262,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-222,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-242,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-003,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-014,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-002,0,1.0,sampled_neg,"reports coded RI, not cited"
+B02,SYNB-018,0,1.0,sampled_neg,"reports coded RI, not cited"
+B03,SAMPLE-014,1,1.0,positive,grounding_results.json#results[2].diag.support[0]
+B03,SYNB-028,1,1.0,positive,grounding_results.json#results[2].diag.support[1]
+B03,SYNB-025,1,1.0,positive,grounding_results.json#results[2].diag.support[2]
+B03,SYNB-026,1,1.0,positive,grounding_results.json#results[2].diag.support[3]
+B03,SYNB-023,1,1.0,positive,grounding_results.json#results[2].diag.support[4]
+B03,SYNB-019,1,1.0,positive,grounding_results.json#results[2].diag.support[5]
+B03,SYNB-021,1,1.0,positive,grounding_results.json#results[2].diag.support[6]
+B03,SYNB-022,1,1.0,positive,grounding_results.json#results[2].diag.support[7]
+B03,SYNB-024,1,1.0,positive,grounding_results.json#results[2].diag.support[8]
+B03,SYNB-020,1,1.0,positive,grounding_results.json#results[2].diag.support[9]
+B03,SYNB-027,1,1.0,positive,grounding_results.json#results[2].diag.support[10]
+B03,SAMPLE-010,0,1.0,sibling_neg,support of B04
+B03,SAMPLE-013,0,1.0,sibling_neg,support of B04
+B03,SAMPLE-011,0,1.0,sibling_neg,support of B04
+B03,SAMPLE-012,0,1.0,sibling_neg,support of B04
+B03,SYNB-036,0,1.0,sibling_neg,support of B04
+B03,SYNB-035,0,1.0,sibling_neg,support of B04
+B03,SYNB-033,0,1.0,sibling_neg,support of B04
+B03,SYNB-029,0,1.0,sibling_neg,support of B04
+B03,SYNB-034,0,1.0,sibling_neg,support of B04
+B03,SYNB-032,0,1.0,sibling_neg,support of B04
+B03,SYNB-221,0,1.0,sampled_neg,"reports coded RE, not cited"
+B03,SYNB-241,0,1.0,sampled_neg,"reports coded RE, not cited"
+B03,SYNB-261,0,1.0,sampled_neg,"reports coded RE, not cited"
+B03,SYNB-031,0,1.0,sampled_neg,"reports coded RE, not cited"
+B03,SYNB-030,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,SAMPLE-010,1,1.0,positive,grounding_results.json#results[3].diag.support[0]
+B04,SAMPLE-013,1,1.0,positive,grounding_results.json#results[3].diag.support[1]
+B04,SAMPLE-011,1,1.0,positive,grounding_results.json#results[3].diag.support[2]
+B04,SAMPLE-012,1,1.0,positive,grounding_results.json#results[3].diag.support[3]
+B04,SYNB-036,1,1.0,positive,grounding_results.json#results[3].diag.support[4]
+B04,SYNB-035,1,1.0,positive,grounding_results.json#results[3].diag.support[5]
+B04,SYNB-033,1,1.0,positive,grounding_results.json#results[3].diag.support[6]
+B04,SYNB-029,1,1.0,positive,grounding_results.json#results[3].diag.support[7]
+B04,SYNB-034,1,1.0,positive,grounding_results.json#results[3].diag.support[8]
+B04,SYNB-032,1,1.0,positive,grounding_results.json#results[3].diag.support[9]
+B04,SYNB-026,0,1.0,hard_negative,grounding_results.json#results[3].diag.moved_to_sibling[0]
+B04,SYNB-025,0,1.0,hard_negative,grounding_results.json#results[3].diag.moved_to_sibling[1]
+B04,SAMPLE-014,0,1.0,sibling_neg,support of B03
+B04,SYNB-028,0,1.0,sibling_neg,support of B03
+B04,SYNB-023,0,1.0,sibling_neg,support of B03
+B04,SYNB-019,0,1.0,sibling_neg,support of B03
+B04,SYNB-021,0,1.0,sibling_neg,support of B03
+B04,SYNB-022,0,1.0,sibling_neg,support of B03
+B04,SYNB-024,0,1.0,sibling_neg,support of B03
+B04,SYNB-020,0,1.0,sibling_neg,support of B03
+B04,SYNB-027,0,1.0,sibling_neg,support of B03
+B04,SYNB-031,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,SYNB-221,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,SYNB-241,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,SYNB-261,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,SYNB-030,0,1.0,sampled_neg,"reports coded RE, not cited"
+B05,SYNB-196,1,1.0,positive,grounding_results.json#results[4].diag.support[0]
+B05,SYNB-037,1,1.0,positive,grounding_results.json#results[4].diag.support[1]
+B05,SYNB-040,1,1.0,positive,grounding_results.json#results[4].diag.support[2]
+B05,SYNB-042,1,1.0,positive,grounding_results.json#results[4].diag.support[3]
+B05,SYNB-039,1,1.0,positive,grounding_results.json#results[4].diag.support[4]
+B05,SYNB-043,1,1.0,positive,grounding_results.json#results[4].diag.support[5]
+B05,SYNB-038,1,1.0,positive,grounding_results.json#results[4].diag.support[6]
+B05,SYNB-041,1,1.0,positive,grounding_results.json#results[4].diag.support[7]
+B05,SYNB-049,1,1.0,positive,grounding_results.json#results[4].diag.support[8]
+B05,SYNB-044,1,1.0,positive,grounding_results.json#results[4].diag.support[9]
+B05,SAMPLE-017,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,SAMPLE-018,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,SAMPLE-015,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,SYNB-227,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,SYNB-267,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,SYNB-247,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B06,SAMPLE-027,1,1.0,positive,grounding_results.json#results[5].diag.support[0]
+B06,SYNB-046,1,1.0,positive,grounding_results.json#results[5].diag.support[1]
+B06,SYNB-045,1,1.0,positive,grounding_results.json#results[5].diag.support[2]
+B06,SYNB-050,1,1.0,positive,grounding_results.json#results[5].diag.support[3]
+B06,SYNB-052,1,1.0,positive,grounding_results.json#results[5].diag.support[4]
+B06,SYNB-048,1,1.0,positive,grounding_results.json#results[5].diag.support[5]
+B06,SYNB-051,1,1.0,positive,grounding_results.json#results[5].diag.support[6]
+B06,SYNB-047,1,1.0,positive,grounding_results.json#results[5].diag.support[7]
+B06,SAMPLE-026,1,1.0,positive,grounding_results.json#results[5].diag.support[8]
+B06,SAMPLE-023,1,1.0,positive,grounding_results.json#results[5].diag.support[9]
+B06,SYNB-263,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B06,SYNB-177,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B06,SYNB-223,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B06,SAMPLE-025,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B06,SYNB-243,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B06,SAMPLE-024,0,1.0,sampled_neg,"reports coded TURB, not cited"
+B07,SAMPLE-022,1,1.0,positive,grounding_results.json#results[6].diag.support[0]
+B07,SYNB-060,1,1.0,positive,grounding_results.json#results[6].diag.support[1]
+B07,SYNB-059,1,1.0,positive,grounding_results.json#results[6].diag.support[2]
+B07,SYNB-056,1,1.0,positive,grounding_results.json#results[6].diag.support[3]
+B07,SYNB-058,1,1.0,positive,grounding_results.json#results[6].diag.support[4]
+B07,SYNB-054,1,1.0,positive,grounding_results.json#results[6].diag.support[5]
+B07,SAMPLE-021,0,1.0,hard_negative,grounding_results.json#results[6].diag.moved_to_sibling[0]
+B07,SAMPLE-020,0,1.0,hard_negative,grounding_results.json#results[6].diag.moved_to_sibling[1]
+B07,SAMPLE-019,0,1.0,hard_negative,grounding_results.json#results[6].diag.moved_to_sibling[2]
+B07,SYNB-061,0,1.0,sibling_neg,support of B08
+B07,SYNB-062,0,1.0,sibling_neg,support of B08
+B07,SYNB-066,0,1.0,sibling_neg,support of B08
+B07,SYNB-064,0,1.0,sibling_neg,support of B08
+B07,SYNB-067,0,1.0,sibling_neg,support of B08
+B07,SYNB-065,0,1.0,sibling_neg,support of B08
+B07,SYNB-063,0,1.0,sibling_neg,support of B08
+B07,SYNB-068,0,1.0,sibling_neg,support of B08
+B07,SYNB-226,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B07,SYNB-266,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B07,SYNB-057,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B07,SYNB-053,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B07,SYNB-246,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B07,SYNB-055,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SAMPLE-019,1,1.0,positive,grounding_results.json#results[7].diag.support[0]
+B08,SAMPLE-021,1,1.0,positive,grounding_results.json#results[7].diag.support[1]
+B08,SAMPLE-020,1,1.0,positive,grounding_results.json#results[7].diag.support[2]
+B08,SYNB-061,1,1.0,positive,grounding_results.json#results[7].diag.support[3]
+B08,SYNB-062,1,1.0,positive,grounding_results.json#results[7].diag.support[4]
+B08,SYNB-066,1,1.0,positive,grounding_results.json#results[7].diag.support[5]
+B08,SYNB-064,1,1.0,positive,grounding_results.json#results[7].diag.support[6]
+B08,SYNB-067,1,1.0,positive,grounding_results.json#results[7].diag.support[7]
+B08,SYNB-065,1,1.0,positive,grounding_results.json#results[7].diag.support[8]
+B08,SYNB-063,1,1.0,positive,grounding_results.json#results[7].diag.support[9]
+B08,SYNB-068,1,1.0,positive,grounding_results.json#results[7].diag.support[10]
+B08,SAMPLE-022,0,1.0,hard_negative,grounding_results.json#results[7].diag.moved_to_sibling[0]
+B08,SYNB-060,0,1.0,sibling_neg,support of B07
+B08,SYNB-059,0,1.0,sibling_neg,support of B07
+B08,SYNB-056,0,1.0,sibling_neg,support of B07
+B08,SYNB-058,0,1.0,sibling_neg,support of B07
+B08,SYNB-054,0,1.0,sibling_neg,support of B07
+B08,SYNB-266,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SYNB-226,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SYNB-057,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SYNB-053,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SYNB-055,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SYNB-246,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B09,SYNB-074,1,1.0,positive,grounding_results.json#results[8].diag.support[0]
+B09,SYNB-071,1,1.0,positive,grounding_results.json#results[8].diag.support[1]
+B09,SYNB-076,1,1.0,positive,grounding_results.json#results[8].diag.support[2]
+B09,SYNB-075,1,1.0,positive,grounding_results.json#results[8].diag.support[3]
+B09,SYNB-073,1,1.0,positive,grounding_results.json#results[8].diag.support[4]
+B09,SYNB-078,1,1.0,positive,grounding_results.json#results[8].diag.support[5]
+B09,SYNB-069,1,1.0,positive,grounding_results.json#results[8].diag.support[6]
+B09,SYNB-072,1,1.0,positive,grounding_results.json#results[8].diag.support[7]
+B09,SYNB-070,1,1.0,positive,grounding_results.json#results[8].diag.support[8]
+B09,SYNB-077,1,1.0,positive,grounding_results.json#results[8].diag.support[9]
+B09,SYNB-083,0,1.0,hard_negative,grounding_results.json#results[8].diag.moved_to_sibling[0]
+B09,SYNB-085,0,1.0,hard_negative,grounding_results.json#results[8].diag.moved_to_sibling[1]
+B09,SYNB-079,0,1.0,sibling_neg,support of B10
+B09,SYNB-081,0,1.0,sibling_neg,support of B10
+B09,SYNB-080,0,1.0,sibling_neg,support of B10
+B09,SYNB-084,0,1.0,sibling_neg,support of B10
+B09,SYNB-086,0,1.0,sibling_neg,support of B10
+B09,SYNB-082,0,1.0,sibling_neg,support of B10
+B09,SAMPLE-017,0,1.0,sibling_neg,support of B26
+B09,SYNB-201,0,1.0,sibling_neg,support of B26
+B09,SAMPLE-016,0,1.0,sibling_neg,support of B26
+B09,SYNB-199,0,1.0,sibling_neg,support of B26
+B09,SYNB-200,0,1.0,sibling_neg,support of B26
+B09,SYNB-198,0,1.0,sibling_neg,support of B26
+B09,SYNB-195,0,1.0,sibling_neg,support of B26
+B09,SYNB-224,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-137,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-202,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-141,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-139,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-264,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-142,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-138,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-135,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-244,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-197,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-136,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B09,SYNB-140,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-083,1,1.0,positive,grounding_results.json#results[9].diag.support[0]
+B10,SYNB-085,1,1.0,positive,grounding_results.json#results[9].diag.support[1]
+B10,SYNB-079,1,1.0,positive,grounding_results.json#results[9].diag.support[2]
+B10,SYNB-081,1,1.0,positive,grounding_results.json#results[9].diag.support[3]
+B10,SYNB-080,1,1.0,positive,grounding_results.json#results[9].diag.support[4]
+B10,SYNB-084,1,1.0,positive,grounding_results.json#results[9].diag.support[5]
+B10,SYNB-086,1,1.0,positive,grounding_results.json#results[9].diag.support[6]
+B10,SYNB-082,1,1.0,positive,grounding_results.json#results[9].diag.support[7]
+B10,SAMPLE-017,0,1.0,hard_negative,grounding_results.json#results[9].diag.moved_to_sibling[0]
+B10,SYNB-074,0,1.0,sibling_neg,support of B09
+B10,SYNB-071,0,1.0,sibling_neg,support of B09
+B10,SYNB-076,0,1.0,sibling_neg,support of B09
+B10,SYNB-075,0,1.0,sibling_neg,support of B09
+B10,SYNB-073,0,1.0,sibling_neg,support of B09
+B10,SYNB-078,0,1.0,sibling_neg,support of B09
+B10,SYNB-069,0,1.0,sibling_neg,support of B09
+B10,SYNB-072,0,1.0,sibling_neg,support of B09
+B10,SYNB-070,0,1.0,sibling_neg,support of B09
+B10,SYNB-077,0,1.0,sibling_neg,support of B09
+B10,SYNB-201,0,1.0,sibling_neg,support of B26
+B10,SAMPLE-016,0,1.0,sibling_neg,support of B26
+B10,SYNB-199,0,1.0,sibling_neg,support of B26
+B10,SYNB-200,0,1.0,sibling_neg,support of B26
+B10,SYNB-198,0,1.0,sibling_neg,support of B26
+B10,SYNB-195,0,1.0,sibling_neg,support of B26
+B10,SYNB-264,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-141,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-197,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-244,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-135,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-136,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-224,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-137,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-138,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-139,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-140,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-142,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,SYNB-202,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B11,SAMPLE-033,1,1.0,positive,grounding_results.json#results[10].diag.support[0]
+B11,SYNB-089,1,1.0,positive,grounding_results.json#results[10].diag.support[1]
+B11,SYNB-091,1,1.0,positive,grounding_results.json#results[10].diag.support[2]
+B11,SYNB-093,1,1.0,positive,grounding_results.json#results[10].diag.support[3]
+B11,SYNB-087,1,1.0,positive,grounding_results.json#results[10].diag.support[4]
+B11,SYNB-092,1,1.0,positive,grounding_results.json#results[10].diag.support[5]
+B11,SYNB-088,1,1.0,positive,grounding_results.json#results[10].diag.support[6]
+B11,SYNB-090,1,1.0,positive,grounding_results.json#results[10].diag.support[7]
+B11,SYNB-094,1,1.0,positive,grounding_results.json#results[10].diag.support[8]
+B12,SYNB-095,1,1.0,positive,grounding_results.json#results[11].diag.support[0]
+B12,SYNB-101,1,1.0,positive,grounding_results.json#results[11].diag.support[1]
+B12,SYNB-100,1,1.0,positive,grounding_results.json#results[11].diag.support[2]
+B12,SYNB-102,1,1.0,positive,grounding_results.json#results[11].diag.support[3]
+B12,SYNB-098,1,1.0,positive,grounding_results.json#results[11].diag.support[4]
+B12,SYNB-096,1,1.0,positive,grounding_results.json#results[11].diag.support[5]
+B12,SYNB-211,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B12,SAMPLE-005,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B12,SYNB-253,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B12,SYNB-273,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B12,SYNB-233,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B12,SYNB-212,0,1.0,sampled_neg,"reports coded NAV, not cited"
+B13,SYNB-104,1,1.0,positive,grounding_results.json#results[12].diag.support[0]
+B13,SYNB-103,1,1.0,positive,grounding_results.json#results[12].diag.support[1]
+B13,SYNB-108,1,1.0,positive,grounding_results.json#results[12].diag.support[2]
+B13,SYNB-105,1,1.0,positive,grounding_results.json#results[12].diag.support[3]
+B13,SYNB-106,1,1.0,positive,grounding_results.json#results[12].diag.support[4]
+B13,SYNB-107,1,1.0,positive,grounding_results.json#results[12].diag.support[5]
+B13,SYNB-117,1,1.0,positive,grounding_results.json#results[12].diag.support[6]
+B13,SYNB-113,1,1.0,positive,grounding_results.json#results[12].diag.support[7]
+B13,SYNB-116,1,1.0,positive,grounding_results.json#results[12].diag.support[8]
+B13,SYNB-225,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-111,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-245,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SAMPLE-013,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-115,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SAMPLE-031,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-265,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-112,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SAMPLE-029,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-114,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SYNB-118,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B13,SAMPLE-028,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+B14,SYNB-110,1,1.0,positive,grounding_results.json#results[13].diag.support[0]
+B14,SYNB-109,1,1.0,positive,grounding_results.json#results[13].diag.support[1]
+B14,SAMPLE-015,1,1.0,positive,grounding_results.json#results[13].diag.support[2]
+B14,SAMPLE-018,1,1.0,positive,grounding_results.json#results[13].diag.support[3]
+B14,SAMPLE-032,0,1.0,hard_negative,grounding_results.json#results[13].diag.moved_to_sibling[0]
+B14,SYNB-194,0,1.0,hard_negative,grounding_results.json#results[13].diag.moved_to_sibling[1]
+B14,SYNB-193,0,1.0,hard_negative,grounding_results.json#results[13].diag.moved_to_sibling[2]
+B14,SYNB-190,0,1.0,hard_negative,grounding_results.json#results[13].diag.moved_to_sibling[3]
+B14,SYNB-189,0,1.0,hard_negative,grounding_results.json#results[13].diag.moved_to_sibling[4]
+B14,SYNB-191,0,1.0,sibling_neg,support of B25
+B14,SYNB-192,0,1.0,sibling_neg,support of B25
+B14,SYNB-230,0,1.0,sibling_neg,support of C8
+B14,SYNB-250,0,1.0,sibling_neg,support of C8
+B14,SYNB-270,0,1.0,sibling_neg,support of C8
+B14,SAMPLE-012,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B15,SAMPLE-031,1,1.0,positive,grounding_results.json#results[14].diag.support[0]
+B15,SAMPLE-029,1,1.0,positive,grounding_results.json#results[14].diag.support[1]
+B15,SAMPLE-028,1,1.0,positive,grounding_results.json#results[14].diag.support[2]
+B15,SYNB-113,1,1.0,positive,grounding_results.json#results[14].diag.support[3]
+B15,SYNB-117,1,1.0,positive,grounding_results.json#results[14].diag.support[4]
+B15,SYNB-114,1,1.0,positive,grounding_results.json#results[14].diag.support[5]
+B15,SYNB-111,1,1.0,positive,grounding_results.json#results[14].diag.support[6]
+B15,SYNB-115,1,1.0,positive,grounding_results.json#results[14].diag.support[7]
+B15,SYNB-118,1,1.0,positive,grounding_results.json#results[14].diag.support[8]
+B15,SYNB-116,1,1.0,positive,grounding_results.json#results[14].diag.support[9]
+B15,SYNB-112,1,1.0,positive,grounding_results.json#results[14].diag.support[10]
+B15,SAMPLE-030,0,1.0,sibling_neg,support of B16
+B15,SYNB-214,0,1.0,sibling_neg,support of B16
+B15,SYNB-254,0,1.0,sibling_neg,support of B16
+B15,SYNB-120,0,1.0,sibling_neg,support of B16
+B15,SYNB-121,0,1.0,sibling_neg,support of B16
+B15,SYNB-126,0,1.0,sibling_neg,support of B16
+B15,SYNB-123,0,1.0,sibling_neg,support of B16
+B15,SYNB-124,0,1.0,sibling_neg,support of B16
+B15,SYNB-119,0,1.0,sibling_neg,support of B16
+B15,SYNB-125,0,1.0,sibling_neg,support of B16
+B15,SYNB-234,0,1.0,sibling_neg,support of B16
+B16,SAMPLE-030,1,1.0,positive,grounding_results.json#results[15].diag.support[0]
+B16,SYNB-214,1,1.0,positive,grounding_results.json#results[15].diag.support[1]
+B16,SYNB-254,1,1.0,positive,grounding_results.json#results[15].diag.support[2]
+B16,SYNB-120,1,1.0,positive,grounding_results.json#results[15].diag.support[3]
+B16,SYNB-121,1,1.0,positive,grounding_results.json#results[15].diag.support[4]
+B16,SYNB-126,1,1.0,positive,grounding_results.json#results[15].diag.support[5]
+B16,SYNB-123,1,1.0,positive,grounding_results.json#results[15].diag.support[6]
+B16,SYNB-124,1,1.0,positive,grounding_results.json#results[15].diag.support[7]
+B16,SYNB-119,1,1.0,positive,grounding_results.json#results[15].diag.support[8]
+B16,SYNB-125,1,1.0,positive,grounding_results.json#results[15].diag.support[9]
+B16,SYNB-234,1,1.0,positive,grounding_results.json#results[15].diag.support[10]
+B16,SAMPLE-031,0,1.0,hard_negative,grounding_results.json#results[15].diag.moved_to_sibling[0]
+B16,SAMPLE-029,0,1.0,sibling_neg,support of B15
+B16,SAMPLE-028,0,1.0,sibling_neg,support of B15
+B16,SYNB-113,0,1.0,sibling_neg,support of B15
+B16,SYNB-117,0,1.0,sibling_neg,support of B15
+B16,SYNB-114,0,1.0,sibling_neg,support of B15
+B16,SYNB-111,0,1.0,sibling_neg,support of B15
+B16,SYNB-115,0,1.0,sibling_neg,support of B15
+B16,SYNB-118,0,1.0,sibling_neg,support of B15
+B16,SYNB-116,0,1.0,sibling_neg,support of B15
+B16,SYNB-112,0,1.0,sibling_neg,support of B15
+B17,SYNB-127,1,1.0,positive,grounding_results.json#results[16].diag.support[0]
+B17,SYNB-129,1,1.0,positive,grounding_results.json#results[16].diag.support[1]
+B17,SYNB-131,1,1.0,positive,grounding_results.json#results[16].diag.support[2]
+B17,SYNB-130,1,1.0,positive,grounding_results.json#results[16].diag.support[3]
+B17,SYNB-128,1,1.0,positive,grounding_results.json#results[16].diag.support[4]
+B17,SYNB-133,1,1.0,positive,grounding_results.json#results[16].diag.support[5]
+B17,SYNB-134,1,1.0,positive,grounding_results.json#results[16].diag.support[6]
+B17,SYNB-132,1,1.0,positive,grounding_results.json#results[16].diag.support[7]
+B17,SYNB-138,0,1.0,sibling_neg,support of B18
+B17,SYNB-137,0,1.0,sibling_neg,support of B18
+B17,SYNB-139,0,1.0,sibling_neg,support of B18
+B17,SYNB-141,0,1.0,sibling_neg,support of B18
+B17,SYNB-135,0,1.0,sibling_neg,support of B18
+B17,SYNB-142,0,1.0,sibling_neg,support of B18
+B17,SYNB-140,0,1.0,sibling_neg,support of B18
+B17,SYNB-136,0,1.0,sibling_neg,support of B18
+B17,SYNB-217,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B17,SYNB-237,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B17,SYNB-257,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,SYNB-138,1,1.0,positive,grounding_results.json#results[17].diag.support[0]
+B18,SYNB-137,1,1.0,positive,grounding_results.json#results[17].diag.support[1]
+B18,SYNB-139,1,1.0,positive,grounding_results.json#results[17].diag.support[2]
+B18,SYNB-141,1,1.0,positive,grounding_results.json#results[17].diag.support[3]
+B18,SYNB-135,1,1.0,positive,grounding_results.json#results[17].diag.support[4]
+B18,SYNB-142,1,1.0,positive,grounding_results.json#results[17].diag.support[5]
+B18,SYNB-140,1,1.0,positive,grounding_results.json#results[17].diag.support[6]
+B18,SYNB-136,1,1.0,positive,grounding_results.json#results[17].diag.support[7]
+B18,SYNB-127,0,1.0,sibling_neg,support of B17
+B18,SYNB-129,0,1.0,sibling_neg,support of B17
+B18,SYNB-131,0,1.0,sibling_neg,support of B17
+B18,SYNB-130,0,1.0,sibling_neg,support of B17
+B18,SYNB-128,0,1.0,sibling_neg,support of B17
+B18,SYNB-133,0,1.0,sibling_neg,support of B17
+B18,SYNB-134,0,1.0,sibling_neg,support of B17
+B18,SYNB-132,0,1.0,sibling_neg,support of B17
+B18,SYNB-217,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,SYNB-257,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,SYNB-237,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B19,SYNB-146,1,1.0,positive,grounding_results.json#results[18].diag.support[0]
+B19,SYNB-145,1,1.0,positive,grounding_results.json#results[18].diag.support[1]
+B19,SYNB-150,1,1.0,positive,grounding_results.json#results[18].diag.support[2]
+B19,SYNB-144,1,1.0,positive,grounding_results.json#results[18].diag.support[3]
+B19,SYNB-148,1,1.0,positive,grounding_results.json#results[18].diag.support[4]
+B19,SYNB-149,1,1.0,positive,grounding_results.json#results[18].diag.support[5]
+B19,SYNB-143,1,1.0,positive,grounding_results.json#results[18].diag.support[6]
+B19,SYNB-147,1,1.0,positive,grounding_results.json#results[18].diag.support[7]
+B19,SYNB-229,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B19,SYNB-239,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B19,SYNB-219,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B19,SYNB-269,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B19,SYNB-249,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B19,SYNB-259,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+B20,SYNB-151,1,1.0,positive,grounding_results.json#results[19].diag.support[0]
+B20,SYNB-153,1,1.0,positive,grounding_results.json#results[19].diag.support[1]
+B20,SYNB-156,1,1.0,positive,grounding_results.json#results[19].diag.support[2]
+B20,SYNB-158,1,1.0,positive,grounding_results.json#results[19].diag.support[3]
+B20,SYNB-152,1,1.0,positive,grounding_results.json#results[19].diag.support[4]
+B20,SYNB-155,1,1.0,positive,grounding_results.json#results[19].diag.support[5]
+B20,SYNB-154,1,1.0,positive,grounding_results.json#results[19].diag.support[6]
+B20,SYNB-157,1,1.0,positive,grounding_results.json#results[19].diag.support[7]
+B20,SYNB-235,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-228,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-229,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-269,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-215,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-255,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-249,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-268,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B20,SYNB-248,0,1.0,sampled_neg,"reports coded RAMP, not cited"
+B21,SYNB-160,1,1.0,positive,grounding_results.json#results[20].diag.support[0]
+B21,SYNB-159,1,1.0,positive,grounding_results.json#results[20].diag.support[1]
+B21,SYNB-163,1,1.0,positive,grounding_results.json#results[20].diag.support[2]
+B21,SYNB-161,1,1.0,positive,grounding_results.json#results[20].diag.support[3]
+B21,SYNB-166,1,1.0,positive,grounding_results.json#results[20].diag.support[4]
+B21,SYNB-164,1,1.0,positive,grounding_results.json#results[20].diag.support[5]
+B21,SYNB-165,1,1.0,positive,grounding_results.json#results[20].diag.support[6]
+B21,SYNB-162,1,1.0,positive,grounding_results.json#results[20].diag.support[7]
+B21,SAMPLE-024,0,1.0,hard_negative,grounding_results.json#results[20].diag.moved_to_sibling[0]
+B21,SAMPLE-026,0,1.0,hard_negative,grounding_results.json#results[20].diag.moved_to_sibling[1]
+B21,SAMPLE-025,0,1.0,sibling_neg,support of C6
+B21,SAMPLE-023,0,1.0,sibling_neg,support of C6
+B21,SYNB-243,0,1.0,sibling_neg,support of C6
+B21,SYNB-223,0,1.0,sibling_neg,support of C6
+B21,SYNB-263,0,1.0,sibling_neg,support of C6
+B21,SYNB-129,0,1.0,sibling_neg,support of C6
+B21,SYNB-256,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-231,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-128,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-131,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-127,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-130,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-133,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-134,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-132,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-216,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-271,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-236,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B21,SYNB-251,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+B22,SAMPLE-035,1,1.0,positive,grounding_results.json#results[21].diag.support[0]
+B22,SYNB-173,1,1.0,positive,grounding_results.json#results[21].diag.support[1]
+B22,SYNB-174,1,1.0,positive,grounding_results.json#results[21].diag.support[2]
+B22,SYNB-167,1,1.0,positive,grounding_results.json#results[21].diag.support[3]
+B22,SYNB-172,1,1.0,positive,grounding_results.json#results[21].diag.support[4]
+B22,SYNB-168,1,1.0,positive,grounding_results.json#results[21].diag.support[5]
+B22,SYNB-170,0,1.0,hard_negative,grounding_results.json#results[21].diag.moved_to_sibling[0]
+B22,SAMPLE-034,0,1.0,sibling_neg,support of C9
+B22,SAMPLE-036,0,1.0,sibling_neg,support of C9
+B22,SYNB-240,0,1.0,sibling_neg,support of C9
+B22,SYNB-260,0,1.0,sibling_neg,support of C9
+B22,SYNB-220,0,1.0,sibling_neg,support of C9
+B22,SYNB-169,0,1.0,sibling_neg,support of C9
+B22,SYNB-171,0,1.0,sampled_neg,"reports coded ARC, not cited"
+B22,SYNB-024,0,1.0,sampled_neg,"reports coded ARC, not cited"
+B23,SYNB-179,1,1.0,positive,grounding_results.json#results[22].diag.support[0]
+B23,SYNB-182,1,1.0,positive,grounding_results.json#results[22].diag.support[1]
+B23,SYNB-180,1,1.0,positive,grounding_results.json#results[22].diag.support[2]
+B23,SYNB-178,1,1.0,positive,grounding_results.json#results[22].diag.support[3]
+B23,SYNB-176,1,1.0,positive,grounding_results.json#results[22].diag.support[4]
+B23,SYNB-181,1,1.0,positive,grounding_results.json#results[22].diag.support[5]
+B23,SYNB-175,1,1.0,positive,grounding_results.json#results[22].diag.support[6]
+B23,SYNB-252,1,1.0,positive,grounding_results.json#results[22].diag.support[7]
+B23,SYNB-232,1,1.0,positive,grounding_results.json#results[22].diag.support[8]
+B23,SYNB-272,1,1.0,positive,grounding_results.json#results[22].diag.support[9]
+B24,SYNB-184,1,1.0,positive,grounding_results.json#results[23].diag.support[0]
+B24,SYNB-187,1,1.0,positive,grounding_results.json#results[23].diag.support[1]
+B24,SYNB-186,1,1.0,positive,grounding_results.json#results[23].diag.support[2]
+B24,SYNB-183,1,1.0,positive,grounding_results.json#results[23].diag.support[3]
+B24,SYNB-188,1,1.0,positive,grounding_results.json#results[23].diag.support[4]
+B24,SYNB-185,1,1.0,positive,grounding_results.json#results[23].diag.support[5]
+B25,SYNB-194,1,1.0,positive,grounding_results.json#results[24].diag.support[0]
+B25,SYNB-190,1,1.0,positive,grounding_results.json#results[24].diag.support[1]
+B25,SYNB-193,1,1.0,positive,grounding_results.json#results[24].diag.support[2]
+B25,SYNB-189,1,1.0,positive,grounding_results.json#results[24].diag.support[3]
+B25,SYNB-191,1,1.0,positive,grounding_results.json#results[24].diag.support[4]
+B25,SYNB-192,1,1.0,positive,grounding_results.json#results[24].diag.support[5]
+B25,SAMPLE-032,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[0]
+B25,SYNB-110,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[1]
+B25,SAMPLE-015,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[2]
+B25,SYNB-109,0,1.0,sibling_neg,support of B14
+B25,SAMPLE-018,0,1.0,sibling_neg,support of B14
+B25,SYNB-230,0,1.0,sibling_neg,support of C8
+B25,SYNB-250,0,1.0,sibling_neg,support of C8
+B25,SYNB-270,0,1.0,sibling_neg,support of C8
+B25,SAMPLE-012,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B26,SAMPLE-017,1,1.0,positive,grounding_results.json#results[25].diag.support[0]
+B26,SYNB-201,1,1.0,positive,grounding_results.json#results[25].diag.support[1]
+B26,SAMPLE-016,1,1.0,positive,grounding_results.json#results[25].diag.support[2]
+B26,SYNB-199,1,1.0,positive,grounding_results.json#results[25].diag.support[3]
+B26,SYNB-200,1,1.0,positive,grounding_results.json#results[25].diag.support[4]
+B26,SYNB-198,1,1.0,positive,grounding_results.json#results[25].diag.support[5]
+B26,SYNB-195,1,1.0,positive,grounding_results.json#results[25].diag.support[6]
+B26,SYNB-074,0,1.0,sibling_neg,support of B09
+B26,SYNB-071,0,1.0,sibling_neg,support of B09
+B26,SYNB-076,0,1.0,sibling_neg,support of B09
+B26,SYNB-075,0,1.0,sibling_neg,support of B09
+B26,SYNB-073,0,1.0,sibling_neg,support of B09
+B26,SYNB-078,0,1.0,sibling_neg,support of B09
+B26,SYNB-069,0,1.0,sibling_neg,support of B09
+B26,SYNB-072,0,1.0,sibling_neg,support of B09
+B26,SYNB-070,0,1.0,sibling_neg,support of B09
+B26,SYNB-077,0,1.0,sibling_neg,support of B09
+B26,SYNB-083,0,1.0,sibling_neg,support of B10
+B26,SYNB-085,0,1.0,sibling_neg,support of B10
+B26,SYNB-079,0,1.0,sibling_neg,support of B10
+B26,SYNB-081,0,1.0,sibling_neg,support of B10
+B26,SYNB-080,0,1.0,sibling_neg,support of B10
+B26,SYNB-084,0,1.0,sibling_neg,support of B10
+B26,SYNB-086,0,1.0,sibling_neg,support of B10
+B26,SYNB-082,0,1.0,sibling_neg,support of B10
+B26,SYNB-197,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-136,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-202,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-244,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-140,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-141,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-264,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-224,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-137,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-139,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-138,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-135,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B26,SYNB-142,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B27,SAMPLE-007,1,1.0,positive,grounding_results.json#results[26].diag.support[0]
+B27,SYNB-204,1,1.0,positive,grounding_results.json#results[26].diag.support[1]
+B27,SAMPLE-006,1,1.0,positive,grounding_results.json#results[26].diag.support[2]
+B27,SYNB-205,1,1.0,positive,grounding_results.json#results[26].diag.support[3]
+B27,SYNB-206,1,1.0,positive,grounding_results.json#results[26].diag.support[4]
+B27,SAMPLE-009,1,1.0,positive,grounding_results.json#results[26].diag.support[5]
+B27,SYNB-210,1,1.0,positive,grounding_results.json#results[26].diag.support[6]
+B27,SYNB-203,1,1.0,positive,grounding_results.json#results[26].diag.support[7]
+B27,SYNB-209,1,1.0,positive,grounding_results.json#results[26].diag.support[8]
+B27,SYNB-207,1,1.0,positive,grounding_results.json#results[26].diag.support[9]
+B27,SYNB-208,1,1.0,positive,grounding_results.json#results[26].diag.support[10]
+B27,SAMPLE-008,0,1.0,hard_negative,grounding_results.json#results[26].diag.moved_to_sibling[0]
+B27,SYNB-010,0,1.0,sibling_neg,support of B01
+B27,SYNB-006,0,1.0,sibling_neg,support of B01
+B27,SYNB-007,0,1.0,sibling_neg,support of B01
+B27,SYNB-005,0,1.0,sibling_neg,support of B01
+B27,SYNB-009,0,1.0,sibling_neg,support of B01
+B27,SYNB-001,0,1.0,sibling_neg,support of B01
+B27,SYNB-004,0,1.0,sibling_neg,support of B01
+B27,SAMPLE-004,0,1.0,sibling_neg,support of B02
+B27,SAMPLE-001,0,1.0,sibling_neg,support of B02
+B27,SYNB-012,0,1.0,sibling_neg,support of B02
+B27,SYNB-015,0,1.0,sibling_neg,support of B02
+B27,SYNB-016,0,1.0,sibling_neg,support of B02
+B27,SYNB-017,0,1.0,sibling_neg,support of B02
+B27,SAMPLE-005,0,1.0,sibling_neg,support of B02
+B27,SAMPLE-003,0,1.0,sibling_neg,support of B02
+B27,SAMPLE-002,0,1.0,sibling_neg,support of B02
+B27,SYNB-011,0,1.0,sibling_neg,support of B02
+B27,SYNB-002,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-262,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-018,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-008,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-242,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-013,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-003,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-014,0,1.0,sampled_neg,"reports coded RI, not cited"
+B27,SYNB-222,0,1.0,sampled_neg,"reports coded RI, not cited"
+C6,SAMPLE-025,1,1.0,positive,grounding_results.json#results[33].diag.support[0]
+C6,SAMPLE-023,1,1.0,positive,grounding_results.json#results[33].diag.support[1]
+C6,SAMPLE-026,1,1.0,positive,grounding_results.json#results[33].diag.support[2]
+C6,SAMPLE-024,1,1.0,positive,grounding_results.json#results[33].diag.support[3]
+C6,SYNB-243,1,1.0,positive,grounding_results.json#results[33].diag.support[4]
+C6,SYNB-223,1,1.0,positive,grounding_results.json#results[33].diag.support[5]
+C6,SYNB-263,1,1.0,positive,grounding_results.json#results[33].diag.support[6]
+C6,SYNB-129,1,1.0,positive,grounding_results.json#results[33].diag.support[7]
+C6,SYNB-164,0,1.0,hard_negative,grounding_results.json#results[33].diag.moved_to_sibling[0]
+C6,SYNB-160,0,1.0,hard_negative,grounding_results.json#results[33].diag.moved_to_sibling[1]
+C6,SYNB-163,0,1.0,hard_negative,grounding_results.json#results[33].diag.moved_to_sibling[2]
+C6,SYNB-159,0,1.0,hard_negative,grounding_results.json#results[33].diag.moved_to_sibling[3]
+C6,SYNB-161,0,1.0,sibling_neg,support of B21
+C6,SYNB-166,0,1.0,sibling_neg,support of B21
+C6,SYNB-165,0,1.0,sibling_neg,support of B21
+C6,SYNB-162,0,1.0,sibling_neg,support of B21
+C6,SYNB-231,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-236,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-127,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-132,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-271,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-256,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-216,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-128,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-130,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-131,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-134,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-251,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C6,SYNB-133,0,1.0,sampled_neg,"reports coded CABIN, not cited"
+C8,SAMPLE-032,1,1.0,positive,grounding_results.json#results[35].diag.support[0]
+C8,SYNB-230,1,1.0,positive,grounding_results.json#results[35].diag.support[1]
+C8,SYNB-250,1,1.0,positive,grounding_results.json#results[35].diag.support[2]
+C8,SYNB-270,1,1.0,positive,grounding_results.json#results[35].diag.support[3]
+C8,SYNB-109,0,1.0,hard_negative,grounding_results.json#results[35].diag.moved_to_sibling[0]
+C8,SYNB-110,0,1.0,sibling_neg,support of B14
+C8,SAMPLE-015,0,1.0,sibling_neg,support of B14
+C8,SAMPLE-018,0,1.0,sibling_neg,support of B14
+C8,SYNB-194,0,1.0,sibling_neg,support of B25
+C8,SYNB-190,0,1.0,sibling_neg,support of B25
+C8,SYNB-193,0,1.0,sibling_neg,support of B25
+C8,SYNB-189,0,1.0,sibling_neg,support of B25
+C8,SYNB-191,0,1.0,sibling_neg,support of B25
+C8,SYNB-192,0,1.0,sibling_neg,support of B25
+C8,SAMPLE-012,0,1.0,sampled_neg,"reports coded ICE, not cited"
+C9,SAMPLE-034,1,1.0,positive,grounding_results.json#results[36].diag.support[0]
+C9,SAMPLE-036,1,1.0,positive,grounding_results.json#results[36].diag.support[1]
+C9,SYNB-170,1,1.0,positive,grounding_results.json#results[36].diag.support[2]
+C9,SYNB-240,1,1.0,positive,grounding_results.json#results[36].diag.support[3]
+C9,SYNB-260,1,1.0,positive,grounding_results.json#results[36].diag.support[4]
+C9,SYNB-220,1,1.0,positive,grounding_results.json#results[36].diag.support[5]
+C9,SYNB-169,1,1.0,positive,grounding_results.json#results[36].diag.support[6]
+C9,SAMPLE-035,0,1.0,hard_negative,grounding_results.json#results[36].diag.moved_to_sibling[0]
+C9,SYNB-173,0,1.0,hard_negative,grounding_results.json#results[36].diag.moved_to_sibling[1]
+C9,SYNB-174,0,1.0,hard_negative,grounding_results.json#results[36].diag.moved_to_sibling[2]
+C9,SYNB-167,0,1.0,hard_negative,grounding_results.json#results[36].diag.moved_to_sibling[3]
+C9,SYNB-168,0,1.0,hard_negative,grounding_results.json#results[36].diag.moved_to_sibling[4]
+C9,SYNB-172,0,1.0,sibling_neg,support of B22
+C9,SYNB-171,0,1.0,sampled_neg,"reports coded ARC, not cited"
+C9,SYNB-024,0,1.0,sampled_neg,"reports coded ARC, not cited"

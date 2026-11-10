@@ -1,0 +1,6 @@
+test,check,blocked
+Invented bucket,C1,True
+Misquoted evidence,C3,True
+Bucket under another parent,C2,True
+Probability above 1,C4,True
+Abstain without reason,C5,True

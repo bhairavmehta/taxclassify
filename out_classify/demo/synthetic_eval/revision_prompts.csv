@@ -1,0 +1,4 @@
+reviewed_run_id,candidate_id,action,target_type,target_id,value,rationale,prompting_report,suggestion
+run-combined-20261109T200055880,C6,,,,,,TEST-004,classifier none_of_these: no bucket reaches the conformal threshold 0.41; nearest C6 at 0.02: new bucket or widen C6
+run-combined-20261109T200055880,,,,,,,TEST-005,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-combined-20261109T200055880,B26,,,,,,TEST-008,classifier none_of_these: no bucket reaches the conformal threshold 0.41; nearest B26 at 0.05: new bucket or widen B26

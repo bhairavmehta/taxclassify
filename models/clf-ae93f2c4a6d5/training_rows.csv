@@ -1,0 +1,2991 @@
+bucket,report_key,y,weight,origin,source
+B04,ERA12FA056,1,1.0,positive,grounding_results.json#results[3].diag.support[0]
+B04,ERA22LA150,1,1.0,positive,grounding_results.json#results[3].diag.support[1]
+B04,CEN14FA505,1,1.0,positive,grounding_results.json#results[3].diag.support[2]
+B04,CEN09LA100,1,1.0,positive,grounding_results.json#results[3].diag.support[3]
+B04,ERA13IA294,1,1.0,positive,grounding_results.json#results[3].diag.support[4]
+B04,WPR11IA055,1,1.0,positive,grounding_results.json#results[3].diag.support[5]
+B04,ERA23FA235,1,1.0,positive,grounding_results.json#results[3].diag.support[6]
+B04,ERA09LA339,1,1.0,positive,grounding_results.json#results[3].diag.support[7]
+B04,CEN15LA057,1,1.0,positive,grounding_results.json#results[3].diag.support[8]
+B04,CEN12CA355,1,1.0,positive,grounding_results.json#results[3].diag.support[9]
+B04,WPR25LA124,1,1.0,positive,grounding_results.json#results[3].diag.support[10]
+B04,WPR16LA061,1,1.0,positive,grounding_results.json#results[3].diag.support[11]
+B04,WPR14LA142,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA277,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA19CA271,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR18LA012,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA21LA249,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA035,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA25LA296,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA21LA231,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA16CA233,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA269,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA566,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR10LA235,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA366,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA546,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA09LA282,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR19LA247,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA22LA255,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,DEN08CA156,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ANC14CA013,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA126,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR12CA159,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR15CA053,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN22LA338,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN24LA059,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN26LA149,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA499,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR09CA073,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA078,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN10CA144,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15CA201,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN11LA371,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA17CA137,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA11CA331,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN11CA668,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN12CA465,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR14CA125,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR09LA354,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA24LA380,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA15LA274,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,DCA19WA108,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA09CA327,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN21LA163,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA105,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN18LA307,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA12LA586,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA254,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,DCA16WA118,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA11CA494,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR19LA094,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN23LA159,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15CA244,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA141,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA23LA091,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN12CA450,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15LA019,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN10CA147,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA21LA061,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA091,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA164,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA10LA450,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA19CA040,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA166,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA12CA573,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA18LA044,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA24LA033,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA16CA141,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR22LA344,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15CA260,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA365,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR22LA075,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN12LA111,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15CA115,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN13CA411,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,DFW08CA072,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN10CA215,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ENG18RA002,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN13LA482,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA22LA152,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR20WA114,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA21LA077,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA12CA381,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN24LA357,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN22LA105,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA25LA025,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA17CA257,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN12CA627,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN26LA186,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,WPR10CA378,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA16LA322,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN24LA043,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA18CA190,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA20LA221,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA26LA088,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,CEN22LA179,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,ERA22LA113,0,1.0,sampled_neg,"reports coded RE, not cited"
+B04,GAA15CA218,0,1.0,sampled_neg,"reports coded RE, not cited"
+B05,ERA24FA001,1,1.0,positive,grounding_results.json#results[4].diag.support[0]
+B05,NYC08MA090,1,1.0,positive,grounding_results.json#results[4].diag.support[1]
+B05,DCA08FA075,1,1.0,positive,grounding_results.json#results[4].diag.support[2]
+B05,WPR22FA235,1,1.0,positive,grounding_results.json#results[4].diag.support[3]
+B05,ERA14FA417,1,1.0,positive,grounding_results.json#results[4].diag.support[4]
+B05,WPR22FA196,1,1.0,positive,grounding_results.json#results[4].diag.support[5]
+B05,ERA17FA223,1,1.0,positive,grounding_results.json#results[4].diag.support[6]
+B05,ERA22FA004,1,1.0,positive,grounding_results.json#results[4].diag.support[7]
+B05,CEN14FA046,1,1.0,positive,grounding_results.json#results[4].diag.support[8]
+B05,WPR24FA083,1,1.0,positive,grounding_results.json#results[4].diag.support[9]
+B05,CEN16FA214,1,1.0,positive,grounding_results.json#results[4].diag.support[10]
+B05,WPR21FA286,1,1.0,positive,grounding_results.json#results[4].diag.support[11]
+B05,CEN12LA095,0,1.0,sibling_neg,support of C4
+B05,WPR10LA059,0,1.0,sibling_neg,support of C4
+B05,ERA11FA493,0,1.0,sibling_neg,support of C4
+B05,ERA19LA072,0,1.0,sibling_neg,support of C4
+B05,CEN10MA088,0,1.0,sibling_neg,support of C4
+B05,WPR12FA059,0,1.0,sibling_neg,support of C4
+B05,WPR16FA067,0,1.0,sibling_neg,support of C4
+B05,ERA14FA112,0,1.0,sibling_neg,support of C4
+B05,ERA10FA178,0,1.0,sibling_neg,support of C4
+B05,DCA12IA141,0,1.0,sibling_neg,support of C4
+B05,ERA24FA088,0,1.0,sibling_neg,support of C4
+B05,CEN16LA093,0,1.0,sibling_neg,support of C4
+B05,CEN13FA051,0,1.0,sibling_neg,support of D08
+B05,ERA13FA227,0,1.0,sibling_neg,support of D08
+B05,WPR10LA297,0,1.0,sibling_neg,support of D08
+B05,ERA15FA096,0,1.0,sibling_neg,support of D08
+B05,CEN15FA083,0,1.0,sibling_neg,support of D08
+B05,CEN22FA211,0,1.0,sibling_neg,support of D08
+B05,CEN19FA323,0,1.0,sibling_neg,support of D08
+B05,ERA20FA101,0,1.0,sibling_neg,support of D08
+B05,ANC18FA007,0,1.0,sibling_neg,support of D08
+B05,DFW08FA060,0,1.0,sibling_neg,support of D08
+B05,WPR17LA195,0,1.0,sibling_neg,support of D08
+B05,WPR11FA316,0,1.0,sibling_neg,support of D08
+B05,WPR13FA343,0,1.0,sibling_neg,support of D13
+B05,GAA16LA117,0,1.0,sibling_neg,support of D13
+B05,WPR10FA440,0,1.0,sibling_neg,support of D13
+B05,GAA17CA495,0,1.0,sibling_neg,support of D13
+B05,CEN15FA003,0,1.0,sibling_neg,support of D13
+B05,SEA08LA213,0,1.0,sibling_neg,support of D13
+B05,ERA22FA207,0,1.0,sibling_neg,support of D13
+B05,ERA11LA409,0,1.0,sibling_neg,support of D13
+B05,CEN20LA167,0,1.0,sibling_neg,support of D13
+B05,WPR16LA056,0,1.0,sibling_neg,support of D13
+B05,ERA12LA282,0,1.0,sibling_neg,support of D13
+B05,CEN17LA375,0,1.0,sibling_neg,support of D13
+B05,ERA11CA337,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN15FA374,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC17FA049,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA19LA093,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,LAX08FA047,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC20CA051,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN24LA066,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR09LA293,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA18CA035,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA19FA113,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN25LA381,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR12CA343,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC13LA009,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN10FA141,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN17FA197,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA09LA454,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN21LA339,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR13CA257,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA24FA176,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,DCA13WA129,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN22LA199,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CHI08CA238,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA17CA151,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA18CA158,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA22LA228,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN21FA025,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA16LA046,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA15LA231,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA19RA077,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN18FA144,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR13CA068,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA20CA176,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN20LA421,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA19CA096,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR13FA022,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR14FA369,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN20CA229,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR09FA076,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA20CA143,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,DFW08LA081,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN13LA459,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA12FA387,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA11CA288,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,DCA24LA316,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR18FA186,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN16FA282,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR22FA068,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN11CA560,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN11CA325,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA17WA086,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA11LA403,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN09LA224,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA19CA023,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN25FA339,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR10CA389,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN22LA162,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA17LA046,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC13CA083,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA18CA201,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA19CA063,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN12CA370,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA18CA099,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR11FA147,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA18CA257,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN15LA091,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA17FA027/2,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA14CA463,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR09LA350,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR09FA192,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,GAA16CA232,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR17FA117,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR13CA252,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR18FA074,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR24LA273,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN09CA279,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR11CA018,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN09CA435,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN23FA285,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN14CA353,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA16FA100,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA11WA472,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR16FA169,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA18FA006,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC13FA095,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA09MA157,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA24LA256,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN25FA178,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ANC08LA040,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA13CA338,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA13CA298,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA10CA176,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR12CA288,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,ERA23LA217,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,WPR20LA237,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN11LA623,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B05,CEN23FA142,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+B08,OPS11IA686,1,1.0,positive,grounding_results.json#results[7].diag.support[0]
+B08,ERA15MA259,1,1.0,positive,grounding_results.json#results[7].diag.support[1]
+B08,ERA22FA318/2,1,1.0,positive,grounding_results.json#results[7].diag.support[2]
+B08,ANC20LA085/2,1,1.0,positive,grounding_results.json#results[7].diag.support[3]
+B08,ERA11FA468/2,1,1.0,positive,grounding_results.json#results[7].diag.support[4]
+B08,OPS16IA010,1,1.0,positive,grounding_results.json#results[7].diag.support[5]
+B08,OPS10IA163/2,1,1.0,positive,grounding_results.json#results[7].diag.support[6]
+B08,DCA10LA083,1,1.0,positive,grounding_results.json#results[7].diag.support[7]
+B08,OPS08IA014,1,1.0,positive,grounding_results.json#results[7].diag.support[8]
+B08,ANC20LA074,1,1.0,positive,grounding_results.json#results[7].diag.support[9]
+B08,OPS25LA032/5,1,1.0,positive,grounding_results.json#results[7].diag.support[10]
+B08,ANC16FA052,1,1.0,positive,grounding_results.json#results[7].diag.support[11]
+B08,WPR15MA243/2,0,1.0,hard_negative,grounding_results.json#results[7].diag.moved_to_sibling[0]
+B08,OPS11IA246,0,1.0,hard_negative,grounding_results.json#results[7].diag.moved_to_sibling[1]
+B08,CEN21LA161,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,LAX08LA254,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR18LA071/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR09FA437,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR14FA174/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA18IA264,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR13LA270,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR13FA254,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA18FA194,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN25LA242,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR10LA294,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS11IA101,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS11IA428,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR16FA065/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA25LA072/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA25MA108/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN18WA155,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR23LA045/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA12WA530/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS12IA535,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR18LA144/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR25LA077/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA09LA067,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA14FA459,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR25FA268/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA20IA034,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA17FA143/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR10LA134,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA15WA233,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR18LA144,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR10FA068,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ANC16FA061/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN19MA141/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR20LA246,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA19WA174/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA09LA302,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR14FA174,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA23LA395,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR09FA437/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS14IA005/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN14WA321,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR26LA083,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,SEA08LA057/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN21FA043,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,GAA15CA157,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR23FA302,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA16FA324,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR10FA068/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN15WA429/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS12IA041/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS15IA017,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA16FA312,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR21LA040,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN24FA260/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN10WA538,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA19FA183/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS09IA001/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN11LA573,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN17FA072,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN18WA141,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN19MA141,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA24LA316,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR24FA309,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN22FA424,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR14FA283,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN15WA429,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA17WA107,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN18LA087/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR13FA296,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN19IA234/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR23FA302/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR21LA040/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR12FA020,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR13FA296/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN24FA260,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA17LA183,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS10IA155/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR16FA065,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN20LA419,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN17WA052,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA25LA072,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA14FA459/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ANC15FA009/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS09IA001,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN10IA447/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA17LA332,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR24FA201,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR12FA020/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR20LA246/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN22FA081/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN21LA161/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,DCA20IA034/2,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,WPR17LA209,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,OPS09IA006,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,ERA23FA142,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B08,CEN13LA506,0,1.0,sampled_neg,"reports coded MAC, not cited"
+B10,WPR25LA122,1,1.0,positive,grounding_results.json#results[9].diag.support[0]
+B10,ERA11CA396,1,1.0,positive,grounding_results.json#results[9].diag.support[1]
+B10,DCA10IA021,1,1.0,positive,grounding_results.json#results[9].diag.support[2]
+B10,WPR22LA228,1,1.0,positive,grounding_results.json#results[9].diag.support[3]
+B10,GAA16CA074,1,1.0,positive,grounding_results.json#results[9].diag.support[4]
+B10,CEN11IA379,1,1.0,positive,grounding_results.json#results[9].diag.support[5]
+B10,WPR16LA058,1,1.0,positive,grounding_results.json#results[9].diag.support[6]
+B10,WPR10LA347,1,1.0,positive,grounding_results.json#results[9].diag.support[7]
+B10,CEN16LA336,1,1.0,positive,grounding_results.json#results[9].diag.support[8]
+B10,CEN22LA378,1,1.0,positive,grounding_results.json#results[9].diag.support[9]
+B10,WPR17LA061,1,1.0,positive,grounding_results.json#results[9].diag.support[10]
+B10,CEN11IA341,1,1.0,positive,grounding_results.json#results[9].diag.support[11]
+B10,WPR12FA193,0,1.0,hard_negative,grounding_results.json#results[9].diag.moved_to_sibling[0]
+B10,ANC25LA059,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR20CA213,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,MIA08LA187,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR20LA252,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA18CA205,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR11CA301,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN11FA479,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN21LA267,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR15LA092,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR21LA348,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA12FA018,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA10LA107,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN21LA339,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA19CA151,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA16CA280,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC19LA036,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN12FA425,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN14IA085,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA11CA255,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN12LA557,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA16CA155,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA18CA400,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA19WA099,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA18CA551,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,LAX08LA304,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR26LA200,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA14LA107,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA20WA132,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC16LA024,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN18LA112,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA17WA153,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA18WA234,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA15CA118,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN24LA366,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ENG18IA003,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA19LA194,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN09LA384,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN18LA044,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA12WA091,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA16WA167,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN16WA150,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN09LA526,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN24LA373,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN17LA280,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA16WA012,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA25LA337,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA25LA068,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA23LA013,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA20LA341,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR24LA275,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA15LA374,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN16LA249,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC13CA046,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA09WA062,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA24LA360,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ENG16RA030,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN25LA174,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CHI08CA280,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN23LA222,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA12LA493,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,GAA18CA368,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC19LA045,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN19WA289,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN09FA094,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR16FA054,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC09CA048,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA10CA192,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA10CA183,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN09CA535,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN25LA333,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA13LA065,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA10WA100,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN11LA419,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR11LA092,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR15LA203,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA14WA266,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CHI08IA065,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR25LA236,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN14LA517,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA24LA056,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA16CA197,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA10WA482,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN10CA305,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ANC13RA061,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN19LA240,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR21LA323,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,NYC08LA228,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR24LA169,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA11WA018,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ENG26LA004,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN18FA282,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,DCA15CA117,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,CEN13WA560,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,LAX08LA251,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,ERA12IA559,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B10,WPR24LA145,0,1.0,sampled_neg,"reports coded SCF-NP, not cited"
+B11,ANC15FA049,1,1.0,positive,grounding_results.json#results[10].diag.support[0]
+B11,ANC17MA001,1,1.0,positive,grounding_results.json#results[10].diag.support[1]
+B11,WPR09FA320,1,1.0,positive,grounding_results.json#results[10].diag.support[2]
+B11,ERA19FA070,1,1.0,positive,grounding_results.json#results[10].diag.support[3]
+B11,ERA11FA219,1,1.0,positive,grounding_results.json#results[10].diag.support[4]
+B11,CEN14FA110,1,1.0,positive,grounding_results.json#results[10].diag.support[5]
+B11,ANC14MA008,1,1.0,positive,grounding_results.json#results[10].diag.support[6]
+B11,ERA24FA136,1,1.0,positive,grounding_results.json#results[10].diag.support[7]
+B11,OPS18IA003,1,1.0,positive,grounding_results.json#results[10].diag.support[8]
+B11,WPR23FA257,1,1.0,positive,grounding_results.json#results[10].diag.support[9]
+B11,CEN09MA019,1,1.0,positive,grounding_results.json#results[10].diag.support[10]
+B11,NYC08MA090,1,1.0,positive,grounding_results.json#results[10].diag.support[11]
+B11,ANC13CA077,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN15FA051,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN15LA294,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA17FA073,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,GAA17CA215,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA24LA346,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA10FA403,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,SEA08LA095,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN14CA429,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN14WA184,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR14WA032,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC24FA032,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN11FA263,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR12MA046,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA11FA085,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR18FA095,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN15LA042,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN10IA173,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN19FA024,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN09WA022,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN13FA067,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC16LA060,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA14FA359,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR12LA406,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA11FA467,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN18WA166,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR20LA304,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA14CA175,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR18FA139,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC20LA046,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA12CA080,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR25LA259,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC10CA027,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09LA352,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN20CA275,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA14FA162,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09LA310,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA14WA026,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN14LA015,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN13LA088,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN09LA075,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN22FA069,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA13WA157,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA12CA125,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR14CA168,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR18LA241,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC17FA004,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA14CA366,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR26LA158,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC09WA013,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,DCA26LA159,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN17FA112,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR17FA045,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN24FA089,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA13CA228,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA11CA205,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN18LA340,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR18LA007,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09LA064,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR18CA028,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR20LA330,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN15FA090,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR14WA030,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,GAA18CA145,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,GAA17CA559,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN15RA352,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC24LA069,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09LA433,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,DCA11RA098,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR17LA099,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN22LA374,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA19FA003,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR24FA202,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,GAA16LA128,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09FA022,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR12FA139,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR17FA055,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN12CA313,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR24FA195,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,LAX08LA198,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA09WA241,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR13WA423,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,GAA20WA083,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR09LA427,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR12LA433,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA16WA307,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA15FA046,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR17FA065,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN18FA009,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CHI08FA128,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA12FA527,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ANC13FA030,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR22FA021,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,ERA25FA272,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,WPR15FA147,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B11,CEN09WA082,0,1.0,sampled_neg,"reports coded CFIT, not cited"
+B16,CEN09MA117,1,1.0,positive,grounding_results.json#results[15].diag.support[0]
+B16,CEN24FA094,1,1.0,positive,grounding_results.json#results[15].diag.support[1]
+B16,DCA12CA043,1,1.0,positive,grounding_results.json#results[15].diag.support[2]
+B16,DCA13CA066,1,1.0,positive,grounding_results.json#results[15].diag.support[3]
+B16,CEN14LA262,1,1.0,positive,grounding_results.json#results[15].diag.support[4]
+B16,ANC16LA034,1,1.0,positive,grounding_results.json#results[15].diag.support[5]
+B16,ERA19FA170,1,1.0,positive,grounding_results.json#results[15].diag.support[6]
+B16,CEN13CA215,1,1.0,positive,grounding_results.json#results[15].diag.support[7]
+B16,CEN25LA070,1,1.0,positive,grounding_results.json#results[15].diag.support[8]
+B16,GAA19CA180,1,1.0,positive,grounding_results.json#results[15].diag.support[9]
+B16,DCA21LA120,1,1.0,positive,grounding_results.json#results[15].diag.support[10]
+B16,GAA19CA467,1,1.0,positive,grounding_results.json#results[15].diag.support[11]
+B16,DEN08FA072,0,1.0,hard_negative,grounding_results.json#results[15].diag.moved_to_sibling[0]
+B16,GAA19CA268,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA21LA053,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA357,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR10LA044,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ANC12CA063,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN24LA025,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA15CA241,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR10LA141,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR23LA066,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,SEA08CA205,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA26LA158,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA22LA090,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN23LA387,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA20CA054,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA23LA014,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA15CA220,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA15CA108,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA23LA067,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA22LA110,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA24LA173,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR09CA182,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA09CA195,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA12RA153,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA063,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN24LA129,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA21LA376,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA17CA086,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA09IA186,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA14CA001,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA26LA155,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA22LA073,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA23LA303,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN11TA027,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA24LA051,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA17CA573,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA22LA325,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA16CA126,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA21LA197,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN12IA502,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN14CA088,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA10WA071,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA17CA429,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA24LA106,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN24LA017,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN11LA072,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN17LA136,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA23LA305,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA541,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR14CA276,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA21LA047,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN24LA153,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA308,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR24LA049,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA23LA257,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN10CA209,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA17WA196,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA12WA018,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR11CA299,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR10IA045,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR10CA157,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN09IA481,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA26LA082,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA20CA058,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA475,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA12CA236,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA128,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA18CA162,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR25LA113,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN14LA053,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN23LA384,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN23LA379,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA15CA037,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA14CA032,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA16LA242,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN20CA048,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA19CA130,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA20CA038,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA19CA086,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA16CA196,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA17CA553,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR11LA042,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN13CA169,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA25LA027,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA24LA295,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN13CA550,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA11CA012,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA14CA147,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ANC16CA051,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA19LA091,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,GAA17CA570,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ERA22LA403,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN24LA035,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,CEN09CA053,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,WPR18FA195,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,ANC10CA078,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B16,DCA15WA212,0,1.0,sampled_neg,"reports coded BIRD, not cited"
+B18,CEN22LA430,1,1.0,positive,grounding_results.json#results[17].diag.support[0]
+B18,ERA24FA338,1,1.0,positive,grounding_results.json#results[17].diag.support[1]
+B18,CEN12FA290,1,1.0,positive,grounding_results.json#results[17].diag.support[2]
+B18,CEN18LA349,1,1.0,positive,grounding_results.json#results[17].diag.support[3]
+B18,ERA19FA039,1,1.0,positive,grounding_results.json#results[17].diag.support[4]
+B18,ERA11FA312,1,1.0,positive,grounding_results.json#results[17].diag.support[5]
+B18,WPR12LA402,1,1.0,positive,grounding_results.json#results[17].diag.support[6]
+B18,DCA11IA040,1,1.0,positive,grounding_results.json#results[17].diag.support[7]
+B18,ENG10IA029,1,1.0,positive,grounding_results.json#results[17].diag.support[8]
+B18,DCA09IA018,1,1.0,positive,grounding_results.json#results[17].diag.support[9]
+B18,WPR13LA122,1,1.0,positive,grounding_results.json#results[17].diag.support[10]
+B18,DCA25FA159,1,1.0,positive,grounding_results.json#results[17].diag.support[11]
+B18,CEN23LA246,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA10WA371,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA23LA100,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR10LA319,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR13IA144,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,LAX08FA286,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA15WA097,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN22LA256,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG10IA041,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR23FA185,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR25LA045,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA13WA143,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN20LA058,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG16WA025,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN18LA392,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA14LA390,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN11LA574,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN23LA294,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR15LA267,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN16LA021,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN19FA143,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN23LA099,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG09IA007,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA24LA355,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN09IA057,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA17LA338,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA11LA124,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG22LA020,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA16WA132,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN22LA176,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR14LA014,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN09LA324,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR16FA183,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA18LA053,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA18LA214,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR15CA026,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN22LA356,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA14WA005,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR18LA037,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ANC17LA007,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG18RA032,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA21LA099,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA22LA275,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA17WA158,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA13RA001,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN18LA213,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR09LA247,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA13WA160,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,GAA16LA352,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN20LA336,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN15IA139,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG12IA004,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,GAA20WA123,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN16LA201,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA19WA211,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN10LA083,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG18WA041,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN14FA389,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA09WA214,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA18WA020,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR09LA341,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA13WA104,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR12LA233,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN11FA383,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA09CA246,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR23LA176,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR10LA308,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR24LA064,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN18RA397,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR18LA158,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA12FA412,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA09LA191,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG20WA008,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA13WA113,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA21LA211,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR18CA172,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR20LA228,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG14IA018,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA16WA194,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA15LA189,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG17WA013,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG12IA010,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA21LA147,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN10LA098,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA23LA065,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,MIA08FA114,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ENG11IA035,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN10LA287,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN12CA035,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA19WA009,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,SEA08LA216,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,WPR17LA121,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,DCA20WA009,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA25LA007,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,ERA12LA258,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B18,CEN11FA324,0,1.0,sampled_neg,"reports coded F-NI, not cited"
+B25,CEN13FA130,1,1.0,positive,grounding_results.json#results[24].diag.support[0]
+B25,CEN21FA238,1,1.0,positive,grounding_results.json#results[24].diag.support[1]
+B25,ERA12FA115,1,1.0,positive,grounding_results.json#results[24].diag.support[2]
+B25,DCA14FA058,1,1.0,positive,grounding_results.json#results[24].diag.support[3]
+B25,CEN21FA198,1,1.0,positive,grounding_results.json#results[24].diag.support[4]
+B25,CEN18FA144,1,1.0,positive,grounding_results.json#results[24].diag.support[5]
+B25,ANC23LA065,1,1.0,positive,grounding_results.json#results[24].diag.support[6]
+B25,WPR13FA072,1,1.0,positive,grounding_results.json#results[24].diag.support[7]
+B25,CEN19FA008,1,1.0,positive,grounding_results.json#results[24].diag.support[8]
+B25,CEN09LA206,1,1.0,positive,grounding_results.json#results[24].diag.support[9]
+B25,NYC08FA139,1,1.0,positive,grounding_results.json#results[24].diag.support[10]
+B25,CEN15LA091,1,1.0,positive,grounding_results.json#results[24].diag.support[11]
+B25,ERA14FA112,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[0]
+B25,CEN16LA093,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[1]
+B25,ERA24FA209,0,1.0,hard_negative,grounding_results.json#results[24].diag.moved_to_sibling[2]
+B25,CEN13CA005,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA11FA095,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,GAA20CA075,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN10LA068,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR11FA228,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN12CA104,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA11LA344,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR14FA094,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN15FA119,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR13FA086,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN13FA122,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN11CA135,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN09FA135,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN23LA091,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR25LA053,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN09LA095,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC14CA010,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA21LA122,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN10LA090,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA25LA130,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR24FA124,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR19FA154,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA24LA094,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR26LA126,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN10WA331,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR09CA051,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN13FA096,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN16LA098,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN21LA030,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA22LA191,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,DCA13WA050,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN09LA122,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC21LA073,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN25LA053,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN24FA046,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN11FA144,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC17TA015,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN14FA032,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA25LA111,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,DFW08FA131,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC19FA038,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR23FA080,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR13FA041,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN13LA198,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN15LA021,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN23LA138,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN17LA076,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC17FA004,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,GAA16CA107,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN19FA029,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR22FA173,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC09LA012,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN14IA139,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR23FA141,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,NYC08LA176,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN09CA136,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN23FA220,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC09LA038,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC10LA019,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR23FA188,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA15CA100,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN18FA143,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA11LA099,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN20FA075,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN12FA161,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC13CA107,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR22FA023,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC22LA013,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA24FA176,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN13FA105,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA11FA182,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CHI08FAMS2,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,DCA15MA029,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC12CA016,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ERA19FA039,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN18LA077,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN20LA028,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC12CA115,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,GAA19CA096,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN16LA076,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,WPR09LA263,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN18LA146,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,ANC12IA024,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN14LA074,0,1.0,sampled_neg,"reports coded ICE, not cited"
+B25,CEN14FA009,0,1.0,sampled_neg,"reports coded ICE, not cited"
+C1,OPS09IA007,1,1.0,positive,grounding_results.json#results[28].diag.support[0]
+C1,OPS18IA014,1,1.0,positive,grounding_results.json#results[28].diag.support[1]
+C1,OPS09IA008,1,1.0,positive,grounding_results.json#results[28].diag.support[2]
+C1,OPS16IA004,1,1.0,positive,grounding_results.json#results[28].diag.support[3]
+C1,DCA23LA185,1,1.0,positive,grounding_results.json#results[28].diag.support[4]
+C1,OPS11IA273,1,1.0,positive,grounding_results.json#results[28].diag.support[5]
+C1,OPS17IA008,1,1.0,positive,grounding_results.json#results[28].diag.support[6]
+C1,OPS15IA011,1,1.0,positive,grounding_results.json#results[28].diag.support[7]
+C1,OPS09IA005,1,1.0,positive,grounding_results.json#results[28].diag.support[8]
+C1,OPS08IA015/2,1,1.0,positive,grounding_results.json#results[28].diag.support[9]
+C1,OPS08IA013/2,1,1.0,positive,grounding_results.json#results[28].diag.support[10]
+C1,ANC11LA008,1,1.0,positive,grounding_results.json#results[28].diag.support[11]
+C1,DCA26MA161,0,1.0,hard_negative,grounding_results.json#results[28].diag.moved_to_sibling[0]
+C1,OPS16IA008,0,1.0,hard_negative,grounding_results.json#results[28].diag.moved_to_sibling[1]
+C1,OPS09IA004,0,1.0,hard_negative,grounding_results.json#results[28].diag.moved_to_sibling[2]
+C1,DCA23LA133/2,0,1.0,hard_negative,grounding_results.json#results[28].diag.moved_to_sibling[3]
+C1,DCA22LA126,0,1.0,hard_negative,grounding_results.json#results[28].diag.moved_to_sibling[4]
+C1,ERA21LA049,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR24LA212,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR19FA095/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,GAA17CA443,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR22LA105,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,GAA15CA262,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS09IA001,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24FA017/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA25LA279,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS17IA014,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS12WA150,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS12IA167/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN21LA182,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN25LA356,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24FA017,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA15WA174,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA18IA081,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS16IA009,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA13FA059,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23LA179/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24LA318,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA15WA174/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA20CA300,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA16IA200,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR25LA087/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS08IA012,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA24LA113,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA26LA102,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS12IA167,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN25LA059/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS17IA008/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA24LA320,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN21LA136,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23FA149,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS25LA054,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN20CA119,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA11WA117,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS21LA003,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24FA300,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA13WA109,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23LA192,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA18IA265,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24FA164,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN11RA295,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA09CA024,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA14IA037,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA24LA085,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ANC24LA026,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA16CA057/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ANC26LA011,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN09LA265,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23LA125/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA24LA219,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA14IA016,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR23LA041/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR24LA068,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,GAA19CA001,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA17IA148,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ANC12CA054,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR19FA095,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR21LA251,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DFW08LA144/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR25LA087,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,NYC08FA265,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN20CA405,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA22FA318,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA15RA045,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ANC20CA036,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA14WA004,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA19WA174,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA19FA089,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23LA125,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,ERA16CA057,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS24LA045,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA22LA133,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS08IA015,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA25LA163,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS10IA003,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN24LA256,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS08IA013,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN21LA074,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS09IA009/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA16WA228,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA23LA133,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA12WA105,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,GAA19CA018,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS09IA009,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS09IA007/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,DCA20WA137,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS16IA002,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN20LA436,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS17IA003,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,WPR13LA223,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CEN25LA059,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,OPS15IA011/2,0,1.0,sampled_neg,"reports coded RI, not cited"
+C1,CHI08CA277,0,1.0,sampled_neg,"reports coded RI, not cited"
+C4,CEN12LA095,1,1.0,positive,grounding_results.json#results[31].diag.support[0]
+C4,WPR10LA059,1,1.0,positive,grounding_results.json#results[31].diag.support[1]
+C4,ERA11FA493,1,1.0,positive,grounding_results.json#results[31].diag.support[2]
+C4,ERA19LA072,1,1.0,positive,grounding_results.json#results[31].diag.support[3]
+C4,CEN10MA088,1,1.0,positive,grounding_results.json#results[31].diag.support[4]
+C4,WPR12FA059,1,1.0,positive,grounding_results.json#results[31].diag.support[5]
+C4,WPR16FA067,1,1.0,positive,grounding_results.json#results[31].diag.support[6]
+C4,ERA14FA112,1,1.0,positive,grounding_results.json#results[31].diag.support[7]
+C4,ERA10FA178,1,1.0,positive,grounding_results.json#results[31].diag.support[8]
+C4,DCA12IA141,1,1.0,positive,grounding_results.json#results[31].diag.support[9]
+C4,ERA24FA088,1,1.0,positive,grounding_results.json#results[31].diag.support[10]
+C4,CEN16LA093,1,1.0,positive,grounding_results.json#results[31].diag.support[11]
+C4,ERA24FA001,0,1.0,hard_negative,grounding_results.json#results[31].diag.moved_to_sibling[0]
+C4,ERA14FA417,0,1.0,hard_negative,grounding_results.json#results[31].diag.moved_to_sibling[1]
+C4,ERA17FA223,0,1.0,hard_negative,grounding_results.json#results[31].diag.moved_to_sibling[2]
+C4,DCA08FA075,0,1.0,hard_negative,grounding_results.json#results[31].diag.moved_to_sibling[3]
+C4,NYC08MA090,0,1.0,hard_negative,grounding_results.json#results[31].diag.moved_to_sibling[4]
+C4,WPR22FA235,0,1.0,sibling_neg,support of B05
+C4,WPR22FA196,0,1.0,sibling_neg,support of B05
+C4,ERA22FA004,0,1.0,sibling_neg,support of B05
+C4,CEN14FA046,0,1.0,sibling_neg,support of B05
+C4,WPR24FA083,0,1.0,sibling_neg,support of B05
+C4,CEN16FA214,0,1.0,sibling_neg,support of B05
+C4,WPR21FA286,0,1.0,sibling_neg,support of B05
+C4,CEN13FA051,0,1.0,sibling_neg,support of D08
+C4,ERA13FA227,0,1.0,sibling_neg,support of D08
+C4,WPR10LA297,0,1.0,sibling_neg,support of D08
+C4,ERA15FA096,0,1.0,sibling_neg,support of D08
+C4,CEN15FA083,0,1.0,sibling_neg,support of D08
+C4,CEN22FA211,0,1.0,sibling_neg,support of D08
+C4,CEN19FA323,0,1.0,sibling_neg,support of D08
+C4,ERA20FA101,0,1.0,sibling_neg,support of D08
+C4,ANC18FA007,0,1.0,sibling_neg,support of D08
+C4,DFW08FA060,0,1.0,sibling_neg,support of D08
+C4,WPR17LA195,0,1.0,sibling_neg,support of D08
+C4,WPR11FA316,0,1.0,sibling_neg,support of D08
+C4,WPR13FA343,0,1.0,sibling_neg,support of D13
+C4,GAA16LA117,0,1.0,sibling_neg,support of D13
+C4,WPR10FA440,0,1.0,sibling_neg,support of D13
+C4,GAA17CA495,0,1.0,sibling_neg,support of D13
+C4,CEN15FA003,0,1.0,sibling_neg,support of D13
+C4,SEA08LA213,0,1.0,sibling_neg,support of D13
+C4,ERA22FA207,0,1.0,sibling_neg,support of D13
+C4,ERA11LA409,0,1.0,sibling_neg,support of D13
+C4,CEN20LA167,0,1.0,sibling_neg,support of D13
+C4,WPR16LA056,0,1.0,sibling_neg,support of D13
+C4,ERA12LA282,0,1.0,sibling_neg,support of D13
+C4,CEN17LA375,0,1.0,sibling_neg,support of D13
+C4,ANC09LA088,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA18CA574,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN12FA164,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA11FA183,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA17CA370,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA18CA451,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN12LA345,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA22LA167,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA23LA245,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA10FA154,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR24FA150,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA13LA069,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR21FA265,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA19FA036,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA21LA028,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA16CA134,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA11FA412,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA11LA397,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA18LA233,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,DCA10RA023,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR11CA197,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN19LA007,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA11FA360,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR22LA165,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ANC10FA022,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ANC12FA066,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,SEA08CA203,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,LAX08LA193,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN12CA595,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CHI08FA224,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA14FA399,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA18LA095,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN24LA130,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN19FA004,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA24LA090,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR24FA035,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CHI08CA078,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN23LA374,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR23LA162,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN20CA310,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR17FA085,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA16CA227,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR13LA398,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR22FA350,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA11CA389,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN09LA281,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR13LA287,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR13CA170,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,DCA15WA053,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN24LA292,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN13FA044,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN20TA088,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR14LA273,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA14WA247,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA13CA090,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA09LA503,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN16FA361,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA12FA052,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN09WA612,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR12FA191,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR14FA303,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN18LA195,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR19FA124,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA17CA216,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA15LA228,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN13FA364,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA09CA390,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN22FA416,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ANC13FA090,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN11CA498,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA12LA435,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR15LA176,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR13FA074,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN22FA298,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA16CA244,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA21LA360,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,SEA08CA059,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN25LA022,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN12CA482,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,GAA16CA110,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,WPR19TA018,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN20LA365,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN22FA023,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA10FA232,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN18FA244,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN24FA160,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN11LA188,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ANC25LA084,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN09CA261,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA10LA164,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA12LA171,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN26FA023,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN16LA052,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CEN11LA073,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,CHI08CA086,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C4,ERA17WA191,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+C6,ERA09LA488,1,1.0,positive,grounding_results.json#results[33].diag.support[0]
+C6,DCA24FA143,1,1.0,positive,grounding_results.json#results[33].diag.support[1]
+C6,DCA16CA209,1,1.0,positive,grounding_results.json#results[33].diag.support[2]
+C6,DCA10CA032,1,1.0,positive,grounding_results.json#results[33].diag.support[3]
+C6,CEN14CA455,1,1.0,positive,grounding_results.json#results[33].diag.support[4]
+C6,DCA23LA096,1,1.0,positive,grounding_results.json#results[33].diag.support[5]
+C6,DCA12FA069,1,1.0,positive,grounding_results.json#results[33].diag.support[6]
+C6,CEN09LA388,1,1.0,positive,grounding_results.json#results[33].diag.support[7]
+C6,DCA14CA014,1,1.0,positive,grounding_results.json#results[33].diag.support[8]
+C6,DCA23LA421,1,1.0,positive,grounding_results.json#results[33].diag.support[9]
+C6,CEN22LA166,1,1.0,positive,grounding_results.json#results[33].diag.support[10]
+C6,DCA16IA215,1,1.0,positive,grounding_results.json#results[33].diag.support[11]
+C6,DCA16WA040,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA10CA174,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR13FA072,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA12CA059,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN10CA104,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN19FA022,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA13WA176,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA10FA090,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA17CA079,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,NYC08CA115,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA09CA051,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ANC09CA111,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA047,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN12LA427,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA18CA316,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DEN08CA051,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR16FA144,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA09LA444,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA044,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA19CA189,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA08FA062,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR14FA362,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA24LA317,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA17CA123,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA241,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN10LA204,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ANC14CA047,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN20FA110,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA055,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA16CA197,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA12CA044,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA23LA465,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN24FA179,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA21LA018,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,GAA16CA372,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR23FA137,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA13CA177,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,GAA16CA030,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA16CA030,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN19LA188,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA18LA002,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA18CA289,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA20CA058,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA17LA173,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA26LA185,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA24LA130,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA14WA088,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN14CA123,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA18LA112,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA11CA116,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA15CA031,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA312,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,GAA17CA250,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR12FA067,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ANC20CA034,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,NYC08TA130,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA21LA176,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA12CA086,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN09CA007,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA19CA151,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA22LA088,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA173,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR11LA139,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA18WA238,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA15WA080,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA20CA040,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA17CA194,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA24LA247,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA23LA093,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DEN08LA111,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA20CA122,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ANC18LA072,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA19CA010,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN25LA011,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA15CA118,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR09LA386,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA19CA037,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA18WA296,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA16CA205,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN18FA266,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN10LA240,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA22LA404,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,GAA16CA244,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA23LA170,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,SEA08CA172,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,ERA12LA184,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DFW08FA080,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,CEN18LA099,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA20WA131,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA14WA084,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA20WA086,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA23LA252,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA17WA029,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA19WA222,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,WPR15CA110,0,1.0,sampled_neg,"reports coded TURB, not cited"
+C6,DCA25LA323,0,1.0,sampled_neg,"reports coded TURB, not cited"
+D01,ERA12LA575,1,1.0,positive,grounding_results.json#results[37].diag.support[0]
+D01,ERA12FA143,1,1.0,positive,grounding_results.json#results[37].diag.support[1]
+D01,CEN18LA151,1,1.0,positive,grounding_results.json#results[37].diag.support[2]
+D01,ERA21FA232,1,1.0,positive,grounding_results.json#results[37].diag.support[3]
+D01,ERA13LA269,1,1.0,positive,grounding_results.json#results[37].diag.support[4]
+D01,ERA18LA162,1,1.0,positive,grounding_results.json#results[37].diag.support[5]
+D01,CEN14LA161,1,1.0,positive,grounding_results.json#results[37].diag.support[6]
+D01,WPR12LA329,1,1.0,positive,grounding_results.json#results[37].diag.support[7]
+D01,CEN17FA332,1,1.0,positive,grounding_results.json#results[37].diag.support[8]
+D01,CEN19LA232,1,1.0,positive,grounding_results.json#results[37].diag.support[9]
+D01,CEN13LA398,1,1.0,positive,grounding_results.json#results[37].diag.support[10]
+D01,ERA21LA313,1,1.0,positive,grounding_results.json#results[37].diag.support[11]
+D01,CEN22LA117,0,1.0,sibling_neg,support of D12
+D01,CEN17LA110,0,1.0,sibling_neg,support of D12
+D01,CEN10LA037,0,1.0,sibling_neg,support of D12
+D01,ERA24LA095,0,1.0,sibling_neg,support of D12
+D01,ERA23LA086,0,1.0,sibling_neg,support of D12
+D01,WPR15LA032,0,1.0,sibling_neg,support of D12
+D01,CEN12LA326,0,1.0,sibling_neg,support of D12
+D01,ERA13LA382,0,1.0,sibling_neg,support of D12
+D01,WPR13FA169,0,1.0,sibling_neg,support of D12
+D01,ERA15LA014,0,1.0,sibling_neg,support of D12
+D01,ERA14LA076,0,1.0,sibling_neg,support of D12
+D01,CEN15FA424,0,1.0,sibling_neg,support of D12
+D01,CEN24LA350,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR19LA207,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA22LA237,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA18LA074,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN12LA302,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA21LA107,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR09LA446,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR09LA454,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN18LA047,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN10LA012,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR23LA267,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA11FA349,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA13LA056,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR19LA092,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA09LA272,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR17LA050,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR22LA301,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN25LA298,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR11LA012,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN17LA165,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN20LA412,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR19LA132,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR17LA038,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA21FA029,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN14LA202,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN14LA277,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN12LA224,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA26LA221,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA17LA276,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR12LA125,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN20LA148,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,SEA08LA068,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR10LA477,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR14LA267,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN18LA348,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA12LA411,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ANC12CA059,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA15LA197,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA16LA071,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR26LA115,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR25LA135,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,DCA24LA200,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN15LA414,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR10LA196,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA15LA377,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,NYC08CA321,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA09FA235,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR16IA044,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN17LA030,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR17LA004,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA11CA069,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ANC14LA085,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN15LA407,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR25LA055,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN14FA337,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR12LA027,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA13LA327,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN22LA176,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA25LA269,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR12FA369,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA19LA017,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN21LA293,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA25LA281,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN09LA561,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN15LA294,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,DCA16WA239,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA12LA410,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN11LA448,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA11CA237,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN13LA433,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR22LA035,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ANC19LA046,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR24LA210,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN09CA338,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ANC12LA080,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA23FA033,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN16LA349,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA12WA142,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN19FA210,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR22LA293,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN09LA105,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ENG17IA006,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN17LA014,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA10LA307,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN15LA172,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA22FA279,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR21LA224,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA16LA009,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN22LA012,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA16LA148,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN26LA123,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,WPR22LA351,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ERA14LA451,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN13LA360,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,ANC12CA112,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D01,CEN21LA418,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D02,CEN19FA124,1,1.0,positive,grounding_results.json#results[38].diag.support[0]
+D02,CEN22LA189,1,1.0,positive,grounding_results.json#results[38].diag.support[1]
+D02,CEN18LA300,1,1.0,positive,grounding_results.json#results[38].diag.support[2]
+D02,CEN19FA236,1,1.0,positive,grounding_results.json#results[38].diag.support[3]
+D02,CEN15LA296,1,1.0,positive,grounding_results.json#results[38].diag.support[4]
+D02,ERA20LA297,1,1.0,positive,grounding_results.json#results[38].diag.support[5]
+D02,WPR13LA383,1,1.0,positive,grounding_results.json#results[38].diag.support[6]
+D02,ERA09CA297,1,1.0,positive,grounding_results.json#results[38].diag.support[7]
+D02,CEN14FA035,1,1.0,positive,grounding_results.json#results[38].diag.support[8]
+D02,CEN16LA134,1,1.0,positive,grounding_results.json#results[38].diag.support[9]
+D02,WPR13LA416,1,1.0,positive,grounding_results.json#results[38].diag.support[10]
+D02,ERA13CA107,1,1.0,positive,grounding_results.json#results[38].diag.support[11]
+D02,ANC17LA028,0,1.0,sibling_neg,support of D03
+D02,ERA25LA226,0,1.0,sibling_neg,support of D03
+D02,CEN17FA085,0,1.0,sibling_neg,support of D03
+D02,CEN12LA110,0,1.0,sibling_neg,support of D03
+D02,LAX08LA073,0,1.0,sibling_neg,support of D03
+D02,ERA21LA087,0,1.0,sibling_neg,support of D03
+D02,CEN11FA625,0,1.0,sibling_neg,support of D03
+D02,CEN19LA076,0,1.0,sibling_neg,support of D03
+D02,CEN22FA298,0,1.0,sibling_neg,support of D03
+D02,WPR24LA296,0,1.0,sibling_neg,support of D03
+D02,ERA09LA412,0,1.0,sibling_neg,support of D03
+D02,CEN13FA432,0,1.0,sibling_neg,support of D03
+D02,WPR22LA268,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN15LA366,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN15LA354,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN10CA092,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR19LA265,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN17LA220,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA22LA381,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA21LA059,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR22LA017,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA18CA421,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN24LA050,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC12CA082,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA18CA184,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN13CA190,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA19CA569,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN14CA303,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR17LA018,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN17LA236,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR14LA056,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN11CA136,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA09CA462,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR18FA093,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR22LA271,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN18LA285,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA13FA348,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA24LA257,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC24LA014,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN15FA287,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA09LA004,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN20CA146,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR13CA425,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA21LA080,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,DCA17WA032,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR24LA091,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN18LA287,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR21LA184,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA26LA056,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR11CA321,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA17LA302,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC16CA058,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN17LA089,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA21LA127,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR24LA048,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA10LA454,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA12FA467,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN17CA371,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA20CA017,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA17CA472,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN22LA391,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,MIA08CA154,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN14LA408,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR19LA017,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN24LA184,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA11CA423,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC12CA050,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR16CA145,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA14CA210,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC15FA021,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN12LA245,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN21LA187,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,DCA20WA039,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR09LA170,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,SEA08LA063,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN10CA138,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR09CA262,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR09LA336,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR20LA123,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA09LA296,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN09LA143,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN15LA112,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA16LA062,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN15CA067,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN20LA276,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA25LA030,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR15CA033,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN16LA102,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA11LA473,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA16CA177,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,GAA17CA121,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ANC13LA009,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA18CA035,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA24LA390,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA23FA252,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,SEA08LA195,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN23FA077,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN24LA291,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN24LA316,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN10LA004,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN21LA418,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,LAX08LA056,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN22LA384,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA24LA330,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA10LA293,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,ERA24LA341,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,CEN23LA264,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D02,WPR24LA218,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ANC17LA028,1,1.0,positive,grounding_results.json#results[39].diag.support[0]
+D03,ERA25LA226,1,1.0,positive,grounding_results.json#results[39].diag.support[1]
+D03,CEN17FA085,1,1.0,positive,grounding_results.json#results[39].diag.support[2]
+D03,CEN12LA110,1,1.0,positive,grounding_results.json#results[39].diag.support[3]
+D03,LAX08LA073,1,1.0,positive,grounding_results.json#results[39].diag.support[4]
+D03,ERA21LA087,1,1.0,positive,grounding_results.json#results[39].diag.support[5]
+D03,CEN11FA625,1,1.0,positive,grounding_results.json#results[39].diag.support[6]
+D03,CEN19LA076,1,1.0,positive,grounding_results.json#results[39].diag.support[7]
+D03,CEN22FA298,1,1.0,positive,grounding_results.json#results[39].diag.support[8]
+D03,WPR24LA296,1,1.0,positive,grounding_results.json#results[39].diag.support[9]
+D03,ERA09LA412,1,1.0,positive,grounding_results.json#results[39].diag.support[10]
+D03,CEN13FA432,1,1.0,positive,grounding_results.json#results[39].diag.support[11]
+D03,CEN19FA124,0,1.0,sibling_neg,support of D02
+D03,CEN22LA189,0,1.0,sibling_neg,support of D02
+D03,CEN18LA300,0,1.0,sibling_neg,support of D02
+D03,CEN19FA236,0,1.0,sibling_neg,support of D02
+D03,CEN15LA296,0,1.0,sibling_neg,support of D02
+D03,ERA20LA297,0,1.0,sibling_neg,support of D02
+D03,WPR13LA383,0,1.0,sibling_neg,support of D02
+D03,ERA09CA297,0,1.0,sibling_neg,support of D02
+D03,CEN14FA035,0,1.0,sibling_neg,support of D02
+D03,CEN16LA134,0,1.0,sibling_neg,support of D02
+D03,WPR13LA416,0,1.0,sibling_neg,support of D02
+D03,ERA13CA107,0,1.0,sibling_neg,support of D02
+D03,ERA17LA336,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA25LA097,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA09LA105,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA14CA349,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR20LA147,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN09CA480,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN25LA057,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR25LA073,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA12LA541,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR22LA017,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA09LA208,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ANC23LA078,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR14FA094,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR15LA240,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR09CA262,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN23LA345,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN11LA318,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN26LA190,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN18LA260,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,MIA08CA154,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CHI08CA118,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA10CA003,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA162,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN14CA027,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN10CA550,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA11CA430,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA15LA053,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN13WA477,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA22LA424,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA20LA245,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA220,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,NYC08CA295,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA11CA057,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN25LA081,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA051,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN09CA560,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN11LA162,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA12CA088,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN17LA121,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA12LA180,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA20LA197,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN09CA517,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA21LA022,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA20LA331,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA10LA370,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA263,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN23LA153,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA24LA225,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA23LA063,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA12LA397,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR25LA099,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,GAA18CA312,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA21LA070,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN21LA247,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN13CA224,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN12LA134,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA17FA299,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA16LA142,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN12LA582,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN13LA362,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA09CA018,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA20LA258,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA24LA248,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA10LA442,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,LAX08CA215,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA25LA210,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA26LA056,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN21LA151,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA18TA255,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN25LA393,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN24LA108,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN20LA078,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR11FA258,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA16WA129,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA23FA252,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,DCA11WA021,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR10CA267,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR22LA130,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR18LA246,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR20LA038,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA183,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN23LA266,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN17LA105,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR24FA123,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA10LA275,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA16FA005,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN10LA159,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN15LA381,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR22LA014,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN13LA565,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR23LA318,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,WPR22LA259,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,GAA15CA261,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,GAA18CA343,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,CEN21LA461,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D03,ERA14LA048,0,1.0,sampled_neg,"reports coded FUEL, not cited"
+D04,SEA08CA112,1,1.0,positive,grounding_results.json#results[40].diag.support[0]
+D04,ERA14FA327,1,1.0,positive,grounding_results.json#results[40].diag.support[1]
+D04,WPR12CA077,1,1.0,positive,grounding_results.json#results[40].diag.support[2]
+D04,WPR10CA290,1,1.0,positive,grounding_results.json#results[40].diag.support[3]
+D04,WPR25LA038,1,1.0,positive,grounding_results.json#results[40].diag.support[4]
+D04,GAA17CA346,1,1.0,positive,grounding_results.json#results[40].diag.support[5]
+D04,ERA24LA100,1,1.0,positive,grounding_results.json#results[40].diag.support[6]
+D04,CEN15CA188,1,1.0,positive,grounding_results.json#results[40].diag.support[7]
+D04,CEN12CA641,1,1.0,positive,grounding_results.json#results[40].diag.support[8]
+D04,WPR13CA172,1,1.0,positive,grounding_results.json#results[40].diag.support[9]
+D04,ANC25LA107,1,1.0,positive,grounding_results.json#results[40].diag.support[10]
+D04,WPR11CA109,1,1.0,positive,grounding_results.json#results[40].diag.support[11]
+D04,CEN14CA157,0,1.0,hard_negative,grounding_results.json#results[40].diag.moved_to_sibling[0]
+D04,ERA22LA175,0,1.0,hard_negative,grounding_results.json#results[40].diag.moved_to_sibling[1]
+D04,ANC18LA030,0,1.0,sibling_neg,support of D05
+D04,CEN20CA192,0,1.0,sibling_neg,support of D05
+D04,CEN20CA103,0,1.0,sibling_neg,support of D05
+D04,ANC14CA053,0,1.0,sibling_neg,support of D05
+D04,CEN12CA614,0,1.0,sibling_neg,support of D05
+D04,ANC12CA039,0,1.0,sibling_neg,support of D05
+D04,WPR14CA200,0,1.0,sibling_neg,support of D05
+D04,WPR20CA142,0,1.0,sibling_neg,support of D05
+D04,ERA23LA318,0,1.0,sibling_neg,support of D05
+D04,CEN09CA215,0,1.0,sibling_neg,support of D05
+D04,CEN14CA025,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN13LA384,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN25LA063,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA14CA349,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN21FA239,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA12CA277,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC09CA109,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN18CA021,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR11LA187,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA056,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA10LA405,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA09CA104,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA21LA095,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA15CA269,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN10LA203,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN18CA185,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN09LA451,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA20CA142,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA206,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR18FA131,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN18LA059,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA09CA475,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA18CA433,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA25LA124,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC12CA030,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN16LA382,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN23FA369,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA310,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR18FA201,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA18CA166,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN13LA486,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN22LA388,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR24LA322,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN24LA186,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC09CA055,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,MIA08LA130,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN14LA226,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA18CA415,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR14CA035,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN18LA329,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA240,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA18CA513,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC23LA068,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN11CA298,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA16CA030,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA16CA304,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA314,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN20CA155,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR23LA133,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA11CA199,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA226,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN23LA301,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN14CA187,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA13CA137,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA23LA172,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN23LA300,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN12LA522,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN13LA534,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC12IA024,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN09CA042,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC23LA075,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA14CA039,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA20CA002,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA10CA413,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA19TA222,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR24LA258,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR21LA190,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA18CA566,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR10CA358,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA10CA324,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA21LA359,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA14CA177,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA23LA226,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA14LA423,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA10LA110,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC21LA002/2,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA17CA231,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR09LA401,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA13LA159,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA15CA168,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR22FA022,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR14CA017,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA15CA234,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC09CA070,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN24LA131,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR15LA085,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC11LA100,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR24FA290,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA19CA036,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,WPR25LA060,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ERA10LA063,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,CEN25LA137,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA19CA085,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC25LA039,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,ANC13CA106,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D04,GAA20WA124,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA22LA175,1,1.0,positive,grounding_results.json#results[41].diag.support[0]
+D05,CEN14CA157,1,1.0,positive,grounding_results.json#results[41].diag.support[1]
+D05,ANC18LA030,1,1.0,positive,grounding_results.json#results[41].diag.support[2]
+D05,CEN20CA192,1,1.0,positive,grounding_results.json#results[41].diag.support[3]
+D05,CEN20CA103,1,1.0,positive,grounding_results.json#results[41].diag.support[4]
+D05,ANC14CA053,1,1.0,positive,grounding_results.json#results[41].diag.support[5]
+D05,CEN12CA614,1,1.0,positive,grounding_results.json#results[41].diag.support[6]
+D05,ANC12CA039,1,1.0,positive,grounding_results.json#results[41].diag.support[7]
+D05,WPR14CA200,1,1.0,positive,grounding_results.json#results[41].diag.support[8]
+D05,WPR20CA142,1,1.0,positive,grounding_results.json#results[41].diag.support[9]
+D05,ERA23LA318,1,1.0,positive,grounding_results.json#results[41].diag.support[10]
+D05,CEN09CA215,1,1.0,positive,grounding_results.json#results[41].diag.support[11]
+D05,SEA08CA112,0,1.0,sibling_neg,support of D04
+D05,ERA14FA327,0,1.0,sibling_neg,support of D04
+D05,WPR12CA077,0,1.0,sibling_neg,support of D04
+D05,WPR10CA290,0,1.0,sibling_neg,support of D04
+D05,WPR25LA038,0,1.0,sibling_neg,support of D04
+D05,GAA17CA346,0,1.0,sibling_neg,support of D04
+D05,ERA24LA100,0,1.0,sibling_neg,support of D04
+D05,CEN15CA188,0,1.0,sibling_neg,support of D04
+D05,CEN12CA641,0,1.0,sibling_neg,support of D04
+D05,WPR13CA172,0,1.0,sibling_neg,support of D04
+D05,ANC25LA107,0,1.0,sibling_neg,support of D04
+D05,WPR11CA109,0,1.0,sibling_neg,support of D04
+D05,WPR14CA095,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN09LA250,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA16CA289,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN16LA252,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC14CA064,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC08CA064,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,MIA08CA042,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA117,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN11LA251,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC08LA047,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR10LA272,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN14LA133,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR09CA394,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA483,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA21LA090,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA400,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC20CA075,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR25LA206,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR12CA427,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR12CA372,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN13LA482,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA15CA160,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC22LA031,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN19LA243,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA564,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR12LA290,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,SEA08CA181,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA175,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR26LA096,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA16CA238,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA126,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA12CA460,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA15CA146,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA15CA033,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA036,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA17CA291,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC08CA123,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA16CA252,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA14LA448,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR23LA326,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA091,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN13CA042,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA10TA429,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN18CA021,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN24LA222,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR10CA243,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA24LA175,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN24LA347,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA23LA015,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR09CA444,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA10CA329,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA035,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN10LA140,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA286,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN11CA570,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA472,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR09CA265,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN22LA368,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN24LA238,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA12CA269,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA17CA232,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN15LA053,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA10CA310,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR12LA409,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA15LA071,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA16CA191,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR20CA255,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN24LA328,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA13CA223,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA077,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR22LA052,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN12LA642,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA13CA413,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,LAX08CA070,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA507,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA15CA059,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA18LA003,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA444,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN12LA195,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA18CA225,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA108,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN12CA062,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA19CA120,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA15CA277,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN24LA126,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR13CA124,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR09CA406,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR10LA241,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,GAA16CA373,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ANC24LA072,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN11LA556,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR25LA060,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR11LA081,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,CEN15LA286,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,ERA18LA070,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D05,WPR23LA015,0,1.0,sampled_neg,"reports coded LOC-G, not cited"
+D06,CEN20TA025,1,1.0,positive,grounding_results.json#results[42].diag.support[0]
+D06,GAA15CA176,1,1.0,positive,grounding_results.json#results[42].diag.support[1]
+D06,WPR16FA157,1,1.0,positive,grounding_results.json#results[42].diag.support[2]
+D06,DEN08CA117,1,1.0,positive,grounding_results.json#results[42].diag.support[3]
+D06,DFW08CA162,1,1.0,positive,grounding_results.json#results[42].diag.support[4]
+D06,CEN26LA063,1,1.0,positive,grounding_results.json#results[42].diag.support[5]
+D06,GAA16CA379,1,1.0,positive,grounding_results.json#results[42].diag.support[6]
+D06,WPR09CA185,1,1.0,positive,grounding_results.json#results[42].diag.support[7]
+D06,WPR11CA445,1,1.0,positive,grounding_results.json#results[42].diag.support[8]
+D06,CEN09CA048,1,1.0,positive,grounding_results.json#results[42].diag.support[9]
+D06,ERA09CA016,1,1.0,positive,grounding_results.json#results[42].diag.support[10]
+D06,CEN10CA289,1,1.0,positive,grounding_results.json#results[42].diag.support[11]
+D06,WPR15CA093,0,1.0,hard_negative,grounding_results.json#results[42].diag.moved_to_sibling[0]
+D06,CEN12LA387,0,1.0,sibling_neg,support of D07
+D06,WPR24LA086,0,1.0,sibling_neg,support of D07
+D06,GAA19CA398,0,1.0,sibling_neg,support of D07
+D06,ERA16FA188,0,1.0,sibling_neg,support of D07
+D06,CEN14LA065,0,1.0,sibling_neg,support of D07
+D06,ERA16LA092,0,1.0,sibling_neg,support of D07
+D06,DCA13FA094,0,1.0,sibling_neg,support of D07
+D06,WPR22LA180,0,1.0,sibling_neg,support of D07
+D06,CEN12CA036,0,1.0,sibling_neg,support of D07
+D06,DCA12FA058,0,1.0,sibling_neg,support of D07
+D06,ERA13CA028,0,1.0,sibling_neg,support of D07
+D06,DCA10IA021,0,1.0,sibling_neg,support of D07
+D06,MIA08CA193,0,1.0,sibling_neg,support of D15
+D06,CEN18LA006,0,1.0,sibling_neg,support of D15
+D06,CEN09CA358,0,1.0,sibling_neg,support of D15
+D06,CEN09CA018,0,1.0,sibling_neg,support of D15
+D06,CEN19CA128,0,1.0,sibling_neg,support of D15
+D06,CEN15LA300,0,1.0,sibling_neg,support of D15
+D06,CEN13IA349,0,1.0,sibling_neg,support of D15
+D06,GAA20CA012,0,1.0,sibling_neg,support of D15
+D06,CEN12CA393,0,1.0,sibling_neg,support of D15
+D06,CEN13CA372,0,1.0,sibling_neg,support of D15
+D06,CEN14CA215,0,1.0,sibling_neg,support of D15
+D06,CEN11CA654,0,1.0,sibling_neg,support of D15
+D06,WPR11LA234,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN22LA282,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA375,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,LAX08CA285,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC10CA052,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA14LA122,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA073,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC13CA087,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,MIA08CA042,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA306,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA11CA144,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN10LA128,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR11LA462,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA16CA431,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA17CA479,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR10CA042,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA11LA297,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA15CA162,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR11CA141,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA24LA188,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA148,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA22LA415,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN12CA104,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA226,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA24LA253,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR11LA169,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA24LA381,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC24LA010,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR13LA290,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA10CA156,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR11CA473,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR15CA068,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA19TA011,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA482,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR13LA274,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA17CA254,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA15CA188,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA14CA065,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR14LA084,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN21LA378,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN24LA322,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN09CA357,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA26LA117,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN20CA225,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN09LA183,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN26LA127,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA24LA165,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA13CA246,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR10CA362,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA21LA006,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA25LA100,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA25LA191,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN12CA089,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA18TA267,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA231,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA15CA150,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN23LA180,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA24LA341,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR11CA086,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR24LA147,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN14CA428,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN14CA016,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA096,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN11LA390,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA143,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA302,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN09CA066,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC08CA054,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR14CA386,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR09CA020,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN25LA260,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,LAX08CA163,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA15CA038,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR26LA039,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA16CA232,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA18CA442,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC25LA050,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA09CA320,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA17CA055,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA22LA168,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ANC12CA036,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA23LA299,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA13CA154,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA19CA280,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN26LA038,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN15CA184,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR09CA126,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA16CA453,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA17CA516,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN09CA585,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,GAA16CA014,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,WPR19LA239,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,CEN12LA473,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA09CA217,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,NYC08LA251,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D06,ERA12CA284,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN12LA387,1,1.0,positive,grounding_results.json#results[43].diag.support[0]
+D07,WPR24LA086,1,1.0,positive,grounding_results.json#results[43].diag.support[1]
+D07,GAA19CA398,1,1.0,positive,grounding_results.json#results[43].diag.support[2]
+D07,ERA16FA188,1,1.0,positive,grounding_results.json#results[43].diag.support[3]
+D07,CEN14LA065,1,1.0,positive,grounding_results.json#results[43].diag.support[4]
+D07,ERA16LA092,1,1.0,positive,grounding_results.json#results[43].diag.support[5]
+D07,DCA13FA094,1,1.0,positive,grounding_results.json#results[43].diag.support[6]
+D07,WPR22LA180,1,1.0,positive,grounding_results.json#results[43].diag.support[7]
+D07,CEN12CA036,1,1.0,positive,grounding_results.json#results[43].diag.support[8]
+D07,DCA12FA058,1,1.0,positive,grounding_results.json#results[43].diag.support[9]
+D07,ERA13CA028,1,1.0,positive,grounding_results.json#results[43].diag.support[10]
+D07,DCA10IA021,1,1.0,positive,grounding_results.json#results[43].diag.support[11]
+D07,CEN20TA025,0,1.0,sibling_neg,support of D06
+D07,GAA15CA176,0,1.0,sibling_neg,support of D06
+D07,WPR16FA157,0,1.0,sibling_neg,support of D06
+D07,DEN08CA117,0,1.0,sibling_neg,support of D06
+D07,DFW08CA162,0,1.0,sibling_neg,support of D06
+D07,CEN26LA063,0,1.0,sibling_neg,support of D06
+D07,GAA16CA379,0,1.0,sibling_neg,support of D06
+D07,WPR09CA185,0,1.0,sibling_neg,support of D06
+D07,WPR11CA445,0,1.0,sibling_neg,support of D06
+D07,CEN09CA048,0,1.0,sibling_neg,support of D06
+D07,ERA09CA016,0,1.0,sibling_neg,support of D06
+D07,CEN10CA289,0,1.0,sibling_neg,support of D06
+D07,MIA08CA193,0,1.0,sibling_neg,support of D15
+D07,CEN18LA006,0,1.0,sibling_neg,support of D15
+D07,CEN09CA358,0,1.0,sibling_neg,support of D15
+D07,CEN09CA018,0,1.0,sibling_neg,support of D15
+D07,CEN19CA128,0,1.0,sibling_neg,support of D15
+D07,CEN15LA300,0,1.0,sibling_neg,support of D15
+D07,CEN13IA349,0,1.0,sibling_neg,support of D15
+D07,GAA20CA012,0,1.0,sibling_neg,support of D15
+D07,CEN12CA393,0,1.0,sibling_neg,support of D15
+D07,CEN13CA372,0,1.0,sibling_neg,support of D15
+D07,CEN14CA215,0,1.0,sibling_neg,support of D15
+D07,CEN11CA654,0,1.0,sibling_neg,support of D15
+D07,CEN11CA104,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,MIA08CA112,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN14LA235,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN14CA428,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13FA121,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN09CA179,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA16CA506,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA18CA557,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA19CA520,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA13WA439,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA17CA545,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,DCA19CA167,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,LAX08LA145,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN21LA210,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA16LA299,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN14CA402,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA16CA083,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13LA252,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10CA522,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR14CA275,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR18LA205,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA19CA515,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA15CA206,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA13LA175,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA13CA044,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10CA015,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA20CA087,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10CA163,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA15CA035,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR14WA128,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN09LA341,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ANC24LA010,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ANC25LA115,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA21LA158,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN26LA188,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR09CA310,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA20CA086,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR12CA006,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10LA128,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13LA243,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA11LA216,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,NYC08CA187,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA11CA187,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA24LA035,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA17CA558,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA24LA272,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA14CA286,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA18CA449,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN15LA322,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN16LA183,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CHI08CA229,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13LA076,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR25LA243,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA13FA225,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR19LA139,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,DFW08CA093,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA18CA070,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN11CA199,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN22LA085,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN15FA328,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA10CA241,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13CA407,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN24LA112,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ANC12CA098,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA26FA084,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR22LA075,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA26LA170,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA24LA218,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN15CA274,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN09CA213,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA17CA178,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA14CA078,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN24LA223,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR18LA005,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA18LA109,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN21LA154,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA18CA143,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA11CA223,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10CA517,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN10LA303,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN13CA319,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,MIA08CA050,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ERA22LA286,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR19LA221,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,ANC09CA081,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR15LA234,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA18CA445,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR24FA132,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN11LA356,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA17CA451,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN11CA208,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN23LA290,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR14CA376,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,WPR15CA069,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,CEN20CA251,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D07,GAA19CA017,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D08,CEN13FA051,1,1.0,positive,grounding_results.json#results[44].diag.support[0]
+D08,ERA13FA227,1,1.0,positive,grounding_results.json#results[44].diag.support[1]
+D08,WPR10LA297,1,1.0,positive,grounding_results.json#results[44].diag.support[2]
+D08,ERA15FA096,1,1.0,positive,grounding_results.json#results[44].diag.support[3]
+D08,CEN15FA083,1,1.0,positive,grounding_results.json#results[44].diag.support[4]
+D08,CEN22FA211,1,1.0,positive,grounding_results.json#results[44].diag.support[5]
+D08,CEN19FA323,1,1.0,positive,grounding_results.json#results[44].diag.support[6]
+D08,ERA20FA101,1,1.0,positive,grounding_results.json#results[44].diag.support[7]
+D08,ANC18FA007,1,1.0,positive,grounding_results.json#results[44].diag.support[8]
+D08,DFW08FA060,1,1.0,positive,grounding_results.json#results[44].diag.support[9]
+D08,WPR17LA195,1,1.0,positive,grounding_results.json#results[44].diag.support[10]
+D08,WPR11FA316,1,1.0,positive,grounding_results.json#results[44].diag.support[11]
+D08,CEN14FA046,0,1.0,hard_negative,grounding_results.json#results[44].diag.moved_to_sibling[0]
+D08,ERA24FA001,0,1.0,sibling_neg,support of B05
+D08,NYC08MA090,0,1.0,sibling_neg,support of B05
+D08,DCA08FA075,0,1.0,sibling_neg,support of B05
+D08,WPR22FA235,0,1.0,sibling_neg,support of B05
+D08,ERA14FA417,0,1.0,sibling_neg,support of B05
+D08,WPR22FA196,0,1.0,sibling_neg,support of B05
+D08,ERA17FA223,0,1.0,sibling_neg,support of B05
+D08,ERA22FA004,0,1.0,sibling_neg,support of B05
+D08,WPR24FA083,0,1.0,sibling_neg,support of B05
+D08,CEN16FA214,0,1.0,sibling_neg,support of B05
+D08,WPR21FA286,0,1.0,sibling_neg,support of B05
+D08,CEN12LA095,0,1.0,sibling_neg,support of C4
+D08,WPR10LA059,0,1.0,sibling_neg,support of C4
+D08,ERA11FA493,0,1.0,sibling_neg,support of C4
+D08,ERA19LA072,0,1.0,sibling_neg,support of C4
+D08,CEN10MA088,0,1.0,sibling_neg,support of C4
+D08,WPR12FA059,0,1.0,sibling_neg,support of C4
+D08,WPR16FA067,0,1.0,sibling_neg,support of C4
+D08,ERA14FA112,0,1.0,sibling_neg,support of C4
+D08,ERA10FA178,0,1.0,sibling_neg,support of C4
+D08,DCA12IA141,0,1.0,sibling_neg,support of C4
+D08,ERA24FA088,0,1.0,sibling_neg,support of C4
+D08,CEN16LA093,0,1.0,sibling_neg,support of C4
+D08,WPR13FA343,0,1.0,sibling_neg,support of D13
+D08,GAA16LA117,0,1.0,sibling_neg,support of D13
+D08,WPR10FA440,0,1.0,sibling_neg,support of D13
+D08,GAA17CA495,0,1.0,sibling_neg,support of D13
+D08,CEN15FA003,0,1.0,sibling_neg,support of D13
+D08,SEA08LA213,0,1.0,sibling_neg,support of D13
+D08,ERA22FA207,0,1.0,sibling_neg,support of D13
+D08,ERA11LA409,0,1.0,sibling_neg,support of D13
+D08,CEN20LA167,0,1.0,sibling_neg,support of D13
+D08,WPR16LA056,0,1.0,sibling_neg,support of D13
+D08,ERA12LA282,0,1.0,sibling_neg,support of D13
+D08,CEN17LA375,0,1.0,sibling_neg,support of D13
+D08,WPR11LA202,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA11CA363,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN25FA388,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR09CA231,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR11FA021,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA22LA167,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN23FA113,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA17CA368,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA16CA235,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA18CA471,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR14FA393,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA16CA490,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR12FA216,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ANC17FA009,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CHI08LA228,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR23LA325,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR14LA341,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA20CA303,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN26FA126,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA18LA191,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ANC22LA063,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN17LA232,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN17LA298,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ANC08LA122,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN12CA038,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA09CA274,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA16LA204,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA15CA242,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN20CA229,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA23LA097,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR25LA221,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN10CA022,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA16WA136,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN10FA509,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA13FA209,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA13FA082,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN18LA114,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA20LA323,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA17CA526,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN21LA153,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN13LA428,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR14CA280,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR09CA333,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ANC11CA086,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR20LA211,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA13FA388,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA15LA228,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR18FA011,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR11LA169,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN16FA346,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA15CA010,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR25LA089,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ANC09LA030,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR22LA050,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,NYC08FA157,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA18LA157,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA13LA434,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN11FA302,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN16FA095,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR11FA050,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA17CA216,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA16WA205,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CHI08FA269,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN18LA321,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN23LA012,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA09FA148,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA16CA221,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA12WA249,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA10CA260,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR12LA198,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN13LA094,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN26LA168,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN21LA468,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA25LA046,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN23FA320,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA24LA287,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,SEA08CA165,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA24LA205,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,SEA08CA141,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN21LA030,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN14FA071,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA12FA583,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN20LA270,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN19LA123,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN09LA375,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN20LA037,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN10CA485,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN25LA279,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN14FA057,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,GAA17CA151,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA12FA161,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR20CA113,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN20CA277,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,ERA24FA318,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,CEN12LA404,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D08,WPR13FA335,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D10,ERA21LA269,1,1.0,positive,grounding_results.json#results[46].diag.support[0]
+D10,CEN19FA003,1,1.0,positive,grounding_results.json#results[46].diag.support[1]
+D10,CEN14LA211,1,1.0,positive,grounding_results.json#results[46].diag.support[2]
+D10,ERA16FA182,1,1.0,positive,grounding_results.json#results[46].diag.support[3]
+D10,WPR13GA128,1,1.0,positive,grounding_results.json#results[46].diag.support[4]
+D10,CHI08CA252,1,1.0,positive,grounding_results.json#results[46].diag.support[5]
+D10,CEN15CA095,1,1.0,positive,grounding_results.json#results[46].diag.support[6]
+D10,NYC08CA279,1,1.0,positive,grounding_results.json#results[46].diag.support[7]
+D10,CEN18FA011,1,1.0,positive,grounding_results.json#results[46].diag.support[8]
+D10,WPR09CA220,1,1.0,positive,grounding_results.json#results[46].diag.support[9]
+D10,CEN19FA117,1,1.0,positive,grounding_results.json#results[46].diag.support[10]
+D10,WPR15FA161,1,1.0,positive,grounding_results.json#results[46].diag.support[11]
+D10,CEN16CA277,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA20CA131,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN10CA185,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA19CA457,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN24LA276,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR10CA320,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR13CA204,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN23LA219,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR19FA080,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA22LA129,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN11FA053,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN13LA358,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN23LA047,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR15FA195,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN19FA259,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR20LA315,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN14FA122,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA18CA352,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN26LA168,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA12CA050,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR23LA001,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR20CA197,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR19FA159,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA15CA010,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22LA006,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN11LA571,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR21LA056,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA13FA340,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR20CA171,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN15LA004,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,MIA08CA145,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN21FA355,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR09CA470,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN18FA060,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA18FA208,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ANC17FA035,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN11FA468,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN24FA021,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN21LA047,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ANC25LA023,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN11LA581,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR22FA195,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,LAX08CA054,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN09CA483,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN12LA578,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN21LA179,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA24LA393,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN21LA119,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22LA074,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN13CA019,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22FA053,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA09CA292,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN10CA446,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR10CA289,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,DEN08FA122,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN21LA349,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA22LA140,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR09CA224,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA18CA512,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,MIA08CA137,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR22FA043,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR20CA179,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN13CA033,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22LA365,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR26LA104,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CHI08CA220,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN13LA533,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA19CA078,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN17FA281,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA15CA232,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA21FA200,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN20CA085,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN17FA342,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA16CA339,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA11LA234,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,NYC08LA263,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR18FA074,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR24FA150,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22FA215,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN12CA464,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR24FA255,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN17FA016,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,ERA10CA046,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN19LA016,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN16FA087,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN13LA461,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR12LA371,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22LA366,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN09LA355,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA16CA333,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA20CA066,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN22FA347,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN18LA183,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,GAA15CA102,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,CEN19TA131,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D10,WPR20LA170,0,1.0,sampled_neg,"reports coded LALT, not cited"
+D11,ERA10FA091,1,1.0,positive,grounding_results.json#results[47].diag.support[0]
+D11,CEN19FA140,1,1.0,positive,grounding_results.json#results[47].diag.support[1]
+D11,CEN14LA376,1,1.0,positive,grounding_results.json#results[47].diag.support[2]
+D11,CEN19FA078,1,1.0,positive,grounding_results.json#results[47].diag.support[3]
+D11,ERA12FA012,1,1.0,positive,grounding_results.json#results[47].diag.support[4]
+D11,CEN23FA125,1,1.0,positive,grounding_results.json#results[47].diag.support[5]
+D11,ERA15FA066,1,1.0,positive,grounding_results.json#results[47].diag.support[6]
+D11,ERA15FA299,1,1.0,positive,grounding_results.json#results[47].diag.support[7]
+D11,ANC20LA004,1,1.0,positive,grounding_results.json#results[47].diag.support[8]
+D11,CEN23FA239,1,1.0,positive,grounding_results.json#results[47].diag.support[9]
+D11,ERA16FA031,1,1.0,positive,grounding_results.json#results[47].diag.support[10]
+D11,NYC08FA231,1,1.0,positive,grounding_results.json#results[47].diag.support[11]
+D11,WPR19FA103,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA16CA383,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR12CA213,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN12CA221,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA18FA127,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR15LA142,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA17CA215,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA13FA083,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA13FA133,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN23FA095,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA10LA421,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN20FA034,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC24FA032,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA19FA163,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA09LA124,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR24FA057,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR10LA446,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,DEN08LA139,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC17LA011,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN09LA350,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR15FA070,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN14LA074,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR12FA255,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA17CA147,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA20LA335,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC20FA017,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA18CA095,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA19LA012,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,LAX08FA058,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN13FA003,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA12CA119,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC18TA070,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC20MA010,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA11FA038,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC08LA042,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR15FA072,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CHI08CA131,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR26LA059,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA20LA314,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN19FA332,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR10LA115,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA17FA279,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN24FA295,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA24FA003,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR23FA083,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR18FA232,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN24FA243,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA22FA368,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC12CA016,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN12FA639,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN16LA128,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA23FA384,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR13FA138,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA10LA511,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA19WA417,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC12CA036,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA16CA091,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC17LA040,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA19FA240,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR22FA011,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN21FA125,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA14LA433,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN20LA186,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR21FA143,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA20LA262,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR11FA395,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR26LA077,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA18CA215,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC17FA039,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA15FA220,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN10FA509,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR15FA212,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA18FA197,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN23FA187,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,NYC08LA223,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR11LA076,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,LAX08LA198,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN16FA073,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA17LA113,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR19FA025,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC17FA049,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,NYC08LA310,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR17FA065,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,DFW08FA062,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC19TA017,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR17FA045,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA12FA151,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN18FA054,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ANC11FA077,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA24FA096,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN14FA369,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,GAA17CA388,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA21LA295,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,CEN11FA300,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,ERA22LA142,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D11,WPR23LA053,0,1.0,sampled_neg,"reports coded UIMC, not cited"
+D12,CEN22LA117,1,1.0,positive,grounding_results.json#results[48].diag.support[0]
+D12,CEN17LA110,1,1.0,positive,grounding_results.json#results[48].diag.support[1]
+D12,CEN10LA037,1,1.0,positive,grounding_results.json#results[48].diag.support[2]
+D12,ERA24LA095,1,1.0,positive,grounding_results.json#results[48].diag.support[3]
+D12,ERA23LA086,1,1.0,positive,grounding_results.json#results[48].diag.support[4]
+D12,WPR15LA032,1,1.0,positive,grounding_results.json#results[48].diag.support[5]
+D12,CEN12LA326,1,1.0,positive,grounding_results.json#results[48].diag.support[6]
+D12,ERA13LA382,1,1.0,positive,grounding_results.json#results[48].diag.support[7]
+D12,WPR13FA169,1,1.0,positive,grounding_results.json#results[48].diag.support[8]
+D12,ERA15LA014,1,1.0,positive,grounding_results.json#results[48].diag.support[9]
+D12,ERA14LA076,1,1.0,positive,grounding_results.json#results[48].diag.support[10]
+D12,CEN15FA424,1,1.0,positive,grounding_results.json#results[48].diag.support[11]
+D12,ERA12LA575,0,1.0,sibling_neg,support of D01
+D12,ERA12FA143,0,1.0,sibling_neg,support of D01
+D12,CEN18LA151,0,1.0,sibling_neg,support of D01
+D12,ERA21FA232,0,1.0,sibling_neg,support of D01
+D12,ERA13LA269,0,1.0,sibling_neg,support of D01
+D12,ERA18LA162,0,1.0,sibling_neg,support of D01
+D12,CEN14LA161,0,1.0,sibling_neg,support of D01
+D12,WPR12LA329,0,1.0,sibling_neg,support of D01
+D12,CEN17FA332,0,1.0,sibling_neg,support of D01
+D12,CEN19LA232,0,1.0,sibling_neg,support of D01
+D12,CEN13LA398,0,1.0,sibling_neg,support of D01
+D12,ERA21LA313,0,1.0,sibling_neg,support of D01
+D12,ERA11LA301,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN16LA335,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR21LA326,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ENG20WA011,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR22LA314,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR25LA267,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN22LA181,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA11CA013,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN10CA359,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN17LA261,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ANC13CA080,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CHI08FA132,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA19FA196,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN15LA157,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN22LA196,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN10LA012,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR25FA279,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN15LA292,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN13LA525,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA21LA008,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR10LA154,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA25FA187,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR19FA126,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,GAA19CA015,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ENG15RA030,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR23LA239,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN11LA430,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN10LA235,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA16LA231,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,GAA16CA387,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN14LA408,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CHI08CA213,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CHI08CA226,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN13FA030,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ENG17IA006,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA23LA286,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR13LA248,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA18TA222,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR17LA187,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN21LA293,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA14LA316,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ANC19LA011,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR18LA111,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR13LA390,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR22LA083,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN22LA234,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR09LA170,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN16LA018,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR22LA064,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA16LA195,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN21LA351,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN09LA385,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN10FA458,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA21LA081,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ENG15WA014,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR22LA126,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA19WA103,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA17LA209,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA17LA237,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ANC16LA021,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN11LA415,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN26FA109,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN16WA144,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA14LA309,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR15LA014,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN21LA251,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN18LA034,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN15LA247,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN11FA040,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA09LA284,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN21FA024,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,LAX08FA286,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR21LA351,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,GAA18CA468,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA12LA234,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR19WA149,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN20LA291,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN22FA376,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA17WA206,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA13LA111,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN26LA173,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN18FA074,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA16LA041,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR09LA047,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ANC23LA053,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN15LA391,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA26LA156,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA14LA405,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,WPR22LA316,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN17LA156,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA22LA241,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA25FA230,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA23LA218,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,ERA11LA395,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN25LA046,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D12,CEN10LA476,0,1.0,sampled_neg,"reports coded SCF-PP, not cited"
+D13,WPR13FA343,1,1.0,positive,grounding_results.json#results[49].diag.support[0]
+D13,GAA16LA117,1,1.0,positive,grounding_results.json#results[49].diag.support[1]
+D13,WPR10FA440,1,1.0,positive,grounding_results.json#results[49].diag.support[2]
+D13,GAA17CA495,1,1.0,positive,grounding_results.json#results[49].diag.support[3]
+D13,CEN15FA003,1,1.0,positive,grounding_results.json#results[49].diag.support[4]
+D13,SEA08LA213,1,1.0,positive,grounding_results.json#results[49].diag.support[5]
+D13,ERA22FA207,1,1.0,positive,grounding_results.json#results[49].diag.support[6]
+D13,ERA11LA409,1,1.0,positive,grounding_results.json#results[49].diag.support[7]
+D13,CEN20LA167,1,1.0,positive,grounding_results.json#results[49].diag.support[8]
+D13,WPR16LA056,1,1.0,positive,grounding_results.json#results[49].diag.support[9]
+D13,ERA12LA282,1,1.0,positive,grounding_results.json#results[49].diag.support[10]
+D13,CEN17LA375,1,1.0,positive,grounding_results.json#results[49].diag.support[11]
+D13,ERA24FA001,0,1.0,sibling_neg,support of B05
+D13,NYC08MA090,0,1.0,sibling_neg,support of B05
+D13,DCA08FA075,0,1.0,sibling_neg,support of B05
+D13,WPR22FA235,0,1.0,sibling_neg,support of B05
+D13,ERA14FA417,0,1.0,sibling_neg,support of B05
+D13,WPR22FA196,0,1.0,sibling_neg,support of B05
+D13,ERA17FA223,0,1.0,sibling_neg,support of B05
+D13,ERA22FA004,0,1.0,sibling_neg,support of B05
+D13,CEN14FA046,0,1.0,sibling_neg,support of B05
+D13,WPR24FA083,0,1.0,sibling_neg,support of B05
+D13,CEN16FA214,0,1.0,sibling_neg,support of B05
+D13,WPR21FA286,0,1.0,sibling_neg,support of B05
+D13,CEN12LA095,0,1.0,sibling_neg,support of C4
+D13,WPR10LA059,0,1.0,sibling_neg,support of C4
+D13,ERA11FA493,0,1.0,sibling_neg,support of C4
+D13,ERA19LA072,0,1.0,sibling_neg,support of C4
+D13,CEN10MA088,0,1.0,sibling_neg,support of C4
+D13,WPR12FA059,0,1.0,sibling_neg,support of C4
+D13,WPR16FA067,0,1.0,sibling_neg,support of C4
+D13,ERA14FA112,0,1.0,sibling_neg,support of C4
+D13,ERA10FA178,0,1.0,sibling_neg,support of C4
+D13,DCA12IA141,0,1.0,sibling_neg,support of C4
+D13,ERA24FA088,0,1.0,sibling_neg,support of C4
+D13,CEN16LA093,0,1.0,sibling_neg,support of C4
+D13,CEN13FA051,0,1.0,sibling_neg,support of D08
+D13,ERA13FA227,0,1.0,sibling_neg,support of D08
+D13,WPR10LA297,0,1.0,sibling_neg,support of D08
+D13,ERA15FA096,0,1.0,sibling_neg,support of D08
+D13,CEN15FA083,0,1.0,sibling_neg,support of D08
+D13,CEN22FA211,0,1.0,sibling_neg,support of D08
+D13,CEN19FA323,0,1.0,sibling_neg,support of D08
+D13,ERA20FA101,0,1.0,sibling_neg,support of D08
+D13,ANC18FA007,0,1.0,sibling_neg,support of D08
+D13,DFW08FA060,0,1.0,sibling_neg,support of D08
+D13,WPR17LA195,0,1.0,sibling_neg,support of D08
+D13,WPR11FA316,0,1.0,sibling_neg,support of D08
+D13,WPR17FA066,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR18LA242,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN16LA255,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12FA579,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR11TA274,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR21FA300,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR19FA042,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN09CA564,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN24FA326,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN14CA532,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA18CA274,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA11CA045,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN21LA396,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,LAX08FA068,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA18CA231,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA20CA209,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12CA200,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN14FA356,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN20CA217,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA13CA132,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN17FA035,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN24FA327,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA18FA004,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA10FA435,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN10CA410,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA23FA239,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN16LA017,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,DFW08FA218,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN16LA197,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN25FA014,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11FA075,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR13CA170,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11FA652,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR13FA236,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN10CA249,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR25LA235,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA11FA369,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11FA150,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA09LA111,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR16FA087,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN21LA447,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR23LA236,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12LA448,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA09CA219,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA15CA111,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN24LA084,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN16LA003,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA16CA081,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR23LA043,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA15CA099,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ANC09CA106,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN09CA556,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11FA500,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN14CA203,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,LAX08LA130,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR09CA344,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA19CA246,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA10CA185,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN20LA286,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA24LA287,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA19CA416,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN09CA131,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA16LA191,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR17FA118,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA12CA352,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR10FA435,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR17FA044,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN24FA095,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11CA196,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA22LA407,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ANC09LA030,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA12TA538,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA12CA418,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR11IA213,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ANC18LA016,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12CA423,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR17LA145,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA22FA368,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA18FA244,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR22FA350,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12LA324,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN17LA228,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12LA282,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN12LA407,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,ERA13CA415,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN15FA277,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN09CA264,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN11LA578,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR22LA006,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR13CA301,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,GAA19CA373,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,WPR21FA258,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN22FA197,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN19FA253,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN16FA346,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D13,CEN14CA271,0,1.0,sampled_neg,"reports coded LOC-I, not cited"
+D15,MIA08CA193,1,1.0,positive,grounding_results.json#results[51].diag.support[0]
+D15,CEN18LA006,1,1.0,positive,grounding_results.json#results[51].diag.support[1]
+D15,CEN09CA358,1,1.0,positive,grounding_results.json#results[51].diag.support[2]
+D15,CEN09CA018,1,1.0,positive,grounding_results.json#results[51].diag.support[3]
+D15,CEN19CA128,1,1.0,positive,grounding_results.json#results[51].diag.support[4]
+D15,CEN15LA300,1,1.0,positive,grounding_results.json#results[51].diag.support[5]
+D15,CEN13IA349,1,1.0,positive,grounding_results.json#results[51].diag.support[6]
+D15,GAA20CA012,1,1.0,positive,grounding_results.json#results[51].diag.support[7]
+D15,CEN12CA393,1,1.0,positive,grounding_results.json#results[51].diag.support[8]
+D15,CEN13CA372,1,1.0,positive,grounding_results.json#results[51].diag.support[9]
+D15,CEN14CA215,1,1.0,positive,grounding_results.json#results[51].diag.support[10]
+D15,CEN11CA654,1,1.0,positive,grounding_results.json#results[51].diag.support[11]
+D15,CEN20TA025,0,1.0,sibling_neg,support of D06
+D15,GAA15CA176,0,1.0,sibling_neg,support of D06
+D15,WPR16FA157,0,1.0,sibling_neg,support of D06
+D15,DEN08CA117,0,1.0,sibling_neg,support of D06
+D15,DFW08CA162,0,1.0,sibling_neg,support of D06
+D15,CEN26LA063,0,1.0,sibling_neg,support of D06
+D15,GAA16CA379,0,1.0,sibling_neg,support of D06
+D15,WPR09CA185,0,1.0,sibling_neg,support of D06
+D15,WPR11CA445,0,1.0,sibling_neg,support of D06
+D15,CEN09CA048,0,1.0,sibling_neg,support of D06
+D15,ERA09CA016,0,1.0,sibling_neg,support of D06
+D15,CEN10CA289,0,1.0,sibling_neg,support of D06
+D15,CEN12LA387,0,1.0,sibling_neg,support of D07
+D15,WPR24LA086,0,1.0,sibling_neg,support of D07
+D15,GAA19CA398,0,1.0,sibling_neg,support of D07
+D15,ERA16FA188,0,1.0,sibling_neg,support of D07
+D15,CEN14LA065,0,1.0,sibling_neg,support of D07
+D15,ERA16LA092,0,1.0,sibling_neg,support of D07
+D15,DCA13FA094,0,1.0,sibling_neg,support of D07
+D15,WPR22LA180,0,1.0,sibling_neg,support of D07
+D15,CEN12CA036,0,1.0,sibling_neg,support of D07
+D15,DCA12FA058,0,1.0,sibling_neg,support of D07
+D15,ERA13CA028,0,1.0,sibling_neg,support of D07
+D15,DCA10IA021,0,1.0,sibling_neg,support of D07
+D15,ERA24LA033,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA22LA117,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA13LA007,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR13LA174,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR16LA019,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN11CA560,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA11WA079,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR20LA189,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR13CA369,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN23LA229,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA17CA369,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA25LA251,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR14CA139,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ANC25LA092,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ANC18CA052,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA25LA244,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA20CA226,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA15CA140,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA17CA067,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA21LA070,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN19LA059,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA23LA064,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR12CA310,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CHI08LA228,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA26LA146,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ENG20WA020,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN09CA156,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA11CA304,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR24LA170,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA18CA539,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR16LA073,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,NYC08CA314,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN19LA315,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,MIA08CA068,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA20CA083,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA22LA337,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA09LA020,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN10LA575,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA09IA056,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN20CA112,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR15CA068,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR26LA210,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR12FA297,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA23LA116,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR24LA116,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN17FA252,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR10LA240,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR13TA051,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA23LA129,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA22LA123,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA11LA380,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,LAX08LA097,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA17LA054,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR18LA005,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR13CA170,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR15CA040,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN14CA016,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA16CA226,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN21LA082,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA26LA139,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA20CA138,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA11LA154,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA15CA116,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR12LA029,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA17LA103,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA13CA200,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA16CA040,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR24LA174,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN12CA426,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN10CA038,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR09CA023,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA12WA097,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR26LA056,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN25LA380,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA20LA055,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA16CA509,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN11LA275,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN20LA427,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA11FA050,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA16CA209,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN11CA031,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA23LA015,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA15CA230,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA19CA470,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN20CA411,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,DCA10WA056,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,CEN21LA134,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,LAX08CA170,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA19CA206,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA16CA386,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,GAA18CA049,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR14CA380,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA14LA122,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA11CA408,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,WPR22LA302,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D15,ERA16LA216,0,1.0,sampled_neg,"reports coded ARC, not cited"
+D16,WPR15LA154,1,1.0,positive,grounding_results.json#results[52].diag.support[0]
+D16,ERA10CA411,1,1.0,positive,grounding_results.json#results[52].diag.support[1]
+D16,ERA11LA361/2,1,1.0,positive,grounding_results.json#results[52].diag.support[2]
+D16,ERA15CA113,1,1.0,positive,grounding_results.json#results[52].diag.support[3]
+D16,ERA20LA247,1,1.0,positive,grounding_results.json#results[52].diag.support[4]
+D16,ERA13CA123,1,1.0,positive,grounding_results.json#results[52].diag.support[5]
+D16,GAA18CA568,1,1.0,positive,grounding_results.json#results[52].diag.support[6]
+D16,DCA15FA004/2,1,1.0,positive,grounding_results.json#results[52].diag.support[7]
+D16,WPR11FA158,1,1.0,positive,grounding_results.json#results[52].diag.support[8]
+D16,CEN11LA099,1,1.0,positive,grounding_results.json#results[52].diag.support[9]
+D16,ERA20CA243,1,1.0,positive,grounding_results.json#results[52].diag.support[10]
+D16,WPR09LA036,1,1.0,positive,grounding_results.json#results[52].diag.support[11]
+D16,SEA08LA061,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA26LA025,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA19CA207,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR19FA241,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR26LA045,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR13CA031,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA14CA314,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA24LA245,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA14CA170,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ANC20CA067/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR14LA313/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA16CA447,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR25LA304,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA11CA311,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA26LA047/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN13LA170,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA16CA348,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN26LA076,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN14CA041,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA15CA303,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN22LA319,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN23LA023,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN19LA092,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA12CA173,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA15CA118,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA09TA466,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA26LA025/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA12LA066,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA11LA361,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA11WA048,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA11LA045,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN11LA168/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA15CA057,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA11LA100,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA15CA064,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA18WA075,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN11CA664/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR19TA068/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA19CA097,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR25LA042/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CHI08CA081,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR18LA118,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA15CA012,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA19CA366,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN23LA209,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA17CA458,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN25LA073,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA13CA182,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA18CA360,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR19TA031/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA16WA028,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN09CA547,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA24LA336,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA16CA049,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA16CA132,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA17WA037/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA20CA003,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR09IA033,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ANC12CA015,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN11CA400,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA13WA080,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN10CA468,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR14CA332,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA21LA380,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR09FA068,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA19CA105,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR13CA158,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA09LA506/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN25LA262,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA19CA146,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR15LA253,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR23LA155,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA23LA114,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN11CA664,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR09CA017/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN10LA127/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR20CA046/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA17CA560,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ANC12CA048,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN12LA622,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN09CA357,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN23LA126,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN16CA126/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR09CA447,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA13FA082/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA22LA005,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR21LA276/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR13FA208,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN09LA227,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA13CA091,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN09CA289,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,ERA26LA076/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,DCA24LA295,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,GAA19CA071/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,CEN10CA468/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"
+D16,WPR09LA024/2,0,1.0,sampled_neg,"reports coded GCOL, not cited"

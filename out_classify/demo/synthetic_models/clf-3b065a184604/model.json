@@ -1,0 +1,248 @@
+{
+ "model_id": "3b065a184604",
+ "built": "2026-11-10T22:15:06+00:00",
+ "taxclassify_version": "0.1.0",
+ "code_hash": "96cc8f7396c9",
+ "run_id": "run-combined-20261109T200055880",
+ "run_output_hash": "a75aa638d32a8b10c60ae4ca3dd450ee130af0e708e7f9c59b1808350708af6c",
+ "taxonomy": "/home/claude/taxground/classifier_input/synthetic_run/taxonomy.json",
+ "settings": {
+  "C": 1.0,
+  "folds": 3,
+  "alpha": 0.1,
+  "min_positives": 3,
+  "min_prob": 0.5,
+  "neg_per_pos": 8,
+  "seed": 7,
+  "max_features": 200000,
+  "struct_weight": 0.5
+ },
+ "buckets": {
+  "B01": {
+   "parent": "RI",
+   "name": "Vehicle or pedestrian on the runway without clearance",
+   "definition": "A ground vehicle, tug or person enters an active runway or its protected area without an ATC clearance.",
+   "status": "grounded"
+  },
+  "B02": {
+   "parent": "RI",
+   "name": "Landing on a taxiway or the wrong runway at night",
+   "definition": "At night or in low light the crew lines up on and lands, or nearly lands, on a taxiway or a runway other than the one assigned.",
+   "status": "grounded"
+  },
+  "B03": {
+   "parent": "RE",
+   "name": "Veer-off during landing in a strong or gusty crosswind",
+   "definition": "In a strong or gusty crosswind the aircraft drifts and veers off the side of the runway during the landing roll.",
+   "status": "grounded"
+  },
+  "B04": {
+   "parent": "RE",
+   "name": "Overrun on a contaminated runway",
+   "definition": "On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway.",
+   "status": "grounded"
+  },
+  "B05": {
+   "parent": "LOC-I",
+   "name": "Stall warning or upset during a go-around",
+   "definition": "During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows.",
+   "status": "needs_review"
+  },
+  "B06": {
+   "parent": "TURB",
+   "name": "Wake turbulence upset on approach",
+   "definition": "Wake vortices from a preceding heavier aircraft cause a sudden roll or pitch upset on approach or departure.",
+   "status": "grounded"
+  },
+  "B07": {
+   "parent": "MAC",
+   "name": "Loss of separation caused by an ATC clearance",
+   "definition": "A controller clearance or instruction puts two aircraft into conflict, leading to loss of separation or a TCAS alert.",
+   "status": "grounded"
+  },
+  "B08": {
+   "parent": "MAC",
+   "name": "TCAS resolution advisory after a level bust",
+   "definition": "The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows.",
+   "status": "grounded"
+  },
+  "B09": {
+   "parent": "SCF-NP",
+   "name": "Hydraulic system failure in flight",
+   "definition": "Loss of fluid or pressure in a hydraulic system in flight degrades flight controls, brakes or landing gear.",
+   "status": "grounded"
+  },
+  "B10": {
+   "parent": "SCF-NP",
+   "name": "Landing gear did not extend",
+   "definition": "One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing.",
+   "status": "grounded"
+  },
+  "B11": {
+   "parent": "CFIT",
+   "name": "Terrain warning on a non-precision approach",
+   "definition": "During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles.",
+   "status": "grounded"
+  },
+  "B12": {
+   "parent": "NAV",
+   "name": "GNSS interference or spoofing",
+   "definition": "Satellite navigation signals are jammed or spoofed, giving false position, lost RNP capability or incorrect time, often near conflict zones.",
+   "status": "grounded"
+  },
+  "B13": {
+   "parent": "SCF-PP",
+   "name": "Engine shutdown after loss of oil pressure",
+   "definition": "Low oil pressure or oil loss in flight leads the crew to shut an engine down as a precaution.",
+   "status": "needs_review"
+  },
+  "B14": {
+   "parent": "ICE",
+   "name": "Takeoff with frost or ice not removed",
+   "definition": "The aircraft departs or begins to depart with frost, snow or ice on its wings because it was not removed or the fluid failed.",
+   "status": "grounded"
+  },
+  "B15": {
+   "parent": "BIRD",
+   "name": "Bird ingestion damaging an engine on takeoff or climb",
+   "definition": "One or more birds are ingested into an engine during takeoff or initial climb, causing vibration, surging or loss of thrust.",
+   "status": "needs_review"
+  },
+  "B16": {
+   "parent": "BIRD",
+   "name": "Bird strike damaging the windshield or nose on approach",
+   "definition": "A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage.",
+   "status": "grounded"
+  },
+  "B17": {
+   "parent": "F-NI",
+   "name": "Lithium battery fire from a passenger device",
+   "definition": "A phone, laptop, power bank or other lithium battery device overheats, smokes or catches fire in the cabin.",
+   "status": "needs_review"
+  },
+  "B18": {
+   "parent": "F-NI",
+   "name": "Electrical smoke or burning smell in the flight deck",
+   "definition": "Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater.",
+   "status": "grounded"
+  },
+  "B19": {
+   "parent": "FUEL",
+   "name": "Low fuel after holding or a diversion",
+   "definition": "Extended holding, a missed approach or a diversion leaves the aircraft close to or below final reserve fuel, and the crew declares minimum fuel or a fuel emergency.",
+   "status": "grounded"
+  },
+  "B20": {
+   "parent": "RAMP",
+   "name": "Pushback or towing collision",
+   "definition": "During pushback or towing the tug, towbar or aircraft strikes another aircraft, a vehicle or a fixed object.",
+   "status": "grounded"
+  },
+  "B21": {
+   "parent": "CABIN",
+   "name": "Disruptive or unruly passenger",
+   "definition": "A passenger is aggressive, intoxicated or refuses crew instructions, interfering with the crew or other passengers.",
+   "status": "grounded"
+  },
+  "B22": {
+   "parent": "ARC",
+   "name": "Tail strike on takeoff",
+   "definition": "The tail strikes the runway during takeoff rotation, often after early or fast rotation or a wrong takeoff speed or weight.",
+   "status": "grounded"
+  },
+  "B23": {
+   "parent": "WSTRW",
+   "name": "Windshear on final approach",
+   "definition": "A sudden change in wind speed or direction on approach, often near a thunderstorm or microburst, causes loss of airspeed and a windshear warning.",
+   "status": "needs_review"
+  },
+  "B24": {
+   "parent": "USOS",
+   "name": "Landing short of the runway",
+   "definition": "The aircraft touches down before the runway threshold, on the approach lights or in the undershoot area.",
+   "status": "grounded"
+  },
+  "B25": {
+   "parent": "ICE",
+   "name": "Airframe icing in flight",
+   "definition": "Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling.",
+   "status": "grounded"
+  },
+  "B26": {
+   "parent": "SCF-NP",
+   "name": "Unreliable airspeed from blocked pitot probes",
+   "definition": "Pitot probes blocked by ice, insects or covers give wrong airspeed indications, leading to warnings and autopilot disconnection.",
+   "status": "needs_review"
+  },
+  "B27": {
+   "parent": "RI",
+   "name": "Crew crossed a hold-short line without clearance",
+   "definition": "The flight crew taxis past a runway hold-short line without a clearance to enter or cross the runway (pilot deviation).",
+   "status": "grounded"
+  },
+  "C6": {
+   "parent": "CABIN",
+   "name": "Clear-air turbulence with cabin injuries",
+   "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+   "status": "needs_review"
+  },
+  "C8": {
+   "parent": "ICE",
+   "name": "Takeoff after de-icing holdover time exceeded",
+   "definition": "The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff.",
+   "status": "grounded"
+  },
+  "C9": {
+   "parent": "ARC",
+   "name": "Hard landing or tail strike",
+   "definition": "A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare.",
+   "status": "needs_review"
+  }
+ },
+ "trained": [
+  "B01",
+  "B02",
+  "B03",
+  "B04",
+  "B05",
+  "B06",
+  "B07",
+  "B08",
+  "B09",
+  "B10",
+  "B12",
+  "B13",
+  "B14",
+  "B15",
+  "B16",
+  "B17",
+  "B18",
+  "B19",
+  "B20",
+  "B21",
+  "B22",
+  "B25",
+  "B26",
+  "B27",
+  "C6",
+  "C8",
+  "C9"
+ ],
+ "skipped": {
+  "B11": "9 positives, 0 negatives (needs 3 and 2)",
+  "B23": "10 positives, 0 negatives (needs 3 and 2)",
+  "B24": "6 positives, 0 negatives (needs 3 and 2)"
+ },
+ "conformal": {
+  "alpha": 0.1,
+  "qhat": 0.5869992767196239,
+  "threshold": 0.41300072328037607,
+  "calibration_positives": 224,
+  "labels": "silver (grounding support links)"
+ },
+ "sources": {
+  "/home/claude/taxground/classifier_input/synthetic_run/grounding_results.json": "1acf1f3eaa6af5e964fd65314694b736adf8bbdefae7719619ea3e53665580eb",
+  "/home/claude/taxground/classifier_input/synthetic_run/inputs/sample_reports.json": "12d72c3d3a3024fb264e8608d3c85d2aadf955e6258d4086565d6b9376573be6"
+ },
+ "excluded_reports": 0
+}

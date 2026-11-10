@@ -1,0 +1,653 @@
+{
+ "_note": "Combined from data, data_sample_b. Reports are SYNTHETIC (written or template-generated for the trial), not real events.",
+ "candidates": [
+  {
+   "candidate_id": "C1",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Landing or takeoff on an unintended surface",
+   "definition": "The aircraft lands, lines up to land, or starts a takeoff on a surface other than the assigned runway: a taxiway, a closed or wrong runway, or the wrong airport.",
+   "expected_reports": [
+    "SAMPLE-001",
+    "SAMPLE-002",
+    "SAMPLE-003",
+    "SAMPLE-004",
+    "SAMPLE-005"
+   ],
+   "overlaps": [
+    "B02"
+   ]
+  },
+  {
+   "candidate_id": "C2",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Runway entry or crossing without clearance",
+   "definition": "An aircraft or vehicle crosses a hold-short line, stop bar or holding point and enters an active runway without a clearance.",
+   "expected_reports": [
+    "SAMPLE-006",
+    "SAMPLE-007",
+    "SAMPLE-008",
+    "SAMPLE-009"
+   ],
+   "overlaps": [
+    "B01",
+    "B27"
+   ]
+  },
+  {
+   "candidate_id": "C3",
+   "proposed_parent": "RE",
+   "expected_parent": "RE",
+   "name": "Overrun after a long or fast landing on a wet or contaminated runway",
+   "definition": "The aircraft touches down long or fast on a wet or contaminated runway, braking is poor, and it overruns the runway end.",
+   "expected_reports": [
+    "SAMPLE-010",
+    "SAMPLE-011",
+    "SAMPLE-012",
+    "SAMPLE-013"
+   ],
+   "overlaps": [
+    "B04"
+   ]
+  },
+  {
+   "candidate_id": "C4",
+   "proposed_parent": "LOC-I",
+   "expected_parent": "LOC-I",
+   "name": "Upset or stall after unreliable airspeed",
+   "definition": "Disagreeing or erroneous airspeed indications, for example from icing or pitot failure, lead to a stall warning, overspeed or upset in flight.",
+   "expected_reports": [
+    "SAMPLE-015",
+    "SAMPLE-017",
+    "SAMPLE-018"
+   ],
+   "overlaps": [
+    "B26"
+   ]
+  },
+  {
+   "candidate_id": "C5",
+   "proposed_parent": "MAC",
+   "expected_parent": "MAC",
+   "name": "TCAS resolution advisory after an altitude deviation",
+   "definition": "The aircraft deviates from its cleared altitude (level bust) and traffic receives a TCAS resolution advisory or separation is lost.",
+   "expected_reports": [
+    "SAMPLE-019",
+    "SAMPLE-020",
+    "SAMPLE-021"
+   ],
+   "overlaps": [
+    "B08"
+   ]
+  },
+  {
+   "candidate_id": "C6",
+   "proposed_parent": "TURB",
+   "expected_parent": "TURB",
+   "name": "Clear-air turbulence with cabin injuries",
+   "definition": "An unexpected encounter with turbulence in clear air injures passengers or cabin crew who are standing, unbelted or near unsecured carts.",
+   "expected_reports": [
+    "SAMPLE-023",
+    "SAMPLE-024",
+    "SAMPLE-025",
+    "SAMPLE-026"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "C7",
+   "proposed_parent": "SCF-PP",
+   "expected_parent": "SCF-PP",
+   "name": "Engine damage or shutdown after bird ingestion",
+   "definition": "Birds ingested into an engine cause vibration, surge, loss of thrust, fire warning or shutdown.",
+   "expected_reports": [
+    "SAMPLE-028",
+    "SAMPLE-029",
+    "SAMPLE-031"
+   ],
+   "overlaps": [
+    "B15"
+   ]
+  },
+  {
+   "candidate_id": "C8",
+   "proposed_parent": "ICE",
+   "expected_parent": "ICE",
+   "name": "Takeoff after de-icing holdover time exceeded",
+   "definition": "The aircraft is delayed after ground de-icing and the fluid holdover time is exceeded before takeoff.",
+   "expected_reports": [
+    "SAMPLE-032"
+   ],
+   "overlaps": [
+    "B14"
+   ]
+  },
+  {
+   "candidate_id": "C9",
+   "proposed_parent": "RE",
+   "expected_parent": "ARC",
+   "name": "Hard landing or tail strike",
+   "definition": "A hard or bounced touchdown, or contact of the tail with the runway during rotation or flare.",
+   "expected_reports": [
+    "SAMPLE-034",
+    "SAMPLE-035",
+    "SAMPLE-036"
+   ],
+   "overlaps": [
+    "B22"
+   ]
+  },
+  {
+   "candidate_id": "B01",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Vehicle or pedestrian on the runway without clearance",
+   "definition": "A ground vehicle, tug or person enters an active runway or its protected area without an ATC clearance.",
+   "expected_reports": [
+    "SYNB-001",
+    "SYNB-002",
+    "SYNB-003",
+    "SYNB-004",
+    "SYNB-005",
+    "SYNB-006",
+    "SYNB-007",
+    "SYNB-008",
+    "SYNB-009",
+    "SYNB-010"
+   ],
+   "overlaps": [
+    "C2"
+   ]
+  },
+  {
+   "candidate_id": "B02",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Landing on a taxiway or the wrong runway at night",
+   "definition": "At night or in low light the crew lines up on and lands, or nearly lands, on a taxiway or a runway other than the one assigned.",
+   "expected_reports": [
+    "SYNB-011",
+    "SYNB-012",
+    "SYNB-013",
+    "SYNB-014",
+    "SYNB-015",
+    "SYNB-016",
+    "SYNB-017",
+    "SYNB-018"
+   ],
+   "overlaps": [
+    "C1"
+   ]
+  },
+  {
+   "candidate_id": "B03",
+   "proposed_parent": "RE",
+   "expected_parent": "RE",
+   "name": "Veer-off during landing in a strong or gusty crosswind",
+   "definition": "In a strong or gusty crosswind the aircraft drifts and veers off the side of the runway during the landing roll.",
+   "expected_reports": [
+    "SYNB-019",
+    "SYNB-020",
+    "SYNB-021",
+    "SYNB-022",
+    "SYNB-023",
+    "SYNB-024",
+    "SYNB-025",
+    "SYNB-026",
+    "SYNB-027",
+    "SYNB-028"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B04",
+   "proposed_parent": "RE",
+   "expected_parent": "RE",
+   "name": "Overrun on a contaminated runway",
+   "definition": "On a wet, slushy, snowy or icy runway braking is poor and the aircraft overruns the end of the runway.",
+   "expected_reports": [
+    "SYNB-029",
+    "SYNB-030",
+    "SYNB-031",
+    "SYNB-032",
+    "SYNB-033",
+    "SYNB-034",
+    "SYNB-035",
+    "SYNB-036"
+   ],
+   "overlaps": [
+    "C3"
+   ]
+  },
+  {
+   "candidate_id": "B05",
+   "proposed_parent": "LOC-I",
+   "expected_parent": "LOC-I",
+   "name": "Stall warning or upset during a go-around",
+   "definition": "During a go-around or missed approach the aircraft pitches up with high thrust, energy is mismanaged, and a stall warning or upset follows.",
+   "expected_reports": [
+    "SYNB-037",
+    "SYNB-038",
+    "SYNB-039",
+    "SYNB-040",
+    "SYNB-041",
+    "SYNB-042",
+    "SYNB-043",
+    "SYNB-044"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B06",
+   "proposed_parent": "TURB",
+   "expected_parent": "TURB",
+   "name": "Wake turbulence upset on approach",
+   "definition": "Wake vortices from a preceding heavier aircraft cause a sudden roll or pitch upset on approach or departure.",
+   "expected_reports": [
+    "SYNB-045",
+    "SYNB-046",
+    "SYNB-047",
+    "SYNB-048",
+    "SYNB-049",
+    "SYNB-050",
+    "SYNB-051",
+    "SYNB-052"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B07",
+   "proposed_parent": "MAC",
+   "expected_parent": "MAC",
+   "name": "Loss of separation caused by an ATC clearance",
+   "definition": "A controller clearance or instruction puts two aircraft into conflict, leading to loss of separation or a TCAS alert.",
+   "expected_reports": [
+    "SYNB-053",
+    "SYNB-054",
+    "SYNB-055",
+    "SYNB-056",
+    "SYNB-057",
+    "SYNB-058",
+    "SYNB-059",
+    "SYNB-060"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B08",
+   "proposed_parent": "MAC",
+   "expected_parent": "MAC",
+   "name": "TCAS resolution advisory after a level bust",
+   "definition": "The aircraft climbs or descends through its cleared altitude (level bust) and a TCAS resolution advisory follows.",
+   "expected_reports": [
+    "SYNB-061",
+    "SYNB-062",
+    "SYNB-063",
+    "SYNB-064",
+    "SYNB-065",
+    "SYNB-066",
+    "SYNB-067",
+    "SYNB-068"
+   ],
+   "overlaps": [
+    "C5"
+   ]
+  },
+  {
+   "candidate_id": "B09",
+   "proposed_parent": "SCF-NP",
+   "expected_parent": "SCF-NP",
+   "name": "Hydraulic system failure in flight",
+   "definition": "Loss of fluid or pressure in a hydraulic system in flight degrades flight controls, brakes or landing gear.",
+   "expected_reports": [
+    "SYNB-069",
+    "SYNB-070",
+    "SYNB-071",
+    "SYNB-072",
+    "SYNB-073",
+    "SYNB-074",
+    "SYNB-075",
+    "SYNB-076",
+    "SYNB-077",
+    "SYNB-078"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B10",
+   "proposed_parent": "SCF-NP",
+   "expected_parent": "SCF-NP",
+   "name": "Landing gear did not extend",
+   "definition": "One or more landing gear legs fail to extend or lock down, requiring alternate extension or a gear-up landing.",
+   "expected_reports": [
+    "SYNB-079",
+    "SYNB-080",
+    "SYNB-081",
+    "SYNB-082",
+    "SYNB-083",
+    "SYNB-084",
+    "SYNB-085",
+    "SYNB-086"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B11",
+   "proposed_parent": "CFIT",
+   "expected_parent": "CFIT",
+   "name": "Terrain warning on a non-precision approach",
+   "definition": "During a non-precision or visual approach the aircraft descends too low and the terrain awareness system warns of terrain or obstacles.",
+   "expected_reports": [
+    "SYNB-087",
+    "SYNB-088",
+    "SYNB-089",
+    "SYNB-090",
+    "SYNB-091",
+    "SYNB-092",
+    "SYNB-093",
+    "SYNB-094"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B12",
+   "proposed_parent": "NAV",
+   "expected_parent": "NAV",
+   "name": "GNSS interference or spoofing",
+   "definition": "Satellite navigation signals are jammed or spoofed, giving false position, lost RNP capability or incorrect time, often near conflict zones.",
+   "expected_reports": [
+    "SYNB-095",
+    "SYNB-096",
+    "SYNB-097",
+    "SYNB-098",
+    "SYNB-099",
+    "SYNB-100",
+    "SYNB-101",
+    "SYNB-102"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B13",
+   "proposed_parent": "SCF-NP",
+   "expected_parent": "SCF-PP",
+   "name": "Engine shutdown after loss of oil pressure",
+   "definition": "Low oil pressure or oil loss in flight leads the crew to shut an engine down as a precaution.",
+   "expected_reports": [
+    "SYNB-103",
+    "SYNB-104",
+    "SYNB-105",
+    "SYNB-106",
+    "SYNB-107",
+    "SYNB-108"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B14",
+   "proposed_parent": "ICE",
+   "expected_parent": "ICE",
+   "name": "Takeoff with frost or ice not removed",
+   "definition": "The aircraft departs or begins to depart with frost, snow or ice on its wings because it was not removed or the fluid failed.",
+   "expected_reports": [
+    "SYNB-109",
+    "SYNB-110"
+   ],
+   "overlaps": [
+    "C8"
+   ]
+  },
+  {
+   "candidate_id": "B15",
+   "proposed_parent": "BIRD",
+   "expected_parent": "BIRD",
+   "name": "Bird ingestion damaging an engine on takeoff or climb",
+   "definition": "One or more birds are ingested into an engine during takeoff or initial climb, causing vibration, surging or loss of thrust.",
+   "expected_reports": [
+    "SYNB-111",
+    "SYNB-112",
+    "SYNB-113",
+    "SYNB-114",
+    "SYNB-115",
+    "SYNB-116",
+    "SYNB-117",
+    "SYNB-118"
+   ],
+   "overlaps": [
+    "C7"
+   ]
+  },
+  {
+   "candidate_id": "B16",
+   "proposed_parent": "BIRD",
+   "expected_parent": "BIRD",
+   "name": "Bird strike damaging the windshield or nose on approach",
+   "definition": "A large bird or flock strikes the windshield, radome or nose on approach or descent and causes visible damage.",
+   "expected_reports": [
+    "SYNB-119",
+    "SYNB-120",
+    "SYNB-121",
+    "SYNB-122",
+    "SYNB-123",
+    "SYNB-124",
+    "SYNB-125",
+    "SYNB-126"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B17",
+   "proposed_parent": "F-NI",
+   "expected_parent": "F-NI",
+   "name": "Lithium battery fire from a passenger device",
+   "definition": "A phone, laptop, power bank or other lithium battery device overheats, smokes or catches fire in the cabin.",
+   "expected_reports": [
+    "SYNB-127",
+    "SYNB-128",
+    "SYNB-129",
+    "SYNB-130",
+    "SYNB-131",
+    "SYNB-132",
+    "SYNB-133",
+    "SYNB-134"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B18",
+   "proposed_parent": "F-NI",
+   "expected_parent": "F-NI",
+   "name": "Electrical smoke or burning smell in the flight deck",
+   "definition": "Smoke, fumes or a burning electrical smell appears in the flight deck, often traced to wiring, a display or a window heater.",
+   "expected_reports": [
+    "SYNB-135",
+    "SYNB-136",
+    "SYNB-137",
+    "SYNB-138",
+    "SYNB-139",
+    "SYNB-140",
+    "SYNB-141",
+    "SYNB-142"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B19",
+   "proposed_parent": "FUEL",
+   "expected_parent": "FUEL",
+   "name": "Low fuel after holding or a diversion",
+   "definition": "Extended holding, a missed approach or a diversion leaves the aircraft close to or below final reserve fuel, and the crew declares minimum fuel or a fuel emergency.",
+   "expected_reports": [
+    "SYNB-143",
+    "SYNB-144",
+    "SYNB-145",
+    "SYNB-146",
+    "SYNB-147",
+    "SYNB-148",
+    "SYNB-149",
+    "SYNB-150"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B20",
+   "proposed_parent": "RAMP",
+   "expected_parent": "RAMP",
+   "name": "Pushback or towing collision",
+   "definition": "During pushback or towing the tug, towbar or aircraft strikes another aircraft, a vehicle or a fixed object.",
+   "expected_reports": [
+    "SYNB-151",
+    "SYNB-152",
+    "SYNB-153",
+    "SYNB-154",
+    "SYNB-155",
+    "SYNB-156",
+    "SYNB-157",
+    "SYNB-158"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B21",
+   "proposed_parent": "CABIN",
+   "expected_parent": "CABIN",
+   "name": "Disruptive or unruly passenger",
+   "definition": "A passenger is aggressive, intoxicated or refuses crew instructions, interfering with the crew or other passengers.",
+   "expected_reports": [
+    "SYNB-159",
+    "SYNB-160",
+    "SYNB-161",
+    "SYNB-162",
+    "SYNB-163",
+    "SYNB-164",
+    "SYNB-165",
+    "SYNB-166"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B22",
+   "proposed_parent": "ARC",
+   "expected_parent": "ARC",
+   "name": "Tail strike on takeoff",
+   "definition": "The tail strikes the runway during takeoff rotation, often after early or fast rotation or a wrong takeoff speed or weight.",
+   "expected_reports": [
+    "SYNB-167",
+    "SYNB-168",
+    "SYNB-169",
+    "SYNB-170",
+    "SYNB-171",
+    "SYNB-172",
+    "SYNB-173",
+    "SYNB-174"
+   ],
+   "overlaps": [
+    "C9"
+   ]
+  },
+  {
+   "candidate_id": "B23",
+   "proposed_parent": "TURB",
+   "expected_parent": "WSTRW",
+   "name": "Windshear on final approach",
+   "definition": "A sudden change in wind speed or direction on approach, often near a thunderstorm or microburst, causes loss of airspeed and a windshear warning.",
+   "expected_reports": [
+    "SYNB-175",
+    "SYNB-176",
+    "SYNB-177",
+    "SYNB-178",
+    "SYNB-179",
+    "SYNB-180",
+    "SYNB-181",
+    "SYNB-182"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B24",
+   "proposed_parent": "USOS",
+   "expected_parent": "USOS",
+   "name": "Landing short of the runway",
+   "definition": "The aircraft touches down before the runway threshold, on the approach lights or in the undershoot area.",
+   "expected_reports": [
+    "SYNB-183",
+    "SYNB-184",
+    "SYNB-185",
+    "SYNB-186",
+    "SYNB-187",
+    "SYNB-188"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B25",
+   "proposed_parent": "ICE",
+   "expected_parent": "ICE",
+   "name": "Airframe icing in flight",
+   "definition": "Ice builds on the wings, tail or windshield in flight in icing conditions, degrading performance or handling.",
+   "expected_reports": [
+    "SYNB-189",
+    "SYNB-190",
+    "SYNB-191",
+    "SYNB-192",
+    "SYNB-193",
+    "SYNB-194"
+   ],
+   "overlaps": []
+  },
+  {
+   "candidate_id": "B26",
+   "proposed_parent": "SCF-NP",
+   "expected_parent": "SCF-NP",
+   "name": "Unreliable airspeed from blocked pitot probes",
+   "definition": "Pitot probes blocked by ice, insects or covers give wrong airspeed indications, leading to warnings and autopilot disconnection.",
+   "expected_reports": [
+    "SYNB-195",
+    "SYNB-196",
+    "SYNB-197",
+    "SYNB-198",
+    "SYNB-199",
+    "SYNB-200",
+    "SYNB-201",
+    "SYNB-202"
+   ],
+   "overlaps": [
+    "C4"
+   ]
+  },
+  {
+   "candidate_id": "B27",
+   "proposed_parent": "RI",
+   "expected_parent": "RI",
+   "name": "Crew crossed a hold-short line without clearance",
+   "definition": "The flight crew taxis past a runway hold-short line without a clearance to enter or cross the runway (pilot deviation).",
+   "expected_reports": [
+    "SYNB-203",
+    "SYNB-204",
+    "SYNB-205",
+    "SYNB-206",
+    "SYNB-207",
+    "SYNB-208",
+    "SYNB-209",
+    "SYNB-210"
+   ],
+   "overlaps": [
+    "C2"
+   ]
+  },
+  {
+   "candidate_id": "B28",
+   "proposed_parent": "NAV",
+   "expected_parent": "NAV",
+   "name": "Wrong route or waypoint loaded in the FMS",
+   "definition": "The flight management system is loaded with the wrong route, waypoint or departure, and the aircraft deviates from its cleared route.",
+   "expected_reports": [
+    "SYNB-211",
+    "SYNB-212",
+    "SYNB-213"
+   ],
+   "overlaps": []
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+reviewed_run_id,candidate_id,action,target_type,target_id,value,rationale,prompting_report,suggestion
+run-ntsb-20261110T192033918,,,,,,,ERA26FA341,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA322,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D16,,,,,,CEN26LA316,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D16 at 0.06: new bucket or widen D16
+run-ntsb-20261110T192033918,D16,,,,,,CEN26LA316/2,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D16 at 0.06: new bucket or widen D16
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA313,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D08,,,,,,WPR26FA330,classifier review: only D08 in the set but p = 0.10 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA334,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.01: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA098,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26FA310,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.03: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA312,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,ERA26LA333,classifier review: only D05 in the set but p = 0.23 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA342,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.03: new bucket or widen D01
+run-ntsb-20261110T192033918,C4,,,,,,ERA26FA329,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.05: new bucket or widen C4
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA331,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,B05,,,,,,WPR26FA329,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.05: new bucket or widen B05
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA328,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,ANC26FA097,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA308,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,B05,,,,,,ERA26FA326,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.06: new bucket or widen B05
+run-ntsb-20261110T192033918,D06,,,,,,WPR26LA328,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.01: new bucket or widen D06
+run-ntsb-20261110T192033918,D12,,,,,,ERA26LA325,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D12 at 0.01: new bucket or widen D12
+run-ntsb-20261110T192033918,B04,,,,,,WPR26LA326,classifier review: only B04 in the set but p = 0.35 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA327,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D08,,,,,,WPR26FA320,classifier review: only D08 in the set but p = 0.10 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,ERA26FA317,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA324,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA319,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA321,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA316,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D07,,,,,,ERA26LA320,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D07 at 0.03: new bucket or widen D07
+run-ntsb-20261110T192033918,,,,,,,ANC26FA091,classifier out_of_scope: no trained bucket under CTOL: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,CEN26LA296,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,B04,,,,,,ERA26FA310,classifier review: only B04 in the set but p = 0.08 < 0.5: SME confirms
+run-ntsb-20261110T192033918,,,,,,,WPR26FA309,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D10,,,,,,WPR26LA312,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D10 at 0.05: new bucket or widen D10
+run-ntsb-20261110T192033918,B08,,,,,,ERA26FA309,classifier review: only B08 in the set but p = 0.08 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B08,,,,,,ERA26FA309/2,classifier review: only B08 in the set but p = 0.09 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA088,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,B10,,,,,,CEN26LA295,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA303,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26LA290,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,ERA26LA305,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA084,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA287,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26LA285,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,WPR26FA301,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA283,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,WPR26LA296,classifier out_of_scope: no trained bucket under CTOL: consider a new bucket
+run-ntsb-20261110T192033918,D08,,,,,,ERA26FA294,classifier review: only D08 in the set but p = 0.16 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA295,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA302,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.01: new bucket or widen B10
+run-ntsb-20261110T192033918,,,,,,,ANC26FA079,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,WPR26FA294,"classifier out_of_scope: no trained bucket under WSTRW, OTHR: consider a new bucket"
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA080,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,C4,,,,,,CEN26LA282,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.03: new bucket or widen C4
+run-ntsb-20261110T192033918,,,,,,,ERA26FA291,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,WPR26FA289,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA291,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,WPR26LA295,classifier review: only D05 in the set but p = 0.42 < 0.5: SME confirms
+run-ntsb-20261110T192033918,C4,,,,,,CEN26FA280,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.05: new bucket or widen C4
+run-ntsb-20261110T192033918,,,,,,,OPS26LA063,classifier out_of_scope: no trained bucket under ATM: consider a new bucket
+run-ntsb-20261110T192033918,B08,,,,,,OPS26LA063/2,classifier review: only B08 in the set but p = 0.47 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B05,,,,,,CEN26FA275,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.04: new bucket or widen B05
+run-ntsb-20261110T192033918,D06,,,,,,CEN26LA276,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.02: new bucket or widen D06
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA277,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,WPR26FA284,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA285,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D08,,,,,,CEN26LA274,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D08 at 0.02: new bucket or widen D08
+run-ntsb-20261110T192033918,C4,,,,,,WPR26FA281,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.03: new bucket or widen C4
+run-ntsb-20261110T192033918,,,,,,,ANC26FA077,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA268,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA269,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA284,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26FA267,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA271,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,ENG26LA029/2,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,ERA26LA280,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.05: new bucket or widen D05
+run-ntsb-20261110T192033918,,,,,,,ERA26LA284,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-ntsb-20261110T192033918,D16,,,,,,WPR26LA274,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D16 at 0.06: new bucket or widen D16
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA283,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,WPR26LA275,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-ntsb-20261110T192033918,B18,,,,,,WPR26LA270,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B18 at 0.00: new bucket or widen B18
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA075,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26LA260,"classifier out_of_scope: no trained bucket under OTHR, RAMP: consider a new bucket"
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA265,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26LA266,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D05,,,,,,ANC26LA072,classifier review: only D05 in the set but p = 0.36 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D16,,,,,,ERA26LA275,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D16 at 0.07: new bucket or widen D16
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA259,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA269,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA258,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26FA257,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,CEN26LA263,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,B04,,,,,,WPR26FA262,classifier review: only B04 in the set but p = 0.08 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA279,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.02: new bucket or widen B10
+run-ntsb-20261110T192033918,,,,,,,CEN26FA253,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,B11,,,,,,ERA26FA271,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B11 at 0.01: new bucket or widen B11
+run-ntsb-20261110T192033918,C4,,,,,,WPR26FA257,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.04: new bucket or widen C4
+run-ntsb-20261110T192033918,D08,,,,,,CEN26LA254,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D08 at 0.03: new bucket or widen D08
+run-ntsb-20261110T192033918,D01,,,,,,ERA26FA270,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D13,,,,,,CEN26FA247,classifier review: only D13 in the set but p = 0.08 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B05,,,,,,ERA26FA269,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.06: new bucket or widen B05
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA258,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,B10,,,,,,CEN26LA251,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,DCA26FA274,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,B11,,,,,,ERA26FA266,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B11 at 0.01: new bucket or widen B11
+run-ntsb-20261110T192033918,C4,,,,,,ERA26LA272,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.00: new bucket or widen C4
+run-ntsb-20261110T192033918,,,,,,,WPR26FA254,classifier out_of_scope: no trained bucket under WSTRW: consider a new bucket
+run-ntsb-20261110T192033918,B18,,,,,,WPR26LA256,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B18 at 0.00: new bucket or widen B18
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA248,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D03,,,,,,CEN26LA250,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D03 at 0.03: new bucket or widen D03
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA070,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA069,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,WPR26LA249,classifier review: only D05 in the set but p = 0.39 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA251,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.03: new bucket or widen D01
+run-ntsb-20261110T192033918,D04,,,,,,ERA26LA259,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.03: new bucket or widen D04
+run-ntsb-20261110T192033918,B05,,,,,,CEN26LA244,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.01: new bucket or widen B05
+run-ntsb-20261110T192033918,D06,,,,,,ERA26LA261,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.01: new bucket or widen D06
+run-ntsb-20261110T192033918,B04,,,,,,ERA26LA263,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B04 at 0.02: new bucket or widen B04
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA245,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.03: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA242,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.06: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,ERA26LA258,classifier out_of_scope: no trained bucket under CTOL: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,CEN26FA241,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA257,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,CEN26LA243,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.00: new bucket or widen D05
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA254,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D04,,,,,,ERA26LA255,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.00: new bucket or widen D04
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA242,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.01: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA066,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,,,,,,,ERA26FA253,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA237,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,C4,,,,,,ERA26FA252,classifier review: only C4 in the set but p = 0.08 < 0.5: SME confirms
+run-ntsb-20261110T192033918,,,,,,,ERA26LA264,classifier out_of_scope: no trained bucket under RAMP: consider a new bucket
+run-ntsb-20261110T192033918,D04,,,,,,WPR26LA238,classifier review: only D04 in the set but p = 0.31 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D05,,,,,,CEN26LA238,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.06: new bucket or widen D05
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA251,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D05,,,,,,ERA26LA260,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.02: new bucket or widen D05
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA235,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA236,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D07,,,,,,CEN26LA236,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D07 at 0.05: new bucket or widen D07
+run-ntsb-20261110T192033918,D07,,,,,,CEN26LA240,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D07 at 0.02: new bucket or widen D07
+run-ntsb-20261110T192033918,B11,,,,,,WPR26FA232,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B11 at 0.01: new bucket or widen B11
+run-ntsb-20261110T192033918,,,,,,,WPR26FA233,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-ntsb-20261110T192033918,B10,,,,,,CEN26LA231,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D06,,,,,,CEN26LA232,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.07: new bucket or widen D06
+run-ntsb-20261110T192033918,D16,,,,,,ERA26LA248,classifier review: only D16 in the set but p = 0.09 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D16,,,,,,ERA26LA248/2,classifier review: only D16 in the set but p = 0.10 < 0.5: SME confirms
+run-ntsb-20261110T192033918,,,,,,,WPR26LA229,"classifier out_of_scope: no trained bucket under CTOL, OTHR: consider a new bucket"
+run-ntsb-20261110T192033918,B04,,,,,,WPR26LA234,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B04 at 0.00: new bucket or widen B04
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA062,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D13,,,,,,CEN26LA234,classifier review: only D13 in the set but p = 0.21 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA063,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D02,,,,,,ERA26FA243,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D02 at 0.04: new bucket or widen D02
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA226,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.01: new bucket or widen B10
+run-ntsb-20261110T192033918,B10,,,,,,WPR26LA227,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D11,,,,,,WPR26LA230,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D11 at 0.00: new bucket or widen D11
+run-ntsb-20261110T192033918,D04,,,,,,WPR26LA241,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.01: new bucket or widen D04
+run-ntsb-20261110T192033918,B10,,,,,,CEN26LA230,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,,,,,,,DCA26LA242,classifier out_of_scope: no trained bucket under ATM: consider a new bucket
+run-ntsb-20261110T192033918,C1,,,,,,DCA26LA242/2,classifier review: only C1 in the set but p = 0.16 < 0.5: SME confirms
+run-ntsb-20261110T192033918,B04,,,,,,ERA26LA244,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B04 at 0.05: new bucket or widen B04
+run-ntsb-20261110T192033918,C4,,,,,,WPR26FA223,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.04: new bucket or widen C4
+run-ntsb-20261110T192033918,,,,,,,WPR26FA224,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,B11,,,,,,ANC26FA057,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B11 at 0.01: new bucket or widen B11
+run-ntsb-20261110T192033918,D05,,,,,,WPR26LA225,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.07: new bucket or widen D05
+run-ntsb-20261110T192033918,D02,,,,,,CEN26FA228,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D02 at 0.07: new bucket or widen D02
+run-ntsb-20261110T192033918,C4,,,,,,ERA26FA241,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.03: new bucket or widen C4
+run-ntsb-20261110T192033918,D04,,,,,,WPR26LA222,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.02: new bucket or widen D04
+run-ntsb-20261110T192033918,,,,,,,ANC26FA054,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D07,,,,,,WPR26LA228,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D07 at 0.05: new bucket or widen D07
+run-ntsb-20261110T192033918,B10,,,,,,ERA26FA239,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,B04,,,,,,ERA26LA246,classifier review: only B04 in the set but p = 0.32 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D05,,,,,,WPR26LA221,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.01: new bucket or widen D05
+run-ntsb-20261110T192033918,D01,,,,,,ANC26LA053,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.03: new bucket or widen D01
+run-ntsb-20261110T192033918,B05,,,,,,CEN26FA224,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B05 at 0.07: new bucket or widen B05
+run-ntsb-20261110T192033918,D07,,,,,,CEN26LA226,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D07 at 0.06: new bucket or widen D07
+run-ntsb-20261110T192033918,D05,,,,,,ANC26LA051,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D05 at 0.03: new bucket or widen D05
+run-ntsb-20261110T192033918,D06,,,,,,ERA26LA242,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.01: new bucket or widen D06
+run-ntsb-20261110T192033918,D16,,,,,,ERA26LA278,classifier review: only D16 in the set but p = 0.10 < 0.5: SME confirms
+run-ntsb-20261110T192033918,,,,,,,WPR26FA216,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,,,,,,,WPR26FA217,classifier out_of_scope: no trained bucket under UNK: consider a new bucket
+run-ntsb-20261110T192033918,D08,,,,,,CEN26FA222,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D08 at 0.03: new bucket or widen D08
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA223,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.00: new bucket or widen D01
+run-ntsb-20261110T192033918,B16,,,,,,WPR26LA220,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B16 at 0.01: new bucket or widen B16
+run-ntsb-20261110T192033918,D06,,,,,,ERA26LA236,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.00: new bucket or widen D06
+run-ntsb-20261110T192033918,D06,,,,,,ERA26LA238,classifier review: only D06 in the set but p = 0.15 < 0.5: SME confirms
+run-ntsb-20261110T192033918,D06,,,,,,WPR26LA215,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D06 at 0.04: new bucket or widen D06
+run-ntsb-20261110T192033918,,,,,,,ERA26LA234,classifier out_of_scope: no trained bucket under OTHR: consider a new bucket
+run-ntsb-20261110T192033918,D04,,,,,,ERA26LA237,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.00: new bucket or widen D04
+run-ntsb-20261110T192033918,D04,,,,,,ERA26LA245,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D04 at 0.00: new bucket or widen D04
+run-ntsb-20261110T192033918,D01,,,,,,WPR26LA211,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA220,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,D03,,,,,,ERA26FA230,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D03 at 0.04: new bucket or widen D03
+run-ntsb-20261110T192033918,B10,,,,,,ERA26LA232,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B10 at 0.00: new bucket or widen B10
+run-ntsb-20261110T192033918,D01,,,,,,ERA26LA231,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.02: new bucket or widen D01
+run-ntsb-20261110T192033918,C4,,,,,,ERA26LA240,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest C4 at 0.00: new bucket or widen C4
+run-ntsb-20261110T192033918,D08,,,,,,WPR26LA212,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D08 at 0.02: new bucket or widen D08
+run-ntsb-20261110T192033918,B04,,,,,,ERA26LA229,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest B04 at 0.00: new bucket or widen B04
+run-ntsb-20261110T192033918,D01,,,,,,CEN26LA218,classifier none_of_these: no bucket reaches the conformal threshold 0.08; nearest D01 at 0.01: new bucket or widen D01

@@ -1,0 +1,3426 @@
+{
+ "_note": "Combined from data, data_sample_b. Reports are SYNTHETIC (written or template-generated for the trial), not real events.",
+ "reports": [
+  {
+   "report_key": "SAMPLE-001",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Taxiway; Deviation: Track or Heading",
+   "narrative": "During a night visual approach to Runway 27R the crew lined up on the parallel taxiway, mistaking the taxiway edge lights for runway lights. Tower issued a go-around at about 200 feet above ground. No aircraft were on the taxiway."
+  },
+  {
+   "report_key": "SAMPLE-002",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "Cleared for takeoff on Runway 4L, the crew taxied onto Runway 4R, which was closed for construction. The takeoff roll began before the first officer noticed the closure markings, and the takeoff was rejected at 40 knots."
+  },
+  {
+   "report_key": "SAMPLE-003",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway; Deviation: Clearance",
+   "narrative": "After a late runway change the crew did not rebrief the approach and landed on Runway 35L instead of the assigned Runway 35R."
+  },
+  {
+   "report_key": "SAMPLE-004",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Taxiway",
+   "narrative": "In low visibility the crew began a takeoff from taxiway Bravo, believing it was the runway. The takeoff was abandoned when they saw the blue taxiway edge lights."
+  },
+  {
+   "report_key": "SAMPLE-005",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RI",
+    "NAV"
+   ],
+   "source_codes": "Deviation: Track or Heading; Other: Wrong Airport",
+   "narrative": "The crew landed at a nearby general aviation airport with a similar runway alignment instead of the destination airport. The error was found after landing."
+  },
+  {
+   "report_key": "SAMPLE-006",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI",
+    "ATM"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "Taxiing to Runway 16, the crew crossed the hold-short line for Runway 22 without a clearance while another aircraft was on its takeoff roll. ATC cancelled the takeoff clearance."
+  },
+  {
+   "report_key": "SAMPLE-007",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway; Deviation: Clearance",
+   "narrative": "A readback error led the crew to hear cross Runway 9 instead of hold short of Runway 9, and the aircraft entered the active runway without a clearance."
+  },
+  {
+   "report_key": "SAMPLE-008",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "A snow removal vehicle entered the active runway without a clearance during clearing operations. Landing traffic was sent around."
+  },
+  {
+   "report_key": "SAMPLE-009",
+   "source_id": "SAMPLE",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "Ground Incursion: Runway",
+   "narrative": "The stop bar lights were on, but the crew continued past the holding point onto the runway after mistaking a frequency change for a crossing clearance."
+  },
+  {
+   "report_key": "SAMPLE-010",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "The aircraft landed long on a wet runway with a tailwind. Braking action was poor and the aircraft overran the runway end by 60 metres into the runway end safety area."
+  },
+  {
+   "report_key": "SAMPLE-011",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway; Inflight Event: Unstabilized Approach",
+   "narrative": "After an unstabilized, fast approach the aircraft touched down 2,500 feet beyond the threshold on a runway reported with standing water and came to a stop in the overrun area."
+  },
+  {
+   "report_key": "SAMPLE-012",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE",
+    "ICE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "The runway condition code was reported as 2 after freezing rain. The crew did not recompute the landing distance and the aircraft overran onto the grass beyond the runway end."
+  },
+  {
+   "report_key": "SAMPLE-013",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE",
+    "SCF-PP"
+   ],
+   "source_codes": "Ground Excursion: Runway; Equipment Problem",
+   "narrative": "With one thrust reverser unavailable, a long landing on a contaminated runway ended in a low-speed overrun past the runway end."
+  },
+  {
+   "report_key": "SAMPLE-014",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "Ground Excursion: Runway",
+   "narrative": "In a strong, gusty crosswind the aircraft veered off the left side of the runway during the landing roll."
+  },
+  {
+   "report_key": "SAMPLE-015",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "LOC-I",
+    "ICE"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control; Equipment Problem",
+   "narrative": "Climbing through FL280 in icing conditions, the captain and first officer airspeed indications disagreed. The autopilot disconnected and the aircraft reached a stall warning before the crew recovered."
+  },
+  {
+   "report_key": "SAMPLE-016",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "Equipment Problem: Air Data",
+   "narrative": "After takeoff an airspeed disagree alert appeared. The crew used the unreliable airspeed checklist, flew pitch and power, and returned to the departure airport without further problems."
+  },
+  {
+   "report_key": "SAMPLE-017",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "LOC-I",
+    "SCF-NP"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control; Equipment Problem",
+   "narrative": "A pitot heat failure at cruise produced a falling airspeed indication. The crew pitched down in response, reached an overspeed and lost significant altitude before recovering."
+  },
+  {
+   "report_key": "SAMPLE-018",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "LOC-I",
+    "ICE"
+   ],
+   "source_codes": "Inflight Event: Loss of Aircraft Control",
+   "narrative": "Ice crystals caused unreliable airspeed indications. The stick shaker activated and the aircraft descended 3,000 feet during the upset before control was regained."
+  },
+  {
+   "report_key": "SAMPLE-019",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "The climbing aircraft overshot its cleared altitude of FL240 by 400 feet, and opposite-direction traffic received a TCAS resolution advisory to descend."
+  },
+  {
+   "report_key": "SAMPLE-020",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "Autopilot mode confusion caused an altitude deviation, and the crew received a TCAS resolution advisory for traffic 600 feet below."
+  },
+  {
+   "report_key": "SAMPLE-021",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "Deviation: Altitude; Conflict: Airborne Conflict",
+   "narrative": "On departure the crew set the wrong altitude in the mode control panel. The resulting level bust triggered a TCAS climb resolution advisory and separation was lost."
+  },
+  {
+   "report_key": "SAMPLE-022",
+   "source_id": "SAMPLE",
+   "phase": "Descent",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "Conflict: Airborne Conflict; ATC Issue",
+   "narrative": "The controller issued a descent clearance into conflicting traffic and both aircraft received TCAS resolution advisories."
+  },
+  {
+   "report_key": "SAMPLE-023",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "The aircraft encountered severe clear-air turbulence at FL350 with no weather shown on radar. Two flight attendants in the aft galley were injured."
+  },
+  {
+   "report_key": "SAMPLE-024",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Unforecast turbulence near the jet stream occurred just after the seat belt sign was turned off. A passenger standing in the aisle broke an ankle."
+  },
+  {
+   "report_key": "SAMPLE-025",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Moderate to severe clear-air turbulence over the mountains caught the cabin with carts not secured, and a flight attendant was struck by a cart."
+  },
+  {
+   "report_key": "SAMPLE-026",
+   "source_id": "SAMPLE",
+   "phase": "Cruise",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "Inflight Event: Turbulence; Injury",
+   "narrative": "Only light chop was expected, but the aircraft met sudden severe turbulence in clear air. Three passengers who were not wearing seat belts were injured."
+  },
+  {
+   "report_key": "SAMPLE-027",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "Inflight Event: Wake Vortex Encounter",
+   "narrative": "Wake turbulence from a heavy aircraft on final approach caused a sudden 30-degree roll. The crew recovered and there were no injuries."
+  },
+  {
+   "report_key": "SAMPLE-028",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "A flock of geese was ingested into the left engine at 800 feet after takeoff. The engine vibrated and lost thrust, and the crew shut it down and returned."
+  },
+  {
+   "report_key": "SAMPLE-029",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "Multiple bird strikes during the takeoff roll caused the right engine to surge, and the crew rejected the takeoff."
+  },
+  {
+   "report_key": "SAMPLE-030",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike",
+   "narrative": "A bird strike on approach was found on the post-flight inspection, with dents on the radome. There was no indication in flight."
+  },
+  {
+   "report_key": "SAMPLE-031",
+   "source_id": "SAMPLE",
+   "phase": "Climb",
+   "l1_codes": [
+    "SCF-PP",
+    "BIRD"
+   ],
+   "source_codes": "Inflight Event: Bird Strike; Equipment Problem: Engine",
+   "narrative": "After ingesting a large bird at 3,000 feet the crew received an engine fire warning, shut the engine down and discharged the fire extinguisher."
+  },
+  {
+   "report_key": "SAMPLE-032",
+   "source_id": "SAMPLE",
+   "phase": "Ground",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "Ground Event: De-icing",
+   "narrative": "The takeoff was delayed beyond the de-icing fluid holdover time, and the crew returned to the pad for a second de-icing."
+  },
+  {
+   "report_key": "SAMPLE-033",
+   "source_id": "SAMPLE",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "Inflight Event: Terrain Warning",
+   "narrative": "During a non-precision approach at night the crew received a GPWS terrain warning, climbed and went around."
+  },
+  {
+   "report_key": "SAMPLE-034",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Hard Landing",
+   "narrative": "A late flare in gusty winds led to a hard landing and a tail strike."
+  },
+  {
+   "report_key": "SAMPLE-035",
+   "source_id": "SAMPLE",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Tail Strike",
+   "narrative": "An incorrect takeoff weight in the flight management computer led to early rotation and a tail strike on takeoff."
+  },
+  {
+   "report_key": "SAMPLE-036",
+   "source_id": "SAMPLE",
+   "phase": "Landing",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "Ground Event: Hard Landing",
+   "narrative": "A bounced landing was followed by a hard second touchdown that damaged the nose landing gear."
+  },
+  {
+   "report_key": "SYNB-060",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the B737 MAX 8 to descend into conflicting traffic at FL310. Separation was lost. The sector was very busy.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-072",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL280 the A hydraulic system quantity dropped to zero. We ran the hydraulic loss checklist and returned to the departure airport. The gear was extended by gravity.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-074",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL240 the green hydraulic system quantity dropped to zero. The flight crew ran the hydraulic loss checklist and diverted. Landing distance was longer because of reduced braking.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-118",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 1,500 feet after takeoff from a coastal airport, the E175 flew through a flock of starlings. The left engine showed high vibration after ingesting birds. The captain and first officer declared an emergency and landed overweight. The engine was replaced.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-021",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Runway 31L with a crosswind near the limit, the B767-300F drifted toward the edge. The aircraft veered off the right side of the runway and stopped on the grass. The nose gear was damaged.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-234",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "A bird struck the left wing leading edge during the approach. No damage was found on inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-012",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The crew lined up on taxiway Echo in darkness, mistaking its lights for Runway 18R. The aircraft landed on the taxiway, which was clear of traffic. The approach lighting for the assigned runway was set to a low intensity.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-191",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 10,000 ft in supercooled cloud, ice built up on the wings faster than expected. Airspeed decayed and more power was needed. The flight crew increased the approach speed.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-076",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL350 the left hydraulic system quantity dropped to zero. The captain and first officer ran the hydraulic loss checklist and continued to the destination. Landing distance was longer because of reduced braking.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-083",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the left main gear showed unsafe with no green light. The alternate gear extension did not lock the gear. A tower flyby confirmed the gear position.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-261",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "A rejected takeoff at 125 knots was carried out for a master caution. The aircraft stopped on the runway with hot brakes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-070",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL210 the B hydraulic system quantity dropped to zero. The crew ran the hydraulic loss checklist and returned to the departure airport. The gear was extended by gravity.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-025",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Runway 18R with a crosswind near the limit, the A330-300 drifted toward the edge. The aircraft veered off the right side of the runway and stopped on the grass. The runway was closed for two hours.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-146",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After two missed approaches in clear conditions, fuel dropped toward final reserve. The crew declared minimum fuel and received priority. The aircraft landed with 900 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-022",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Runway 04R in strong gusts from the left, the E175 drifted toward the edge. The aircraft veered off the right side of the runway before returning to the pavement. The nose gear was damaged.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-198",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "In cruise at FL350 the captain's and first officer's airspeeds disagreed by 60 knots. The autopilot disconnected and the crew flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-069",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL210 the green hydraulic system quantity dropped to zero. The crew ran the hydraulic loss checklist and continued to the destination. The gear was extended by gravity.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-259",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel imbalance of 900 kg developed during cruise. The crew followed the fuel imbalance checklist and found no leak.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-253",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "The FMS lost its navigation database during preflight and had to be reloaded. The departure was delayed by 40 minutes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-129",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's power bank overheated after being crushed in a seat mechanism. Cabin crew cooled the device with water. Two passengers were treated for smoke inhalation.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-113",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 800 feet after takeoff from a coastal airport, the A321neo flew through a flock of geese. The right engine showed high vibration after ingesting birds. The crew shut the engine down and returned. Bird remains were found in the engine core.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-236",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger fainted during cruise. Cabin crew provided first aid and medical services met the aircraft.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-175",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final in gusty conditions the airspeed dropped by 25 knots. The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre. The aircraft lost 300 feet before climbing.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-096",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "Over the eastern Mediterranean both GPS receivers reported a different time. ATC provided radar vectors. The position errors stopped after 20 minutes.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-184",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a visual approach at night the E175 touched down on the approach lights short of the threshold of Runway 34L. A black-hole illusion made the approach look high. The main gear was damaged.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-044",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The CAPT and FO initiated a go-around at 1,000 ft in light rain. With full thrust the pitch rose to 28 degrees and the speed decayed until the stick shaker activated. The CAPT lowered the nose and recovered.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-023",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Rwy 16 with a 30-knot gusting crosswind, the B787-9 drifted toward the edge. The aircraft veered off the left side of the rwy and stopped on the grass. The rwy was closed for two hours.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-172",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Rwy 22 the tail of the B787-9 struck the rwy. The takeoff speeds had been computed with the wrong weight. We did not pressurize and returned.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-159",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A aggressive passenger refused to follow crew instructions during the flight. Cabin crew restrained the passenger with help from others. The aircraft diverted to offload the passenger.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-195",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During the takeoff roll the captain's and first officer's airspeeds disagreed by 40 knots. An IAS DISAGREE alert appeared and the flight crew flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-272",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "A windshear alert was broadcast by the tower for Rwy 16. The approach was flown to the other rwy without problems.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-256",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger had a seizure during cruise. Cabin crew provided first aid and medical services met the aircraft.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-089",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a RNAV approach late in the evening in clear conditions, the aircraft descended below the minimum altitude. The terrain awareness system called TOO LOW TERRAIN and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-031",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The rwy condition code was 3 with compacted snow. Braking action was poor and the A330-300 overran the end of Rwy 22 into the safety area. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-009",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A snow removal truck entered Runway 18R without a clearance at night. Departing traffic was held in position. The driver said the radio was on the wrong frequency.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-229",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL",
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Fuel spilled from the left wing vent during refuelling at gate 5. The fire service covered the spill and the aircraft was refuelled again.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-064",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew climbed through the cleared altitude of FL180 by 500 feet. Traffic crossing triggered a TCAS resolution advisory to level off. The autopilot did not capture the altitude.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-123",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 3,000 ft a large pelican struck the radome. The radome was dented and holed. The crew continued the approach with the FO flying.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-086",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the nose gear showed unsafe with no green light. The alternate gear extension worked on the second attempt. The aircraft landed with emergency services standing by.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-182",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final near a thunderstorm the airspeed dropped by 30 knots. The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre. The aircraft lost 300 feet before climbing.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-214",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "A bird struck the radome during the approach. No damage was found on inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-029",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The runway condition code was 2 after freezing rain. Braking action was poor and the A330-300 overran the end of Runway 16 onto the grass. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-221",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "A rejected takeoff at 80 knots was carried out for a master caution. The aircraft stopped on the rwy with hot brakes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-136",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During cruise at FL310 we noticed haze in the flight deck. The captain and first officer donned oxygen masks and ran the smoke checklist. The source was a failed display unit. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-014",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew lined up on twy Bravo in darkness, mistaking its lights for Rwy 13. Tower called a go-around at 300 ft. The approach lighting for the assigned rwy was hidden by a NOTAM nobody had briefed.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-270",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "De-icing took 50 minutes because of a queue at the pad. The holdover time was checked again before departure.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-271",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger was found smoking in the aft lavatory. Cabin crew gave a formal warning.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-125",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 3,000 feet a large pelican struck the radome. Blood and feathers covered the windshield. The captain and first officer continued the approach with the FO flying.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-157",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the B777-300ER tail struck a light pole. The wing walker was not in position. The flight was cancelled.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-260",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "The A321neo touched down hard after a late flare. A hard landing inspection was carried out.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-094",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a VOR approach shortly after sunrise in clear conditions, the aircraft descended below the minimum altitude. The terrain awareness system called SINK RATE and the crew climbed away. The altimeter setting had been entered wrongly.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-102",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "On a route near a conflict area both GPS receivers reported a different time. ATC provided radar vectors. The crew reverted to conventional navigation.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-137",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During descent at FL330 the captain and first officer noticed an electrical burning smell in the flight deck. The captain and first officer donned oxygen masks and ran the smoke checklist. The source was an overheated window heat connector. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-200",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "In cruise at FL350 the captain's and first officer's airspeeds disagreed by 40 knots. The autopilot disconnected and we flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-128",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's power bank caught fire in a seat pocket. Cabin crew used a halon extinguisher and then water. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-263",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "Moderate turbulence at FL180 spilled drinks in the cabin. There were no injuries.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-252",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "A windshear alert was broadcast by the tower for Runway 09L. The approach was flown with extra speed but no windshear was met.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-040",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The crew initiated a go-around at 200 ft in clear conditions. With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated. The aircraft rolled to 35 degrees of bank before recovery.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-099",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "OTHR"
+   ],
+   "source_codes": "",
+   "narrative": "Near the Black Sea both GPS receivers reported a different time. ATC provided radar vectors. Several other aircraft reported the same problem.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-115",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 800 ft after takeoff from a regional airport, the A321neo flew through a flock of gulls. The left engine lost thrust after ingesting birds. The CAPT and FO declared an emergency and landed overweight. The engine was replaced.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-051",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 3 miles behind a B777, the CRJ900 encountered wake turbulence. The aircraft rolled 25 degrees to the left before the crew recovered. Spacing had been reduced by ATC.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-179",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final with a microburst reported the airspeed dropped by 30 knots. The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre. A second approach was flown after the storm passed.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-216",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger reported chest pain during cruise. Cabin crew provided first aid and medical services met the aircraft.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-266",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "A TCAS traffic advisory was received for VFR traffic 700 ft below. No resolution advisory followed and the traffic passed clear.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-112",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 800 feet after takeoff from a large hub airport, the A321neo flew through a flock of gulls. The right engine surged with loud bangs after ingesting birds. We declared an emergency and landed overweight. Several fan blades were bent.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-079",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the right main gear showed unsafe with no green light. The alternate gear extension did not lock the gear. The aircraft landed with emergency services standing by.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-206",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Kilo at night, the flight crew crossed the hold-short line for Runway 18R without a clearance. The airport diagram had not been briefed. Tower told the crew to stop.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-149",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After 40 minutes of holding in low visibility, fuel dropped toward final reserve. We declared a fuel emergency and received priority. The aircraft landed with 1,100 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-116",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 400 feet after takeoff from a large hub airport, the E175 flew through a flock of gulls. The number 1 engine surged with loud bangs after ingesting birds. The flight crew shut the engine down and returned. Several fan blades were bent.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-019",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Rwy 31L with a crosswind near the limit, the B787-9 drifted toward the edge. The aircraft veered off the left side of the rwy and struck an edge light. There were no injuries.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-013",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew lined up on twy Echo at night, mistaking its lights for Rwy 27R. The crew went around at about 150 ft after seeing aircraft on the twy. The approach lighting for the assigned rwy was set to a low intensity.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-218",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "Frequency congestion delayed the descent clearance. The crew had to request the clearance several times.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-127",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's power bank began smoking after being crushed in a seat mechanism. Cabin crew put the device in a containment bag. Two passengers were treated for smoke inhalation.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-187",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a visual approach shortly after sunrise the B787-9 touched down 50 metres short of the threshold of Runway 34L. The aircraft was below the glide path for the last mile. Several approach lights were broken.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-027",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Rwy 13 with a crosswind near the limit, the B737 MAX 8 drifted toward the edge. The aircraft veered off the right side of the rwy before returning to the pavement. The nose gear was damaged.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-077",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL280 the green hydraulic system quantity dropped to zero. We ran the hydraulic loss checklist and continued to the destination. A hydraulic line had chafed through.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-248",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Foreign object debris was found on the apron near gate 21. The area was swept before the next arrival.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-075",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL180 the B hydraulic system quantity dropped to zero. The CAPT and FO ran the hydraulic loss checklist and diverted. Landing distance was longer because of reduced braking.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-045",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 3 miles behind a B777, the B787-9 encountered wake turbulence. The aircraft rolled 40 degrees to the right before the crew recovered. The crew had flown below the glide path of the heavy aircraft.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-241",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "A rejected takeoff at 125 knots was carried out for a bird strike warning. The aircraft stopped on the rwy with hot brakes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-142",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During descent at FL330 the crew noticed smoke in the flight deck. We donned oxygen masks and ran the smoke checklist. The source was a failed display unit. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-097",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "OTHR"
+   ],
+   "source_codes": "",
+   "narrative": "Over the eastern Mediterranean both GPS receivers reported a different time. ATC provided radar vectors. Several other aircraft reported the same problem.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-073",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL310 the green hydraulic system quantity dropped to zero. We ran the hydraulic loss checklist and returned to the departure airport. Landing distance was longer because of reduced braking.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-258",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "Frequency congestion delayed the handover. The crew had to request the clearance several times.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-008",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel truck entered Rwy 27R without a clearance late in the evening. Departing traffic was held in position. The driver did not see the rwy guard lights.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-169",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Runway 09L the tail of the B777-300ER struck the runway. A gust raised the pitch rate. We returned to land.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-250",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "De-icing took 50 minutes because of a queue at the pad. The holdover time was checked again before departure.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-240",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "The CRJ900 touched down hard after a late flare. A hard landing inspection was carried out.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-194",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 12,000 ft in icing conditions, ice built up on the wings faster than expected. The anti-ice system could not keep up. The CAPT and FO left the icing area.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-085",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the right main gear showed unsafe with no green light. The alternate gear extension was used and the gear locked down. A tower flyby confirmed the gear position.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-011",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The captain and first officer lined up on taxiway Charlie in darkness, mistaking its lights for Runway 34L. Tower called a go-around at 300 feet. The approach lighting for the assigned runway was hidden by a NOTAM nobody had briefed.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-082",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the left main gear showed unsafe with no green light. The alternate gear extension worked on the second attempt. The aircraft landed with emergency services standing by.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-080",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the nose gear showed unsafe with no green light. The alternate gear extension was used and the gear locked down. The aircraft landed with emergency services standing by.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-110",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Ground",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "After a long taxi in light snow, a passenger reported ice on the wing. The CAPT and FO returned for de-icing.",
+   "_truth": "B14"
+  },
+  {
+   "report_key": "SYNB-211",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Departure",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "After departure the aircraft turned toward the wrong waypoint because a similar-named waypoint was selected. ATC noticed the deviation and asked the crew to check their route.",
+   "_truth": "B28"
+  },
+  {
+   "report_key": "SYNB-181",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final with a microburst reported the airspeed dropped by 30 knots. The reactive windshear warning sounded and the CAPT and FO flew the windshear escape manoeuvre. The aircraft lost 300 ft before climbing.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-207",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Charlie in daylight, the captain and first officer crossed the hold-short line for Runway 22 without a clearance. The airport diagram had not been briefed. An aircraft on approach went around.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-039",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew initiated a go-around at 500 ft in light snow. With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated. The aircraft rolled to 35 degrees of bank before recovery.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-202",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "In cruise at FL350 the captain's and first officer's airspeeds disagreed by 30 knots. An IAS DISAGREE alert appeared and the captain and first officer flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-215",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "A catering truck struck the cargo door at the gate. The aircraft was taken out of service for inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-176",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final in gusty conditions the airspeed dropped by 30 knots. The predictive windshear warning sounded and the crew flew the windshear escape manoeuvre. A second approach was flown after the storm passed.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-036",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The runway condition code was 2 with compacted snow. Braking action was poor and the B777-300ER overran the end of Runway 36 by 40 metres. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-143",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After a diversion to a busy alternate in light snow, fuel dropped toward final reserve. The captain and first officer declared minimum fuel and received priority. The aircraft landed with 1,400 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-093",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a VOR approach at night in light rain, the aircraft descended below the minimum altitude. The terrain awareness system called TERRAIN, PULL UP and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-249",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL",
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Fuel spilled from the right wing vent during refuelling at gate 22. The refuelling was stopped and the aircraft was refuelled again.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-001",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A tug towing an aircraft entered Rwy 16 without a clearance shortly after sunrise. Departing traffic was held in position. The driver said the radio was on the wrong frequency.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-062",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The crew climbed through the cleared altitude of FL350 by 500 ft. Traffic above triggered a TCAS resolution advisory to climb. The wrong altitude had been set in the mode control panel.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-024",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE",
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Rwy 31L in strong gusts from the left, the B787-9 drifted toward the edge. The aircraft veered off the right side of the rwy and struck an edge light. There were no injuries.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-087",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a RNAV approach shortly after sunrise with a low overcast, the aircraft descended below the minimum altitude. The terrain awareness system called TERRAIN, PULL UP and the crew climbed away. The crew had started the descent too early.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-138",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During descent at FL210 we noticed an electrical burning smell in the flight deck. We donned oxygen masks and ran the smoke checklist. The source was a failed display unit. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-033",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The runway condition code was 1 with compacted snow. Braking action was poor and the A320 overran the end of Runway 31L onto the grass. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-193",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 8,000 ft in freezing drizzle, ice built up on the wings faster than expected. The windshield iced over. The CAPT and FO left the icing area.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-049",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 6 miles behind a B747, the A320 encountered wake turbulence. The aircraft rolled 40 degrees to the right before the crew recovered. Spacing had been reduced by ATC.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-130",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's laptop caught fire after being crushed in a seat mechanism. Cabin crew put the device in a containment bag. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-035",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The runway condition code was 1 after freezing rain. Braking action was poor and the A320 overran the end of Runway 18R into the safety area. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-030",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The rwy condition code was 1 after freezing rain. Braking action was poor and the B737 MAX 8 overran the end of Rwy 34L onto the grass. Autobrakes were set to a low setting.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-203",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on twy Echo late in the evening, we crossed the hold-short line for Rwy 22 without a clearance. The crew read back hold short but did not stop. An aircraft on approach went around.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-245",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "An engine vibration advisory appeared at FL280. The vibration stayed within limits and the flight continued.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-046",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 6 miles behind a heavy aircraft, the A321neo encountered wake turbulence. The aircraft rolled 25 degrees to the left before the crew recovered. Spacing had been reduced by ATC.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-061",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew climbed through the cleared altitude of FL240 by 500 feet. Traffic above triggered a TCAS resolution advisory to level off. The wrong altitude had been set in the mode control panel.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-107",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL370 the right engine oil pressure fell below the limit. The CAPT and FO shut the engine down and diverted. A loose oil line fitting was found.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-247",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The autopilot disconnected briefly in light chop at FL280. We re-engaged it without any deviation.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-017",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The crew lined up on taxiway Kilo at dusk, mistaking its lights for Runway 04R. The crew went around at about 150 feet after seeing aircraft on the taxiway. The approach lighting for the assigned runway was hidden by a NOTAM nobody had briefed.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-239",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel imbalance of 1,200 kg developed during cruise. The crew followed the fuel imbalance checklist and found no leak.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-156",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the A321neo tail struck a light pole. The tug driver could not see the wing tip. Both aircraft were taken out of service.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-251",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger was found smoking an e-cigarette in the lavatory. Cabin crew gave a formal warning.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-131",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's power bank caught fire in a seat pocket. Cabin crew put the device in a containment bag. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-120",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 5,000 ft a large pelican struck the radome. The outer windshield pane cracked. We continued the approach and landed without further problems.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-167",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Runway 27R the tail of the CRJ900 struck the runway. The takeoff speeds had been computed with the wrong weight. The crew returned to land.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-178",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final near a thunderstorm the airspeed dropped by 25 knots. The reactive windshear warning sounded and the CAPT and FO flew the windshear escape manoeuvre. The crew diverted to the alternate.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-038",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The crew initiated a go-around at 500 feet in clear conditions. With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated. The captain lowered the nose and recovered.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-145",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After two missed approaches in clear conditions, fuel dropped toward final reserve. The crew declared a fuel emergency and received priority. The aircraft landed with 1,100 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-121",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 5,000 feet a large eagle struck the radome. The outer windshield pane cracked. The flight crew continued the approach with the FO flying.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-050",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 6 miles behind a B747, the CRJ900 encountered wake turbulence. The aircraft rolled 40 degrees to the right before the crew recovered. The crew had flown below the glide path of the heavy aircraft.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-262",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RI",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "An aircraft taxied across Runway 04R after being cleared to cross a different runway. No other aircraft were nearby.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-034",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The rwy condition code was 2 with compacted snow. Braking action was poor and the B787-9 overran the end of Rwy 18R by 40 metres. The touchdown was 1,500 ft long.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-043",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The captain and first officer initiated a go-around at 1,000 feet in low visibility. With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated. The autopilot had disconnected without the crew noticing.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-267",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The autopilot disconnected briefly in light chop at FL180. We re-engaged it within a few seconds.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-255",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "A belt loader struck the cargo door at the gate. The aircraft was taken out of service for inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-163",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A agitated passenger refused to follow crew instructions during the flight. Cabin crew moved the passenger to another seat. The aircraft diverted to offload the passenger.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-057",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the CRJ900 to turn left into conflicting traffic at FL280. The closest point was 1.2 miles and 400 feet. A similar call sign was on the frequency.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-135",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During climb at FL310 the crew noticed smoke in the flight deck. We donned oxygen masks and ran the smoke checklist. The source was a failed display unit. An emergency landing was made.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-154",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the B787-9 tail struck a light pole. The wing walker was not in position. The flight was cancelled.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-078",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL350 the green hydraulic system quantity dropped to zero. The crew ran the hydraulic loss checklist and diverted. The gear was extended by gravity.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-058",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the A320 to turn left into conflicting traffic at FL280. Both aircraft received TCAS resolution advisories. The sector was very busy.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-188",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a visual approach shortly after sunrise the A321neo touched down in the grass short of the threshold of Runway 16. The aircraft was below the glide path for the last mile. There were no injuries.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-068",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The CAPT and FO climbed through the cleared altitude of FL330 by 300 ft. Traffic ahead triggered a TCAS resolution advisory to descend. The FO was busy with a checklist.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-091",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a visual approach late in the evening with gusty winds, the aircraft descended below the minimum altitude. The terrain awareness system called SINK RATE and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-231",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger was found smoking in the forward lavatory. Cabin crew checked the waste bin and found no fire.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-212",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Departure",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "After departure the aircraft turned toward the wrong waypoint because an old route was loaded. ATC noticed the deviation and gave a heading.",
+   "_truth": "B28"
+  },
+  {
+   "report_key": "SYNB-020",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Rwy 04R with a 30-knot gusting crosswind, the B777-300ER drifted toward the edge. The aircraft veered off the right side of the rwy and struck an edge light. The nose gear was damaged.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-004",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A snow removal truck entered Rwy 18R without a clearance shortly after sunrise. Landing traffic was sent around. The driver did not see the rwy guard lights.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-016",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The captain and first officer lined up on taxiway Alpha at night, mistaking its lights for Runway 04R. The aircraft landed on the taxiway, which was clear of traffic. The approach lighting for the assigned runway was hidden by a NOTAM nobody had briefed.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-209",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Charlie late in the evening, the flight crew crossed the hold-short line for Runway 04R without a clearance. The airport diagram had not been briefed. No conflict occurred.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-098",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "Over the eastern Mediterranean both GPS receivers showed a position 40 miles in error. RNP approaches were no longer available. The position errors stopped after 20 minutes.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-071",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL330 the left hydraulic system quantity dropped to zero. The flight crew ran the hydraulic loss checklist and continued to the destination. The gear was extended by gravity.",
+   "_truth": "B09"
+  },
+  {
+   "report_key": "SYNB-186",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a non-precision approach late in the evening the B787-9 touched down 50 metres short of the threshold of Runway 34L. The crew misjudged the flare in a tailwind. Several approach lights were broken.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-015",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The flight crew lined up on taxiway Charlie at dusk, mistaking its lights for Runway 22. The crew went around at about 150 feet after seeing aircraft on the taxiway. The approach lighting for the assigned runway was set to a low intensity.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-092",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a VOR approach late in the evening in light snow, the aircraft descended below the minimum altitude. The terrain awareness system called SINK RATE and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-158",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the B737-800 tail struck a light pole. The towbar shear pin failed. Both aircraft were taken out of service.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-220",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "The B787-9 touched down hard after a late flare. A hard landing inspection was carried out.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-196",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "On climb-out the captain's and first officer's airspeeds disagreed by 60 knots. The stall warning sounded falsely and the crew flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-269",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL",
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Fuel spilled from the right wing vent during refuelling at gate 5. Passengers were kept on the bridge and the aircraft was refuelled again.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-048",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 3 miles behind a A380, the B737-800 encountered wake turbulence. The aircraft rolled 30 degrees to the left before the crew recovered. Winds were light and calm.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-054",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the A320 to descend into conflicting traffic at FL210. The closest point was 1.2 miles and 400 feet. There was a handover between controllers.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-177",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On short final in gusty conditions the airspeed dropped by 25 knots. The reactive windshear warning sounded and the flight crew flew the windshear escape manoeuvre. A second approach was flown after the storm passed.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-265",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "An engine vibration advisory appeared at FL210. The vibration stayed within limits and the flight continued.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-088",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a NDB approach at dusk in light rain, the aircraft descended below the minimum altitude. The terrain awareness system called SINK RATE and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-134",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's phone began smoking after being crushed in a seat mechanism. Cabin crew used a halon extinguisher and then water. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-095",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "Near the Black Sea both GPS receivers showed a position 40 miles in error. A false terrain warning followed. The crew reverted to conventional navigation.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-164",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A aggressive passenger shouted at cabin crew during the flight. Cabin crew moved the passenger to another seat. A report was filed with the authorities.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-005",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel truck entered Runway 36 without a clearance at night. Departing traffic was held in position. The driver did not see the runway guard lights.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-132",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's phone began smoking in the overhead bin. Cabin crew used a halon extinguisher and then water. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-122",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "OTHR"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 3,000 feet a large eagle struck the nose. The radome was dented and holed. The captain and first officer continued the approach with the FO flying.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-053",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the B767-300F to climb into conflicting traffic at FL210. The closest point was 1.2 miles and 400 ft. The sector was very busy.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-139",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During cruise at FL310 the flight crew noticed smoke in the flight deck. The captain and first officer donned oxygen masks and ran the smoke checklist. The source was chafed wiring behind a panel. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-210",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Charlie at night, the crew crossed the hold-short line for Runway 34L without a clearance. The FO was head-down programming the FMS. Tower told the crew to stop.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-148",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After two missed approaches with gusty winds, fuel dropped toward final reserve. The captain and first officer declared minimum fuel and received priority. The aircraft landed with 1,400 kg remaining, below final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-213",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Departure",
+   "l1_codes": [
+    "OTHR"
+   ],
+   "source_codes": "",
+   "narrative": "After departure the aircraft turned toward the wrong waypoint because the wrong departure procedure was entered. ATC noticed the deviation and gave a heading.",
+   "_truth": "B28"
+  },
+  {
+   "report_key": "SYNB-090",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "CFIT"
+   ],
+   "source_codes": "",
+   "narrative": "Flying a RNAV approach in daylight in light snow, the aircraft descended below the minimum altitude. The terrain awareness system called SINK RATE and the crew climbed away. The final approach fix was misidentified.",
+   "_truth": "B11"
+  },
+  {
+   "report_key": "SYNB-197",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During the takeoff roll the captain's and first officer's airspeeds disagreed by 60 knots. An IAS DISAGREE alert appeared and the crew flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-052",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 5 miles behind a B777, the B767-300F encountered wake turbulence. The aircraft rolled 25 degrees to the right before the crew recovered. The crew had flown below the glide path of the heavy aircraft.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-042",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The crew initiated a go-around at 500 feet in light snow. With full thrust the pitch rose to 20 degrees and the speed decayed until the stick shaker activated. The aircraft rolled to 35 degrees of bank before recovery.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-268",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Foreign object debris was found on the apron near gate 12. The area was swept before the next arrival.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-140",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During climb at FL350 the crew noticed haze in the flight deck. We donned oxygen masks and ran the smoke checklist. The source was a failed display unit. The aircraft diverted.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-204",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Delta at dusk, the flight crew crossed the hold-short line for Runway 22 without a clearance. The crew read back hold short but did not stop. An aircraft on approach went around.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-010",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A airport operations vehicle entered Runway 18R without a clearance shortly after sunrise. An aircraft on its takeoff roll was told to stop. The driver misunderstood a hold-short instruction.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-028",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Runway 27R with a 30-knot gusting crosswind, the CRJ900 drifted toward the edge. The aircraft veered off the left side of the runway and stopped on the grass. The nose gear was damaged.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-126",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 3,000 feet a large goose struck the windshield. The radome was dented and holed. The captain and first officer continued the approach after declaring an emergency.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-100",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "Approaching the region both GPS receivers lost signal. A false terrain warning followed. The position errors stopped after 20 minutes.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-003",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel truck entered Rwy 09L without a clearance at night. An aircraft on its takeoff roll was told to stop. The driver misunderstood a hold-short instruction.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-084",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the left main gear showed unsafe with no green light. The alternate gear extension was used and the gear locked down. The aircraft landed with emergency services standing by.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-232",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "A windshear alert was broadcast by the tower for Runway 27R. The approach was flown normally with no windshear encountered.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-222",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RI",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "An aircraft taxied across Rwy 27R after being cleared to cross a different rwy. No other aircraft were nearby.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-170",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Runway 16 the tail of the CRJ900 struck the runway. A gust raised the pitch rate. The flight crew continued after the tail strike light went out.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-173",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Runway 34L the tail of the B737-800 struck the runway. The pilot flying rotated early and fast. The captain and first officer continued after the tail strike light went out.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-133",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A passenger's laptop began smoking in the overhead bin. Cabin crew put the device in a containment bag. The flight continued after the device cooled.",
+   "_truth": "B17"
+  },
+  {
+   "report_key": "SYNB-105",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL210 the number 2 engine oil pressure fell below the limit. We shut the engine down and declared an emergency. A loose oil line fitting was found.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-160",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A intoxicated passenger refused to follow crew instructions during the flight. Cabin crew moved the passenger to another seat. The aircraft diverted to offload the passenger.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-254",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "A bird struck the windshield during the approach. No damage was found on inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-230",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "De-icing took 35 minutes because of a queue at the pad. The holdover time was checked again before departure.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-124",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 5,000 ft a large goose struck the nose. Blood and feathers covered the windshield. We continued the approach and landed without further problems.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-109",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Ground",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "After a long taxi in light snow, a passenger reported ice on the wing. The crew had already started the takeoff roll and rejected the takeoff.",
+   "_truth": "B14"
+  },
+  {
+   "report_key": "SYNB-065",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The captain and first officer climbed through the cleared altitude of FL330 by 700 feet. Traffic crossing triggered a TCAS resolution advisory to level off. The FO was busy with a checklist.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-041",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The crew initiated a go-around at 500 ft in light snow. With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated. The autopilot had disconnected without the crew noticing.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-162",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A agitated passenger tried to open a door during the flight. Cabin crew restrained the passenger with help from others. A report was filed with the authorities.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-208",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Alpha shortly after sunrise, we crossed the hold-short line for Runway 16 without a clearance. The airport diagram had not been briefed. No conflict occurred.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-183",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a RNAV approach late in the evening the B787-9 touched down in the grass short of the threshold of Runway 22. A black-hole illusion made the approach look high. The main gear was damaged.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-103",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL180 the right engine oil pressure fell below the limit. The flight crew shut the engine down and returned. A loose oil line fitting was found.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-201",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On climb-out the CAPT's and FO's airspeeds disagreed by 40 knots. The autopilot disconnected and the flight crew flew pitch and power. Ice crystals had blocked the probes.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-246",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "A TCAS traffic advisory was received for VFR traffic 500 ft below. No resolution advisory followed and the traffic passed clear.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-237",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "F-NI"
+   ],
+   "source_codes": "",
+   "narrative": "Smoke came from a galley oven during cruise. Cabin crew turned off the power and the smoke cleared.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-026",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "Landing on Runway 36 in strong gusts from the left, the B737-800 drifted toward the edge. The aircraft veered off the right side of the runway before returning to the pavement. The runway was closed for two hours.",
+   "_truth": "B03"
+  },
+  {
+   "report_key": "SYNB-227",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "The autopilot disconnected briefly in light chop at FL330. The captain and first officer re-engaged it after checking the flight controls.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-161",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A aggressive passenger refused to follow crew instructions during the flight. Cabin crew restrained the passenger with help from others. Police met the aircraft on arrival.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-067",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "We climbed through the cleared altitude of FL310 by 300 feet. Traffic ahead triggered a TCAS resolution advisory to climb. The autopilot did not capture the altitude.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-081",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On approach the right main gear showed unsafe with no green light. The alternate gear extension did not lock the gear. A damaged downlock actuator was found.",
+   "_truth": "B10"
+  },
+  {
+   "report_key": "SYNB-243",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "Moderate turbulence at FL310 spilled drinks in the cabin. There were no injuries.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-117",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 1,500 feet after takeoff from a regional airport, the B787-9 flew through a flock of gulls. The right engine showed high vibration after ingesting birds. The flight crew shut the engine down and returned. Bird remains were found in the engine core.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-032",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "RE"
+   ],
+   "source_codes": "",
+   "narrative": "The rwy condition code was 3 with slush. Braking action was poor and the CRJ900 overran the end of Rwy 31L into the safety area. The crew had not recomputed the landing distance.",
+   "_truth": "B04"
+  },
+  {
+   "report_key": "SYNB-228",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "Foreign object debris was found on the apron near gate 34. The area was swept before the next arrival.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-047",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "TURB"
+   ],
+   "source_codes": "",
+   "narrative": "On final approach 6 miles behind a B777, the B767-300F encountered wake turbulence. The aircraft rolled 40 degrees to the left before the crew recovered. Winds were light and calm.",
+   "_truth": "B06"
+  },
+  {
+   "report_key": "SYNB-174",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Runway 36 the tail of the A320 struck the runway. The takeoff speeds had been computed with the wrong weight. We returned to land.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-235",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "A belt loader struck the fuselage at the gate. The aircraft was taken out of service for inspection.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-244",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "The cabin altitude rose to 10,000 ft when a pressurization controller failed. The crew descended and the cabin altitude returned to normal.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-150",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After two missed approaches with a low overcast, fuel dropped toward final reserve. The crew declared MAYDAY FUEL and received priority. The aircraft landed with 900 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-242",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "RI",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "An aircraft taxied across Rwy 09L after being cleared to cross a different rwy. No other aircraft were nearby.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-165",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A aggressive passenger tried to open a door during the flight. Cabin crew restrained the passenger with help from others. The aircraft diverted to offload the passenger.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-264",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "The cabin altitude rose to 9,000 feet when a pressurization controller failed. The crew descended and the cabin altitude returned to normal.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-225",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "An engine vibration advisory appeared at FL310. The vibration stayed within limits and the flight continued.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-226",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "A TCAS traffic advisory was received for VFR traffic 500 feet below. No resolution advisory followed and the traffic passed clear.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-168",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Rwy 34L the tail of the CRJ900 struck the rwy. The pilot flying rotated early and fast. The crew did not pressurize and returned.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-185",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Landing",
+   "l1_codes": [
+    "USOS"
+   ],
+   "source_codes": "",
+   "narrative": "On a visual approach shortly after sunrise the A321neo touched down in the grass short of the threshold of Rwy 36. The crew misjudged the flare in a tailwind. Several approach lights were broken.",
+   "_truth": "B24"
+  },
+  {
+   "report_key": "SYNB-171",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Takeoff",
+   "l1_codes": [
+    "ARC"
+   ],
+   "source_codes": "",
+   "narrative": "During rotation on Rwy 27R the tail of the A330-300 struck the rwy. A gust raised the pitch rate. The flight crew returned to land.",
+   "_truth": "B22"
+  },
+  {
+   "report_key": "SYNB-059",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the E175 to climb into conflicting traffic at FL330. Separation was lost. A similar call sign was on the frequency.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-217",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "F-NI"
+   ],
+   "source_codes": "",
+   "narrative": "Smoke came from a lavatory light during cruise. Cabin crew turned off the power and the smoke cleared.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-108",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL210 the left engine oil pressure fell below the limit. The flight crew shut the engine down and declared an emergency. A loose oil line fitting was found.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-166",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "A aggressive passenger refused to follow crew instructions during the flight. Cabin crew informed the CAPT. A report was filed with the authorities.",
+   "_truth": "B21"
+  },
+  {
+   "report_key": "SYNB-192",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 10,000 feet in supercooled cloud, ice built up on the wings faster than expected. Airspeed decayed and more power was needed. The captain and first officer increased the approach speed.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-151",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the A320 wing tip struck a parked aircraft. The towbar shear pin failed. Both aircraft were taken out of service.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-147",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After a diversion to a busy alternate in clear conditions, fuel dropped toward final reserve. We declared MAYDAY FUEL and received priority. The aircraft landed with 1,400 kg remaining, just above final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-180",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "WSTRW"
+   ],
+   "source_codes": "",
+   "narrative": "On short final near a thunderstorm the airspeed dropped by 25 knots. The predictive windshear warning sounded and the captain and first officer flew the windshear escape manoeuvre. The aircraft lost 300 feet before climbing.",
+   "_truth": "B23"
+  },
+  {
+   "report_key": "SYNB-111",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 800 feet after takeoff from a high-elevation airport, the E175 flew through a flock of gulls. The number 1 engine surged with loud bangs after ingesting birds. The captain and first officer shut the engine down and returned. Bird remains were found in the engine core.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-219",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel imbalance of 1,500 kg developed during cruise. The crew followed the fuel imbalance checklist and found no leak.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-233",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "The FMS froze during preflight and had to be reloaded. The departure was delayed by 15 minutes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-063",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The captain and first officer climbed through the cleared altitude of FL350 by 500 feet. Traffic ahead triggered a TCAS resolution advisory to descend. The autopilot did not capture the altitude.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-190",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 8,000 feet in icing conditions, ice built up on the wings faster than expected. The windshield iced over. The captain and first officer increased the approach speed.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-002",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A maintenance worker on foot entered Runway 27R without a clearance in daylight. Departing traffic was held in position. The driver said the radio was on the wrong frequency.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-104",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL370 the right engine oil pressure fell below the limit. The flight crew shut the engine down and declared an emergency. The oil filter was found clogged.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-189",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "ICE"
+   ],
+   "source_codes": "",
+   "narrative": "Holding at 8,000 feet in freezing drizzle, ice built up on the wings faster than expected. The windshield iced over. The crew increased the approach speed.",
+   "_truth": "B25"
+  },
+  {
+   "report_key": "SYNB-273",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "The FMS showed an expired database during preflight and had to be reloaded. The departure was delayed by 15 minutes.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-066",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "MAC"
+   ],
+   "source_codes": "",
+   "narrative": "The crew climbed through the cleared altitude of FL280 by 300 ft. Traffic above triggered a TCAS resolution advisory to level off. The autopilot did not capture the altitude.",
+   "_truth": "B08"
+  },
+  {
+   "report_key": "SYNB-037",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Go-around",
+   "l1_codes": [
+    "LOC-I"
+   ],
+   "source_codes": "",
+   "narrative": "We initiated a go-around at 200 feet with a low overcast. With full thrust the pitch rose to 25 degrees and the speed decayed until the stick shaker activated. The aircraft rolled to 35 degrees of bank before recovery.",
+   "_truth": "B05"
+  },
+  {
+   "report_key": "SYNB-006",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A fuel truck entered Runway 09L without a clearance late in the evening. Landing traffic was sent around. The driver misunderstood a hold-short instruction.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-119",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Descent",
+   "l1_codes": [
+    "BIRD"
+   ],
+   "source_codes": "",
+   "narrative": "On descent through 3,000 ft a large goose struck the windshield. The outer windshield pane cracked. The CAPT and FO continued the approach after declaring an emergency.",
+   "_truth": "B16"
+  },
+  {
+   "report_key": "SYNB-152",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the B737 MAX 8 wing tip struck a parked aircraft. The wing walker was not in position. The flight was cancelled.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-257",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "F-NI"
+   ],
+   "source_codes": "",
+   "narrative": "Smoke came from a coffee maker during cruise. Cabin crew turned off the power and the smoke cleared.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-114",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Climb",
+   "l1_codes": [
+    "BIRD",
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "Passing 400 feet after takeoff from a coastal airport, the B737 MAX 8 flew through a flock of geese. The number 1 engine showed high vibration after ingesting birds. We returned to land. Bird remains were found in the engine core.",
+   "_truth": "B15"
+  },
+  {
+   "report_key": "SYNB-224",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "The cabin altitude rose to 10,000 feet when a pressurization controller failed. The crew descended and the cabin altitude returned to normal.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-205",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "Taxiing on taxiway Charlie at night, the crew crossed the hold-short line for Runway 22 without a clearance. The crew read back hold short but did not stop. No conflict occurred.",
+   "_truth": "B27"
+  },
+  {
+   "report_key": "SYNB-007",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Taxi",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "A maintenance worker on foot entered Runway 27R without a clearance late in the evening. An aircraft on its takeoff roll was told to stop. The driver did not see the runway guard lights.",
+   "_truth": "B01"
+  },
+  {
+   "report_key": "SYNB-018",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "RI"
+   ],
+   "source_codes": "",
+   "narrative": "The CAPT and FO lined up on twy Charlie at dusk, mistaking its lights for Rwy 13. The crew went around at about 150 ft after seeing aircraft on the twy. The approach lighting for the assigned rwy was set to a low intensity.",
+   "_truth": "B02"
+  },
+  {
+   "report_key": "SYNB-238",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "Frequency congestion delayed the approach clearance. The crew had to request the clearance several times.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-199",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "On climb-out the captain's and first officer's airspeeds disagreed by 60 knots. The autopilot disconnected and we flew pitch and power. A wasp nest was found in a pitot probe.",
+   "_truth": "B26"
+  },
+  {
+   "report_key": "SYNB-106",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "SCF-PP"
+   ],
+   "source_codes": "",
+   "narrative": "At FL180 the right engine oil pressure fell below the limit. The captain and first officer shut the engine down and diverted. Oil had leaked from a cracked seal.",
+   "_truth": "B13"
+  },
+  {
+   "report_key": "SYNB-144",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Approach",
+   "l1_codes": [
+    "FUEL"
+   ],
+   "source_codes": "",
+   "narrative": "After two missed approaches in clear conditions, fuel dropped toward final reserve. We declared minimum fuel and received priority. The aircraft landed with 1,100 kg remaining, below final reserve.",
+   "_truth": "B19"
+  },
+  {
+   "report_key": "SYNB-055",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the B737 MAX 8 to climb into conflicting traffic at FL330. The closest point was 1.2 miles and 400 feet. A similar call sign was on the frequency.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-056",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "MAC",
+    "ATM"
+   ],
+   "source_codes": "",
+   "narrative": "The controller cleared the B777-300ER to turn left into conflicting traffic at FL310. Both aircraft received TCAS resolution advisories. A similar call sign was on the frequency.",
+   "_truth": "B07"
+  },
+  {
+   "report_key": "SYNB-101",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "NAV"
+   ],
+   "source_codes": "",
+   "narrative": "Near the Black Sea both GPS receivers showed a position 40 miles in error. A false terrain warning followed. The position errors stopped after 20 minutes.",
+   "_truth": "B12"
+  },
+  {
+   "report_key": "SYNB-141",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Cruise",
+   "l1_codes": [
+    "F-NI",
+    "SCF-NP"
+   ],
+   "source_codes": "",
+   "narrative": "During descent at FL240 the captain and first officer noticed smoke in the flight deck. The crew donned oxygen masks and ran the smoke checklist. The source was an overheated window heat connector. The smoke cleared after the bus was isolated.",
+   "_truth": "B18"
+  },
+  {
+   "report_key": "SYNB-223",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Various",
+   "l1_codes": [
+    "TURB",
+    "CABIN"
+   ],
+   "source_codes": "",
+   "narrative": "Moderate turbulence at FL240 spilled drinks in the cabin. There were no injuries.",
+   "_truth": "background"
+  },
+  {
+   "report_key": "SYNB-153",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the CRJ900 tail struck a light pole. The tug driver could not see the wing tip. The aircraft was inspected and found damaged.",
+   "_truth": "B20"
+  },
+  {
+   "report_key": "SYNB-155",
+   "source_id": "SYNTHETIC-B",
+   "phase": "Pushback",
+   "l1_codes": [
+    "RAMP"
+   ],
+   "source_codes": "",
+   "narrative": "During pushback from the gate the A320 struck a baggage cart. The wing walker was not in position. Both aircraft were taken out of service.",
+   "_truth": "B20"
+  }
+ ]
+}

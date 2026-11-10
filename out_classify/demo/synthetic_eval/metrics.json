@@ -1,0 +1,14 @@
+{
+ "model_id": "3b065a184604",
+ "gold_file": "classifier_input/synthetic_test_reports.json",
+ "reports": 8,
+ "top1_accuracy": 0.875,
+ "assigned": 5,
+ "assigned_precision": 1.0,
+ "coverage": 0.625,
+ "set_coverage": 0.833,
+ "conformal_target": 0.9,
+ "mean_set_size": 0.62,
+ "macro_f1": 1.0,
+ "ece": 0.055
+}
